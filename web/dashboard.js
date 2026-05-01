@@ -211,26 +211,63 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ── Detail modal ────────────────────────────────
+  function md(text) {
+    if (!text) return '';
+    return text
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="inline-link">$1</a>')
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/\n/g, '<br>');
+  }
+
   function openDetail(c) {
     const isHigh = c.impact_score >= 8;
+
+    const zusammenfassung = c.zusammenfassung
+      ? `<div class="modal-section">
+           <div class="modal-section-label">Zusammenfassung</div>
+           <p>${md(c.zusammenfassung)}</p>
+         </div>` : '';
+
+    const kernbefund = c.kernbefund
+      ? `<div class="modal-section">
+           <div class="modal-section-label">Kernbefund</div>
+           <p>${md(c.kernbefund)}</p>
+         </div>` : '';
+
+    const relevanz = c.relevanz
+      ? `<div class="modal-section">
+           <div class="modal-section-label">Relevanz für Außenwerbung</div>
+           <p>${md(c.relevanz)}</p>
+         </div>` : '';
+
+    const tags = c.tags?.length
+      ? `<div class="modal-tags">${c.tags.map(t => `<span class="modal-tag">${t}</span>`).join('')}</div>`
+      : '';
+
+    const sourceLink = c.source_url
+      ? `<a href="${c.source_url}" target="_blank" class="modal-link">Quelle öffnen →</a>`
+      : '';
+
     modalBody.innerHTML = `
       <div class="modal-badges">
-        <span class="badge ${isHigh ? 'badge-high' : ''}">${c.impact_score}/10</span>
+        <span class="badge ${isHigh ? 'badge-high' : ''}">Impact ${c.impact_score}/10</span>
         <span class="badge">${c.category}</span>
         <span class="badge">${c.source_type || ''}</span>
+        <span class="badge modal-id-badge">${c.id}</span>
       </div>
       <h2 class="modal-title">${c.title}</h2>
+      ${zusammenfassung}
+      ${kernbefund}
+      ${relevanz}
       <div class="modal-section">
-        <div class="modal-section-label">Source</div>
-        <div class="modal-source-name">${c.institution || c.source_type || '—'}</div>
-        <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · Independent</div>
+        <div class="modal-section-label">Quelle</div>
+        <div class="modal-source-name">${c.institution || '—'}</div>
+        <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · Unabhängig · Keine Industrie-Finanzierung</div>
+        ${sourceLink}
       </div>
-      <div class="modal-section">
-        <div class="modal-section-label">File</div>
-        <p><code>${c.file}</code></p>
-        <a href="https://github.com/papamekz/addata/blob/main/${c.file}"
-           target="_blank" class="modal-link">View in Repository →</a>
-      </div>
+      ${tags}
     `;
     modalOverlay.classList.add('open');
     document.body.style.overflow = 'hidden';

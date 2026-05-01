@@ -572,6 +572,36 @@ body {
   border-color: rgba(94, 106, 210, 0.4);
 }
 
+.inline-link {
+  color: var(--primary);
+  text-decoration: none;
+}
+.inline-link:hover { text-decoration: underline; }
+
+.modal-id-badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--hairline);
+  margin-top: 0.5rem;
+}
+
+.modal-tag {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  color: var(--ink-tertiary);
+  border: 1px solid var(--hairline);
+}
+
 /* ─── Cookie banner ─────────────────────────────── */
 .cookie-banner {
   position: fixed;
