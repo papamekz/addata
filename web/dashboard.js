@@ -1,132 +1,245 @@
 document.addEventListener('DOMContentLoaded', () => {
   let dataset = null;
-  let filteredClaims = [];
+  let claims  = [];
+  let index   = 0;
+  let timer   = null;
+  let progress = null;
+  let paused  = false;
 
-  const claimsContainer  = document.getElementById('claims-container');
-  const categoryFilter   = document.getElementById('category-filter');
-  const searchInput      = document.getElementById('search-input');
-  const sortOrder        = document.getElementById('sort-order');
-  const totalClaimsEl    = document.getElementById('total-claims');
-  const totalCategoriesEl = document.getElementById('total-categories');
-  const avgImpactEl      = document.getElementById('avg-impact');
-  const modalOverlay     = document.getElementById('modal-overlay');
-  const modalBody        = document.getElementById('modal-body');
-  const closeModalBtn    = document.getElementById('close-modal');
+  const INTERVAL = 9000;
 
+  const stageEl       = document.getElementById('stage');
+  const claimStage    = document.getElementById('claim-stage');
+  const stageCategory = document.getElementById('stage-category');
+  const stageCounter  = document.getElementById('stage-counter');
+  const stageTitle    = document.getElementById('stage-title');
+  const stageImpact   = document.getElementById('stage-impact');
+  const stageSource   = document.getElementById('stage-source');
+  const stageYear     = document.getElementById('stage-year');
+  const progressBar   = document.getElementById('progress-bar');
+  const prevBtn       = document.getElementById('stage-prev');
+  const nextBtn       = document.getElementById('stage-next');
+  const dbCount       = document.getElementById('db-count');
+
+  const dbTabBtn      = document.getElementById('db-tab-btn');
+  const dbOverlay     = document.getElementById('db-overlay');
+  const dbCloseBtn    = document.getElementById('db-close-btn');
+  const dbGrid        = document.getElementById('db-grid');
+  const searchInput   = document.getElementById('search-input');
+  const categoryFilter = document.getElementById('category-filter');
+
+  const modalOverlay  = document.getElementById('modal-overlay');
+  const modalBody     = document.getElementById('modal-body');
+  const modalClose    = document.getElementById('modal-close');
+
+  // ── Load data ──────────────────────────────────
   if (typeof URBAN_DATA !== 'undefined') {
-    dataset = URBAN_DATA;
-    initDashboard();
+    init(URBAN_DATA);
   } else {
     fetch('../data/index.json')
       .then(r => r.json())
-      .then(data => { dataset = data; initDashboard(); })
-      .catch(err => console.error('Error loading dataset:', err));
+      .then(data => init(data))
+      .catch(err => console.error('Error:', err));
   }
 
-  function initDashboard() {
-    totalClaimsEl.textContent = dataset.total_claims;
-    const cats = Object.keys(dataset.categories);
-    totalCategoriesEl.textContent = cats.length;
+  function init(data) {
+    dataset = data;
+    claims = [...data.claims].sort((a, b) => b.impact_score - a.impact_score);
+    dbCount.textContent = data.total_claims;
 
-    const avg = dataset.claims.reduce((a, c) => a + c.impact_score, 0) / dataset.claims.length;
-    avgImpactEl.textContent = avg.toFixed(1);
-
-    cats.sort().forEach(cat => {
+    Object.keys(data.categories).sort().forEach(cat => {
       const opt = document.createElement('option');
       opt.value = cat;
-      opt.textContent = dataset.categories[cat].label || cat;
+      opt.textContent = data.categories[cat].label || cat;
       categoryFilter.appendChild(opt);
     });
 
-    filteredClaims = [...dataset.claims];
-    renderClaims();
+    showClaim(0, false);
+    startTimer();
+    renderDbGrid(claims);
   }
 
-  function renderClaims() {
-    claimsContainer.innerHTML = '';
-    const sortVal = sortOrder.value;
+  // ── Stage display ───────────────────────────────
+  function showClaim(i, animate = true) {
+    index = ((i % claims.length) + claims.length) % claims.length;
+    const c = claims[index];
 
-    filteredClaims.sort((a, b) => {
-      if (sortVal === 'impact-desc') return b.impact_score - a.impact_score;
-      if (sortVal === 'impact-asc')  return a.impact_score - b.impact_score;
-      if (sortVal === 'id-asc')      return a.id.localeCompare(b.id);
-      return 0;
+    if (animate) {
+      claimStage.classList.add('fade-out');
+      setTimeout(() => {
+        fillStage(c, index);
+        claimStage.classList.remove('fade-out');
+        claimStage.classList.add('fade-in');
+        setTimeout(() => claimStage.classList.remove('fade-in'), 500);
+      }, 280);
+    } else {
+      fillStage(c, index);
+    }
+  }
+
+  function fillStage(c, i) {
+    const catLabel = dataset.categories[c.category]?.label || c.category;
+    stageCategory.textContent = catLabel;
+    stageCounter.textContent  = `${i + 1} / ${claims.length}`;
+    stageTitle.textContent    = c.title;
+
+    const isHigh = c.impact_score >= 8;
+    stageImpact.textContent   = `Impact ${c.impact_score}/10`;
+    stageImpact.className     = `stage-badge${isHigh ? '' : ' badge-normal'}`;
+
+    stageSource.textContent   = c.source_type?.toUpperCase() || '';
+    stageYear.textContent     = c.year;
+  }
+
+  // ── Auto-advance timer ──────────────────────────
+  function startTimer() {
+    clearProgress();
+    if (paused) return;
+
+    progressBar.style.transition = 'none';
+    progressBar.style.width = '0%';
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        progressBar.style.transition = `width ${INTERVAL}ms linear`;
+        progressBar.style.width = '100%';
+      });
     });
 
-    filteredClaims.forEach(claim => {
-      const card = document.createElement('div');
-      card.className = 'claim-card';
-
-      const isHigh = claim.impact_score >= 8;
-
-      card.innerHTML = `
-        <div class="claim-card-top">
-          <span class="claim-category-label">${claim.category}</span>
-          <span class="claim-id">${claim.id}</span>
-        </div>
-        <p class="claim-title">${claim.title}</p>
-        <div class="claim-footer">
-          <span class="impact-badge ${isHigh ? 'impact-high' : ''}">Impact ${claim.impact_score}/10</span>
-          <span class="claim-year">${claim.year}</span>
-        </div>
-      `;
-
-      card.addEventListener('click', () => openDetail(claim));
-      claimsContainer.appendChild(card);
-    });
+    timer = setTimeout(() => {
+      advance(1);
+    }, INTERVAL);
   }
 
-  function openDetail(claim) {
-    const isHigh = claim.impact_score >= 8;
-    modalBody.innerHTML = `
-      <div class="modal-header-meta">
-        <span class="impact-badge ${isHigh ? 'impact-high' : ''}">Impact ${claim.impact_score}/10</span>
-        <span class="impact-badge">${claim.category}</span>
-        <span class="impact-badge">${claim.source_type}</span>
-      </div>
-      <h2 class="modal-title">${claim.title}</h2>
-
-      <div class="modal-section">
-        <div class="modal-section-title">Source</div>
-        <div class="modal-source-name">${claim.institution}</div>
-        <div class="modal-source-meta">${claim.year} · ${claim.source_type.toUpperCase()} · Independent: YES${claim.open_access ? ' · Open Access' : ''}</div>
-      </div>
-
-      <div class="modal-section">
-        <div class="modal-section-title">Data File</div>
-        <p>Full context, source analysis, and relevance in <code>${claim.file}</code></p>
-        <a href="https://github.com/papamekz/addata/blob/main/${claim.file}" target="_blank" class="view-source-link">
-          View in Repository →
-        </a>
-      </div>
-    `;
-    modalOverlay.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
+  function clearProgress() {
+    clearTimeout(timer);
+    progressBar.style.transition = 'none';
+    progressBar.style.width = '0%';
   }
 
-  function applyFilters() {
+  function advance(dir) {
+    showClaim(index + dir);
+    startTimer();
+  }
+
+  // ── Stage click → detail ────────────────────────
+  stageEl.addEventListener('click', e => {
+    if (e.target.closest('.stage-arrow') || e.target.closest('.topbar')) return;
+    openDetail(claims[index]);
+  });
+
+  // pause rotation while hovering stage
+  stageEl.addEventListener('mouseenter', () => {
+    paused = true;
+    clearProgress();
+  });
+  stageEl.addEventListener('mouseleave', () => {
+    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open')) return;
+    paused = false;
+    startTimer();
+  });
+
+  // ── Arrow navigation ────────────────────────────
+  prevBtn.addEventListener('click', e => { e.stopPropagation(); advance(-1); });
+  nextBtn.addEventListener('click', e => { e.stopPropagation(); advance(1); });
+
+  document.addEventListener('keydown', e => {
+    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft')  advance(-1);
+    if (e.key === 'ArrowRight') advance(1);
+  });
+
+  // ── Database overlay ────────────────────────────
+  dbTabBtn.addEventListener('click', () => {
+    paused = true;
+    clearProgress();
+    dbOverlay.classList.add('open');
+  });
+
+  function closeDb() {
+    dbOverlay.classList.remove('open');
+    paused = false;
+    startTimer();
+  }
+
+  dbCloseBtn.addEventListener('click', closeDb);
+  dbOverlay.addEventListener('click', e => { if (e.target === dbOverlay) closeDb(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (modalOverlay.classList.contains('open')) { closeModal(); return; }
+      if (dbOverlay.classList.contains('open'))    { closeDb(); return; }
+    }
+  });
+
+  searchInput.addEventListener('input', filterDb);
+  categoryFilter.addEventListener('change', filterDb);
+
+  function filterDb() {
     const term = searchInput.value.toLowerCase();
     const cat  = categoryFilter.value;
-    filteredClaims = dataset.claims.filter(c => {
-      const matchSearch = c.title.toLowerCase().includes(term) ||
-                          c.institution.toLowerCase().includes(term) ||
-                          c.id.toLowerCase().includes(term);
+    const filtered = dataset.claims.filter(c => {
+      const matchSearch = !term ||
+        c.title.toLowerCase().includes(term) ||
+        (c.id || '').toLowerCase().includes(term);
       const matchCat = cat === 'all' || c.category === cat;
       return matchSearch && matchCat;
     });
-    renderClaims();
+    renderDbGrid(filtered);
   }
 
-  categoryFilter.addEventListener('change', applyFilters);
-  searchInput.addEventListener('input', applyFilters);
-  sortOrder.addEventListener('change', renderClaims);
+  function renderDbGrid(list) {
+    dbGrid.innerHTML = '';
+    list.forEach(c => {
+      const card = document.createElement('div');
+      card.className = 'db-card';
+      const isHigh = c.impact_score >= 8;
+      card.innerHTML = `
+        <div class="db-card-top">
+          <span class="db-card-category">${c.category}</span>
+          <span class="db-card-id">${c.id}</span>
+        </div>
+        <p class="db-card-title">${c.title}</p>
+        <div class="db-card-footer">
+          <span class="badge ${isHigh ? 'badge-high' : ''}">Impact ${c.impact_score}/10</span>
+          <span class="db-card-year">${c.year}</span>
+        </div>
+      `;
+      card.addEventListener('click', () => openDetail(c));
+      dbGrid.appendChild(card);
+    });
+  }
 
-  closeModalBtn.addEventListener('click', closeModal);
-  modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  // ── Detail modal ────────────────────────────────
+  function openDetail(c) {
+    const isHigh = c.impact_score >= 8;
+    modalBody.innerHTML = `
+      <div class="modal-badges">
+        <span class="badge ${isHigh ? 'badge-high' : ''}">${c.impact_score}/10</span>
+        <span class="badge">${c.category}</span>
+        <span class="badge">${c.source_type || ''}</span>
+      </div>
+      <h2 class="modal-title">${c.title}</h2>
+      <div class="modal-section">
+        <div class="modal-section-label">Source</div>
+        <div class="modal-source-name">${c.institution || c.source_type || '—'}</div>
+        <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · Independent</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">File</div>
+        <p><code>${c.file}</code></p>
+        <a href="https://github.com/papamekz/addata/blob/main/${c.file}"
+           target="_blank" class="modal-link">View in Repository →</a>
+      </div>
+    `;
+    modalOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
 
   function closeModal() {
-    modalOverlay.style.display = 'none';
+    modalOverlay.classList.remove('open');
     document.body.style.overflow = '';
   }
+
+  modalClose.addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
 });

@@ -3,70 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOOH Research Dataset — ESG & Due Diligence</title>
-  <meta name="description" content="Independent peer-reviewed research on DOOH/OOH advertising infrastructure. Energy consumption, regulatory risk, ESG metrics, health compliance. For investment due diligence and media planning.">
+  <title>DOOH Impact Dataset</title>
+  <meta name="description" content="Independent peer-reviewed evidence on the harms of outdoor advertising. ESG due diligence, regulatory risk, public health.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
 
-    <header>
-      <div class="logo">DOOH<span>DATA</span></div>
-      <nav>
-        <a href="https://github.com/papamekz/addata" target="_blank" class="source-link">GitHub Repository →</a>
-      </nav>
-    </header>
+  <!-- ── Top bar ── -->
+  <header class="topbar">
+    <div class="topbar-logo">DOOH<span>DATA</span></div>
+    <nav class="topbar-nav">
+      <button class="db-tab" id="db-tab-btn">Database <span class="db-count" id="db-count">—</span></button>
+    </nav>
+  </header>
 
-    <section class="hero">
-      <div class="hero-eyebrow">ESG &amp; Due Diligence Research</div>
-      <h1>DOOH &amp; OOH Advertising Impact Dataset</h1>
-      <p>Independent, peer-reviewed evidence on the full impact profile of Out-of-Home advertising infrastructure. For investment due diligence, ESG reporting, and regulatory risk assessment.</p>
-    </section>
-
-    <div class="stats-grid">
-      <div class="stat-card">
-        <span class="stat-value" id="total-claims">—</span>
-        <span class="stat-label">Verified Claims</span>
+  <!-- ── Stage: single rotating claim ── -->
+  <main class="stage" id="stage">
+    <div class="claim-stage" id="claim-stage">
+      <div class="stage-meta">
+        <span class="stage-category" id="stage-category"></span>
+        <span class="stage-counter" id="stage-counter"></span>
       </div>
-      <div class="stat-card">
-        <span class="stat-value" id="total-categories">—</span>
-        <span class="stat-label">Categories</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-value" id="avg-impact">—</span>
-        <span class="stat-label">Avg Impact Score</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-value">0%</span>
-        <span class="stat-label">Industry Bias</span>
+      <h1 class="stage-title" id="stage-title"></h1>
+      <div class="stage-footer">
+        <span class="stage-badge" id="stage-impact"></span>
+        <span class="stage-dot"></span>
+        <span class="stage-source" id="stage-source"></span>
+        <span class="stage-dot"></span>
+        <span class="stage-year" id="stage-year"></span>
       </div>
     </div>
 
-    <div class="controls">
-      <div class="search-wrapper">
-        <input type="text" id="search-input" placeholder="Search by title, institution, or ID…">
-      </div>
-      <select id="category-filter">
-        <option value="all">All Categories</option>
-      </select>
-      <select id="sort-order">
-        <option value="impact-desc">Highest Impact</option>
-        <option value="impact-asc">Lowest Impact</option>
-        <option value="id-asc">ID (A–Z)</option>
-      </select>
+    <!-- navigation arrows -->
+    <button class="stage-arrow stage-prev" id="stage-prev" aria-label="Previous">&#8592;</button>
+    <button class="stage-arrow stage-next" id="stage-next" aria-label="Next">&#8594;</button>
+
+    <!-- progress bar -->
+    <div class="progress-track">
+      <div class="progress-bar" id="progress-bar"></div>
     </div>
+  </main>
 
-    <div class="claims-grid" id="claims-container"></div>
-
+  <!-- ── Database overlay ── -->
+  <div class="db-overlay" id="db-overlay">
+    <div class="db-panel">
+      <div class="db-panel-header">
+        <div class="db-panel-title">Dataset</div>
+        <div class="db-panel-controls">
+          <input type="text" id="search-input" placeholder="Search…" class="db-search">
+          <select id="category-filter" class="db-select">
+            <option value="all">All categories</option>
+          </select>
+          <button class="db-close" id="db-close-btn">✕</button>
+        </div>
+      </div>
+      <div class="db-grid" id="db-grid"></div>
+    </div>
   </div>
 
-  <!-- Modal -->
+  <!-- ── Detail modal ── -->
   <div class="modal-overlay" id="modal-overlay">
     <div class="modal-content">
-      <button class="close-modal" id="close-modal">✕</button>
+      <button class="modal-close" id="modal-close">✕</button>
       <div id="modal-body"></div>
     </div>
   </div>
