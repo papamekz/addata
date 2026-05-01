@@ -33,14 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalClose    = document.getElementById('modal-close');
 
   // legal
-  const cookieBanner      = document.getElementById('cookie-banner');
-  const cookieOk          = document.getElementById('cookie-ok');
-  const impressumBtn      = document.getElementById('impressum-btn');
-  const impressumOverlay  = document.getElementById('impressum-overlay');
-  const impressumClose    = document.getElementById('impressum-close');
-  const datenschutzBtn    = document.getElementById('datenschutz-btn');
+  const cookieBanner       = document.getElementById('cookie-banner');
+  const cookieOk           = document.getElementById('cookie-ok');
+  const datenschutzBtn     = document.getElementById('datenschutz-btn');
   const datenschutzOverlay = document.getElementById('datenschutz-overlay');
-  const datenschutzClose  = document.getElementById('datenschutz-close');
+  const datenschutzClose   = document.getElementById('datenschutz-close');
 
   // ── Load data ──────────────────────────────────
   if (typeof URBAN_DATA !== 'undefined') {
@@ -256,25 +253,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cookieBanner.classList.add('hidden');
   });
 
-  // ── Impressum ───────────────────────────────────
-  impressumBtn.addEventListener('click', () => {
-    paused = true;
-    clearProgress();
-    impressumOverlay.classList.add('open');
-  });
-  impressumClose.addEventListener('click', () => {
-    impressumOverlay.classList.remove('open');
-    paused = false;
-    startTimer();
-  });
-  impressumOverlay.addEventListener('click', e => {
-    if (e.target === impressumOverlay) {
-      impressumOverlay.classList.remove('open');
-      paused = false;
-      startTimer();
-    }
-  });
-
   // ── Datenschutz ─────────────────────────────────
   datenschutzBtn.addEventListener('click', () => {
     paused = true;
@@ -297,9 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // extend Escape to cover legal modals
   document.addEventListener('keydown', e => {
     if (e.key !== 'Escape') return;
-    if (modalOverlay.classList.contains('open'))      { closeModal(); return; }
-    if (dbOverlay.classList.contains('open'))         { closeDb(); return; }
-    if (impressumOverlay.classList.contains('open'))  { impressumClose.click(); return; }
-    if (datenschutzOverlay.classList.contains('open')){ datenschutzClose.click(); return; }
+    if (modalOverlay.classList.contains('open'))       { closeModal(); return; }
+    if (dbOverlay.classList.contains('open'))          { closeDb(); return; }
+    if (datenschutzOverlay.classList.contains('open')) { datenschutzClose.click(); return; }
   });
 });

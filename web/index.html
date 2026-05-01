@@ -72,39 +72,11 @@
   <footer class="legal-footer">
     <span>DOOH Impact Dataset · CC-BY-4.0</span>
     <div class="legal-links">
-      <button class="legal-link" id="impressum-btn">Impressum</button>
-      <span class="legal-sep">·</span>
       <button class="legal-link" id="datenschutz-btn">Datenschutz</button>
       <span class="legal-sep">·</span>
       <a class="legal-link" href="https://github.com/papamekz/addata" target="_blank">GitHub</a>
     </div>
   </footer>
-
-  <!-- ── Impressum modal ── -->
-  <div class="modal-overlay" id="impressum-overlay">
-    <div class="modal-content">
-      <button class="modal-close" id="impressum-close">✕</button>
-      <div class="modal-badges"><span class="badge">Impressum</span></div>
-      <h2 class="modal-title">Impressum</h2>
-      <div class="modal-section">
-        <div class="modal-section-label">Angaben gemäß §5 TMG</div>
-        <p id="impressum-name" style="color:var(--ink);font-weight:500">[VORNAME NACHNAME]</p>
-        <p style="margin-top:.4rem">[STRAßE HAUSNUMMER]<br>[PLZ ORT]<br>Deutschland</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Kontakt</div>
-        <p>E-Mail: <a href="mailto:[EMAIL]" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">[EMAIL]</a></p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Haftungsausschluss</div>
-        <p>Die Inhalte dieses Datensatzes wurden sorgfältig recherchiert. Alle verlinkten Quellen sind unabhängig und wurden zum Zeitpunkt der Aufnahme geprüft. Für die Inhalte externer Seiten wird keine Haftung übernommen.</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Urheberrecht</div>
-        <p>Dieses Dataset steht unter der <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">Creative Commons Lizenz CC-BY-4.0</a>. Nutzung mit Quellenangabe gestattet.</p>
-      </div>
-    </div>
-  </div>
 
   <!-- ── Datenschutz modal ── -->
   <div class="modal-overlay" id="datenschutz-overlay">
@@ -113,28 +85,24 @@
       <div class="modal-badges"><span class="badge">Datenschutz</span></div>
       <h2 class="modal-title">Datenschutzerklärung</h2>
       <div class="modal-section">
-        <div class="modal-section-label">Verantwortliche Stelle</div>
-        <p>Verantwortlich im Sinne der DSGVO: [VORNAME NACHNAME], [EMAIL]</p>
+        <div class="modal-section-label">Art des Angebots</div>
+        <p>Dieses Dataset ist ein <strong style="color:var(--ink)">nicht-kommerzielles Forschungsprojekt</strong> ohne wirtschaftliches Interesse. Es werden keine Einnahmen erzielt, keine Werbung geschaltet und keine Dienstleistungen angeboten. Eine Impressumspflicht nach §5 TMG besteht für rein private, nicht-kommerzielle Angebote nicht.</p>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">Datenerhebung</div>
-        <p>Diese Website erhebt <strong style="color:var(--ink)">keine personenbezogenen Daten</strong>. Es werden keine Cookies gesetzt, kein Tracking durchgeführt und keine Analysedienste eingesetzt.</p>
+        <p>Diese Website erhebt <strong style="color:var(--ink)">keine personenbezogenen Daten</strong>. Es werden keine Cookies gesetzt, kein Tracking durchgeführt und keine Analysedienste eingesetzt. Die einzige gespeicherte Information ist ein lokales Flag im Browser (localStorage), das anzeigt, ob der Cookie-Hinweis bestätigt wurde — dieses verlässt nie deinen Browser.</p>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">Hosting</div>
-        <p>Die Seite wird über <strong style="color:var(--ink)">GitHub Pages</strong> (GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA) ausgeliefert. GitHub verarbeitet beim Aufruf der Seite technisch notwendige Verbindungsdaten (IP-Adresse, Zeitstempel). Rechtsgrundlage: berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO). Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">GitHub Datenschutzerklärung</a>.</p>
+        <p>Die Seite wird über <strong style="color:var(--ink)">GitHub Pages</strong> (GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA) ausgeliefert. GitHub verarbeitet beim Aufruf technisch notwendige Verbindungsdaten (IP-Adresse, Zeitstempel). Rechtsgrundlage: berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO). Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">GitHub Datenschutzerklärung</a>.</p>
       </div>
       <div class="modal-section">
-        <div class="modal-section-label">Schriftarten &amp; externe Ressourcen</div>
-        <p>Diese Website lädt <strong style="color:var(--ink)">keine externen Ressourcen</strong>. Alle Schriftarten (Inter) werden lokal ausgeliefert. Es erfolgt kein Datenaustausch mit Google Fonts, CDNs oder Drittanbietern.</p>
+        <div class="modal-section-label">Externe Ressourcen</div>
+        <p>Diese Website lädt <strong style="color:var(--ink)">keine externen Ressourcen</strong>. Alle Schriftarten (Inter) werden lokal ausgeliefert. Es erfolgt kein Datenaustausch mit Google, CDNs oder Drittanbietern.</p>
       </div>
       <div class="modal-section">
-        <div class="modal-section-label">Ihre Rechte (DSGVO Art. 15–21)</div>
-        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung. Da keine personenbezogenen Daten durch diese Website verarbeitet werden, sind diese Rechte im Betrieb dieser Seite nicht anwendbar. Anfragen: [EMAIL]</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Beschwerderecht</div>
-        <p>Sie haben das Recht, sich bei einer Datenschutzbehörde zu beschweren. Zuständige Aufsichtsbehörde für Deutschland: <a href="https://www.bfdi.bund.de" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">Bundesbeauftragter für den Datenschutz (BfDI)</a>.</p>
+        <div class="modal-section-label">Urheberrecht</div>
+        <p>Dieses Dataset steht unter der <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">Creative Commons Lizenz CC-BY-4.0</a>. Nutzung mit Quellenangabe gestattet.</p>
       </div>
     </div>
   </div>
