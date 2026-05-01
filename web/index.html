@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +12,26 @@
 
   <!-- ── Cookie notice ── -->
   <div class="cookie-banner" id="cookie-banner">
-    <span>Diese Seite verwendet keine Cookies und kein Tracking. Alle Ressourcen werden lokal ausgeliefert.</span>
-    <button class="cookie-ok" id="cookie-ok">OK</button>
+    <span data-i18n="cookie_text"></span>
+    <button class="cookie-ok" id="cookie-ok" data-i18n="cookie_ok"></button>
   </div>
 
   <!-- ── Top bar ── -->
   <header class="topbar">
     <div class="topbar-logo">DOOH<span>DATA</span></div>
     <nav class="topbar-nav">
-      <button class="db-tab" id="db-tab-btn">Database <span class="db-count" id="db-count">—</span></button>
+      <div class="lang-switcher" id="lang-switcher">
+        <button class="lang-btn" data-lang="de">DE</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="db-tab" id="db-tab-btn">
+        <span data-i18n="db_button"></span>
+        <span class="db-count" id="db-count">—</span>
+      </button>
     </nav>
   </header>
 
-  <!-- ── Stage: single rotating claim ── -->
+  <!-- ── Stage ── -->
   <main class="stage" id="stage">
     <div class="claim-stage" id="claim-stage">
       <div class="stage-meta">
@@ -40,12 +47,8 @@
         <span class="stage-year" id="stage-year"></span>
       </div>
     </div>
-
-    <!-- navigation arrows -->
-    <button class="stage-arrow stage-prev" id="stage-prev" aria-label="Previous">&#8592;</button>
-    <button class="stage-arrow stage-next" id="stage-next" aria-label="Next">&#8594;</button>
-
-    <!-- progress bar -->
+    <button class="stage-arrow stage-prev" id="stage-prev">&#8592;</button>
+    <button class="stage-arrow stage-next" id="stage-next">&#8594;</button>
     <div class="progress-track">
       <div class="progress-bar" id="progress-bar"></div>
     </div>
@@ -55,11 +58,11 @@
   <div class="db-overlay" id="db-overlay">
     <div class="db-panel">
       <div class="db-panel-header">
-        <div class="db-panel-title">Dataset</div>
+        <div class="db-panel-title" data-i18n="dataset_title"></div>
         <div class="db-panel-controls">
-          <input type="text" id="search-input" placeholder="Search…" class="db-search">
+          <input type="text" id="search-input" class="db-search" data-i18n-placeholder="search_placeholder">
           <select id="category-filter" class="db-select">
-            <option value="all">All categories</option>
+            <option value="all" data-i18n="all_categories"></option>
           </select>
           <button class="db-close" id="db-close-btn">✕</button>
         </div>
@@ -72,38 +75,17 @@
   <footer class="legal-footer">
     <span>DOOH Impact Dataset · CC-BY-4.0</span>
     <div class="legal-links">
-      <button class="legal-link" id="datenschutz-btn">Datenschutz</button>
+      <button class="legal-link" id="datenschutz-btn" data-i18n="privacy_label"></button>
       <span class="legal-sep">·</span>
       <a class="legal-link" href="https://github.com/papamekz/addata" target="_blank">GitHub</a>
     </div>
   </footer>
 
-  <!-- ── Datenschutz modal ── -->
+  <!-- ── Privacy modal (content rendered by JS) ── -->
   <div class="modal-overlay" id="datenschutz-overlay">
     <div class="modal-content">
       <button class="modal-close" id="datenschutz-close">✕</button>
-      <div class="modal-badges"><span class="badge">Datenschutz</span></div>
-      <h2 class="modal-title">Datenschutzerklärung</h2>
-      <div class="modal-section">
-        <div class="modal-section-label">Art des Angebots</div>
-        <p>Dieses Dataset ist ein <strong style="color:var(--ink)">nicht-kommerzielles Forschungsprojekt</strong> ohne wirtschaftliches Interesse. Es werden keine Einnahmen erzielt, keine Werbung geschaltet und keine Dienstleistungen angeboten. Eine Impressumspflicht nach §5 TMG besteht für rein private, nicht-kommerzielle Angebote nicht.</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Datenerhebung</div>
-        <p>Diese Website erhebt <strong style="color:var(--ink)">keine personenbezogenen Daten</strong>. Es werden keine Cookies gesetzt, kein Tracking durchgeführt und keine Analysedienste eingesetzt. Die einzige gespeicherte Information ist ein lokales Flag im Browser (localStorage), das anzeigt, ob der Cookie-Hinweis bestätigt wurde — dieses verlässt nie deinen Browser.</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Hosting</div>
-        <p>Die Seite wird über <strong style="color:var(--ink)">GitHub Pages</strong> (GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA) ausgeliefert. GitHub verarbeitet beim Aufruf technisch notwendige Verbindungsdaten (IP-Adresse, Zeitstempel). Rechtsgrundlage: berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO). Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">GitHub Datenschutzerklärung</a>.</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Externe Ressourcen</div>
-        <p>Diese Website lädt <strong style="color:var(--ink)">keine externen Ressourcen</strong>. Alle Schriftarten (Inter) werden lokal ausgeliefert. Es erfolgt kein Datenaustausch mit Google, CDNs oder Drittanbietern.</p>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-label">Urheberrecht</div>
-        <p>Dieses Dataset steht unter der <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="modal-link" style="display:inline;padding:0;background:none;border:none;margin:0">Creative Commons Lizenz CC-BY-4.0</a>. Nutzung mit Quellenangabe gestattet.</p>
-      </div>
+      <div id="privacy-body"></div>
     </div>
   </div>
 
@@ -116,6 +98,7 @@
   </div>
 
   <script src="data.js"></script>
+  <script src="i18n.js"></script>
   <script src="dashboard.js"></script>
 </body>
 </html>

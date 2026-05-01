@@ -91,6 +91,35 @@ body {
   color: var(--ink-tertiary);
 }
 
+/* ─── Language switcher ─────────────────────────── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  background: var(--hairline);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+
+.lang-btn {
+  padding: 4px 10px;
+  background: var(--surface-1);
+  border: none;
+  color: var(--ink-tertiary);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+.lang-btn:hover { background: var(--surface-2); color: var(--ink-subtle); }
+.lang-btn.lang-active {
+  background: var(--surface-3);
+  color: var(--ink);
+}
+
 /* ─── Stage ────────────────────────────────────── */
 .stage {
   position: fixed;
