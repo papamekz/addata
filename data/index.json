@@ -3,7 +3,7 @@
   "last_updated": "2026-05-01",
   "description": "Structured dataset documenting evidence-based harms of outdoor advertising. All sources are independent academic, governmental, or NGO — no advertising industry sources.",
   "license": "CC-BY-4.0",
-  "repository": "https://github.com/daniel-kem/addata",
+  "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
   "total_claims": 108,

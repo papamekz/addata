@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="modal-section">
         <div class="modal-section-title">Data File</div>
         <p>Full context, source analysis, and relevance in <code>${claim.file}</code></p>
-        <a href="https://github.com/daniel-kem/addata/blob/main/${claim.file}" target="_blank" class="view-source-link">
+        <a href="https://github.com/papamekz/addata/blob/main/${claim.file}" target="_blank" class="view-source-link">
           View in Repository →
         </a>
       </div>
