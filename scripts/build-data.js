@@ -2,13 +2,17 @@
 const fs   = require('fs');
 const path = require('path');
 
-const indexPath    = path.join(__dirname, '../data/index.json');
-const outPath      = path.join(__dirname, '../web/data.js');
+const indexPath        = path.join(__dirname, '../data/index.json');
+const outPath          = path.join(__dirname, '../web/data.js');
 const translationsPath = path.join(__dirname, '../data/translations_en.json');
+const titlesPath       = path.join(__dirname, '../data/titles_en.json');
 
 const index        = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
 const translations = fs.existsSync(translationsPath)
   ? JSON.parse(fs.readFileSync(translationsPath, 'utf8'))
+  : {};
+const titlesEn = fs.existsSync(titlesPath)
+  ? JSON.parse(fs.readFileSync(titlesPath, 'utf8'))
   : {};
 
 function parseMarkdown(raw) {
@@ -64,6 +68,7 @@ const claims = index.claims.map(claim => {
     zusammenfassung:    sections['Zusammenfassung'] || null,
     kernbefund:         sections['Kernbefund'] || null,
     relevanz:           sections['Relevanz für Außenwerbung'] || null,
+    title_en:           titlesEn[claim.id] || null,
     zusammenfassung_en: en.zusammenfassung || null,
     kernbefund_en:      en.kernbefund || null,
     relevanz_en:        en.relevanz || null,

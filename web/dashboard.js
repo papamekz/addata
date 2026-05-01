@@ -111,10 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function claimTitle(c) {
+    return (currentLang === 'en' && c.title_en) ? c.title_en : c.title;
+  }
+
   function fillStage(c, i) {
     stageCategory.textContent = categoryLabel(c.category);
     stageCounter.textContent  = `${i + 1} / ${claims.length}`;
-    stageTitle.textContent    = c.title;
+    stageTitle.textContent    = claimTitle(c);
 
     const isHigh = c.impact_score >= 8;
     stageImpact.textContent = `${t('impact_label')} ${c.impact_score}/10`;
@@ -213,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <span class="db-card-category">${categoryLabel(c.category)}</span>
           <span class="db-card-id">${c.id}</span>
         </div>
-        <p class="db-card-title">${c.title}</p>
+        <p class="db-card-title">${claimTitle(c)}</p>
         <div class="db-card-footer">
           <span class="badge ${isHigh ? 'badge-high' : ''}">${t('impact_label')} ${c.impact_score}/10</span>
           <span class="db-card-year">${c.year}</span>
@@ -265,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <span class="badge">${c.source_type || ''}</span>
         <span class="badge modal-id-badge">${c.id}</span>
       </div>
-      <h2 class="modal-title">${c.title}</h2>
+      <h2 class="modal-title">${claimTitle(c)}</h2>
       ${section('zusammenfassung', zusammenfassung)}
       ${section('kernbefund', kernbefund)}
       ${section('relevanz', relevanz)}
