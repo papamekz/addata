@@ -1,11 +1,15 @@
-// Reads all .md claim files, extracts full content + source URL, embeds into web/data.js
+// Reads all .md claim files, extracts full content + source URL + EN translations, embeds into web/data.js
 const fs   = require('fs');
 const path = require('path');
 
-const indexPath = path.join(__dirname, '../data/index.json');
-const outPath   = path.join(__dirname, '../web/data.js');
+const indexPath    = path.join(__dirname, '../data/index.json');
+const outPath      = path.join(__dirname, '../web/data.js');
+const translationsPath = path.join(__dirname, '../data/translations_en.json');
 
-const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+const index        = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+const translations = fs.existsSync(translationsPath)
+  ? JSON.parse(fs.readFileSync(translationsPath, 'utf8'))
+  : {};
 
 function parseMarkdown(raw) {
   // strip YAML frontmatter
@@ -49,15 +53,20 @@ const claims = index.claims.map(claim => {
   const institution = extractInstitution(raw);
   const tags = extractTags(raw);
 
+  const en = translations[claim.id] || {};
+
   enriched++;
   return {
     ...claim,
     institution,
     source_url: sourceUrl,
     tags,
-    zusammenfassung: sections['Zusammenfassung'] || null,
-    kernbefund:      sections['Kernbefund'] || null,
-    relevanz:        sections['Relevanz für Außenwerbung'] || null,
+    zusammenfassung:    sections['Zusammenfassung'] || null,
+    kernbefund:         sections['Kernbefund'] || null,
+    relevanz:           sections['Relevanz für Außenwerbung'] || null,
+    zusammenfassung_en: en.zusammenfassung || null,
+    kernbefund_en:      en.kernbefund || null,
+    relevanz_en:        en.relevanz || null,
   };
 });
 

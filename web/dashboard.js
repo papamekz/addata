@@ -239,6 +239,11 @@ document.addEventListener('DOMContentLoaded', () => {
     modalBody._claim = c;
     const isHigh = c.impact_score >= 8;
 
+    const isEn = currentLang === 'en';
+    const zusammenfassung = isEn ? (c.zusammenfassung_en || c.zusammenfassung) : c.zusammenfassung;
+    const kernbefund      = isEn ? (c.kernbefund_en      || c.kernbefund)      : c.kernbefund;
+    const relevanz        = isEn ? (c.relevanz_en        || c.relevanz)        : c.relevanz;
+
     const section = (labelKey, text) => text ? `
       <div class="modal-section">
         <div class="modal-section-label">${t(labelKey)}</div>
@@ -246,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>` : '';
 
     const tags = c.tags?.length
-      ? `<div class="modal-tags">${c.tags.map(t => `<span class="modal-tag">${t}</span>`).join('')}</div>`
+      ? `<div class="modal-tags">${c.tags.map(tag => `<span class="modal-tag">${tag}</span>`).join('')}</div>`
       : '';
 
     const sourceLink = c.source_url
@@ -261,9 +266,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <span class="badge modal-id-badge">${c.id}</span>
       </div>
       <h2 class="modal-title">${c.title}</h2>
-      ${section('zusammenfassung', c.zusammenfassung)}
-      ${section('kernbefund', c.kernbefund)}
-      ${section('relevanz', c.relevanz)}
+      ${section('zusammenfassung', zusammenfassung)}
+      ${section('kernbefund', kernbefund)}
+      ${section('relevanz', relevanz)}
       <div class="modal-section">
         <div class="modal-section-label">${t('source_label')}</div>
         <div class="modal-source-name">${c.institution || '—'}</div>
