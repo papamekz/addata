@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 108,
+  "total_claims": 112,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -56,7 +56,7 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 19,
+      "count": 20,
       "path": "data/regulation/"
     },
     "resources": {
@@ -68,7 +68,7 @@
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 7,
+      "count": 10,
       "path": "data/politics/"
     },
     "safety": {
@@ -1278,6 +1278,50 @@
       "institution": "United Nations University / ITU / ISWA",
       "open_access": true,
       "file": "data/economy/econ-008.md"
+    },
+    {
+      "id": "pol-008",
+      "title": "Berlin verkauft Werberechte im öffentlichen Raum für 350 Mio. Euro — 20.643 Werbeflächen in einer Stadt",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2018,
+      "source_type": "government",
+      "institution": "Der Tagesspiegel",
+      "open_access": true,
+      "file": "data/politics/pol-008.md"
+    },
+    {
+      "id": "pol-009",
+      "title": "Ströer-Buchungssystem als Kanal für 3 Mio. Euro illegale AfD-Wahlkampfspenden — Konzern verweigert Auskunft",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2021,
+      "source_type": "ngo",
+      "institution": "CORRECTIV / ZDF Frontal / Der Spiegel",
+      "open_access": true,
+      "file": "data/politics/pol-009.md"
+    },
+    {
+      "id": "pol-010",
+      "title": "Hannover: Ströer verdreifacht Werbeinfrastruktur in 7 Jahren — Stadt verweigert Auskunft über Vertragsdetails",
+      "category": "politics",
+      "impact_score": 8,
+      "year": 2021,
+      "source_type": "ngo",
+      "institution": "freiheitsfoo.de",
+      "open_access": true,
+      "file": "data/politics/pol-010.md"
+    },
+    {
+      "id": "reg-020",
+      "title": "JCDecaux-CEO: 'Wir wissen, wie man mit Entscheidungsträgern umgeht' — Konzern offen über politischen Einfluss",
+      "category": "regulation",
+      "impact_score": 8,
+      "year": 2012,
+      "source_type": "ngo",
+      "institution": "Der Tagesspiegel",
+      "open_access": true,
+      "file": "data/regulation/reg-020.md"
     }
   ]
 }
