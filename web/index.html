@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOOH Research Dataset — ESG & Due Diligence</title>
+  <meta name="description" content="Independent peer-reviewed research on DOOH/OOH advertising infrastructure. Energy consumption, regulatory risk, ESG metrics, health compliance. For investment due diligence and media planning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">DOOH<span>DATA</span></div>
+      <nav>
+        <a href="https://github.com/daniel-kem/addata" target="_blank" class="source-link">GitHub Repository →</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-eyebrow">ESG &amp; Due Diligence Research</div>
+      <h1>DOOH &amp; OOH Advertising Impact Dataset</h1>
+      <p>Independent, peer-reviewed evidence on the full impact profile of Out-of-Home advertising infrastructure. For investment due diligence, ESG reporting, and regulatory risk assessment.</p>
+    </section>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-value" id="total-claims">—</span>
+        <span class="stat-label">Verified Claims</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="total-categories">—</span>
+        <span class="stat-label">Categories</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="avg-impact">—</span>
+        <span class="stat-label">Avg Impact Score</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">0%</span>
+        <span class="stat-label">Industry Bias</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="Search by title, institution, or ID…">
+      </div>
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+      </select>
+      <select id="sort-order">
+        <option value="impact-desc">Highest Impact</option>
+        <option value="impact-asc">Lowest Impact</option>
+        <option value="id-asc">ID (A–Z)</option>
+      </select>
+    </div>
+
+    <div class="claims-grid" id="claims-container"></div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="close-modal" id="close-modal">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

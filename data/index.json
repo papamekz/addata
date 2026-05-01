@@ -6,7 +6,7 @@
   "repository": "https://github.com/daniel-kem/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 100,
+  "total_claims": 108,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -14,13 +14,13 @@
     "psychology": {
       "label": "Psychology & Cognitive Impact",
       "description": "Audience attention metrics, cognitive load, behavioral influence, and orienting response data.",
-      "count": 8,
+      "count": 9,
       "path": "data/psychology/"
     },
     "environment": {
       "label": "Environmental Impact & Emissions",
       "description": "Energy consumption, CO2 emissions, light pollution (skyglow), and ecological disruption.",
-      "count": 13,
+      "count": 14,
       "path": "data/environment/"
     },
     "urban": {
@@ -32,19 +32,19 @@
     "economy": {
       "label": "Economy & Advertised Emissions",
       "description": "Overconsumption, Scope 3 emissions, status anxiety, and socioeconomic inequality.",
-      "count": 7,
+      "count": 8,
       "path": "data/economy/"
     },
     "health": {
       "label": "Public Health",
       "description": "Harmful product promotion (junk food, gambling), obesity rates, and societal health externalities.",
-      "count": 11,
+      "count": 12,
       "path": "data/health/"
     },
     "culture": {
       "label": "Culture & Heritage",
       "description": "Cultural homogenization, commercialization of historical heritage, and loss of local identity.",
-      "count": 3,
+      "count": 4,
       "path": "data/culture/"
     },
     "equity": {
@@ -56,7 +56,7 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 18,
+      "count": 19,
       "path": "data/regulation/"
     },
     "resources": {
@@ -74,13 +74,13 @@
     "safety": {
       "label": "Traffic Safety",
       "description": "Driver distraction studies, accident risks due to DOOH, and lighting glare hazards.",
-      "count": 4,
+      "count": 5,
       "path": "data/safety/"
     },
     "privacy": {
       "label": "Privacy & Data Surveillance",
       "description": "Programmatic audience tracking, facial detection, and Wi-Fi sniffing in public spaces.",
-      "count": 2,
+      "count": 3,
       "path": "data/privacy/"
     },
     "alternatives": {
@@ -1002,7 +1002,7 @@
       "source_type": "government",
       "institution": "Länderarbeitsgemeinschaft für Immissionsschutz / Umweltbundesamt",
       "open_access": true,
-      "file": "data/environment/env-012.md"
+      "file": "data/environment/env-011.md"
     },
     {
       "id": "priv-002",
@@ -1190,6 +1190,94 @@
       "institution": "European Biodiversity Research / DarkSky International",
       "open_access": true,
       "file": "data/environment/env-012.md"
+    },
+    {
+      "id": "psych-009",
+      "title": "Werbung fördert Materialismus bei Kindern und zerstört intrinsische Werte langfristig",
+      "category": "psychology",
+      "impact_score": 9,
+      "year": 2003,
+      "source_type": "peer-reviewed",
+      "institution": "Journal of Advertising / American Academy of Advertising",
+      "open_access": false,
+      "file": "data/psychology/psych-009.md"
+    },
+    {
+      "id": "health-012",
+      "title": "Alkohol-Außenwerbung erhöht nachweislich den Alkoholkonsum bei Jugendlichen",
+      "category": "health",
+      "impact_score": 9,
+      "year": 2007,
+      "source_type": "peer-reviewed",
+      "institution": "Journal of Studies on Alcohol and Drugs",
+      "open_access": false,
+      "file": "data/health/health-012.md"
+    },
+    {
+      "id": "env-014",
+      "title": "Mikroplastik aus PVC-Werbebannern kontaminiert Böden und Gewässer in städtischen Räumen",
+      "category": "environment",
+      "impact_score": 8,
+      "year": 2017,
+      "source_type": "peer-reviewed",
+      "institution": "Environmental Chemistry Letters, Springer",
+      "open_access": false,
+      "file": "data/environment/env-014.md"
+    },
+    {
+      "id": "priv-003",
+      "title": "Programmatisches DOOH-Targeting verstößt strukturell gegen DSGVO — keine wirksame Einwilligung möglich",
+      "category": "privacy",
+      "impact_score": 9,
+      "year": 2020,
+      "source_type": "government",
+      "institution": "European Data Protection Board (EDPB)",
+      "open_access": true,
+      "file": "data/privacy/priv-003.md"
+    },
+    {
+      "id": "reg-019",
+      "title": "Belgien verbietet als erstes Land weltweit Werbung für fossile Brennstoffe (2023)",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2023,
+      "source_type": "government",
+      "institution": "Belgian Federal Government / The Guardian",
+      "open_access": true,
+      "file": "data/regulation/reg-019.md"
+    },
+    {
+      "id": "safety-005",
+      "title": "Digitale Werbetafeln erhöhen die Ablenkungsgefahr für Fußgänger und Radfahrer signifikant",
+      "category": "safety",
+      "impact_score": 8,
+      "year": 2011,
+      "source_type": "peer-reviewed",
+      "institution": "Traffic Injury Prevention, Taylor & Francis",
+      "open_access": false,
+      "file": "data/safety/safety-005.md"
+    },
+    {
+      "id": "culture-004",
+      "title": "UNESCO warnt: kommerzielle Außenwerbung bedroht visuelle Integrität von Weltkulturerbe-Stätten",
+      "category": "culture",
+      "impact_score": 8,
+      "year": 2019,
+      "source_type": "government",
+      "institution": "UNESCO World Heritage Centre",
+      "open_access": true,
+      "file": "data/culture/culture-004.md"
+    },
+    {
+      "id": "econ-008",
+      "title": "Geplante Obsoleszenz von DOOH-Hardware erzeugt Milliarden-Entsorgungskosten die Städte tragen",
+      "category": "economy",
+      "impact_score": 8,
+      "year": 2020,
+      "source_type": "government",
+      "institution": "United Nations University / ITU / ISWA",
+      "open_access": true,
+      "file": "data/economy/econ-008.md"
     }
   ]
 }
