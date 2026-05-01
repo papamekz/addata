@@ -32,6 +32,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalBody     = document.getElementById('modal-body');
   const modalClose    = document.getElementById('modal-close');
 
+  // legal
+  const cookieBanner      = document.getElementById('cookie-banner');
+  const cookieOk          = document.getElementById('cookie-ok');
+  const impressumBtn      = document.getElementById('impressum-btn');
+  const impressumOverlay  = document.getElementById('impressum-overlay');
+  const impressumClose    = document.getElementById('impressum-close');
+  const datenschutzBtn    = document.getElementById('datenschutz-btn');
+  const datenschutzOverlay = document.getElementById('datenschutz-overlay');
+  const datenschutzClose  = document.getElementById('datenschutz-close');
+
   // ── Load data ──────────────────────────────────
   if (typeof URBAN_DATA !== 'undefined') {
     init(URBAN_DATA);
@@ -164,12 +174,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   dbCloseBtn.addEventListener('click', closeDb);
   dbOverlay.addEventListener('click', e => { if (e.target === dbOverlay) closeDb(); });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') {
-      if (modalOverlay.classList.contains('open')) { closeModal(); return; }
-      if (dbOverlay.classList.contains('open'))    { closeDb(); return; }
-    }
-  });
 
   searchInput.addEventListener('input', filterDb);
   categoryFilter.addEventListener('change', filterDb);
@@ -242,4 +246,60 @@ document.addEventListener('DOMContentLoaded', () => {
 
   modalClose.addEventListener('click', closeModal);
   modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
+
+  // ── Cookie banner ───────────────────────────────
+  if (localStorage.getItem('cookie-ok')) {
+    cookieBanner.classList.add('hidden');
+  }
+  cookieOk.addEventListener('click', () => {
+    localStorage.setItem('cookie-ok', '1');
+    cookieBanner.classList.add('hidden');
+  });
+
+  // ── Impressum ───────────────────────────────────
+  impressumBtn.addEventListener('click', () => {
+    paused = true;
+    clearProgress();
+    impressumOverlay.classList.add('open');
+  });
+  impressumClose.addEventListener('click', () => {
+    impressumOverlay.classList.remove('open');
+    paused = false;
+    startTimer();
+  });
+  impressumOverlay.addEventListener('click', e => {
+    if (e.target === impressumOverlay) {
+      impressumOverlay.classList.remove('open');
+      paused = false;
+      startTimer();
+    }
+  });
+
+  // ── Datenschutz ─────────────────────────────────
+  datenschutzBtn.addEventListener('click', () => {
+    paused = true;
+    clearProgress();
+    datenschutzOverlay.classList.add('open');
+  });
+  datenschutzClose.addEventListener('click', () => {
+    datenschutzOverlay.classList.remove('open');
+    paused = false;
+    startTimer();
+  });
+  datenschutzOverlay.addEventListener('click', e => {
+    if (e.target === datenschutzOverlay) {
+      datenschutzOverlay.classList.remove('open');
+      paused = false;
+      startTimer();
+    }
+  });
+
+  // extend Escape to cover legal modals
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (modalOverlay.classList.contains('open'))      { closeModal(); return; }
+    if (dbOverlay.classList.contains('open'))         { closeDb(); return; }
+    if (impressumOverlay.classList.contains('open'))  { impressumClose.click(); return; }
+    if (datenschutzOverlay.classList.contains('open')){ datenschutzClose.click(); return; }
+  });
 });
