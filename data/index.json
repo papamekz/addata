@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 112,
+  "total_claims": 125,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -20,7 +20,7 @@
     "environment": {
       "label": "Environmental Impact & Emissions",
       "description": "Energy consumption, CO2 emissions, light pollution (skyglow), and ecological disruption.",
-      "count": 14,
+      "count": 16,
       "path": "data/environment/"
     },
     "urban": {
@@ -56,7 +56,7 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 20,
+      "count": 25,
       "path": "data/regulation/"
     },
     "resources": {
@@ -68,19 +68,19 @@
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 10,
+      "count": 14,
       "path": "data/politics/"
     },
     "safety": {
       "label": "Traffic Safety",
       "description": "Driver distraction studies, accident risks due to DOOH, and lighting glare hazards.",
-      "count": 5,
+      "count": 6,
       "path": "data/safety/"
     },
     "privacy": {
       "label": "Privacy & Data Surveillance",
       "description": "Programmatic audience tracking, facial detection, and Wi-Fi sniffing in public spaces.",
-      "count": 3,
+      "count": 4,
       "path": "data/privacy/"
     },
     "alternatives": {
@@ -1322,6 +1322,123 @@
       "institution": "Der Tagesspiegel",
       "open_access": true,
       "file": "data/regulation/reg-020.md"
+    },
+    {
+      "id": "pol-011",
+      "title": "Hamburg verkauft öffentlichen Raum für €508M: JCDecaux und Ströer teilen Exklusivvertrag",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2023,
+      "source_type": "government",
+      "file": "data/politics/pol-011.md"
+    },
+    {
+      "id": "pol-012",
+      "title": "Hedgefonds Muddy Waters wirft Ströer IFRS-Buchhaltungsbetrug vor — Aktie bricht in 45 Minuten um 25% ein",
+      "category": "politics",
+      "impact_score": 8,
+      "year": 2016,
+      "source_type": "ngo",
+      "file": "data/politics/pol-012.md"
+    },
+    {
+      "id": "env-015",
+      "title": "Studie: 30% aller deutschen TV-Werbespots sind Klimakiller — verstößt gegen Medienstaatsvertrag (2024)",
+      "category": "environment",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "ngo",
+      "file": "data/environment/env-015.md"
+    },
+    {
+      "id": "reg-021",
+      "title": "Den Haag: Erste Stadt weltweit verbietet Fossil-Fuel OOH-Werbung für Autos, Flüge & Kreuzfahrten ab 2025",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2024,
+      "source_type": "government",
+      "file": "data/regulation/reg-021.md"
+    },
+    {
+      "id": "reg-022",
+      "title": "Landgericht Hamburg: Shell-Werbung CO2-neutral für 1,1 Cent/Liter ist irreführend — OOH-Greenwashing verboten",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "file": "data/regulation/reg-022.md"
+    },
+    {
+      "id": "reg-023",
+      "title": "EU-Kommission: JCDecaux Brüssel erhielt illegale Staatsbeihilfe durch Phantom-Werbetafeln ohne Miete oder Steuern",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2019,
+      "source_type": "government",
+      "file": "data/regulation/reg-023.md"
+    },
+    {
+      "id": "pol-013",
+      "title": "JCDecaux-Gründer Jean-Claude Decaux wegen Korruption strafrechtlich verurteilt — Bordeaux Tribunal, Frankreich",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2000,
+      "source_type": "government",
+      "file": "data/politics/pol-013.md"
+    },
+    {
+      "id": "pol-014",
+      "title": "Berlin: Gericht erlaubt JCDecaux, Finanzkonditionen des BVG-Werbevertrags geheim zu halten",
+      "category": "politics",
+      "impact_score": 8,
+      "year": 2019,
+      "source_type": "government",
+      "file": "data/politics/pol-014.md"
+    },
+    {
+      "id": "reg-024",
+      "title": "Schweiz: Bundesgericht bestätigt vollständiges Werbeverbot in Vernier — 172 Werbetafeln entfernt, Zürich und Bern folgen",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2024,
+      "source_type": "government",
+      "file": "data/regulation/reg-024.md"
+    },
+    {
+      "id": "reg-025",
+      "title": "Amsterdam: Erste Hauptstadt weltweit verbietet OOH-Werbung für fossile Brennstoffe UND Fleisch — in Kraft ab Mai 2026",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2026,
+      "source_type": "government",
+      "file": "data/regulation/reg-025.md"
+    },
+    {
+      "id": "env-016",
+      "title": "Deutsche Bundesregierung bestätigt: DOOH-Infrastruktur verbraucht 113.000 MWh/Jahr — Energiesparverordnung erzwingt Nachtabschaltung",
+      "category": "environment",
+      "impact_score": 9,
+      "year": 2022,
+      "source_type": "government",
+      "file": "data/environment/env-016.md"
+    },
+    {
+      "id": "safety-006",
+      "title": "Schwedische Trafikverket-Studie: Digitale Werbetafeln auf Autobahn verursachen gefährliche Blickabwendung — Tafeln daraufhin entfernt",
+      "category": "safety",
+      "impact_score": 9,
+      "year": 2013,
+      "source_type": "peer-reviewed",
+      "file": "data/safety/safety-006.md"
+    },
+    {
+      "id": "priv-004",
+      "title": "Clear Channel RADAR: Werbetafeln tracken Mobiltelefon-Bewegungsprofile von Passanten — US-Senatoren fordern Untersuchung",
+      "category": "privacy",
+      "impact_score": 8,
+      "year": 2016,
+      "source_type": "ngo",
+      "file": "data/privacy/priv-004.md"
     }
   ]
 }
