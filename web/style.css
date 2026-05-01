@@ -62,7 +62,12 @@ body {
 }
 .topbar-logo span { color: var(--primary); }
 
-.topbar-nav { pointer-events: auto; }
+.topbar-nav {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
 .db-tab {
   display: flex;
@@ -99,7 +104,6 @@ body {
   background: var(--hairline);
   border-radius: 7px;
   overflow: hidden;
-  margin-right: 0.5rem;
 }
 
 .lang-btn {

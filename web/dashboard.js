@@ -48,9 +48,18 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(err => console.error('Error:', err));
   }
 
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
   function init(data) {
     dataset = data;
-    claims  = [...data.claims].sort((a, b) => b.impact_score - a.impact_score);
+    claims  = shuffle(data.claims);
     dbCount.textContent = data.total_claims;
 
     Object.keys(data.categories).sort().forEach(cat => {
