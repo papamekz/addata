@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 129,
+  "total_claims": 144,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -14,7 +14,7 @@
     "psychology": {
       "label": "Psychology & Cognitive Impact",
       "description": "Audience attention metrics, cognitive load, behavioral influence, and orienting response data.",
-      "count": 9,
+      "count": 10,
       "path": "data/psychology/"
     },
     "environment": {
@@ -38,7 +38,7 @@
     "health": {
       "label": "Public Health",
       "description": "Harmful product promotion (junk food, gambling), obesity rates, and societal health externalities.",
-      "count": 13,
+      "count": 17,
       "path": "data/health/"
     },
     "culture": {
@@ -56,7 +56,7 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 26,
+      "count": 34,
       "path": "data/regulation/"
     },
     "resources": {
@@ -68,7 +68,7 @@
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 15,
+      "count": 16,
       "path": "data/politics/"
     },
     "safety": {
@@ -80,7 +80,7 @@
     "privacy": {
       "label": "Privacy & Data Surveillance",
       "description": "Programmatic audience tracking, facial detection, and Wi-Fi sniffing in public spaces.",
-      "count": 4,
+      "count": 5,
       "path": "data/privacy/"
     },
     "alternatives": {
@@ -1475,6 +1475,171 @@
       "year": 2024,
       "source_type": "government",
       "file": "data/regulation/reg-026.md"
+    },
+    {
+      "id": "health-014",
+      "title": "WHO-Leitlinie 2023: Verpflichtende gesetzliche Beschränkungen für Kindermarketing — auch im öffentlichen Raum",
+      "category": "health",
+      "impact_score": 10,
+      "year": 2023,
+      "source_type": "who-report",
+      "institution": "World Health Organization (WHO)",
+      "open_access": true,
+      "file": "data/health/health-014.md"
+    },
+    {
+      "id": "health-015",
+      "title": "Großbritannien: Vollständiges OOH-Werbeverbot für HFSS-Produkte seit Januar 2026 — weltweites Pilotprojekt",
+      "category": "health",
+      "impact_score": 10,
+      "year": 2026,
+      "source_type": "government",
+      "institution": "UK Government / Ofcom",
+      "open_access": true,
+      "file": "data/health/health-015.md"
+    },
+    {
+      "id": "reg-027",
+      "title": "Edinburgh verbietet OOH-Werbung für fossile Brennstoffe UND Rüstungsprodukte — EU-weit einzigartig (2024)",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "City of Edinburgh Council",
+      "open_access": true,
+      "file": "data/regulation/reg-027.md"
+    },
+    {
+      "id": "reg-028",
+      "title": "Stockholm Region: Gerichtsurteil bestätigt Fossil-Fuel- und Glücksspiel-Werbeverbot auf öffentlichen Flächen (2024)",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "Stockholm Region / Swedish Administrative Court",
+      "open_access": true,
+      "file": "data/regulation/reg-028.md"
+    },
+    {
+      "id": "reg-029",
+      "title": "Florenz 2026 und Genua 2025: Erste italienische Städte verbieten Fossil-Fuel-OOH-Werbung",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "government",
+      "institution": "City of Florence / City of Genoa",
+      "open_access": true,
+      "file": "data/regulation/reg-029.md"
+    },
+    {
+      "id": "priv-005",
+      "title": "EU AI Act: Biometrische Kategorisierung von Personen im öffentlichen Raum verboten — DOOH-Audience-Measurement direkt betroffen",
+      "category": "privacy",
+      "impact_score": 10,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "European Union",
+      "open_access": true,
+      "file": "data/privacy/priv-005.md"
+    },
+    {
+      "id": "reg-030",
+      "title": "UK ASA: Lloyds Bank Greenwashing-Anzeige auf OOH-Screens verboten — Dezember 2024",
+      "category": "regulation",
+      "impact_score": 8,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "Advertising Standards Authority (ASA), UK",
+      "open_access": true,
+      "file": "data/regulation/reg-030.md"
+    },
+    {
+      "id": "reg-031",
+      "title": "UK Competition and Markets Authority: Bis zu 10% des Jahresumsatzes Strafe für Greenwashing-Werbung ab April 2025",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "government",
+      "institution": "Competition and Markets Authority (CMA), UK",
+      "open_access": true,
+      "file": "data/regulation/reg-031.md"
+    },
+    {
+      "id": "reg-032",
+      "title": "Den Haag: Fossil-Fuel-OOH-Werbeverbot übersteht Klage der Werbebranche — Gericht bestätigt Verbot April 2025",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2025,
+      "source_type": "government",
+      "institution": "District Court of The Hague / Gemeente Den Haag",
+      "open_access": true,
+      "file": "data/regulation/reg-032.md"
+    },
+    {
+      "id": "health-016",
+      "title": "Litauen-Alkohol-Werbestudie (BMJ 2025): Nationales Außenwerbungsverbot reduziert Alkoholkonsum kausal — 84.189 Befragte",
+      "category": "health",
+      "impact_score": 10,
+      "year": 2025,
+      "source_type": "peer-reviewed",
+      "institution": "British Medical Journal / BMJ Global Health",
+      "open_access": true,
+      "file": "data/health/health-016.md"
+    },
+    {
+      "id": "reg-033",
+      "title": "Spanische Kartellbehörde CNMC blockiert JCDecaux-Übernahme von Clear Channel Spanien — Marktmacht zu hoch (Oktober 2024)",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "CNMC (Spanische Kartellbehörde)",
+      "open_access": true,
+      "file": "data/regulation/reg-033.md"
+    },
+    {
+      "id": "reg-034",
+      "title": "UN-Sonderberichterstatter fordert Kriminalisierung von Greenwashing durch Fossil-Fuel-Werbebranche (Juni 2025)",
+      "category": "regulation",
+      "impact_score": 10,
+      "year": 2025,
+      "source_type": "government",
+      "institution": "United Nations Human Rights Council",
+      "open_access": true,
+      "file": "data/regulation/reg-034.md"
+    },
+    {
+      "id": "psych-010",
+      "title": "95-Studien-Systematik: Werbung verursacht kausal Körperbildschäden bei Jugendlichen — stärkste Evidenz bisher (Frontiers 2025)",
+      "category": "psychology",
+      "impact_score": 10,
+      "year": 2025,
+      "source_type": "peer-reviewed",
+      "institution": "Frontiers in Psychology / Centre for Appearance Research, UWE Bristol",
+      "open_access": true,
+      "file": "data/psychology/psych-010.md"
+    },
+    {
+      "id": "pol-016",
+      "title": "Ströer überschreitet 2024 erstmals €2 Milliarden Jahresumsatz — kontrolliert 80% des deutschen DOOH-Markts",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "Ströer SE & Co. KGaA / Frankfurter Börse",
+      "open_access": true,
+      "file": "data/politics/pol-016.md"
+    },
+    {
+      "id": "health-017",
+      "title": "Deutsches KLWG-E Kinderlebensmittelwerbegesetz: Industrielobby schwächt Regulierung vor Verabschiedung erheblich ab (2024)",
+      "category": "health",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "government",
+      "institution": "Deutscher Bundestag / BMEL / foodwatch Deutschland",
+      "open_access": true,
+      "file": "data/health/health-017.md"
     }
   ]
 }
