@@ -1,0 +1,80 @@
+{
+  "name": "dooh-ooh-advertising-research",
+  "title": "DOOH & OOH Advertising Research Dataset",
+  "description": "144 peer-reviewed claims documenting evidence-based risks of Out-of-Home and Digital Out-of-Home advertising infrastructure. Covers regulatory bans, public health harm, environmental impact, privacy law (EU AI Act, GDPR), traffic safety, and market concentration. Bilingual DE/EN. All sources independent.",
+  "version": "1.2.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "keywords": [
+    "DOOH", "OOH", "outdoor advertising", "digital billboard", "ESG",
+    "regulatory risk", "greenwashing", "advertising ban", "public health",
+    "EU AI Act", "fossil fuel advertising", "investment due diligence",
+    "peer-reviewed", "RAG", "machine-readable"
+  ],
+  "sources": [
+    {
+      "title": "GitHub Repository",
+      "path": "https://github.com/papamekz/addata"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "addata contributors",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "claims-index",
+      "title": "All Claims — Master Index",
+      "description": "Machine-readable index of all 144 claims with metadata (id, title, category, impact_score, year, source_type, file path).",
+      "path": "data/index.json",
+      "mediatype": "application/json",
+      "schema": {
+        "fields": [
+          { "name": "id", "type": "string", "description": "Unique claim ID, e.g. reg-032" },
+          { "name": "title", "type": "string", "description": "German title" },
+          { "name": "category", "type": "string", "description": "Research category" },
+          { "name": "impact_score", "type": "integer", "description": "Impact score 1–10" },
+          { "name": "year", "type": "integer", "description": "Publication year of source" },
+          { "name": "source_type", "type": "string", "description": "peer-reviewed | government | ngo | who-report" },
+          { "name": "institution", "type": "string", "description": "Publishing institution" },
+          { "name": "file", "type": "string", "description": "Relative path to full claim markdown" }
+        ]
+      }
+    },
+    {
+      "name": "bilingual-embedded-dataset",
+      "title": "Embedded Bilingual Dataset (DE+EN)",
+      "description": "Full dataset with German and English content for all 144 claims, embedded as JavaScript constant for direct browser use.",
+      "path": "web/data.js",
+      "mediatype": "application/javascript"
+    },
+    {
+      "name": "claim-schema",
+      "title": "JSON Schema for Claim Validation",
+      "path": "schema/claim.schema.json",
+      "mediatype": "application/schema+json"
+    }
+  ],
+  "categories": {
+    "regulation": { "count": 34, "description": "Bans, court rulings, EU directives, greenwashing law" },
+    "health": { "count": 17, "description": "Food marketing, gambling, alcohol, HFSS bans" },
+    "politics": { "count": 16, "description": "Lobbying, market concentration, PPP contracts" },
+    "environment": { "count": 16, "description": "CO2, light pollution, biodiversity, e-waste" },
+    "resources": { "count": 11, "description": "Energy consumption, materials, hardware lifecycle" },
+    "psychology": { "count": 10, "description": "Cognitive impact, body image, behavioral influence" },
+    "urban": { "count": 8, "description": "Visual pollution, public space, property values" },
+    "economy": { "count": 8, "description": "Scope 3 emissions, status anxiety, inequality" },
+    "safety": { "count": 7, "description": "Driver distraction, accident rates, glare" },
+    "privacy": { "count": 5, "description": "GDPR, EU AI Act, biometric surveillance" },
+    "equity": { "count": 4, "description": "Demographic exposure, environmental justice" },
+    "culture": { "count": 4, "description": "Heritage sites, cultural homogenization" },
+    "alternatives": { "count": 4, "description": "Ad-free city models, civic space funding" }
+  }
+}

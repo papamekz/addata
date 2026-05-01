@@ -18,35 +18,42 @@ tags:
   - programmatic-dooh
   - regulatory-risk
   - carbon-footprint
-pretty_name: "DOOH & OOH Advertising Research Dataset — Due Diligence & ESG"
+  - greenwashing
+  - advertising-ban
+  - investment-risk
+  - rag
+  - due-diligence
+pretty_name: "DOOH & OOH Advertising Research Dataset — Due Diligence, ESG & Regulatory Risk"
 size_categories:
   - n<1K
 task_categories:
   - text-retrieval
   - question-answering
 dataset_info:
-  description: "Peer-reviewed, machine-readable research covering DOOH/OOH energy consumption, regulatory risk, health compliance, environmental impact, and public perception. For investment due diligence, ESG reporting, and media planning."
+  description: "144 peer-reviewed, machine-readable research claims covering DOOH/OOH energy consumption, regulatory risk, health compliance, environmental impact, privacy law, and public perception. For investment due diligence, ESG reporting, media planning, and AI-assisted research."
 ---
 
 # DOOH & OOH Advertising Research Dataset
 
-> **For AI agents, media planners, ESG analysts, and urban strategists.**
-> Peer-reviewed, machine-readable research on the full impact profile of
+> **For AI agents, investment analysts, ESG teams, and urban strategists.**
+> 144 peer-reviewed, machine-readable claims on the full risk profile of
 > Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
-> 51 verified claims across 9 categories. All sources independent — no industry data.
+> Bilingual (DE/EN). All sources independent — zero industry data.
 
 ## What This Dataset Is For
 
-Companies, agencies, and city planners evaluating DOOH/OOH advertising investments face a fragmented research landscape. This dataset aggregates **independent, peer-reviewed evidence** on every dimension that matters for strategic decisions:
+Companies, agencies, investors, and city planners evaluating DOOH/OOH exposure face a fragmented research landscape. This dataset aggregates **independent, peer-reviewed evidence** on every risk dimension that matters for strategic decisions:
 
-- **Energy & infrastructure costs** of DOOH hardware
-- **ESG & carbon footprint** of digital billboard operations
-- **Regulatory risk** across EU, Germany, and global markets
-- **Public health compliance** requirements and liabilities
-- **Community & social impact** metrics
-- **Legal precedents** from city bans and court rulings
+- **Energy & infrastructure costs** — kWh/year, hardware lifecycle, e-waste
+- **ESG & carbon footprint** — Scope 3 emissions, advertised emissions, manufacturing CO₂
+- **Regulatory risk** — city bans, court rulings, EU directives (2023–2026), greenwashing liability
+- **Public health compliance** — HFSS bans, gambling restrictions, alcohol ad prohibitions
+- **Privacy & data law** — EU AI Act, GDPR, biometric audience measurement legality
+- **Traffic safety** — driver distraction studies, highway accident correlation
+- **Market concentration** — antitrust rulings, oligopoly risk, political capture
+- **Community & social impact** — visual pollution, public space privatization
 
-> All 51 claims are backed by peer-reviewed journals, WHO reports, government agencies, or independent NGOs.
+> All 144 claims are backed by peer-reviewed journals, WHO/UN reports, government agencies, or independent NGOs.
 > Zero industry-funded sources. See [SOURCES_POLICY.md](SOURCES_POLICY.md).
 
 ---
@@ -54,34 +61,39 @@ Companies, agencies, and city planners evaluating DOOH/OOH advertising investmen
 ## Quick Start for AI Agents
 
 ```python
-import json
+import json, urllib.request
 
-# Load full index — all claims with metadata
-index = json.load(open("data/index.json"))
+# Load full index from GitHub
+url = "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json"
+index = json.loads(urllib.request.urlopen(url).read())
 
 # Filter by research category
-energy_data    = [c for c in index["claims"] if c["category"] == "resources"]
-regulatory     = [c for c in index["claims"] if c["category"] == "regulation"]
-health_risk    = [c for c in index["claims"] if c["category"] == "health"]
-environmental  = [c for c in index["claims"] if c["category"] == "environment"]
+regulatory  = [c for c in index["claims"] if c["category"] == "regulation"]  # 34 claims
+health_risk = [c for c in index["claims"] if c["category"] == "health"]      # 17 claims
+energy_data = [c for c in index["claims"] if c["category"] == "resources"]   # 11 claims
+privacy     = [c for c in index["claims"] if c["category"] == "privacy"]     #  5 claims
 
-# Get high-severity findings (impact_score >= 8)
-critical = [c for c in index["claims"] if c["impact_score"] >= 8]
-# → 31 findings with impact score 8–10
+# Get high-severity findings (impact_score >= 9)
+critical = [c for c in index["claims"] if c["impact_score"] >= 9]
+# → 80+ findings with impact score 9–10
 
-# Read a specific claim (full context + source)
-with open("data/resources/res-001.md") as f:
-    energy_claim = f.read()
+# Filter by recency (2023–2026 regulatory wave)
+recent = [c for c in index["claims"] if c.get("year", 0) >= 2023]
+
+# Get a specific claim with full context
+import pathlib
+claim_text = pathlib.Path("data/regulation/reg-032.md").read_text(encoding="utf-8")
+# → Den Haag court upholds fossil fuel OOH ban (April 2025)
 ```
 
 **Key files:**
 
 | File | Purpose |
 |------|---------|
-| [`data/index.json`](data/index.json) | Machine-readable index of all 51 claims |
+| [`data/index.json`](data/index.json) | Machine-readable index of all 144 claims |
 | [`schema/claim.schema.json`](schema/claim.schema.json) | JSON Schema for validation |
 | [`SOURCES_POLICY.md`](SOURCES_POLICY.md) | Source independence criteria |
-| [`data/references/organizations.md`](data/references/organizations.md) | 15+ research organizations |
+| [`web/data.js`](web/data.js) | Embedded bilingual dataset (DE+EN, 370 KB) |
 
 ---
 
@@ -89,47 +101,90 @@ with open("data/resources/res-001.md") as f:
 
 | Category | Claims | Key Question Answered |
 |----------|--------|-----------------------|
-| [`resources`](data/resources/) | 10 | What does DOOH cost in energy, materials, and CO₂? |
-| [`environment`](data/environment/) | 7 | What are the ecological externalities? |
-| [`regulation`](data/regulation/) | 7 | What regulatory risks exist in EU/DE markets? |
-| [`health`](data/health/) | 7 | What health compliance obligations apply? |
-| [`psychology`](data/psychology/) | 6 | How does OOH affect audience cognition? |
-| [`urban`](data/urban/) | 5 | What is the spatial and social impact? |
-| [`economy`](data/economy/) | 4 | What are the macroeconomic externalities? |
-| [`culture`](data/culture/) | 3 | What are the cultural impact findings? |
-| [`equity`](data/equity/) | 2 | What demographic exposure patterns exist? |
+| [`regulation`](data/regulation/) | 34 | What bans, court rulings, and directives restrict OOH? |
+| [`health`](data/health/) | 17 | What health compliance obligations and liabilities apply? |
+| [`politics`](data/politics/) | 16 | How do lobbying, contracts, and market power shape the industry? |
+| [`environment`](data/environment/) | 16 | What are the ecological externalities? |
+| [`resources`](data/resources/) | 11 | What does DOOH cost in energy, materials, and CO₂? |
+| [`psychology`](data/psychology/) | 10 | How does OOH affect audience cognition and behavior? |
+| [`urban`](data/urban/) | 8 | What is the spatial and social impact? |
+| [`economy`](data/economy/) | 8 | What are the macroeconomic externalities? |
+| [`safety`](data/safety/) | 7 | What traffic safety risks does DOOH create? |
+| [`privacy`](data/privacy/) | 5 | What data law exposure does audience measurement create? |
+| [`equity`](data/equity/) | 4 | What demographic exposure patterns exist? |
+| [`culture`](data/culture/) | 4 | What are the cultural impact findings? |
+| [`alternatives`](data/alternatives/) | 4 | What ad-free revenue models exist for cities? |
 
 ---
 
-## Selected High-Impact Findings
+## High-Impact Findings (2023–2026 Regulatory Wave)
 
-*Sorted by impact score. Full sources and context in each claim file.*
+The regulatory environment shifted significantly in 2023–2026. Key developments with direct investment implications:
+
+| ID | Finding | Score | Year |
+|----|---------|-------|------|
+| [reg-032](data/regulation/reg-032.md) | **Den Haag court**: fossil fuel OOH ban survives industry legal challenge — EU precedent | 10/10 | 2025 |
+| [reg-034](data/regulation/reg-034.md) | **UN Special Rapporteur**: criminalize greenwashing OOH advertising as human rights violation | 10/10 | 2025 |
+| [health-015](data/health/health-015.md) | **UK HFSS ban**: complete OOH ban for junk food live since January 2026 — first nationally | 10/10 | 2026 |
+| [health-016](data/health/health-016.md) | **BMJ Lithuania study**: national OOH alcohol ad ban causally reduces consumption — 84,189 subjects | 10/10 | 2025 |
+| [priv-005](data/privacy/priv-005.md) | **EU AI Act Art. 5**: biometric audience measurement on DOOH screens illegal from Feb 2025 | 10/10 | 2024 |
+| [reg-025](data/regulation/reg-025.md) | **Amsterdam**: first capital city to ban OOH ads for fossil fuels AND meat — in force May 2026 | 10/10 | 2026 |
+| [psych-010](data/psychology/psych-010.md) | **95-study meta-analysis**: advertising causally produces body image harm (Frontiers 2025) | 10/10 | 2025 |
+| [health-014](data/health/health-014.md) | **WHO guideline**: mandatory statutory OOH restrictions for child food marketing | 10/10 | 2023 |
+| [reg-031](data/regulation/reg-031.md) | **UK CMA**: fines up to 10% global turnover for greenwashing in OOH from April 2025 | 9/10 | 2025 |
+| [reg-033](data/regulation/reg-033.md) | **CNMC blocks** JCDecaux acquisition of Clear Channel Spain — monopoly concern | 9/10 | 2024 |
+| [pol-016](data/politics/pol-016.md) | Ströer exceeds **€2B revenue**, controls ~80% of German DOOH market | 9/10 | 2024 |
+| [reg-027](data/regulation/reg-027.md) | **Edinburgh**: bans OOH for fossil fuels AND arms — unique EU combination | 9/10 | 2024 |
+
+---
+
+## Selected Baseline Findings (All-Time High-Impact)
 
 | ID | Finding | Score | Source |
 |----|---------|-------|--------|
-| [res-009](data/resources/res-009.md) | Digital advertising: **7.2M tons CO₂/year** ≈ aviation industry | 10/10 | The Drum / peer-reviewed |
-| [health-005](data/health/health-005.md) | Harmful marketing causally linked to **>1M deaths/year** (USA) | 10/10 | Prevention Science, Springer |
-| [env-002](data/environment/env-002.md) | Digital advertising CO₂ **exceeds entire aviation sector** | 10/10 | Journal of Marketing Communications |
-| [res-004](data/resources/res-004.md) | **600,000 tons** PVC billboard waste/year (USA alone) | 9/10 | EU CORDIS |
-| [res-001](data/resources/res-001.md) | One large DOOH display = **41,627 kWh/year** (11 households) | 9/10 | Adfree Cities UK |
-| [health-003](data/health/health-003.md) | +10% food advertising density → **×1.05 obesity risk** | 9/10 | BMC Public Health |
-| [reg-003](data/regulation/reg-003.md) | São Paulo total OOH ban: **70% public approval** after 5 years | 9/10 | 99% Invisible |
-| [urban-004](data/urban/urban-004.md) | OOH infrastructure privatizes public space **without democratic accountability** | 9/10 | Urban Studies, SAGE |
-| [env-005](data/environment/env-005.md) | Artificial billboard light: **causal link** to insect population decline | 9/10 | Leibniz IGB Berlin |
-| [reg-005](data/regulation/reg-005.md) | EU industry self-regulation: **85% of child-targeted products** fail WHO criteria | 9/10 | BEUC |
+| [res-009](data/resources/res-009.md) | Digital advertising: **7.2M tons CO₂/year** ≈ aviation industry | 10/10 | peer-reviewed |
+| [health-005](data/health/health-005.md) | Harmful marketing causally linked to **>1M deaths/year** (USA) | 10/10 | Prevention Science |
+| [health-009](data/health/health-009.md) | London junk food OOH ban prevents estimated **95,000 obesity cases** | 10/10 | LSHTM |
+| [reg-023](data/regulation/reg-023.md) | EU Commission: JCDecaux Brussels received **illegal state aid** via phantom billboards | 10/10 | EU Commission |
+| [reg-024](data/regulation/reg-024.md) | Swiss Federal Court upholds total OOH ban — **172 billboards removed** | 10/10 | Swiss Bundesgericht |
+| [safety-007](data/safety/safety-007.md) | US study: **25–29% higher crash rates** near digital billboards on highways | 9/10 | government |
 
 ---
 
 ## Regulatory Risk Landscape
 
-Key regulatory developments relevant to DOOH/OOH investment planning:
+Key active risks for DOOH/OOH investment portfolios:
 
-- **Germany** was the **last EU country** to ban tobacco OOH advertising (phased 2022–2024) — regulatory expansion to other categories is precedented ([reg-002](data/regulation/reg-002.md))
-- **Hamburg** (Germany): Constitutional Court cleared a **popular referendum to ban digital OOH screens** (2024) ([reg-001](data/regulation/reg-001.md))
-- **EU self-regulation failure**: Industry pledges covering 80%+ of EU ad spend fail WHO health standards by 85% — mandatory regulation expected ([reg-005](data/regulation/reg-005.md))
-- **BNatSchG §41a**: Germany's Federal Nature Conservation Act now includes light emission protection — enforcement ordinance due **2027** ([reg-007](data/regulation/reg-007.md))
-- **Grenoble** (EU): First European city to **remove all OOH advertising** (2015) — 300+ signs replaced with trees and community boards ([reg-004](data/regulation/reg-004.md))
-- **São Paulo**: Total OOH ban since 2007 — 15,000 billboards removed, **legal challenges by Clear Channel failed** ([reg-003](data/regulation/reg-003.md))
+**Fossil fuel & high-emission advertising bans (accelerating 2024–2026):**
+
+- **Den Haag** — ban since 2024, court-confirmed April 2025 ([reg-032](data/regulation/reg-032.md))
+- **Amsterdam** — fossil fuel + meat ban from May 2026 ([reg-025](data/regulation/reg-025.md))
+- **Edinburgh** — fossil fuel + arms ban since 2024 ([reg-027](data/regulation/reg-027.md))
+- **Stockholm Region** — fossil fuel + gambling, upheld by court 2024 ([reg-028](data/regulation/reg-028.md))
+- **Florence + Genoa** — first Italian cities, 2025–2026 ([reg-029](data/regulation/reg-029.md))
+- **Belgium** — first national fossil fuel ad ban, 2023 ([reg-019](data/regulation/reg-019.md))
+
+**Greenwashing liability (new enforcement powers):**
+
+- **EU Directive 2024/825** — generic CO₂-neutral claims illegal from 2026 ([reg-026](data/regulation/reg-026.md))
+- **UK CMA** — direct fines up to 10% global turnover from April 2025 ([reg-031](data/regulation/reg-031.md))
+- **UK ASA** — Lloyds Bank OOH campaign banned Dec 2024 ([reg-030](data/regulation/reg-030.md))
+
+**Health product advertising bans:**
+
+- **UK** — complete OOH HFSS ban from Jan 2026 ([reg-015](data/regulation/reg-015.md) + [health-015](data/health/health-015.md))
+- **WHO** — mandatory (not voluntary) statutory restrictions recommended for all OOH ([health-014](data/health/health-014.md))
+- **Germany KLWG-E** — OOH excluded after lobbying, but re-regulation likely ([health-017](data/health/health-017.md))
+
+**Privacy & data law:**
+
+- **EU AI Act Art. 5** — biometric categorization in public space prohibited from Feb 2025 ([priv-005](data/privacy/priv-005.md))
+- **EDPB** — programmatic DOOH targeting structurally violates GDPR ([priv-003](data/privacy/priv-003.md))
+
+**Antitrust:**
+
+- **CNMC** — JCDecaux/Clear Channel Spain acquisition blocked Oct 2024 ([reg-033](data/regulation/reg-033.md))
+- **EU Commission** — JCDecaux Brussels illegal state aid ruling ([reg-023](data/regulation/reg-023.md))
 
 ---
 
@@ -142,37 +197,48 @@ For sustainability reporting and ESG due diligence:
 | CO₂ per large DOOH unit | ~5 tons/year (operation) | res-009 |
 | Manufacturing footprint | **3.5× higher** than static billboard | res-010 |
 | Energy per unit (large format) | **41,627 kWh/year** | res-001 |
-| PVC waste cycle | Replace every **4 weeks** per campaign | res-004 |
+| German DOOH fleet total | **113,000 MWh/year** (confirmed by federal government) | env-016 |
+| PVC waste cycle | Replaced every **4 weeks** per campaign | res-004 |
 | PVC decomposition time | **1,000+ years** in landfill | res-005 |
 | Printing chemicals | Toluene, Lead, Cadmium, BPA | res-006 |
-| Light pollution | Causal link to **insect decline** confirmed | env-005/006 |
+| Light pollution | Causal link to **insect decline** confirmed | env-005 |
+| Advertised Scope 3 emissions | High-emission sectors dominate OOH bookings | eco-006 |
 
 ---
 
 ## Data Format
 
-Every claim is a Markdown file with YAML frontmatter for RAG and programmatic use:
+Every claim is a bilingual Markdown file with YAML frontmatter for RAG and programmatic use:
 
 ```markdown
 ---
-id: res-001
-title: "One large DOOH display consumes as much electricity as 11 households/year"
-category: resources
-impact_score: 9
+id: reg-032
+title: "Den Haag: Fossil-Fuel-OOH-Werbeverbot übersteht Klage — Gericht bestätigt Verbot April 2025"
+category: regulation
+impact_score: 10
 source:
-  title: "The electricity costs of digital out-of-home advertising screens"
-  institution: "Adfree Cities UK"
-  year: 2022
-  url: "https://adfreecities.org.uk/..."
-  type: ngo
+  institution: "District Court of The Hague / Gemeente Den Haag"
+  year: 2025
+  url: "https://www.denhaag.nl/..."
+  type: government
   independent: true
 verified: true
-tags: [energy, electricity, digital-billboard, dooh, kwh]
+tags: [fossil-fuel, outdoor-advertising, court-ruling, eu-precedent]
 ---
-[Full context and source analysis...]
+
+## Zusammenfassung
+[German summary]
+
+## Kernbefund
+[German key finding]
+
+## Relevanz für Außenwerbung
+[German OOH relevance]
 ```
 
 **Schema validation:** [`schema/claim.schema.json`](schema/claim.schema.json)
+
+Embedded bilingual dataset (EN translations for all 144 claims): [`web/data.js`](web/data.js)
 
 ---
 
@@ -183,6 +249,21 @@ tags: [energy, electricity, digital-billboard, dooh, kwh]
 **Excluded:** OAAA · WFA · JCDecaux · Clear Channel · Ströer · Lamar · Nielsen · Any advertising-industry-funded research
 
 → Full criteria: [SOURCES_POLICY.md](SOURCES_POLICY.md)
+
+---
+
+## Cite This Dataset
+
+```bibtex
+@dataset{addata2026,
+  title     = {DOOH \& OOH Advertising Research Dataset},
+  year      = {2026},
+  note      = {144 peer-reviewed claims on outdoor advertising harms. CC BY 4.0.},
+  url       = {https://github.com/papamekz/addata}
+}
+```
+
+See also: [CITATION.cff](CITATION.cff)
 
 ---
 
