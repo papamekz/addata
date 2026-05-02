@@ -38,4 +38,4 @@ Jahrzehntelange Daten belegen den Zusammenhang zwischen steigender Ungleichheit 
 
 ## Relevanz für Außenwerbung
 
-Außenwerbung ist seit Jahrzehnten ein Treiber dieser Konsummuster — sie ist die am stärksten sichtbare und flächendeckendste Form kommerzieller Botschaften im öffentlichen Raum.
+Das NBER-Paper untersucht Konsum- und Ungleichheitsmuster in den USA generell — Außenwerbung ist darin nicht explizit isoliert analysiert. Der Bezug zu OOH/DOOH ist eine kontextuelle Einordnung: Außenwerbung ist die flächendeckendste Form kommerzieller Botschaften im öffentlichen Raum und damit Teil des Werbedrucks, der statusgetriebenen Konsum verstärkt. Diese Verbindung ist eine inhaltliche Interpretation, kein direkter Befund des Papers.

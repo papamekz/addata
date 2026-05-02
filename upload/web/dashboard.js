@@ -78,6 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const cookieBanner       = document.getElementById('cookie-banner');
   const cookieOk           = document.getElementById('cookie-ok');
   const datenschutzBtn     = document.getElementById('datenschutz-btn');
+  const infoTabBtn  = document.getElementById('info-tab-btn');
+  const infoOverlay = document.getElementById('info-overlay');
+  const infoClose   = document.getElementById('info-close-btn');
+  const infoBody    = document.getElementById('info-body');
   const datenschutzOverlay = document.getElementById('datenschutz-overlay');
   const datenschutzClose   = document.getElementById('datenschutz-close');
   const privacyBody        = document.getElementById('privacy-body');
@@ -131,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filterDb();
     // re-render privacy modal if open
     if (datenschutzOverlay.classList.contains('open')) renderPrivacy();
+    if (infoOverlay.classList.contains('open')) renderInfoPanel();
     // re-render detail modal if open
     if (modalOverlay.classList.contains('open') && modalBody._claim) {
       openDetail(modalBody._claim);
@@ -227,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   stageEl.addEventListener('mouseenter', () => { paused = true;  clearProgress(); });
   stageEl.addEventListener('mouseleave', () => {
-    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open')) return;
+    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open') || infoOverlay.classList.contains('open')) return;
     paused = false;
     startTimer();
   });
@@ -241,6 +246,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'ArrowLeft')  advance(-1);
     if (e.key === 'ArrowRight') advance(1);
   });
+
+  // ── Info overlay ─────────────────────────────────
+  infoTabBtn.addEventListener('click', () => {
+    paused = true;
+    clearProgress();
+    renderInfoPanel();
+    infoOverlay.classList.add('open');
+  });
+
+  function closeInfo() {
+    infoOverlay.classList.remove('open');
+    paused = false;
+    startTimer();
+  }
+
+  infoClose.addEventListener('click', closeInfo);
+  infoOverlay.addEventListener('click', e => { if (e.target === infoOverlay) closeInfo(); });
 
   // ── Database overlay ────────────────────────────
   dbTabBtn.addEventListener('click', () => {
@@ -277,27 +299,94 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderDbGrid(list) {
     dbGrid.innerHTML = '';
     list.forEach(c => {
-      const card = document.createElement('div');
-      card.className = 'db-card';
-      const isHigh = c.impact_score >= 8;
-      const icon = CATEGORY_ICONS[c.category] || '◈';
+      const row = document.createElement('div');
+      row.className = 'db-row';
+      const icon     = CATEGORY_ICONS[c.category] || '◈';
       const catColor = `var(--cat-${c.category}, var(--primary))`;
-      card.innerHTML = `
-        <div class="db-card-top">
-          <span class="db-card-category">
-            <span style="color:${catColor};margin-right:0.3rem;font-size:11px">${icon}</span>${categoryLabel(c.category)}
-          </span>
-          <span class="db-card-id">${c.id}</span>
+      const sev      = severityInfo(c.impact_score);
+      row.innerHTML = `
+        <div class="db-row-cat" style="color:${catColor}">
+          <span class="db-row-cat-icon">${icon}</span>
+          <span>${categoryLabel(c.category)}</span>
         </div>
-        <p class="db-card-title">${claimTitle(c)}</p>
-        <div class="db-card-footer">
-          <span class="badge ${isHigh ? 'badge-high' : ''}">${t('impact_label')} ${c.impact_score}/10</span>
-          <span class="db-card-year">${c.year}</span>
-        </div>
+        <span class="db-row-id">${c.id}</span>
+        <span class="db-row-title">${claimTitle(c)}</span>
+        <span class="db-row-sev ${sev.cls}" style="color:inherit">${sev.icon}</span>
+        <span class="db-row-year">${c.year}</span>
       `;
-      card.addEventListener('click', () => openDetail(c));
-      dbGrid.appendChild(card);
+      row.addEventListener('click', () => openDetail(c));
+      dbGrid.appendChild(row);
     });
+  }
+
+  function renderInfoPanel() {
+    if (!dataset) return;
+    const allClaims = dataset.claims;
+    const total     = allClaims.length;
+    const avgScore  = (allClaims.reduce((s, c) => s + (c.impact_score || 0), 0) / total).toFixed(1);
+    const highCount = allClaims.filter(c => c.impact_score >= 8).length;
+    const years     = allClaims.map(c => Number(c.year)).filter(Boolean);
+    const yearRange = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
+    const catCount  = Object.keys(dataset.categories || {}).length;
+
+    const catCounts = {};
+    allClaims.forEach(c => { catCounts[c.category] = (catCounts[c.category] || 0) + 1; });
+
+    const catPills = Object.entries(catCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([cat, count]) => {
+        const icon     = CATEGORY_ICONS[cat] || '◈';
+        const catColor = `var(--cat-${cat}, var(--primary))`;
+        return `<span class="info-cat-pill">
+          <span class="info-cat-icon" style="color:${catColor}">${icon}</span>
+          <span>${categoryLabel(cat)}</span>
+          <span class="info-cat-count">(${count})</span>
+        </span>`;
+      }).join('');
+
+    infoBody.innerHTML = `
+      <p class="info-about">${t('info_about')}</p>
+
+      <div>
+        <div class="info-section-label">${t('info_stats')}</div>
+        <div class="info-stat-grid">
+          <div class="info-stat">
+            <span class="info-stat-value">${total}</span>
+            <span class="info-stat-label">${t('info_claims_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${catCount}</span>
+            <span class="info-stat-label">${t('info_cats_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${avgScore}</span>
+            <span class="info-stat-label">${t('info_avg_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${highCount}</span>
+            <span class="info-stat-label">${t('info_high_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${yearRange}</span>
+            <span class="info-stat-label">${t('info_period_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">100%</span>
+            <span class="info-stat-label">${t('info_sources_label')}</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="info-section-label">${t('info_cats_head')}</div>
+        <div class="info-cat-grid">${catPills}</div>
+      </div>
+
+      <div class="info-footer">
+        <span>CC-BY-4.0</span>
+        <a href="https://github.com/papamekz/addata" target="_blank" class="inline-link">github.com/papamekz/addata</a>
+      </div>
+    `;
   }
 
   // ── Detail modal ────────────────────────────────
@@ -313,7 +402,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openDetail(c) {
     modalBody._claim = c;
-    const isHigh = c.impact_score >= 8;
+    const sev = severityInfo(c.impact_score);
+    const catColor = `var(--cat-${c.category}, var(--primary))`;
 
     const isEn = currentLang === 'en';
     const zusammenfassung = isEn ? (c.zusammenfassung_en || c.zusammenfassung) : c.zusammenfassung;
@@ -335,21 +425,31 @@ document.addEventListener('DOMContentLoaded', () => {
       : '';
 
     modalBody.innerHTML = `
-      <div class="modal-badges">
-        <span class="badge ${isHigh ? 'badge-high' : ''}">${t('impact_label')} ${c.impact_score}/10</span>
-        <span class="badge">${categoryLabel(c.category)}</span>
-        <span class="badge">${c.source_type || ''}</span>
-        <span class="badge modal-id-badge">${c.id}</span>
+      <div class="modal-proto-header">
+        <span style="font-weight:600;color:${catColor}">⌗ ${c.id}</span>
+        <span class="modal-proto-sep">·</span>
+        <span class="modal-proto-cat" style="color:${catColor}">${categoryLabel(c.category)}</span>
+        <span class="modal-proto-sep">·</span>
+        <span>${c.year}</span>
       </div>
-      <h2 class="modal-title">${claimTitle(c)}</h2>
-      ${section('zusammenfassung', zusammenfassung)}
-      ${section('kernbefund', kernbefund)}
-      ${section('relevanz', relevanz)}
-      <div class="modal-section">
-        <div class="modal-section-label">${t('source_label')}</div>
-        <div class="modal-source-name">${c.institution || '—'}</div>
-        <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}</div>
-        ${sourceLink}
+      <div class="modal-proto-body">
+        <div class="modal-gegenstand-label">Gegenstand</div>
+        <h2 class="modal-title">${claimTitle(c)}</h2>
+        ${section('zusammenfassung', zusammenfassung)}
+        ${section('kernbefund', kernbefund)}
+        ${section('relevanz', relevanz)}
+      </div>
+      <div class="modal-proto-footer">
+        <div class="modal-source-block">
+          <div class="modal-source-name">${c.institution || '—'}</div>
+          <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}</div>
+          ${sourceLink}
+        </div>
+        <div class="modal-proto-severity ${sev.cls}">
+          <span class="modal-sev-icon">${sev.icon}</span>
+          <span class="modal-sev-bar">${sev.bar}</span>
+          <span class="modal-sev-label">${sev.label}</span>
+        </div>
       </div>
       ${tags}
     `;
@@ -406,5 +506,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalOverlay.classList.contains('open'))       { closeModal();   return; }
     if (dbOverlay.classList.contains('open'))          { closeDb();      return; }
     if (datenschutzOverlay.classList.contains('open')) { closePrivacy(); return; }
+    if (infoOverlay.classList.contains('open'))          { closeInfo();    return; }
   });
 });

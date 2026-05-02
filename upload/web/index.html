@@ -45,6 +45,9 @@
       <div class="topbar-logo-sub">Forschungsdatenbank</div>
     </div>
     <nav class="topbar-nav">
+      <button class="db-tab info-tab" id="info-tab-btn">
+        <span data-i18n="info_button"></span>
+      </button>
       <div class="lang-switcher" id="lang-switcher">
         <button class="lang-btn" data-lang="de">DE</button>
         <button class="lang-btn" data-lang="en">EN</button>
@@ -65,6 +68,19 @@
       <div class="progress-bar" id="progress-bar"></div>
     </div>
   </main>
+
+  <!-- ── Info overlay ── -->
+  <div class="db-overlay" id="info-overlay">
+    <div class="db-panel">
+      <div class="db-panel-header">
+        <div class="db-panel-title" data-i18n="info_title"></div>
+        <div class="db-panel-controls">
+          <button class="db-close" id="info-close-btn">✕</button>
+        </div>
+      </div>
+      <div class="info-body" id="info-body"></div>
+    </div>
+  </div>
 
   <!-- ── Database overlay ── -->
   <div class="db-overlay" id="db-overlay">

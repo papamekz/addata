@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "description": "Structured dataset documenting evidence-based harms of outdoor advertising. All sources are independent academic, governmental, or NGO — no advertising industry sources.",
   "license": "CC-BY-4.0",
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 152,
+  "total_claims": 161,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -20,7 +20,7 @@
     "environment": {
       "label": "Environmental Impact & Emissions",
       "description": "Energy consumption, CO2 emissions, light pollution (skyglow), and ecological disruption.",
-      "count": 16,
+      "count": 17,
       "path": "data/environment/"
     },
     "urban": {
@@ -38,7 +38,7 @@
     "health": {
       "label": "Public Health",
       "description": "Harmful product promotion (junk food, gambling), obesity rates, and societal health externalities.",
-      "count": 17,
+      "count": 18,
       "path": "data/health/"
     },
     "culture": {
@@ -56,19 +56,19 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 35,
+      "count": 40,
       "path": "data/regulation/"
     },
     "resources": {
       "label": "Resource Consumption",
       "description": "Grid impact, kW/h measurement, hardware lifecycle, and externalities of DOOH operation.",
-      "count": 11,
+      "count": 12,
       "path": "data/resources/"
     },
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 17,
+      "count": 18,
       "path": "data/politics/"
     },
     "safety": {
@@ -1728,6 +1728,105 @@
       "institution": "Corporate Europe Observatory / Badvertising / CNMC / ASA / EU Commission",
       "open_access": true,
       "file": "data/politics/pol-017.md"
+    },
+    {
+      "id": "pol-018",
+      "title": "Ströer finanzierte AfD-Plakatkampagnen durch anonyme Spender für ~3 Millionen Euro — CORRECTIV-Recherche (2022)",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2022,
+      "source_type": "investigative_journalism",
+      "institution": "CORRECTIV",
+      "open_access": true,
+      "file": "data/politics/pol-018.md"
+    },
+    {
+      "id": "health-018",
+      "title": "EMA-Studie 2025: Kinder berichten stärkeres Verlangen nach ungesundem Essen nach Sicht von OOH-Lebensmittelwerbung — direkter kausaler Zusammenhang belegt",
+      "category": "health",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "peer-reviewed",
+      "institution": "ScienceDirect / Appetite Journal",
+      "open_access": false,
+      "file": "data/health/health-018.md"
+    },
+    {
+      "id": "res-013",
+      "title": "Hamburger Studie: Digitales City-Light-Poster verbraucht bis zu 9.000 kWh/Jahr — das 6-Fache eines deutschen Einpersonenhaushalts",
+      "category": "resources",
+      "impact_score": 8,
+      "year": 2022,
+      "source_type": "investigative_journalism",
+      "institution": "fink.hamburg / Hamburger Stadtdaten",
+      "open_access": true,
+      "file": "data/resources/res-013.md"
+    },
+    {
+      "id": "env-017",
+      "title": "WHO/UNITAR 2024: Globaler Elektroschrott erreicht 62 Millionen Tonnen — nur 22,3% recycelt, unkontrollierte Entsorgung setzt bis zu 1.000 Schadstoffe frei",
+      "category": "environment",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "un_report",
+      "institution": "UNITAR / WHO",
+      "open_access": true,
+      "file": "data/environment/env-017.md"
+    },
+    {
+      "id": "reg-036",
+      "title": "Greenwashing: Begrünte Bushaltestellen mit doppelseitigem Digitalscreen emittieren 168- bis 255-mal mehr CO₂ als ihr Gründach kompensiert — Betreiber verschweigen die Gesamtbilanz",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2022,
+      "source_type": "peer-reviewed",
+      "institution": "ScienceDirect / Adfree Cities",
+      "open_access": true,
+      "file": "data/regulation/reg-036.md"
+    },
+    {
+      "id": "reg-037",
+      "title": "BGH 2024: Werbung mit \"klimaneutral\" per CO₂-Kompensation ist irreführend — OOH-Betreiber nutzen dieses Modell; Carbon Offsets zu über 90% wirkungslos (Guardian/Zeit 2023); JCDecaux zog Claim 2023 zurück",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "court_ruling",
+      "institution": "Bundesgerichtshof / Wettbewerbszentrale",
+      "open_access": true,
+      "file": "data/regulation/reg-037.md"
+    },
+    {
+      "id": "reg-038",
+      "title": "\"OOH hat geringsten CO₂-Fußabdruck aller Werbemedien\": KPMG-Studie von JCDecaux/Clear Channel-Branchenverband in Auftrag gegeben — per-Impression-Metrik blendet absoluten Energieverbrauch aus",
+      "category": "regulation",
+      "impact_score": 7,
+      "year": 2024,
+      "source_type": "industry_report",
+      "institution": "KPMG / Outsmart (UK OOH Trade Body)",
+      "open_access": true,
+      "file": "data/regulation/reg-038.md"
+    },
+    {
+      "id": "reg-039",
+      "title": "\"Kostenlose Stadtmöblierung\": JCDecaux-Konzessionsvertrag in Los Angeles lieferte nach 20 Jahren nur 52% der zugesagten Einnahmen und halb so viele Bushaltestellen — Chicago verlangte $100.000 Verlagerungsgebühr pro Einheit",
+      "category": "regulation",
+      "impact_score": 8,
+      "year": 2021,
+      "source_type": "investigative_journalism",
+      "institution": "PBS SoCal / LAist",
+      "open_access": true,
+      "file": "data/regulation/reg-039.md"
+    },
+    {
+      "id": "reg-040",
+      "title": "\"~80% Ökostrom\" für DOOH-Netz: Herkunftsnachweise garantieren laut Umweltbundesamt keine physische Verbindung zu erneuerbarer Erzeugung und leisten 'keinen Beitrag zur Energiewende'",
+      "category": "regulation",
+      "impact_score": 7,
+      "year": 2023,
+      "source_type": "government",
+      "institution": "Umweltbundesamt",
+      "open_access": true,
+      "file": "data/regulation/reg-040.md"
     }
   ]
 }

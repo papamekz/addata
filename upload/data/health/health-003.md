@@ -1,6 +1,6 @@
 ---
 id: health-003
-title: "10 % mehr Lebensmittelwerbung im Stadtviertel → 1,05-fach höheres Übergewichtsrisiko"
+title: "10 % mehr Lebensmittelwerbung im Stadtviertel korreliert mit 1,05-fach höherem Übergewichtsrisiko (Querschnittsstudie)"
 category: health
 subcategory: obesity
 impact_score: 9
@@ -40,4 +40,4 @@ Ein höherer Anteil von Lebensmittelwerbung in Stadtvierteln ist mit erhöhter �
 
 ## Relevanz für Außenwerbung
 
-Diese Studie quantifiziert direkt den Gesundheitsschaden von Außenwerbung für Lebensmittel auf Bevölkerungsebene. Sie zeigt, dass die Platzierung von Werbung im öffentlichen Raum messbare Public-Health-Folgen hat.
+Diese Querschnittsstudie quantifiziert die Assoziation zwischen der Dichte von Lebensmittelwerbung im öffentlichen Raum und Übergewichtsraten auf Bevölkerungsebene. Als Querschnittsdesign kann sie Kausalität nicht abschließend belegen — Confounding (z.B. Armut als gemeinsamer Faktor) kann nicht ausgeschlossen werden. Stärkere kausale Belege: health-009 (London-Quasi-Experiment) und health-016 (Litauen-Naturexperiment mit 84.189 Probanden).

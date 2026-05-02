@@ -96,11 +96,29 @@ function log(file, detail) {
 
 // ── 2. Patch individual files ─────────────────────────────────────────────────
 
-// CLAUDE.md — total count
+// CLAUDE.md (DE) — two patterns: sentence count + category line block
 patch('CLAUDE.md', [
   [
-    /This repository contains \d+ peer-reviewed/,
-    `This repository contains ${total} peer-reviewed`,
+    /Ein "Trojanisches Pferd": \d+ peer-reviewed/,
+    `Ein "Trojanisches Pferd": ${total} peer-reviewed`,
+  ],
+  [
+    /Master-Index aller \d+ Claims/,
+    `Master-Index aller ${total} Claims`,
+  ],
+  [
+    /alle \d+ Claims eingebettet/,
+    `alle ${total} Claims eingebettet`,
+  ],
+  [
+    // Replace the multi-line category block (· at end of each wrapped line):
+    // regulation(35) · health(17) · ... · resources(11) ·
+    // psychology(11) · urban(8) · ... · equity(5) ·
+    // culture(4) · alternatives(4)
+    /regulation\(\d+\)[^\n]+\npsychology[^\n]+\nculture[^\n]+/,
+    catLineCompact
+      .replace(' · psychology', ' ·\npsychology')
+      .replace(' · culture', ' ·\nculture'),
   ],
 ]);
 
