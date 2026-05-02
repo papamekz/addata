@@ -34,6 +34,7 @@ const rootFiles = [
   'AGENTS.md',
   'SKILL.md',
   'SOURCES_POLICY.md',
+  'QUICKREF.md',
   'CITATION.cff',
   'datapackage.json',
   'croissant.json',
@@ -97,11 +98,14 @@ for (const dir of dirs) {
   }
 }
 
-// Add scripts/build-data.js so target can rebuild data.js
-const scriptsSrc = path.join(ROOT, 'scripts', 'build-data.js');
-if (fs.existsSync(scriptsSrc)) {
-  copy(scriptsSrc, path.join(DEST, 'scripts', 'build-data.js'));
-  console.log('✓ scripts/build-data.js');
+// Add public scripts so target can rebuild data.js and search claims
+const publicScripts = ['build-data.js', 'sync-counts.js', 'query.js'];
+for (const s of publicScripts) {
+  const scriptsSrc = path.join(ROOT, 'scripts', s);
+  if (fs.existsSync(scriptsSrc)) {
+    copy(scriptsSrc, path.join(DEST, 'scripts', s));
+    console.log(`✓ scripts/${s}`);
+  }
 }
 
 console.log('\nDone. upload/ is ready.');
