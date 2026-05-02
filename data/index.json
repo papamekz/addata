@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 144,
+  "total_claims": 153,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -14,7 +14,7 @@
     "psychology": {
       "label": "Psychology & Cognitive Impact",
       "description": "Audience attention metrics, cognitive load, behavioral influence, and orienting response data.",
-      "count": 10,
+      "count": 11,
       "path": "data/psychology/"
     },
     "environment": {
@@ -32,7 +32,7 @@
     "economy": {
       "label": "Economy & Advertised Emissions",
       "description": "Overconsumption, Scope 3 emissions, status anxiety, and socioeconomic inequality.",
-      "count": 8,
+      "count": 10,
       "path": "data/economy/"
     },
     "health": {
@@ -50,37 +50,37 @@
     "equity": {
       "label": "Spatial Equity & Demographics",
       "description": "Disproportionate exposure of vulnerable communities and environmental justice.",
-      "count": 4,
+      "count": 5,
       "path": "data/equity/"
     },
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 34,
+      "count": 35,
       "path": "data/regulation/"
     },
     "resources": {
       "label": "Resource Consumption",
       "description": "Grid impact, kW/h measurement, hardware lifecycle, and externalities of DOOH operation.",
-      "count": 11,
+      "count": 12,
       "path": "data/resources/"
     },
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 16,
+      "count": 17,
       "path": "data/politics/"
     },
     "safety": {
       "label": "Traffic Safety",
       "description": "Driver distraction studies, accident risks due to DOOH, and lighting glare hazards.",
-      "count": 7,
+      "count": 8,
       "path": "data/safety/"
     },
     "privacy": {
       "label": "Privacy & Data Surveillance",
       "description": "Programmatic audience tracking, facial detection, and Wi-Fi sniffing in public spaces.",
-      "count": 5,
+      "count": 6,
       "path": "data/privacy/"
     },
     "alternatives": {
@@ -1640,6 +1640,105 @@
       "institution": "Deutscher Bundestag / BMEL / foodwatch Deutschland",
       "open_access": true,
       "file": "data/health/health-017.md"
+    },
+    {
+      "id": "safety-008",
+      "title": "EU-Kommission: Roadside-Werbung als signifikante Quelle für Fahrerablenkung identifiziert (2023)",
+      "category": "safety",
+      "impact_score": 9,
+      "year": 2023,
+      "source_type": "government",
+      "institution": "European Commission",
+      "open_access": true,
+      "file": "data/safety/safety-008.md"
+    },
+    {
+      "id": "res-012",
+      "title": "DarkSky International: Elektronische Werbetafeln sind bis zu zehnmal heller als traditionelle Billboards",
+      "category": "resources",
+      "impact_score": 8,
+      "year": 2023,
+      "source_type": "ngo",
+      "institution": "DarkSky International",
+      "open_access": true,
+      "file": "data/resources/res-012.md"
+    },
+    {
+      "id": "priv-006",
+      "title": "Big Brother Watch: DOOH-Screens nutzen heimlich biometrische Gesichtserkennung zur Zielgruppenanalyse",
+      "category": "privacy",
+      "impact_score": 10,
+      "year": 2024,
+      "source_type": "ngo",
+      "institution": "Big Brother Watch",
+      "open_access": true,
+      "file": "data/privacy/priv-006.md"
+    },
+    {
+      "id": "psych-011",
+      "title": "University of Warwick: Werbeausgaben korrelieren negativ mit der Lebenszufriedenheit in 27 europäischen Ländern",
+      "category": "psychology",
+      "impact_score": 8,
+      "year": 2022,
+      "source_type": "peer-reviewed",
+      "institution": "University of Warwick",
+      "open_access": true,
+      "file": "data/psychology/psych-011.md"
+    },
+    {
+      "id": "equity-005",
+      "title": "Adfree Cities Mapping: Überproportionale Konzentration von Außenwerbung in sozial benachteiligten Stadtvierteln (2023)",
+      "category": "equity",
+      "impact_score": 9,
+      "year": 2023,
+      "source_type": "ngo",
+      "institution": "Adfree Cities",
+      "open_access": true,
+      "file": "data/equity/equity-005.md"
+    },
+    {
+      "id": "eco-009",
+      "title": "Fossil-Fuel-, Lebensmittel- und Glücksspiel-Kategorien = ~45% des DOOH-Umsatzes — Werbeverbote bedrohen direkt Kerneinnahmen",
+      "category": "economy",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "ngo",
+      "institution": "Adfree Cities / New Weather Institute / Badvertising",
+      "open_access": true,
+      "file": "data/economy/eco-009.md"
+    },
+    {
+      "id": "reg-035",
+      "title": "Amsterdam bestätigt: Fossil-Fuel-OOH-Verbot gilt für bestehende JCDecaux- und Clear Channel-Konzessionsverträge — keine Bestandsschutzklausel",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "government",
+      "institution": "Gemeente Amsterdam (City of Amsterdam)",
+      "open_access": true,
+      "file": "data/regulation/reg-035.md"
+    },
+    {
+      "id": "eco-010",
+      "title": "DOOH-Hardware-Replacement-Zyklus (5–7 Jahre) trifft auf 10–15-jährige Konzessionsverträge: Stranded-CapEx-Risiko bei Regulierungswandel",
+      "category": "economy",
+      "impact_score": 8,
+      "year": 2024,
+      "source_type": "ngo",
+      "institution": "Badvertising / New Weather Institute",
+      "open_access": true,
+      "file": "data/economy/eco-010.md"
+    },
+    {
+      "id": "pol-017",
+      "title": "JCDecaux, Clear Channel und Ströer: Alle drei großen OOH-Konzerne stehen 2024–2025 gleichzeitig unter Kartell-, Greenwashing- und strafrechtlichen Ermittlungen",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "ngo",
+      "institution": "Corporate Europe Observatory / Badvertising / CNMC / ASA / EU Commission",
+      "open_access": true,
+      "file": "data/politics/pol-017.md"
     }
   ]
 }
