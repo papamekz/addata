@@ -313,7 +313,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openDetail(c) {
     modalBody._claim = c;
-    const isHigh = c.impact_score >= 8;
+    const sev = severityInfo(c.impact_score);
+    const catColor = `var(--cat-${c.category}, var(--primary))`;
 
     const isEn = currentLang === 'en';
     const zusammenfassung = isEn ? (c.zusammenfassung_en || c.zusammenfassung) : c.zusammenfassung;
@@ -335,21 +336,31 @@ document.addEventListener('DOMContentLoaded', () => {
       : '';
 
     modalBody.innerHTML = `
-      <div class="modal-badges">
-        <span class="badge ${isHigh ? 'badge-high' : ''}">${t('impact_label')} ${c.impact_score}/10</span>
-        <span class="badge">${categoryLabel(c.category)}</span>
-        <span class="badge">${c.source_type || ''}</span>
-        <span class="badge modal-id-badge">${c.id}</span>
+      <div class="modal-proto-header">
+        <span style="font-weight:600;color:${catColor}">⌗ ${c.id}</span>
+        <span class="modal-proto-sep">·</span>
+        <span class="modal-proto-cat" style="color:${catColor}">${categoryLabel(c.category)}</span>
+        <span class="modal-proto-sep">·</span>
+        <span>${c.year}</span>
       </div>
-      <h2 class="modal-title">${claimTitle(c)}</h2>
-      ${section('zusammenfassung', zusammenfassung)}
-      ${section('kernbefund', kernbefund)}
-      ${section('relevanz', relevanz)}
-      <div class="modal-section">
-        <div class="modal-section-label">${t('source_label')}</div>
-        <div class="modal-source-name">${c.institution || '—'}</div>
-        <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}</div>
-        ${sourceLink}
+      <div class="modal-proto-body">
+        <div class="modal-gegenstand-label">Gegenstand</div>
+        <h2 class="modal-title">${claimTitle(c)}</h2>
+        ${section('zusammenfassung', zusammenfassung)}
+        ${section('kernbefund', kernbefund)}
+        ${section('relevanz', relevanz)}
+      </div>
+      <div class="modal-proto-footer">
+        <div class="modal-source-block">
+          <div class="modal-source-name">${c.institution || '—'}</div>
+          <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}</div>
+          ${sourceLink}
+        </div>
+        <div class="modal-proto-severity ${sev.cls}">
+          <span class="modal-sev-icon">${sev.icon}</span>
+          <span class="modal-sev-bar">${sev.bar}</span>
+          <span class="modal-sev-label">${sev.label}</span>
+        </div>
       </div>
       ${tags}
     `;
