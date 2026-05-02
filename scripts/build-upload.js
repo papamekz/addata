@@ -1,0 +1,108 @@
+#!/usr/bin/env node
+/**
+ * Builds the portable upload/ folder.
+ * Copies all public-facing files, places upload/CLAUDE.md as the root CLAUDE.md.
+ * Run: node scripts/build-upload.js
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const DEST = path.join(ROOT, 'upload');
+
+function copy(src, dest) {
+  const destDir = path.dirname(dest);
+  fs.mkdirSync(destDir, { recursive: true });
+  fs.copyFileSync(src, dest);
+}
+
+function copyDir(srcDir, destDir) {
+  if (!fs.existsSync(srcDir)) return;
+  fs.mkdirSync(destDir, { recursive: true });
+  for (const entry of fs.readdirSync(srcDir, { withFileTypes: true })) {
+    const s = path.join(srcDir, entry.name);
+    const d = path.join(destDir, entry.name);
+    if (entry.isDirectory()) copyDir(s, d);
+    else copy(s, d);
+  }
+}
+
+// Files to include at root level
+const rootFiles = [
+  'README.md',
+  'AGENTS.md',
+  'SKILL.md',
+  'SOURCES_POLICY.md',
+  'CITATION.cff',
+  'datapackage.json',
+  'croissant.json',
+  'LICENSE',
+];
+
+// Directories to include
+const dirs = ['data', 'schema', 'web'];
+
+// Files/dirs to exclude from web/
+const webExclude = ['data.js']; // too large, regenerate on target
+
+console.log('Building upload/ folder...\n');
+
+// Clean destination (keep upload/CLAUDE.md as the new root CLAUDE.md)
+const savedClaude = fs.readFileSync(path.join(DEST, 'CLAUDE.md'), 'utf8');
+
+// Remove and recreate
+fs.rmSync(DEST, { recursive: true, force: true });
+fs.mkdirSync(DEST, { recursive: true });
+
+// Restore CLAUDE.md as root CLAUDE.md in upload/
+fs.writeFileSync(path.join(DEST, 'CLAUDE.md'), savedClaude);
+console.log('✓ CLAUDE.md (from upload/CLAUDE.md)');
+
+// Copy root files
+for (const f of rootFiles) {
+  const src = path.join(ROOT, f);
+  if (fs.existsSync(src)) {
+    copy(src, path.join(DEST, f));
+    console.log(`✓ ${f}`);
+  } else {
+    console.warn(`  skipped (not found): ${f}`);
+  }
+}
+
+// Copy directories
+for (const dir of dirs) {
+  const srcDir = path.join(ROOT, dir);
+  const destDir = path.join(DEST, dir);
+  if (!fs.existsSync(srcDir)) continue;
+
+  if (dir === 'web') {
+    // Copy web/ but skip excluded files
+    fs.mkdirSync(destDir, { recursive: true });
+    for (const entry of fs.readdirSync(srcDir, { withFileTypes: true })) {
+      if (webExclude.includes(entry.name)) {
+        console.log(`  skipped web/${entry.name} (too large — run build-data.js on target)`);
+        continue;
+      }
+      const s = path.join(srcDir, entry.name);
+      const d = path.join(destDir, entry.name);
+      if (entry.isDirectory()) copyDir(s, d);
+      else copy(s, d);
+    }
+    console.log(`✓ web/ (without data.js)`);
+  } else {
+    copyDir(srcDir, destDir);
+    const count = fs.readdirSync(srcDir).length;
+    console.log(`✓ ${dir}/ (${count} entries)`);
+  }
+}
+
+// Add scripts/build-data.js so target can rebuild data.js
+const scriptsSrc = path.join(ROOT, 'scripts', 'build-data.js');
+if (fs.existsSync(scriptsSrc)) {
+  copy(scriptsSrc, path.join(DEST, 'scripts', 'build-data.js'));
+  console.log('✓ scripts/build-data.js');
+}
+
+console.log('\nDone. upload/ is ready.');
+console.log('Note: run "node scripts/build-data.js" in upload/ to regenerate web/data.js on the target.');
