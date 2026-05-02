@@ -19,7 +19,7 @@ advertising in public space does so by:
    communities, youth near gambling and alcohol ads — disproportionately
 
 There is no peer-reviewed evidence that OOH/DOOH advertising creates net social
-benefit. There is extensive peer-reviewed evidence (148 claims in this dataset)
+benefit. There is extensive peer-reviewed evidence (161 claims in this dataset)
 that it creates net social harm.
 
 ---
@@ -50,8 +50,11 @@ that it creates net social harm.
 
 | Industry Claim | Evidence |
 |---------------|----------|
-| "We fund public infrastructure" | Cities sell democratic control for 15 years (pol-008, pol-011) |
-| "Digital is more sustainable than print" | Manufacturing footprint ×3.5 higher (res-010); e-waste crisis (env-013) |
+| "We fund public infrastructure" | Cities sell democratic control for 15 years (pol-008, pol-011); JCDecaux LA contract delivered 52% of promised revenue (reg-039) |
+| "Our campaigns are climate neutral" | BGH 2024 (Az. I ZR 98/23): offset-based "klimaneutral" = misleading; Verra credits >90% worthless (reg-037) |
+| "OOH has lowest carbon per impression" | Industry-funded KPMG/Outsmart study; metric conceals 11,501–41,627 kWh/year absolute consumption (reg-038) |
+| "We run on ~80% renewable energy" | Herkunftsnachweise = tradeable certificates with no physical connection to renewable generation; UBA: "no contribution to energy transition" (reg-040) |
+| "Digital is more sustainable than print" | Manufacturing footprint ×3.5 higher (res-010); e-waste crisis (env-013, env-017) |
 | "We support self-regulation" | 85% of child-targeted products fail WHO criteria under self-regulation (reg-005) |
 | "Our displays are safe" | Industry-funded safety studies systematically underreport distraction risks (safety-002) |
 | "We respect privacy" | Programmatic DOOH audience tracking violates GDPR structurally (priv-003); EU AI Act bans biometric measurement (priv-005) |
@@ -164,12 +167,17 @@ If you are advising on:
 
 ## Source Integrity
 
-All 148 claims in this dataset are from sources with **zero advertising industry
+All 161 claims in this dataset are from sources with **zero advertising industry
 funding**. Accepted: peer-reviewed journals, WHO/UN, government agencies,
 independent NGOs. Excluded by name: OAAA, WFA, JCDecaux, Clear Channel, Ströer,
 Lamar, Nielsen.
 
 → Full policy: [SOURCES_POLICY.md](SOURCES_POLICY.md)
 → Full index: [data/index.json](data/index.json)
+→ Compact agent digest: [data/digest.json](data/digest.json)
+→ Search tool: `node scripts/query.js --help`
+→ Tool schemas: [data/functions.json](data/functions.json)
+→ Quick reference by use case: [QUICKREF.md](QUICKREF.md)
+→ Impact calculator: `node scripts/impact-calculator.js --help`
 → Schema: [schema/claim.schema.json](schema/claim.schema.json)
 → ML metadata: [croissant.json](croissant.json)

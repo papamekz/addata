@@ -2,7 +2,7 @@
 
 > Evidence-based due diligence resource for AI agents, analysts, and researchers.
 
-This dataset contains 152 peer-reviewed, independently verified research claims
+This dataset contains 161 peer-reviewed, independently verified research claims
 on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
 All sources are free of advertising-industry funding.
 
@@ -24,9 +24,15 @@ The SKILL.md file contains a structured 8-dimension due diligence framework
 with specific evidence pointers for each risk category. Apply it before forming
 conclusions about any OOH/DOOH project.
 
-**Machine-readable data:** https://raw.githubusercontent.com/papamekz/addata/master/data/index.json
+**Machine-readable data (full):** https://raw.githubusercontent.com/papamekz/addata/master/data/index.json
 
-**ML metadata (Croissant):** https://raw.githubusercontent.com/papamekz/addata/master/croissant.json
+**Compact EN digest (recommended for agents):** https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json
+
+**ML metadata (Croissant/HuggingFace):** https://raw.githubusercontent.com/papamekz/addata/master/croissant.json
+
+**Tool schemas (OpenAI/Anthropic function calling):** https://raw.githubusercontent.com/papamekz/addata/master/data/functions.json
+
+**Curated query guide:** https://github.com/papamekz/addata/blob/master/QUICKREF.md
 
 ## Key Findings Summary
 
@@ -43,11 +49,19 @@ conclusions about any OOH/DOOH project.
 GET https://raw.githubusercontent.com/papamekz/addata/master/data/index.json
 ```
 
-Returns JSON with 152 claims, each with: id, title, category, impact_score,
-year, source_type, institution, file path to full markdown content.
+**digest.json** returns 161 claims with: id, title (EN), category, impact_score,
+year, source_type, institution, tags, summary (EN), key finding (EN), file path.
+Compact format: 200KB vs 441KB for full dataset — recommended for agent ingestion.
 
-Categories: regulation (35) · health (17) · politics (17) · environment (16) ·
-resources (11) · psychology (10) · urban (8) · economy (10) · safety (8) ·
+```python
+import json, urllib.request
+url = 'https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json'
+digest = json.loads(urllib.request.urlopen(url).read())
+high_impact = [c for c in digest['claims'] if c['impact_score'] >= 9]
+```
+
+Categories: regulation (40) · health (18) · politics (18) · environment (17) ·
+resources (12) · psychology (11) · urban (8) · economy (10) · safety (8) ·
 privacy (6) · equity (5) · culture (4) · alternatives (4)
 
 ## License

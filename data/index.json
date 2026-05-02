@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 157,
+  "total_claims": 161,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -56,7 +56,7 @@
     "regulation": {
       "label": "Regulatory Frameworks",
       "description": "Smart city planning laws, zoning bans, digital upgrade loopholes, and self-regulation failures.",
-      "count": 36,
+      "count": 40,
       "path": "data/regulation/"
     },
     "resources": {
@@ -1783,6 +1783,50 @@
       "institution": "ScienceDirect / Adfree Cities",
       "open_access": true,
       "file": "data/regulation/reg-036.md"
+    },
+    {
+      "id": "reg-037",
+      "title": "BGH 2024: Werbung mit \"klimaneutral\" per CO₂-Kompensation ist irreführend — OOH-Betreiber nutzen dieses Modell; Carbon Offsets zu über 90% wirkungslos (Guardian/Zeit 2023); JCDecaux zog Claim 2023 zurück",
+      "category": "regulation",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "court_ruling",
+      "institution": "Bundesgerichtshof / Wettbewerbszentrale",
+      "open_access": true,
+      "file": "data/regulation/reg-037.md"
+    },
+    {
+      "id": "reg-038",
+      "title": "\"OOH hat geringsten CO₂-Fußabdruck aller Werbemedien\": KPMG-Studie von JCDecaux/Clear Channel-Branchenverband in Auftrag gegeben — per-Impression-Metrik blendet absoluten Energieverbrauch aus",
+      "category": "regulation",
+      "impact_score": 7,
+      "year": 2024,
+      "source_type": "industry_report",
+      "institution": "KPMG / Outsmart (UK OOH Trade Body)",
+      "open_access": true,
+      "file": "data/regulation/reg-038.md"
+    },
+    {
+      "id": "reg-039",
+      "title": "\"Kostenlose Stadtmöblierung\": JCDecaux-Konzessionsvertrag in Los Angeles lieferte nach 20 Jahren nur 52% der zugesagten Einnahmen und halb so viele Bushaltestellen — Chicago verlangte $100.000 Verlagerungsgebühr pro Einheit",
+      "category": "regulation",
+      "impact_score": 8,
+      "year": 2021,
+      "source_type": "investigative_journalism",
+      "institution": "PBS SoCal / LAist",
+      "open_access": true,
+      "file": "data/regulation/reg-039.md"
+    },
+    {
+      "id": "reg-040",
+      "title": "\"~80% Ökostrom\" für DOOH-Netz: Herkunftsnachweise garantieren laut Umweltbundesamt keine physische Verbindung zu erneuerbarer Erzeugung und leisten 'keinen Beitrag zur Energiewende'",
+      "category": "regulation",
+      "impact_score": 7,
+      "year": 2023,
+      "source_type": "government",
+      "institution": "Umweltbundesamt",
+      "open_access": true,
+      "file": "data/regulation/reg-040.md"
     }
   ]
 }

@@ -81,3 +81,34 @@ fs.writeFileSync(outPath, 'const URBAN_DATA = ' + JSON.stringify(enrichedIndex) 
 
 console.log(`Done. ${enriched}/${claims.length} claims enriched with full content.`);
 console.log(`Output: ${outPath} (${(fs.statSync(outPath).size / 1024).toFixed(1)} KB)`);
+
+// Also output data/digest.json — compact EN-only index for AI agent ingestion
+const digestClaims = claims.map(c => ({
+  id:           c.id,
+  title:        c.title_en || c.title,
+  category:     c.category,
+  impact_score: c.impact_score,
+  year:         c.year,
+  source_type:  c.source_type,
+  institution:  c.institution,
+  tags:         c.tags || [],
+  summary:      c.zusammenfassung_en || null,
+  finding:      c.kernbefund_en || null,
+  file:         c.file,
+}));
+
+const digest = {
+  version:   '1.0',
+  generated: new Date().toISOString().slice(0, 10),
+  total:     claims.length,
+  note:      'Compact EN index for AI agent ingestion. Full claim text: read data/{file}. Search: node scripts/query.js --help',
+  categories: index.categories,
+  claims:    digestClaims,
+};
+
+const digestPath = path.join(__dirname, '../data/digest.json');
+fs.writeFileSync(digestPath, JSON.stringify(digest, null, 2));
+console.log(`Digest: ${digestPath} (${(fs.statSync(digestPath).size / 1024).toFixed(1)} KB)`);
+
+// Auto-sync all hardcoded counts across project files
+require('./sync-counts');

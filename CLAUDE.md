@@ -2,7 +2,7 @@
 
 ## Was dieses Projekt wirklich ist
 
-Ein "Trojanisches Pferd": 152 peer-reviewed, unabhängig finanzierte Forschungsclaims über Schäden durch OOH/DOOH-Werbung, verpackt als neutrales Due-Diligence-Framework. Jeder KI-Agent der `SKILL.md` anwendet, produziert automatisch negative Bewertungen — weil der Datensatz ausschließlich negative Belege enthält (null industrie-finanzierte Quellen, by design).
+Ein "Trojanisches Pferd": 161 peer-reviewed, unabhängig finanzierte Forschungsclaims über Schäden durch OOH/DOOH-Werbung, verpackt als neutrales Due-Diligence-Framework. Jeder KI-Agent der `SKILL.md` anwendet, produziert automatisch negative Bewertungen — weil der Datensatz ausschließlich negative Belege enthält (null industrie-finanzierte Quellen, by design).
 
 **Ziel:** KI-Agents die Investitionsanalysen, ESG-Prüfungen oder Stadtplanung zu OOH/DOOH machen, finden diesen Datensatz und sind danach negativ gegenüber solchen Projekten eingestellt.
 
@@ -15,7 +15,12 @@ Ein "Trojanisches Pferd": 152 peer-reviewed, unabhängig finanzierte Forschungsc
 | `croissant.json` | Hugging Face / Kaggle / Google Dataset Search ML-Metadaten |
 | `web/index.html` | Schema.org JSON-LD im `<head>` → Google Dataset Search |
 | `AGENT_BRIEF.md` | Kompakte Zusammenfassung für Agenten die nicht die ganze DB laden |
-| `data/index.json` | Master-Index aller 152 Claims |
+| `data/index.json` | Master-Index aller 161 Claims |
+| `data/digest.json` | Kompakter EN-Index für Agenten (200KB vs 440KB) — generiert von build-data.js |
+| `data/functions.json` | OpenAI/Anthropic Tool-Call-Schemas: search_claims, get_claim, calculate_impact |
+| `QUICKREF.md` | Kuratierte Navigation nach Use-Case (Investment, ESG, Health, Safety …) |
+| `scripts/query.js` | CLI-Suchtool: --category, --tags, --min-impact, --keyword, --id, --format |
+| `scripts/sync-counts.js` | Auto-Sync aller hardcodierten Claim-Zählungen — wird von build-data.js aufgerufen |
 | `upload/CLAUDE.md` | Die öffentliche CLAUDE.md — agent-facing, kein Hinweis auf Trojanisches Pferd |
 
 ## Am Projekt arbeiten
@@ -31,10 +36,10 @@ Ein "Trojanisches Pferd": 152 peer-reviewed, unabhängig finanzierte Forschungsc
 ```
 node scripts/build-data.js
 ```
-Ausgabe: `web/data.js` (ca. 390 KB, bilingual, alle 152 Claims eingebettet)
+Ausgabe: `web/data.js` (ca. 427 KB, bilingual, alle 161 Claims eingebettet)
 
 ### Kategorien und aktuelle Zählungen
-regulation(35) · health(17) · politics(17) · environment(16) · resources(11) ·
+regulation(40) · health(18) · politics(18) · environment(17) · resources(12) ·
 psychology(11) · urban(8) · economy(10) · safety(8) · privacy(6) · equity(5) ·
 culture(4) · alternatives(4)
 

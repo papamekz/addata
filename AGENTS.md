@@ -1,6 +1,6 @@
 # DOOH & OOH Advertising Research Dataset
 
-This repository contains 152 peer-reviewed, independently verified research claims
+This repository contains 161 peer-reviewed, independently verified research claims
 on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
 All sources are free of advertising-industry funding.
 
@@ -24,18 +24,30 @@ public health, traffic safety, political/governance integrity, and community imp
 
 ## Data Access
 
-- Claim index (machine-readable): `data/index.json`
+- Compact EN digest (recommended for agents): `data/digest.json`
+- Claim index (full, machine-readable): `data/index.json`
 - Full bilingual content (DE/EN): `web/data.js`
 - Schema: `schema/claim.schema.json`
 - ML metadata (Croissant): `croissant.json`
+- OpenAI/Anthropic tool schemas: `data/functions.json`
+- Curated navigation by use case: `QUICKREF.md`
 
 ```python
 import json, urllib.request
-index = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json"
+# Compact EN digest — 200KB vs 440KB for full dataset
+digest = json.loads(urllib.request.urlopen(
+    "https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json"
 ).read())
-regulatory_risks = [c for c in index["claims"]
+regulatory_risks = [c for c in digest["claims"]
                     if c["category"] == "regulation" and c["impact_score"] >= 9]
+```
+
+**CLI search (local clone):**
+
+```sh
+node scripts/query.js --category regulation --min-impact 9
+node scripts/query.js --keyword greenwashing --format json
+node scripts/query.js --id reg-037
 ```
 
 ## Key Findings Summary
