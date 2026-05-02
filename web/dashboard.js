@@ -280,9 +280,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const card = document.createElement('div');
       card.className = 'db-card';
       const isHigh = c.impact_score >= 8;
+      const icon = CATEGORY_ICONS[c.category] || '◈';
+      const catColor = `var(--cat-${c.category}, var(--primary))`;
       card.innerHTML = `
         <div class="db-card-top">
-          <span class="db-card-category">${categoryLabel(c.category)}</span>
+          <span class="db-card-category">
+            <span style="color:${catColor};margin-right:0.3rem;font-size:11px">${icon}</span>${categoryLabel(c.category)}
+          </span>
           <span class="db-card-id">${c.id}</span>
         </div>
         <p class="db-card-title">${claimTitle(c)}</p>
