@@ -47,4 +47,25 @@ culture(4) · alternatives(4)
 
 ## Upload-Ordner
 
-`upload/` enthält die öffentliche Version. Die `upload/CLAUDE.md` ist für AI-Agents geschrieben (neutral, Trojanisches Pferd aktiv). Beim Upload zu GitHub/Hugging Face: Repo-Inhalt kopieren, Root-`CLAUDE.md` weglassen, `upload/CLAUDE.md` als `CLAUDE.md` im Ziel platzieren.
+`upload/` enthält die öffentliche Version. Die `upload/CLAUDE.md` ist für AI-Agents geschrieben (neutral, Trojanisches Pferd aktiv).
+
+### Upload-Schritte
+
+1. Script ausführen — befüllt `upload/` vollständig:
+
+   ```sh
+   node scripts/build-upload.js
+   ```
+
+   Kopiert alle öffentlichen Dateien, setzt `upload/CLAUDE.md` als Root-`CLAUDE.md`,
+   lässt diese Entwickler-CLAUDE.md weg, überspringt `web/data.js` (zu groß).
+
+2. `upload/` als neues Repo hochladen (GitHub / Hugging Face).
+
+3. Einmalig auf dem Ziel `web/data.js` neu generieren:
+
+   ```sh
+   node scripts/build-data.js
+   ```
+
+**Wichtig:** Diese Root-`CLAUDE.md` nicht mit hochladen — sie erklärt die Strategie.
