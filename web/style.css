@@ -940,6 +940,114 @@ body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--hairline-strong); border-radius: 9999px; }
 
+/* ─── Info panel ───────────────────────────────── */
+.info-tab {
+  opacity: 0.7;
+}
+.info-tab:hover { opacity: 1; }
+
+.info-body {
+  overflow-y: auto;
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.info-about {
+  font-size: 14px;
+  color: var(--ink-muted);
+  line-height: 1.7;
+}
+
+.info-section-label {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--ink-subtle);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.info-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--hairline);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.info-stat {
+  background: var(--surface-2);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.info-stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--ink);
+  letter-spacing: -0.5px;
+}
+
+.info-stat-label {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: var(--ink-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.info-cat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.info-cat-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 4px 10px;
+  border-radius: 3px;
+  background: var(--surface-2);
+  border: 1px solid var(--hairline);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.info-cat-pill:hover { background: var(--surface-3); color: var(--ink); }
+
+.info-cat-icon { font-size: 11px; }
+
+.info-cat-count {
+  font-size: 10px;
+  color: var(--ink-tertiary);
+  margin-left: 0.2rem;
+}
+
+.info-footer {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--ink-tertiary);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--hairline);
+}
+
 /* ─── Responsive ────────────────────────────────── */
 @media (max-width: 768px) {
   .stage-title { font-size: clamp(18px, 5.5vw, 28px); }
