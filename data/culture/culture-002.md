@@ -14,7 +14,7 @@ source:
   institution: "GRIN Academic Repository"
   year: 2007
   url: "https://www.grin.com/document/75671"
-  type: peer-reviewed
+  type: grey-literature
   open_access: true
   independent: true
 verified: true

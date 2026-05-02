@@ -1,6 +1,6 @@
 ---
 id: psych-001
-title: "Medienexposition verursacht Essstörungen bei Kindern und Jugendlichen"
+title: "Medienexposition korreliert mit Essstörungen bei Kindern und Jugendlichen (Literatur-Review)"
 category: psychology
 subcategory: eating-disorders
 impact_score: 8
@@ -33,7 +33,7 @@ languages:
 
 ## Zusammenfassung
 
-Medieninhalte — insbesondere Werbung — fördern unrealistische Körperideale bei Kindern und Jugendlichen. Die Studie dokumentiert den kausalen Zusammenhang zwischen Medienexposition und der Entwicklung von Essstörungen wie Anorexia nervosa und Bulimia nervosa.
+Literatur-Review: Medieninhalte — insbesondere Werbung — sind mit unrealistischen Körperidealen bei Kindern und Jugendlichen assoziiert. Die Studie dokumentiert den in der Forschungsliteratur beschriebenen Zusammenhang zwischen Medienexposition und Essstörungen wie Anorexia nervosa und Bulimia nervosa. Als Review-Paper liefert sie keine eigenständige Kausalanalyse, fasst aber den Forschungsstand zusammen.
 
 ## Kernbefund
 

@@ -1,0 +1,32 @@
+{
+  "safety-008": {
+    "title_en": "EU Commission: Roadside Advertising Identified as a Significant Source of Driver Distraction (2023)",
+    "zusammenfassung": "A thematic report by the European Commission on road safety classifies roadside advertising as a relevant external source of driver distraction.",
+    "kernbefund": "The report establishes that visual stimuli outside the vehicle, particularly (digital) billboards, can significantly distract drivers' attention from the driving task. The increasing complexity and dynamics of Digital Out-of-Home (DOOH) displays amplify this effect, as they are designed to actively capture the gaze. Studies show that drivers exhibit longer glances away from the road when near such installations, which measurably increases the risk of accidents. The EU Commission therefore recommends stricter regulation of the location and design of roadside advertising.",
+    "relevanz": "While the industry often claims its installations are safe, this official EU report confirms that the commercial exploitation of drivers' field of vision represents a systematic safety risk in road traffic."
+  },
+  "res-012": {
+    "title_en": "DarkSky International: Electronic Billboards are up to Ten Times Brighter than Traditional Billboards",
+    "zusammenfassung": "The organization DarkSky International documents that electronic billboards (LED) have massively higher light emissions than illuminated static posters, leading to significant light pollution.",
+    "kernbefund": "Digital billboards often emit light directly into the environment instead of illuminating a surface. Measurements show that at night they can be up to ten times brighter than traditional billboards illuminated from above. This extreme brightness contributes massively to 'skyglow,' disrupts the orientation of nocturnal animals (insects, birds), and affects the circadian rhythm of residents. DarkSky recommends strict limits for luminance (candelas per m²) and automatic shutdown systems during night hours.",
+    "relevanz": "The switch from paper to digital is often marketed as 'more efficient,' but ignores the massive ecological costs of light pollution, which do not exist to this extent with conventional posters."
+  },
+  "priv-006": {
+    "title_en": "Big Brother Watch: DOOH Screens Secretly Use Biometric Facial Detection for Audience Analysis",
+    "zusammenfassung": "The civil rights organization Big Brother Watch warns of the massive use of surveillance technology in digital advertising columns that capture biometric data from passers-by without their consent.",
+    "kernbefund": "Cameras integrated into modern DOOH installations use 'face detection' software to analyze the age, gender, ethnicity, and emotional response of passers-by in real-time. Although providers claim the data is anonymized, the collection of biometric characteristics takes place in public space without citizens being able to evade or object. Big Brother Watch classifies this as a structural violation of privacy and a step towards comprehensive biometric surveillance of society.",
+    "relevanz": "Public space is transformed into a commercial surveillance laboratory by this technology. Passers-by are degraded into data sources for the advertising industry without being asked."
+  },
+  "psych-011": {
+    "title_en": "University of Warwick: Advertising Expenditure Correlates Negatively with Life Satisfaction in 27 European Countries",
+    "zusammenfassung": "A large-scale study by the University of Warwick shows a significant correlation between high advertising expenditure and declining life satisfaction in the population.",
+    "kernbefund": "An analysis of data from 27 European countries over several decades proves that an increase in advertising investment correlates with a subsequent decline in average well-being. Researchers attribute this to the creation of artificial needs and the constant social comparison (status anxiety) fueled by advertising. Outdoor advertising plays a special role here, as it is unavoidable in public space and thus exerts permanent psychological pressure on all social strata.",
+    "relevanz": "The ubiquitous visual presence of unattainable lifestyles in the city acts as a systematic disruptive factor for the mental health of urban society."
+  },
+  "equity-005": {
+    "title_en": "Adfree Cities Mapping: Disproportionate Concentration of Outdoor Advertising in Socially Disadvantaged Neighborhoods (2023)",
+    "zusammenfassung": "A mapping study by Adfree Cities proves that billboards are systematically placed more frequently in poorer urban neighborhoods, while wealthier areas remain largely ad-free.",
+    "kernbefund": "Spatial analysis shows a strong correlation between the deprivation index of a neighborhood and the density of outdoor advertising installations. Residents in socially disadvantaged areas are exposed to a significantly higher 'visual load' from advertising, especially for harmful products such as fast food, gambling, and alcohol. This reinforces existing health and social inequalities, as the affected population groups can hardly avoid the commercial pressure in their immediate living environment.",
+    "relevanz": "The distribution of advertising space is a matter of social justice. Poorer neighborhoods are instrumentalized as 'advertising zones,' while protection from commercial harassment is considered the standard in rich neighborhoods."
+  }
+}

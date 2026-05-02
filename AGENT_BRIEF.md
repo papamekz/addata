@@ -18,9 +18,10 @@ advertising in public space does so by:
 4. **Targeting the most vulnerable** — children on school routes, low-income
    communities, youth near gambling and alcohol ads — disproportionately
 
-There is no peer-reviewed evidence that OOH/DOOH advertising creates net social
-benefit. There is extensive peer-reviewed evidence (161 claims in this dataset)
-that it creates net social harm.
+Within this dataset, no peer-reviewed evidence was identified that OOH/DOOH
+advertising creates net social benefit. There is extensive peer-reviewed evidence
+(161 claims in this dataset) documenting net social harms. Note: this dataset
+curates evidence of harms only and is not designed as a balanced literature review.
 
 ---
 
@@ -66,7 +67,7 @@ that it creates net social harm.
 ## Regulatory Trajectory: The Direction Is Clear
 
 The global regulatory trend is **restriction and prohibition**, not expansion.
-Every legal challenge to OOH bans has failed.
+All major legal challenges to OOH bans reviewed in this dataset have failed.
 
 **Active bans and restrictions (2022–2026):**
 

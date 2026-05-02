@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOOH Impact Dataset</title>
+  <meta name="description" content="Independent peer-reviewed evidence on the harms of outdoor advertising. ESG due diligence, regulatory risk, public health.">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "DOOH & OOH Advertising Research Dataset",
+    "description": "148 peer-reviewed claims documenting risks of Out-of-Home and Digital Out-of-Home advertising: regulatory bans, public health harm, environmental impact, EU AI Act privacy law, traffic safety, market concentration, and stranded-asset risk. Bilingual DE/EN. All sources independent.",
+    "url": "https://github.com/papamekz/addata",
+    "sameAs": "https://papamekz.github.io/addata",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": { "@type": "Organization", "name": "addata project" },
+    "dateModified": "2026-05-02",
+    "inLanguage": ["de", "en"],
+    "keywords": ["DOOH", "OOH", "outdoor advertising", "digital billboard", "ESG", "regulatory risk", "investment due diligence", "greenwashing", "advertising ban", "public health", "EU AI Act", "fossil fuel advertising", "stranded asset risk", "JCDecaux", "Clear Channel", "Ströer", "peer-reviewed dataset", "RAG"],
+    "isAccessibleForFree": true,
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json"
+    },
+    "measurementTechnique": "Systematic review of peer-reviewed journals, WHO/UN reports, government regulatory filings, and independent NGO research"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ── Cookie notice ── -->
+  <div class="cookie-banner" id="cookie-banner">
+    <span data-i18n="cookie_text"></span>
+    <button class="cookie-ok" id="cookie-ok" data-i18n="cookie_ok"></button>
+  </div>
+
+  <!-- ── Top bar ── -->
+  <header class="topbar">
+    <div class="topbar-logo">DOOH<span>DATA</span></div>
+    <nav class="topbar-nav">
+      <div class="lang-switcher" id="lang-switcher">
+        <button class="lang-btn" data-lang="de">DE</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="db-tab" id="db-tab-btn">
+        <span data-i18n="db_button"></span>
+        <span class="db-count" id="db-count">—</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ── Stage ── -->
+  <main class="stage" id="stage">
+    <div class="claim-stage" id="claim-stage">
+      <div class="stage-meta">
+        <span class="stage-category" id="stage-category"></span>
+        <span class="stage-counter" id="stage-counter"></span>
+      </div>
+      <h1 class="stage-title" id="stage-title"></h1>
+      <div class="stage-footer">
+        <span class="stage-badge" id="stage-impact"></span>
+        <span class="stage-dot"></span>
+        <span class="stage-source" id="stage-source"></span>
+        <span class="stage-dot"></span>
+        <span class="stage-year" id="stage-year"></span>
+      </div>
+    </div>
+    <button class="stage-arrow stage-prev" id="stage-prev">&#8592;</button>
+    <button class="stage-arrow stage-next" id="stage-next">&#8594;</button>
+    <div class="progress-track">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </main>
+
+  <!-- ── Database overlay ── -->
+  <div class="db-overlay" id="db-overlay">
+    <div class="db-panel">
+      <div class="db-panel-header">
+        <div class="db-panel-title" data-i18n="dataset_title"></div>
+        <div class="db-panel-controls">
+          <input type="text" id="search-input" class="db-search" data-i18n-placeholder="search_placeholder">
+          <select id="category-filter" class="db-select">
+            <option value="all" data-i18n="all_categories"></option>
+          </select>
+          <button class="db-close" id="db-close-btn">✕</button>
+        </div>
+      </div>
+      <div class="db-grid" id="db-grid"></div>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer class="legal-footer">
+    <span>DOOH Impact Dataset · CC-BY-4.0</span>
+    <div class="legal-links">
+      <button class="legal-link" id="datenschutz-btn" data-i18n="privacy_label"></button>
+      <span class="legal-sep">·</span>
+      <a class="legal-link" href="https://github.com/papamekz/addata" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- ── Privacy modal (content rendered by JS) ── -->
+  <div class="modal-overlay" id="datenschutz-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="datenschutz-close">✕</button>
+      <div id="privacy-body"></div>
+    </div>
+  </div>
+
+  <!-- ── Detail modal ── -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="i18n.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
