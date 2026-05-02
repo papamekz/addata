@@ -166,15 +166,39 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function fillStage(c, i) {
-    stageCategory.textContent = categoryLabel(c.category);
-    stageCounter.textContent  = `${i + 1} / ${claims.length}`;
-    stageTitle.textContent    = claimTitle(c);
+    const icon = CATEGORY_ICONS[c.category] || '◈';
+    const sev  = severityInfo(c.impact_score);
+    const catColor = `var(--cat-${c.category}, var(--primary))`;
 
-    const isHigh = c.impact_score >= 8;
-    stageImpact.textContent = `${t('impact_label')} ${c.impact_score}/10`;
-    stageImpact.className   = `stage-badge${isHigh ? '' : ' badge-normal'}`;
-    stageSource.textContent = (c.source_type || '').toUpperCase();
-    stageYear.textContent   = c.year;
+    const animClass = claimStage.classList.contains('fade-in') ? ' fade-in' : '';
+    claimStage.className = `claim-stage ${sev.cls}${animClass}`;
+
+    claimStage.innerHTML = `
+      <div class="stage-doc-header">
+        <span class="stage-cat-icon" style="color:${catColor}">${icon}</span>
+        <span class="stage-category" style="color:${catColor}">${categoryLabel(c.category)}</span>
+        <span class="stage-doc-sep">·</span>
+        <span class="stage-az">⌗ ${c.id}</span>
+        <span class="stage-doc-sep">·</span>
+        <span class="stage-year-doc">${c.year}</span>
+        <span class="stage-counter">[${String(i + 1).padStart(3, '0')} ／ ${claims.length}]</span>
+      </div>
+      <div class="stage-doc-body">
+        <div class="stage-befund-label">Befund</div>
+        <h1 class="stage-title">${highlightText(claimTitle(c))}</h1>
+      </div>
+      <div class="stage-doc-footer">
+        <div class="stage-source-block">
+          <span class="stage-source-icon">◈</span>
+          <span>${(c.source_type || '').toUpperCase()} · ${c.institution || '—'}</span>
+        </div>
+        <div class="stage-severity ${sev.cls}">
+          <span class="stage-severity-icon">${sev.icon}</span>
+          <span class="stage-severity-bar">${sev.bar}</span>
+          <span class="stage-severity-label">${sev.label}</span>
+        </div>
+      </div>
+    `;
   }
 
   // ── Timer ───────────────────────────────────────
