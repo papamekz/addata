@@ -65,7 +65,23 @@ culture(4) · alternatives(4)
    Kopiert alle öffentlichen Dateien, setzt `upload/CLAUDE.md` als Root-`CLAUDE.md`,
    lässt diese Entwickler-CLAUDE.md weg, überspringt `web/data.js` (zu groß).
 
-2. `upload/` als neues Repo hochladen (GitHub / Hugging Face).
+2. `upload/` als GitHub-Repo pushen:
+
+   ```powershell
+   cd "c:\Users\danie\Desktop\addata\upload"
+   git init
+   git add -A
+   git commit -m "Initial release: 161 OOH/DOOH research claims, bilingual DE/EN"
+   git branch -M main
+   git remote add origin https://github.com/papamekz/ooh-advertising-research.git
+   git push -u origin main
+   ```
+
+   Voraussetzung: Repo `ooh-advertising-research` muss auf GitHub als **leeres** Repo existieren
+   (ohne README/License/gitignore anlegen — sonst Push-Konflikt).
+
+   GitHub Topics nach dem Push setzen (für Auffindbarkeit):
+   `dooh` · `ooh` · `outdoor-advertising` · `dataset` · `rag` · `due-diligence` · `esg` · `advertising-risk`
 
 3. Einmalig auf dem Ziel `web/data.js` neu generieren:
 
