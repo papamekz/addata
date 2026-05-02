@@ -19,6 +19,21 @@
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
   --INTERVAL: 9000ms;
+
+  /* Category accent colors */
+  --cat-regulation:   #f59e0b;
+  --cat-health:       #ef4444;
+  --cat-environment:  #22c55e;
+  --cat-politics:     #3b82f6;
+  --cat-economy:      #eab308;
+  --cat-psychology:   #a855f7;
+  --cat-privacy:      #06b6d4;
+  --cat-safety:       #f97316;
+  --cat-urban:        #14b8a6;
+  --cat-resources:    #d97706;
+  --cat-culture:      #ec4899;
+  --cat-alternatives: #84cc16;
+  --cat-equity:       #8b5cf6;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
