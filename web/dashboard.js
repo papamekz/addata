@@ -7,6 +7,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const INTERVAL = 9000;
 
+  const CATEGORY_ICONS = {
+    regulation:   '§',
+    health:       '⊕',
+    environment:  '⏣',
+    politics:     '⌖',
+    economy:      '◆',
+    psychology:   '◎',
+    privacy:      '⊗',
+    safety:       '⌗',
+    urban:        '⎕',
+    resources:    '⌁',
+    culture:      '◇',
+    alternatives: '⌀',
+    equity:       '⊜',
+  };
+
+  function severityInfo(score) {
+    if (score >= 9) return { cls: 'severity-kritisch', icon: '⊗', bar: '▰▰▰▰▰', label: 'KRITISCH' };
+    if (score >= 7) return { cls: 'severity-erhoeht',  icon: '⊘', bar: '▰▰▰▱▱', label: 'ERHÖHT'  };
+    if (score >= 5) return { cls: 'severity-mittel',   icon: '⊙', bar: '▰▰▱▱▱', label: 'MITTEL'  };
+    return             { cls: 'severity-gering',   icon: '○', bar: '▰▱▱▱▱', label: 'GERING'  };
+  }
+
+  function highlightText(text) {
+    if (!text) return '';
+    // Escape HTML first
+    text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    // Numbers with % (including ↑/↓ before them)
+    text = text.replace(/(↑\s*|↓\s*)?(\d[\d.,]*\s*%)/g,
+      (m) => `<span class="highlight-red">${m}</span>`);
+    // Money amounts (Mrd, Mio, Bn, Tr + currency)
+    text = text.replace(/(\d[\d.,]*\s*(Mrd|Mio|Bn|Tr|Billion|Milliard|Milliarden|Millionen)\.?\s*(€|\$|EUR|USD)?)/gi,
+      (m) => `<span class="highlight-red">${m}</span>`);
+    // Large plain money: €X or $X
+    text = text.replace(/(€|\$)\s*\d[\d.,]+/g,
+      (m) => `<span class="highlight-red">${m}</span>`);
+    // Critical keywords (DE + EN)
+    const KEYWORDS = [
+      'verboten','Verbot','verbannt','verbannte','illegal','rechtswidrig','unzulässig',
+      'Bußgeld','Strafe','Geldstrafe','Schadensersatz','Schaden','Schadenersatz',
+      'banned','ban','fine','penalty','prohibited','unlawful',
+      'Krebs','Karzinom','cancer','carcinogen','Tod','deaths','fatal',
+      'Klage','Klagen','lawsuit','litigation',
+    ];
+    const kw = KEYWORDS.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+    text = text.replace(new RegExp(`\\b(${kw})\\b`, 'gi'),
+      (m) => `<span class="highlight-red-word">${m}</span>`);
+    return text;
+  }
+
   const stageEl        = document.getElementById('stage');
   const claimStage     = document.getElementById('claim-stage');
   const stageCategory  = document.getElementById('stage-category');
