@@ -277,26 +277,23 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderDbGrid(list) {
     dbGrid.innerHTML = '';
     list.forEach(c => {
-      const card = document.createElement('div');
-      card.className = 'db-card';
-      const isHigh = c.impact_score >= 8;
-      const icon = CATEGORY_ICONS[c.category] || '◈';
+      const row = document.createElement('div');
+      row.className = 'db-row';
+      const icon     = CATEGORY_ICONS[c.category] || '◈';
       const catColor = `var(--cat-${c.category}, var(--primary))`;
-      card.innerHTML = `
-        <div class="db-card-top">
-          <span class="db-card-category">
-            <span style="color:${catColor};margin-right:0.3rem;font-size:11px">${icon}</span>${categoryLabel(c.category)}
-          </span>
-          <span class="db-card-id">${c.id}</span>
+      const sev      = severityInfo(c.impact_score);
+      row.innerHTML = `
+        <div class="db-row-cat" style="color:${catColor}">
+          <span class="db-row-cat-icon">${icon}</span>
+          <span>${categoryLabel(c.category)}</span>
         </div>
-        <p class="db-card-title">${claimTitle(c)}</p>
-        <div class="db-card-footer">
-          <span class="badge ${isHigh ? 'badge-high' : ''}">${t('impact_label')} ${c.impact_score}/10</span>
-          <span class="db-card-year">${c.year}</span>
-        </div>
+        <span class="db-row-id">${c.id}</span>
+        <span class="db-row-title">${claimTitle(c)}</span>
+        <span class="db-row-sev ${sev.cls}" style="color:inherit">${sev.icon}</span>
+        <span class="db-row-year">${c.year}</span>
       `;
-      card.addEventListener('click', () => openDetail(c));
-      dbGrid.appendChild(card);
+      row.addEventListener('click', () => openDetail(c));
+      dbGrid.appendChild(row);
     });
   }
 
