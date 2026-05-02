@@ -6,7 +6,7 @@
   "psych-005": "Subliminal advertising demonstrably influences purchasing behavior",
   "psych-006": "Creative outdoor advertising deliberately manipulates unconscious cognitive processing",
   "env-001": "Digital billboards consume 30 times more energy than an average US household",
-  "env-002": "Digital advertising emits more CO₂ than the entire aviation industry",
+  "env-002": "Digital advertising emits 7.2 million tonnes of CO₂ per year — more than the entire aviation industry",
   "env-003": "Systematic assessment of the environmental cost of digital advertising campaigns",
   "env-004": "Light pollution from outdoor advertising harms wildlife and disrupts human sleep",
   "urban-001": "Visual pollution from advertising lowers quality of life in cities",
@@ -48,7 +48,6 @@
   "res-006": "Inks for outdoor advertising: toluene, heavy metals (Cd, Pb), BPA — massive VOC emissions",
   "res-007": "Warsaw residents would pay up to €9.3 million/year to reduce outdoor advertising",
   "res-008": "Attention interruptions from advertising destroy up to 40% of productive working time",
-  "res-009": "Digital advertising emits 7.2 million tonnes of CO₂/year — comparable to aviation (1.7% of global emissions)",
   "res-010": "Manufacturing a digital billboard: 3.5 times larger CO₂ footprint than a traditional one",
   "pol-001": "Outdoor advertising is dominated by a few global 'big players' (JCDecaux, Clear Channel, Ströer)",
   "pol-002": "Municipalities privatize public space through 'bus shelter contracts'",
@@ -142,5 +141,10 @@
   "reg-034": "UN Special Rapporteur Calls for Criminalization of Greenwashing by the Fossil-Fuel Advertising Industry (June 2025)",
   "psych-010": "95-Study Systematic Review: Advertising Causally Produces Body Image Harm in Adolescents — Strongest Evidence to Date (Frontiers 2025)",
   "pol-016": "Ströer Exceeds €2 Billion Annual Revenue for the First Time in 2024 — Controls 80% of the German DOOH Market",
-  "priv-005": "EU AI Act: Biometric Categorisation of Persons in Public Space Prohibited — DOOH Audience Measurement Directly Affected"
+  "priv-005": "EU AI Act: Biometric Categorisation of Persons in Public Space Prohibited — DOOH Audience Measurement Directly Affected",
+  "safety-008": "EU Commission: Roadside Advertising Identified as a Significant Source of Driver Distraction (2023)",
+  "res-012": "DarkSky International: Electronic Billboards are up to Ten Times Brighter than Traditional Billboards",
+  "priv-006": "Big Brother Watch: DOOH Screens Secretly Use Biometric Facial Detection for Audience Analysis",
+  "psych-011": "University of Warwick: Advertising Expenditure Correlates Negatively with Life Satisfaction in 27 European Countries",
+  "equity-005": "Adfree Cities Mapping: Disproportionate Concentration of Outdoor Advertising in Socially Disadvantaged Neighborhoods (2023)"
 }

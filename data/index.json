@@ -6,7 +6,7 @@
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 153,
+  "total_claims": 152,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -62,7 +62,7 @@
     "resources": {
       "label": "Resource Consumption",
       "description": "Grid impact, kW/h measurement, hardware lifecycle, and externalities of DOOH operation.",
-      "count": 12,
+      "count": 11,
       "path": "data/resources/"
     },
     "politics": {
@@ -170,7 +170,7 @@
     },
     {
       "id": "env-002",
-      "title": "Digitale Werbung emittiert mehr CO₂ als die gesamte Luftfahrtindustrie",
+      "title": "Digitale Werbung emittiert 7,2 Millionen Tonnen CO₂/Jahr — mehr als die gesamte Luftfahrtindustrie",
       "category": "environment",
       "impact_score": 10,
       "year": 2022,
@@ -629,17 +629,6 @@
       "institution": "arXiv / Cornell University",
       "open_access": true,
       "file": "data/resources/res-008.md"
-    },
-    {
-      "id": "res-009",
-      "title": "Digitale Werbung emittiert 7,2 Millionen Tonnen CO₂/Jahr — vergleichbar mit Luftfahrt (1,7 % globaler Emissionen)",
-      "category": "resources",
-      "impact_score": 10,
-      "year": 2022,
-      "source_type": "ngo",
-      "institution": "The Drum",
-      "open_access": true,
-      "file": "data/resources/res-009.md"
     },
     {
       "id": "res-010",
