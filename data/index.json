@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "description": "Structured dataset documenting evidence-based harms of outdoor advertising. All sources are independent academic, governmental, or NGO — no advertising industry sources.",
   "license": "CC-BY-4.0",
   "repository": "https://github.com/papamekz/addata",
   "schema": "schema/claim.schema.json",
   "sources_policy": "SOURCES_POLICY.md",
-  "total_claims": 152,
+  "total_claims": 156,
   "references": {
     "organizations": "data/references/organizations.md"
   },
@@ -20,7 +20,7 @@
     "environment": {
       "label": "Environmental Impact & Emissions",
       "description": "Energy consumption, CO2 emissions, light pollution (skyglow), and ecological disruption.",
-      "count": 16,
+      "count": 17,
       "path": "data/environment/"
     },
     "urban": {
@@ -38,7 +38,7 @@
     "health": {
       "label": "Public Health",
       "description": "Harmful product promotion (junk food, gambling), obesity rates, and societal health externalities.",
-      "count": 17,
+      "count": 18,
       "path": "data/health/"
     },
     "culture": {
@@ -62,13 +62,13 @@
     "resources": {
       "label": "Resource Consumption",
       "description": "Grid impact, kW/h measurement, hardware lifecycle, and externalities of DOOH operation.",
-      "count": 11,
+      "count": 12,
       "path": "data/resources/"
     },
     "politics": {
       "label": "Politics & Public-Private Partnerships",
       "description": "Lobbying influence, infrastructure financing, and privatization of municipal assets.",
-      "count": 17,
+      "count": 18,
       "path": "data/politics/"
     },
     "safety": {
@@ -1728,6 +1728,50 @@
       "institution": "Corporate Europe Observatory / Badvertising / CNMC / ASA / EU Commission",
       "open_access": true,
       "file": "data/politics/pol-017.md"
+    },
+    {
+      "id": "pol-018",
+      "title": "Ströer finanzierte AfD-Plakatkampagnen durch anonyme Spender für ~3 Millionen Euro — CORRECTIV-Recherche (2022)",
+      "category": "politics",
+      "impact_score": 9,
+      "year": 2022,
+      "source_type": "investigative_journalism",
+      "institution": "CORRECTIV",
+      "open_access": true,
+      "file": "data/politics/pol-018.md"
+    },
+    {
+      "id": "health-018",
+      "title": "EMA-Studie 2025: Kinder berichten stärkeres Verlangen nach ungesundem Essen nach Sicht von OOH-Lebensmittelwerbung — direkter kausaler Zusammenhang belegt",
+      "category": "health",
+      "impact_score": 9,
+      "year": 2025,
+      "source_type": "peer-reviewed",
+      "institution": "ScienceDirect / Appetite Journal",
+      "open_access": false,
+      "file": "data/health/health-018.md"
+    },
+    {
+      "id": "res-013",
+      "title": "Hamburger Studie: Digitales City-Light-Poster verbraucht bis zu 9.000 kWh/Jahr — das 6-Fache eines deutschen Einpersonenhaushalts",
+      "category": "resources",
+      "impact_score": 8,
+      "year": 2022,
+      "source_type": "investigative_journalism",
+      "institution": "fink.hamburg / Hamburger Stadtdaten",
+      "open_access": true,
+      "file": "data/resources/res-013.md"
+    },
+    {
+      "id": "env-017",
+      "title": "WHO/UNITAR 2024: Globaler Elektroschrott erreicht 62 Millionen Tonnen — nur 22,3% recycelt, unkontrollierte Entsorgung setzt bis zu 1.000 Schadstoffe frei",
+      "category": "environment",
+      "impact_score": 9,
+      "year": 2024,
+      "source_type": "un_report",
+      "institution": "UNITAR / WHO",
+      "open_access": true,
+      "file": "data/environment/env-017.md"
     }
   ]
 }
