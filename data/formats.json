@@ -588,6 +588,237 @@
       }
     },
     {
+      "id": "cls",
+      "name_de": "City-Light-Säule",
+      "name_en": "City Light Column",
+      "abbreviation": "CLS",
+      "category": "backlit_static",
+      "region": ["DE", "AT", "CH"],
+      "dimensions": {
+        "width_cm": 118.5,
+        "height_cm": 350,
+        "width_m": 1.185,
+        "height_m": 3.50,
+        "area_m2": 4.15,
+        "orientation": "portrait_tall",
+        "note": "AWK 8/1 format. Two CLP-sized panels stacked vertically on a single post unit. Total visible area 118.5 × 350 cm. Ströer designation: '8/1 Säule'."
+      },
+      "lighting": "backlit",
+      "digital": false,
+      "mounting": ["freestanding_post", "pedestrian_zone", "train_station", "shopping_street"],
+      "operators": ["Ströer", "Wall (JCDecaux)"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Very tall narrow portrait format — roughly 3× taller than wide (approx. 1:3 ratio)",
+          "Approximately 3.5m high — towers above eye level significantly",
+          "Same backlit glow as CLP but much taller structure",
+          "Single post/column mounting — thin profile visible from the side",
+          "Often displays two different adverts stacked (top half / bottom half)",
+          "Or single artwork spanning full 118.5 × 350 cm",
+          "Size reference: roughly as tall as a double-decker bus is wide"
+        ],
+        "distinguishing_from_similar": "Taller than CLP (175cm) but same width. Unlike Litfaßsäule, it is flat-faced (not cylindrical). Unlike digital CLS, no pixel structure."
+      }
+    },
+    {
+      "id": "clb",
+      "name_de": "City-Light-Board",
+      "name_en": "City Light Board",
+      "abbreviation": "CLB",
+      "category": "backlit_static",
+      "region": ["DE", "AT", "CH"],
+      "dimensions": {
+        "width_cm": 356,
+        "height_cm": 252,
+        "width_m": 3.56,
+        "height_m": 2.52,
+        "area_m2": 8.97,
+        "orientation": "landscape",
+        "note": "AWK 18/1 format. Same dimensions as Großfläche but with internal backlight illumination. WallDecaux/Ströer premium format. Also called 'Megalight' or '9m²-Board' in some markets."
+      },
+      "lighting": "backlit",
+      "digital": false,
+      "mounting": ["freestanding_roadside", "pedestrian_zone", "high_footfall_location"],
+      "operators": ["Ströer", "Wall (JCDecaux)", "Clear Channel"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Same dimensions as Großfläche (356×252 cm) but with uniform internal backlight glow",
+          "Landscape orientation, wider than tall (approx. 1.41:1 ratio)",
+          "Even luminous illumination from behind — no external spotlight fixtures",
+          "White/neutral glow visible at panel edges, especially in low light",
+          "Premium locations: high-traffic intersections, shopping streets, transit areas",
+          "Aluminum frame, typically slim profile",
+          "Much brighter than externally illuminated Großfläche — visible from greater distance"
+        ],
+        "distinguishing_from_similar": "Same size as Großfläche but internally backlit (uniform glow, no spotlight fixtures). Different from DCLB which has LED pixel structure. Different from Großfläche beleuchtet which has external lamps attached."
+      }
+    },
+    {
+      "id": "dclb",
+      "name_de": "Digitales City-Light-Board",
+      "name_en": "Digital City Light Board",
+      "abbreviation": "DCLB",
+      "category": "digital_dooh",
+      "region": ["DE"],
+      "dimensions": {
+        "width_cm": 356,
+        "height_cm": 252,
+        "width_m": 3.56,
+        "height_m": 2.52,
+        "area_m2": 8.97,
+        "orientation": "landscape",
+        "note": "Same physical frame as CLB. WallDecaux Berlin/Hamburg flagship digital format. Full HD (1920×1080) or 4K (3840×2160)."
+      },
+      "lighting": "self_illuminated_led",
+      "digital": true,
+      "screen_specs": {
+        "resolution_fhd": "1920 × 1080 pixels",
+        "resolution_4k": "3840 × 2160 pixels",
+        "pixel_pitch_mm": "3–6",
+        "brightness_nits": "4000–8000",
+        "content_rotation_sec": "10",
+        "format": "MP4 / MOV",
+        "note": "WallDecaux Berlin contract: 330 DCLB units (9m² digital panels) across the city."
+      },
+      "operators": ["Wall (JCDecaux)", "Ströer"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Same large landscape frame as CLB/Großfläche — 3.56m × 2.52m",
+          "LED pixel grid visible at close range (under 5m)",
+          "High-brightness screen — significantly brighter than surrounding backlit panels",
+          "Dynamic content: changes every 10 seconds",
+          "Often has slightly deeper cabinet than analog CLB (electronics housing)",
+          "Premium city center and transport hub locations"
+        ],
+        "distinguishing_from_clb": "Pixel structure visible up close. Dynamic changing content. Brighter than analog backlit. No paper/vinyl surface."
+      }
+    },
+    {
+      "id": "infoscreen",
+      "name_de": "Infoscreen / Public Video Station",
+      "name_en": "Transit Information Screen",
+      "abbreviation": "INFO",
+      "category": "digital_dooh_transit",
+      "region": ["DE"],
+      "dimensions": {
+        "width_px": 672,
+        "height_px": 432,
+        "alt_resolution": "576 × 408 px",
+        "screen_size_inches_typical": "46–65",
+        "orientation": "landscape",
+        "note": "Ströer Public Video Station format. DB Fernverkehr Infoscreens (S-Bahn/U-Bahn/Fernbahnhof). Resolution varies by network and generation. Newer units: Full HD 1920×1080."
+      },
+      "lighting": "self_illuminated_lcd_or_led",
+      "digital": true,
+      "screen_specs": {
+        "resolution_legacy": "672 × 432 px",
+        "resolution_modern": "1920 × 1080 px (FHD)",
+        "content_format": "MP4, 30 FPS",
+        "booking_unit": "3-hour time slots (DB network)",
+        "brightness_nits": "800–2000 (indoor)"
+      },
+      "mounting": ["ceiling_suspended", "wall_mounted", "freestanding_kiosk"],
+      "operators": ["Ströer (Public Video)", "DB Station & Service", "Infoscreen GmbH"],
+      "locations": ["S-Bahn stations", "U-Bahn stations", "Fernbahnhöfe", "shopping malls"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Medium-sized landscape screen (46–65 inch typical) in transit environment",
+          "Often ceiling-suspended in groups of 2–4 screens in train station concourse",
+          "LCD or LED display — uniform rectangular face, no pixel texture visible at normal viewing",
+          "Content mix: advertising + real-time departure/arrival information",
+          "Often in branded housing (Ströer black frame, DB corporate design)",
+          "Lower brightness than outdoor screens — adapted for indoor lighting conditions",
+          "Visible content rotation between information and advertising every few seconds"
+        ],
+        "common_context": "Train station platforms, concourses, U-Bahn entrances, shopping center food courts",
+        "distinguishing_from_similar": "Always indoors or in covered transit environment. Often displays travel information alongside ads. Part of coordinated screen networks."
+      }
+    },
+    {
+      "id": "totem",
+      "name_de": "Totem / Digitaler Stele",
+      "name_en": "Digital Totem / Stele",
+      "abbreviation": "TOTEM",
+      "category": "digital_dooh",
+      "region": ["DE", "EU", "global"],
+      "dimensions": {
+        "screen_width_m_typical": 0.55,
+        "screen_height_m_typical": 1.6,
+        "total_height_m_typical": "2.5–4",
+        "base_width_m_typical": 0.8,
+        "screen_size_inches": "40–80",
+        "orientation": "portrait",
+        "note": "No standardized dimensions. Freestanding tall narrow digital display on pedestal. Airport, premium retail, city center locations. Some double-sided."
+      },
+      "lighting": "self_illuminated_led_or_lcd",
+      "digital": true,
+      "screen_specs": {
+        "resolution_typical": "1080 × 1920 px (portrait FHD)",
+        "brightness_nits": "2500–5000 (semi-outdoor/covered)",
+        "pixel_pitch_mm": "2–4",
+        "often_touchscreen": true,
+        "often_double_sided": true
+      },
+      "mounting": ["freestanding_pedestal", "floor_mounted"],
+      "operators": ["JCDecaux (airports)", "Ströer", "Clear Channel", "Media Frankfurt"],
+      "locations": ["airports", "premium_shopping_centers", "hotel_lobbies", "convention_centers", "train_station_premium"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Tall narrow freestanding structure — portrait screen on a pedestal base",
+          "Typically 2.5–4m total height, base is solid cabinet housing electronics",
+          "Slim profile — much narrower than tall (approx. 1:3 to 1:5 ratio)",
+          "Often double-sided: two screens back-to-back on same pedestal",
+          "Premium finishes: brushed aluminum, black glass base housing",
+          "High-brightness portrait screen — vivid colors in well-lit environments",
+          "Sometimes interactive/touchscreen with information kiosk function",
+          "Often positioned at entrances, concourse centers, key pedestrian junctions"
+        ],
+        "common_context": "Airport terminal gates, premium mall atriums, hotel lobbies, convention centers",
+        "distinguishing_from_similar": "Unlike CLS, it is always digital and on a pedestal base (not a post). Unlike digital CLP, it is much taller and narrower with a substantial base unit."
+      }
+    },
+    {
+      "id": "airport_large_format",
+      "name_de": "Airport Großformat / Digital Deluxe Board",
+      "name_en": "Airport Large Format / Digital Deluxe Board",
+      "abbreviation": "AIRP",
+      "category": "digital_dooh_airport",
+      "region": ["DE", "EU"],
+      "dimensions": {
+        "example_frankfurt": {
+          "width_px": 3000,
+          "height_px": 900,
+          "area_m2": 43,
+          "location": "Terminal 1, Frankfurt Airport (FRA)",
+          "source": "Media Frankfurt"
+        },
+        "orientation": "ultra_wide_landscape",
+        "note": "No single standard. Each major airport has bespoke large-format installations. Frankfurt example: 43m² ultra-wide LED wall."
+      },
+      "lighting": "self_illuminated_led",
+      "digital": true,
+      "screen_specs": {
+        "frankfurt_example_resolution": "3000 × 900 px",
+        "brightness_nits": "4000–8000",
+        "note": "Frankfurt Airport: ~500 digital media displays, 50%+ of advertising inventory is digital. First 3D DOOH in Germany at FRA."
+      },
+      "operators": ["Media Frankfurt", "JCDecaux (airports)", "Clear Channel Airports", "Ströer"],
+      "locations": ["airport_terminal_departure", "airport_arrivals_hall", "airport_gate_areas", "baggage_claim"],
+      "image_recognition": {
+        "visual_characteristics": [
+          "Ultra-wide landscape LED wall — dramatically wider than tall (3:1 to 6:1 or wider)",
+          "Very high ambient brightness to compete with large terminal windows/skylights",
+          "Often spans full wall of terminal corridor or departure hall",
+          "Premium content production quality — large budget campaigns",
+          "Sometimes 3D/anamorphic content (objects appearing to float off screen)",
+          "Multiple screens tiled seamlessly to create single large image surface",
+          "LED seams visible at close range but invisible from passenger viewing distance"
+        ],
+        "common_context": "Airport departure/arrival halls, terminal corridors, gate areas",
+        "captive_audience_note": "Airport formats target captive, dwell-time-rich audience — average 2–3 hour dwell time before flights"
+      }
+    },
+    {
       "id": "scrolling_static",
       "name_de": "Rollbalken / Scrolling-Anlage",
       "name_en": "Scrolling Billboard / Tri-Vision",
@@ -617,21 +848,27 @@
     "description": "Quick reference for AI agents to compare formats at a glance",
     "columns": ["id", "width_m", "height_m", "area_m2", "digital", "lighting", "energy_kwh_yr"],
     "rows": [
-      ["clp",                  1.19,   1.75,  2.08,  false, "backlit",            11501],
-      ["clp_xxl",              1.75,   2.50,  4.38,  false, "backlit",            null],
-      ["grossflaeche",         3.56,   2.52,  8.97,  false, "none/external",      null],
-      ["grossflaeche_beleuchtet", 3.56, 2.52, 8.97, false,  "external_spotlight", null],
-      ["litfasssaeule",        1.45,   2.60,  4.90,  false, "none/backlit_var",   null],
-      ["riesenposter",        14.0,    4.0,  56.0,   false, "external/none",      null],
-      ["bus_shelter_poster",   1.20,   1.80,  2.16,  false, "backlit",            11501],
-      ["48sheet",              6.10,   3.05, 18.58,  false, "none/external",      null],
-      ["96sheet",             12.19,   3.05, 37.16,  false, "none/external",      null],
-      ["digital_clp",          1.19,   1.75,  2.08,  true,  "self_led",           11501],
-      ["digital_6sheet",       1.20,   1.80,  2.16,  true,  "self_led",           11501],
-      ["large_format_dooh",   14.0,    4.0,  56.0,   true,  "self_led",           41627],
-      ["spectacular_dooh",    "custom","custom","custom", true, "self_led",        null],
-      ["digital_column",       1.45,   2.60,  null,  true,  "self_led",           null],
-      ["building_wrap",       "custom","custom","custom", false,"external/none",   null]
+      ["clp",                     1.19,     1.75,     2.08,    false, "backlit",            11501],
+      ["clp_xxl",                 1.75,     2.50,     4.38,    false, "backlit",            null],
+      ["cls",                     1.19,     3.50,     4.15,    false, "backlit",            null],
+      ["grossflaeche",            3.56,     2.52,     8.97,    false, "none/external",      null],
+      ["grossflaeche_beleuchtet", 3.56,     2.52,     8.97,    false, "external_spotlight", null],
+      ["clb",                     3.56,     2.52,     8.97,    false, "backlit",            null],
+      ["litfasssaeule",           1.45,     2.60,     4.90,    false, "none/backlit_var",   null],
+      ["riesenposter",           14.0,      4.0,     56.0,     false, "external/none",      null],
+      ["bus_shelter_poster",      1.20,     1.80,     2.16,    false, "backlit",            11501],
+      ["48sheet",                 6.10,     3.05,    18.58,    false, "none/external",      null],
+      ["96sheet",                12.19,     3.05,    37.16,    false, "none/external",      null],
+      ["digital_clp",             1.19,     1.75,     2.08,    true,  "self_led",           11501],
+      ["digital_6sheet",          1.20,     1.80,     2.16,    true,  "self_led",           11501],
+      ["dclb",                    3.56,     2.52,     8.97,    true,  "self_led",           null],
+      ["large_format_dooh",      14.0,      4.0,     56.0,     true,  "self_led",           41627],
+      ["spectacular_dooh",       "custom", "custom", "custom", true,  "self_led",           null],
+      ["digital_column",          1.45,     2.60,     null,    true,  "self_led",           null],
+      ["infoscreen",              null,     null,     null,    true,  "self_lcd/led",       null],
+      ["totem",                   0.55,     1.60,     0.88,    true,  "self_led",           null],
+      ["airport_large_format",   "custom", "custom",  43,      true,  "self_led",           null],
+      ["building_wrap",          "custom", "custom", "custom", false, "external/none",      null]
     ],
     "note": "Energy figures from res-001 where documented. null = not documented in dataset."
   }
