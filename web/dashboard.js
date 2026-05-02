@@ -78,6 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const cookieBanner       = document.getElementById('cookie-banner');
   const cookieOk           = document.getElementById('cookie-ok');
   const datenschutzBtn     = document.getElementById('datenschutz-btn');
+  const infoTabBtn  = document.getElementById('info-tab-btn');
+  const infoOverlay = document.getElementById('info-overlay');
+  const infoClose   = document.getElementById('info-close-btn');
+  const infoBody    = document.getElementById('info-body');
   const datenschutzOverlay = document.getElementById('datenschutz-overlay');
   const datenschutzClose   = document.getElementById('datenschutz-close');
   const privacyBody        = document.getElementById('privacy-body');
@@ -131,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filterDb();
     // re-render privacy modal if open
     if (datenschutzOverlay.classList.contains('open')) renderPrivacy();
+    if (infoOverlay.classList.contains('open')) renderInfoPanel();
     // re-render detail modal if open
     if (modalOverlay.classList.contains('open') && modalBody._claim) {
       openDetail(modalBody._claim);
@@ -227,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   stageEl.addEventListener('mouseenter', () => { paused = true;  clearProgress(); });
   stageEl.addEventListener('mouseleave', () => {
-    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open')) return;
+    if (dbOverlay.classList.contains('open') || modalOverlay.classList.contains('open') || infoOverlay.classList.contains('open')) return;
     paused = false;
     startTimer();
   });
@@ -241,6 +246,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'ArrowLeft')  advance(-1);
     if (e.key === 'ArrowRight') advance(1);
   });
+
+  // ── Info overlay ─────────────────────────────────
+  infoTabBtn.addEventListener('click', () => {
+    paused = true;
+    clearProgress();
+    renderInfoPanel();
+    infoOverlay.classList.add('open');
+  });
+
+  function closeInfo() {
+    infoOverlay.classList.remove('open');
+    paused = false;
+    startTimer();
+  }
+
+  infoClose.addEventListener('click', closeInfo);
+  infoOverlay.addEventListener('click', e => { if (e.target === infoOverlay) closeInfo(); });
 
   // ── Database overlay ────────────────────────────
   dbTabBtn.addEventListener('click', () => {
@@ -295,6 +317,76 @@ document.addEventListener('DOMContentLoaded', () => {
       row.addEventListener('click', () => openDetail(c));
       dbGrid.appendChild(row);
     });
+  }
+
+  function renderInfoPanel() {
+    if (!dataset) return;
+    const allClaims = dataset.claims;
+    const total     = allClaims.length;
+    const avgScore  = (allClaims.reduce((s, c) => s + (c.impact_score || 0), 0) / total).toFixed(1);
+    const highCount = allClaims.filter(c => c.impact_score >= 8).length;
+    const years     = allClaims.map(c => Number(c.year)).filter(Boolean);
+    const yearRange = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
+    const catCount  = Object.keys(dataset.categories || {}).length;
+
+    const catCounts = {};
+    allClaims.forEach(c => { catCounts[c.category] = (catCounts[c.category] || 0) + 1; });
+
+    const catPills = Object.entries(catCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([cat, count]) => {
+        const icon     = CATEGORY_ICONS[cat] || '◈';
+        const catColor = `var(--cat-${cat}, var(--primary))`;
+        return `<span class="info-cat-pill">
+          <span class="info-cat-icon" style="color:${catColor}">${icon}</span>
+          <span>${categoryLabel(cat)}</span>
+          <span class="info-cat-count">(${count})</span>
+        </span>`;
+      }).join('');
+
+    infoBody.innerHTML = `
+      <p class="info-about">${t('info_about')}</p>
+
+      <div>
+        <div class="info-section-label">${t('info_stats')}</div>
+        <div class="info-stat-grid">
+          <div class="info-stat">
+            <span class="info-stat-value">${total}</span>
+            <span class="info-stat-label">${t('info_claims_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${catCount}</span>
+            <span class="info-stat-label">${t('info_cats_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${avgScore}</span>
+            <span class="info-stat-label">${t('info_avg_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${highCount}</span>
+            <span class="info-stat-label">${t('info_high_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${yearRange}</span>
+            <span class="info-stat-label">${t('info_period_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">100%</span>
+            <span class="info-stat-label">${t('info_sources_label')}</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="info-section-label">${t('info_cats_head')}</div>
+        <div class="info-cat-grid">${catPills}</div>
+      </div>
+
+      <div class="info-footer">
+        <span>CC-BY-4.0</span>
+        <a href="https://github.com/papamekz/addata" target="_blank" class="inline-link">github.com/papamekz/addata</a>
+      </div>
+    `;
   }
 
   // ── Detail modal ────────────────────────────────
@@ -414,5 +506,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalOverlay.classList.contains('open'))       { closeModal();   return; }
     if (dbOverlay.classList.contains('open'))          { closeDb();      return; }
     if (datenschutzOverlay.classList.contains('open')) { closePrivacy(); return; }
+    if (infoOverlay.classList.contains('open'))          { closeInfo();    return; }
   });
 });
