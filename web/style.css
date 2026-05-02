@@ -848,12 +848,17 @@ body {
 
 /* ─── Responsive ────────────────────────────────── */
 @media (max-width: 768px) {
-  .stage-title { font-size: clamp(20px, 6vw, 30px); }
-  .stage-prev { left: 0.5rem; }
-  .stage-next { right: 0.5rem; }
-  .db-search { width: 120px; }
+  .stage-title { font-size: clamp(18px, 5.5vw, 28px); }
+  .stage { padding: 4rem 1rem 4rem; }
+  .stage-prev { left: 0.25rem; }
+  .stage-next { right: 0.25rem; }
+  .stage-doc-header { padding: 0.5rem 0.85rem; font-size: 10px; }
+  .stage-doc-body { padding: 1.25rem 1rem 1rem; }
+  .stage-doc-footer { padding: 0.5rem 0.85rem; }
+  .db-search { width: 110px; }
   .db-grid { grid-template-columns: 1fr; }
-  .modal-content { padding: 1.5rem; }
-  .modal-title { font-size: 20px; }
-  .topbar { padding: 0 1rem; }
+  .modal-content { padding: 1.25rem; }
+  .modal-title { font-size: 19px; }
+  .topbar { padding: 0 0.85rem; }
+  .topbar-logo-sub { display: none; }
 }
