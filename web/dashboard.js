@@ -59,12 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const stageEl        = document.getElementById('stage');
   const claimStage     = document.getElementById('claim-stage');
-  const stageCategory  = document.getElementById('stage-category');
-  const stageCounter   = document.getElementById('stage-counter');
-  const stageTitle     = document.getElementById('stage-title');
-  const stageImpact    = document.getElementById('stage-impact');
-  const stageSource    = document.getElementById('stage-source');
-  const stageYear      = document.getElementById('stage-year');
   const progressBar    = document.getElementById('progress-bar');
   const prevBtn        = document.getElementById('stage-prev');
   const nextBtn        = document.getElementById('stage-next');
