@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "description": "EU city-level and national OOH/DOOH regulatory and market data. All figures sourced from documented claims in data/index.json.",
+    "last_updated": "2026-05",
+    "note": "Figures marked 'documented' derive directly from cited claims. Figures marked 'estimate' are calculated from documented base rates."
+  },
+  "reference_rates": {
+    "energy_kwh_per_large_screen_per_year": {
+      "value": 41627,
+      "household_equivalent": 11,
+      "source": "res-001",
+      "unit": "kWh/year"
+    },
+    "energy_kwh_per_medium_screen_per_year": {
+      "value": 11501,
+      "household_equivalent": 3,
+      "source": "res-001",
+      "unit": "kWh/year"
+    },
+    "revenue_at_risk_fossil_fuel_pct": {
+      "value": "15–18",
+      "source": "eco-009",
+      "unit": "% of EU DOOH revenue"
+    },
+    "revenue_at_risk_hfss_food_pct": {
+      "value": "18–22",
+      "source": "eco-009",
+      "unit": "% of EU DOOH revenue"
+    },
+    "revenue_at_risk_gambling_pct": {
+      "value": "8–12",
+      "source": "eco-009",
+      "unit": "% of EU DOOH revenue"
+    },
+    "revenue_at_risk_combined_pct": {
+      "value": 45,
+      "source": "eco-009",
+      "unit": "% of EU DOOH revenue"
+    },
+    "highway_crash_rate_increase_pct": {
+      "value": "elevated",
+      "source": "safety-007",
+      "note": "US DOT-funded study reports correlation with higher crash rates in billboard influence zones; exact headline percentages should be checked against the full report before reuse",
+      "location_type": "highway",
+      "geography": "US (Florida, Alabama) — no equivalent EU study available"
+    },
+    "hardware_lifecycle_years": {
+      "value": "5–7",
+      "source": "eco-010"
+    },
+    "concession_contract_typical_years": {
+      "value": "10–25",
+      "source": "eco-010"
+    },
+    "food_ad_density_obesity_multiplier": {
+      "per_10pct_increase": 1.05,
+      "source": "health-003"
+    }
+  },
+  "national": [
+    {
+      "name": "Belgium",
+      "code": "BE",
+      "regulatory_status": "sectoral_restriction",
+      "active_bans": ["fossil_fuel_public_broadcasting"],
+      "restriction_year": 2023,
+      "scope": "RTBF 2023-2027 public-broadcaster agreement bans fossil-fuel commercial communications; national fossil-ad ban was a legislative initiative, not an enacted OOH ban",
+      "key_claims": ["reg-019"],
+      "type": "documented"
+    },
+    {
+      "name": "France",
+      "code": "FR",
+      "regulatory_status": "national_ban_active",
+      "active_bans": ["fossil_fuel"],
+      "ban_effective": "2022-08",
+      "law": "Loi Climat et Résilience",
+      "additional": "Commercial billboards banned in municipalities under 10,000 residents (2015)",
+      "key_claims": ["reg-015", "reg-017"],
+      "type": "documented"
+    },
+    {
+      "name": "United Kingdom",
+      "code": "GB",
+      "regulatory_status": "category_ban_active",
+      "active_bans": ["hfss_food"],
+      "ban_effective": "2026-01",
+      "scope": "National LHF/HFSS advertising restrictions apply to TV/ODPS/IPTV before 21:00 and paid online; general OOH remains outside this national scope",
+      "key_claims": ["health-015"],
+      "cma_enforcement": {
+        "max_fine": "10% of global annual revenue",
+        "effective": "2025-04",
+        "source": "reg-031"
+      },
+      "type": "documented"
+    },
+    {
+      "name": "Germany",
+      "code": "DE",
+      "regulatory_status": "category_bans_active",
+      "active_bans": ["tobacco", "e_cigarettes"],
+      "ban_timeline": {
+        "tobacco_products": "2022-01",
+        "heated_tobacco": "2023-01",
+        "e_cigarettes": "2024-01"
+      },
+      "market_data": {
+        "dooh_fleet_energy_mwh_per_year": 113000,
+        "dooh_fleet_energy_source": "env-016",
+        "dooh_fleet_household_equivalent": 40000,
+        "dominant_operator": "Ströer",
+        "stroer_market_share_pct": 80,
+        "stroer_annual_revenue_eur": "2,000,000,000+",
+        "stroer_advertising_carriers": "500,000+",
+        "stroer_source": "pol-016"
+      },
+      "key_claims": ["reg-002", "env-016", "pol-016"],
+      "type": "documented"
+    },
+    {
+      "name": "Netherlands",
+      "code": "NL",
+      "regulatory_status": "city_bans_active",
+      "active_bans": [],
+      "note": "National framework absent; city-level bans confirmed legally valid by courts",
+      "court_precedent": "Den Haag preliminary ruling April 2025 confirms the local fossil-ad ban was not evidently unlawful; persuasive signal for Dutch municipalities, not binding EU-wide precedent",
+      "key_claims": ["reg-032"],
+      "type": "documented"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Amsterdam",
+      "country": "NL",
+      "population": 921000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel", "meat", "flights", "gas_heating"],
+      "ban_effective": "2026-05-01",
+      "ban_voted": "2026-01",
+      "council_vote": "27:17",
+      "phase_2": {
+        "date": "2028-04",
+        "scope": "Corporate image advertising of high-emission companies banned"
+      },
+      "contract_note": "Existing JCDecaux and Clear Channel concession contracts carry no grandfather clause — ban applies immediately",
+      "key_claims": ["reg-025", "reg-035", "reg-016"],
+      "type": "documented"
+    },
+    {
+      "name": "Den Haag (The Hague)",
+      "country": "NL",
+      "population": 500000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel"],
+      "ban_effective": "2025-01-01",
+      "court_confirmed": "2025-04",
+      "significance": "First city globally to ban fossil fuel OOH advertising through local regulation; April 2025 preliminary ruling upheld the ban in interim proceedings",
+      "key_claims": ["reg-021", "reg-032"],
+      "type": "documented"
+    },
+    {
+      "name": "Edinburgh",
+      "country": "GB",
+      "population": 524000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel", "arms"],
+      "ban_effective": "2024-05",
+      "significance": "Only EU/UK city combining fossil fuel and arms advertising ban",
+      "key_claims": ["reg-011", "reg-027"],
+      "type": "documented"
+    },
+    {
+      "name": "Stockholm Region",
+      "country": "SE",
+      "population": 2400000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel", "gambling"],
+      "ban_year": 2023,
+      "court_upheld": 2024,
+      "key_claims": ["reg-028"],
+      "type": "documented"
+    },
+    {
+      "name": "Hamburg",
+      "country": "DE",
+      "population": 1900000,
+      "regulatory_status": "ban_pending",
+      "active_bans": [],
+      "pending_legislation": ["fossil_fuel"],
+      "volksinitiative": {
+        "signatures_collected": "50,000+",
+        "target": 80000,
+        "timeline": "3 weeks to collect 50,000",
+        "court_validation": "2024-09"
+      },
+      "contract_data": {
+        "value_eur": 508000000,
+        "note": "Public advertising rights sold for €508M; Frankfurt comparable contract valued at 1/13 of Hamburg rate",
+        "source": "pol-011"
+      },
+      "court_ruling": {
+        "date": "2024-08-09",
+        "case": "315 O 108/22",
+        "ruling": "Shell greenwashing ban — 81% of Shell advertising found misleading",
+        "court": "Landgericht Hamburg",
+        "source": "reg-022"
+      },
+      "key_claims": ["reg-001", "pol-011", "reg-022"],
+      "type": "documented"
+    },
+    {
+      "name": "Berlin",
+      "country": "DE",
+      "population": 3645000,
+      "regulatory_status": "no_ban",
+      "active_bans": [],
+      "operator_notes": {
+        "dominant": "Ströer (~80% DE market, pol-016)",
+        "contract_transparency": "Berlin courts allow JCDecaux to conceal contract financials from the public",
+        "source": "pol-014"
+      },
+      "key_claims": ["pol-014", "pol-016"],
+      "type": "documented"
+    },
+    {
+      "name": "Brussels",
+      "country": "BE",
+      "population": 1200000,
+      "regulatory_status": "no_city_ban",
+      "active_bans": [],
+      "note": "Belgium has RTBF public-broadcaster fossil-ad restriction and legislative momentum, not a general national OOH fossil-ad ban (reg-019)",
+      "jcdecaux_ruling": {
+        "ruling": "EU Commission: JCDecaux Brussels received illegal state aid via zero-rent phantom billboards",
+        "eu_case": "T-642/19",
+        "year": 2019,
+        "source": "reg-023"
+      },
+      "key_claims": ["reg-023", "reg-019"],
+      "type": "documented"
+    },
+    {
+      "name": "London",
+      "country": "GB",
+      "population": 9000000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["hfss_food"],
+      "tfl_junk_food_ban": {
+        "effective": "2019-02",
+        "impact": {
+          "obesity_cases_prevented": 94867,
+          "type2_diabetes_cases_prevented": 3000,
+          "nhs_savings_gbp": "200,000,000+",
+          "weekly_energy_reduction_pct": 6.7,
+          "source": "health-009"
+        }
+      },
+      "national_hfss_ban": {
+        "effective": "2026-01",
+        "scope": "TV/ODPS/IPTV before 21:00 and paid online; not a nationwide OOH ban",
+        "source": "health-015"
+      },
+      "key_claims": ["health-009", "health-015"],
+      "type": "documented"
+    },
+    {
+      "name": "Florence",
+      "country": "IT",
+      "population": 360000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel"],
+      "ban_year": 2026,
+      "key_claims": ["reg-029"],
+      "type": "documented"
+    },
+    {
+      "name": "Genoa",
+      "country": "IT",
+      "population": 570000,
+      "regulatory_status": "ban_active",
+      "active_bans": ["fossil_fuel"],
+      "ban_year": 2025,
+      "key_claims": ["reg-029"],
+      "type": "documented"
+    },
+    {
+      "name": "Grenoble",
+      "country": "FR",
+      "population": 160000,
+      "regulatory_status": "full_removal",
+      "active_bans": ["all_commercial_outdoor"],
+      "removal_year": 2015,
+      "removal_data": {
+        "billboards_removed": 326,
+        "advertising_surface_sqm": 2051,
+        "annual_revenue_loss_eur": 600000,
+        "public_support": "broad community support documented",
+        "source": "reg-004"
+      },
+      "key_claims": ["reg-004"],
+      "type": "documented"
+    },
+    {
+      "name": "São Paulo",
+      "country": "BR",
+      "population": 11000000,
+      "regulatory_status": "full_removal",
+      "note": "Non-EU reference city — documented model for full OOH removal",
+      "active_bans": ["all_commercial_outdoor"],
+      "removal_year": 2007,
+      "law": "Lei Cidade Limpa",
+      "removal_data": {
+        "billboards_removed": 15000,
+        "population_approval_after_5yr_pct": 70,
+        "survey_year": 2011,
+        "source": "reg-003"
+      },
+      "key_claims": ["reg-003"],
+      "type": "documented"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "description": "Tool definitions for AI agents to query the DOOH/OOH Advertising Research Dataset. Compatible with OpenAI function calling, Anthropic tool use, and LangChain tool schemas.",
+  "usage": {
+    "openai": "Pass the 'tools' array to the OpenAI chat completions API.",
+    "anthropic": "Pass the 'tools' array to the Anthropic messages API.",
+    "langchain": "Use the function definitions to create StructuredTool instances.",
+    "cli": "All functions are also available via: node scripts/query.js --help"
+  },
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "search_claims",
+        "description": "Search the DOOH/OOH Advertising Research Dataset for evidence-based claims. Returns claims matching the specified filters, sorted by impact score. Use this to find evidence for a specific dimension of harm (health, environment, safety, regulation, etc.) or to identify claims relevant to a specific query context (investment risk, greenwashing, children's advertising, etc.). Check verification_status/verification_note for corrected or source-sensitive claims.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string",
+              "description": "Filter by research category.",
+              "enum": ["regulation", "health", "politics", "environment", "resources", "psychology", "urban", "economy", "safety", "privacy", "equity", "culture", "alternatives"]
+            },
+            "tags": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Filter by tags (ANY match). Common tags: greenwashing, co2, kinder, privacy, stroer, jcdecaux, clear-channel, energieverbrauch, pvc, dooh, carbon-offset, klimaneutral, bgh, hfss, alkohol, gambling, traffic-safety, distraction, equity, self-regulation."
+            },
+            "min_impact": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "Minimum impact score (1-10). Use 8+ for the most severe findings, 6+ for significant findings."
+            },
+            "keyword": {
+              "type": "string",
+              "description": "Keyword search across claim titles and summaries (case-insensitive)."
+            },
+            "top": {
+              "type": "integer",
+              "description": "Return only the top N results by impact score. Recommended: 5-10 for focused queries."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_claim",
+        "description": "Retrieve the full text and metadata of a single research claim by its ID. Use this after search_claims to get complete evidence for a specific finding, including the full German text, source URLs, and relevance analysis.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "The claim ID (e.g. 'reg-037', 'health-018', 'safety-001'). Format: {category-prefix}-{number}."
+            }
+          },
+          "required": ["id"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "calculate_impact",
+        "description": "Calculate quantified environmental, health, financial, and regulatory impact of a specific DOOH installation or portfolio. Returns energy consumption, CO2 emissions, revenue at risk from regulatory bans, stranded CapEx risk, traffic safety impact, and overall risk rating.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "screens": {
+              "type": "integer",
+              "description": "Number of digital screens in the installation or portfolio."
+            },
+            "type": {
+              "type": "string",
+              "enum": ["large", "medium"],
+              "description": "Screen type: 'large' = roadside/billboard (41,627 kWh/year each), 'medium' = 6-sheet/city format (11,501 kWh/year each)."
+            },
+            "location": {
+              "type": "string",
+              "enum": ["highway", "urban"],
+              "description": "Installation location type — affects traffic safety risk multiplier."
+            },
+            "city": {
+              "type": "string",
+              "description": "EU city name for regulatory risk lookup (e.g. 'amsterdam', 'hamburg', 'london', 'berlin', 'edinburgh'). Optional."
+            },
+            "investment": {
+              "type": "number",
+              "description": "Total investment in EUR — used to calculate stranded CapEx risk."
+            },
+            "food_ad_pct": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Percentage of ad inventory dedicated to food advertising — used for health impact calculation."
+            }
+          },
+          "required": ["screens"]
+        }
+      }
+    }
+  ],
+  "implementation_note": "The search_claims and get_claim functions are implemented in scripts/query.js. The calculate_impact function is implemented in scripts/impact-calculator.js. To use these tools in an agentic context without a server, execute them as subprocesses: `node scripts/query.js --category regulation --min-impact 8 --format json` or `node scripts/impact-calculator.js --screens 50 --type medium --city amsterdam`."
+}

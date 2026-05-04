@@ -1,0 +1,82 @@
+{
+  "alt-001": {
+    "zusammenfassung": "The French city of Grenoble has proven that commercial outdoor advertising is not without alternatives. Instead of renewing advertising contracts, commercial surfaces were dismantled or replaced with citizen information and art.",
+    "kernbefund": "In 2014, the mayor of Grenoble decided to remove 326 commercial advertising billboards from public space. Instead of the expected commercial vacuum, 50 new surfaces were created for local cultural and social announcements. The city planted trees at the former advertising sites. The loss in advertising revenue (approx. 600,000 euros) was offset by cuts to the mayor's representation budget and by the positive effects of the improved quality of life.",
+    "relevanz": "This example refutes the industry's argument that cities are financially dependent on outdoor advertising. Public space can be actively used for cultural promotion, art, and greening, rather than being privatized for advertising corporations."
+  },
+  "alt-002": {
+    "zusammenfassung": "The argument that outdoor advertising is necessary to fund bus and tram stops is structurally flawed. There are more sustainable, advertising-free financing models.",
+    "kernbefund": "Cities frequently exchange the provision of bus shelters for extensive advertising rights (Public-Private Partnerships). However, analyses show that the indirect costs — electricity consumption of the displays, traffic distraction, induced CO2 emissions — often outweigh the apparent financial benefit. Alternatively, cities like São Paulo (following the advertising ban \"Cidade Limpa\") finance their infrastructure through redistributed levies, taxes on vacant properties, or municipal self-financing, thereby retaining full control over the design and energy consumption of their street furniture.",
+    "relevanz": "Infrastructure financing is often used as a tool of leverage by the AdTech industry. Decoupling street furniture from advertising exploitation is fiscally feasible and leads to better, advertising-free urban spaces."
+  },
+  "alt-003": {
+    "zusammenfassung": "The infrastructure of outdoor advertising can be repurposed subversively. A project in Tehran demonstrated the enormous social and psychological healing effect of art in place of consumer pressure.",
+    "kernbefund": "In May 2015, the mayor of Tehran (Iran) ordered that all approximately 1,500 commercial advertising billboards in the metropolis be pasted over for ten days as part of the project \"A Gallery as Big as a Town.\" Instead of advertisements for smartphones and detergents, the billboards suddenly displayed works by Picasso, Matisse, Munch, and traditional Persian art. The experiment demonstrated impressively that the logistical infrastructure of the advertising industry can be used to transform a city into a giant open-air gallery and provide citizens with genuine cultural added value.",
+    "relevanz": "The project visualised the \"what if\": a world in which billboards do not belong to the highest bidder, but instead serve the public and cultural interests of urban society."
+  },
+  "alt-004": {
+    "zusammenfassung": "Some Scandinavian cities demonstrate that modern urban development (\"Smart City\") is more successful without the visual and psychological burden of outdoor advertising.",
+    "kernbefund": "In various urban development projects across Scandinavia (e.g. in districts of Oslo or Stockholm), a \"Human-Centric\" approach is pursued that prioritises the reduction of visual noise. When planning connected infrastructure (smart lamp posts, information kiosks), the integration of advertising displays is deliberately avoided. Instead, these surfaces are used for real-time citizen information, climate data, or simple greenery. Studies show that citizens in these advertising-free spaces experience a greater sense of security, less stress, and stronger social cohesion, which increases the long-term attractiveness of the location.",
+    "relevanz": "The example proves that \"Smart City\" does not automatically have to mean \"advertising city.\" A technologically advanced city can consciously choose visual tranquillity in order to place the well-being of its residents at the centre of its development."
+  },
+  "culture-001": {
+    "zusammenfassung": "Academic analysis of advertising as a culturally homogenising force in the ASEAN region. Examines how international advertising challenges national cultural projects and spreads Western cultural elements worldwide.",
+    "kernbefund": "International advertising — particularly for global brands in public space — functions as a global cultural homogenisation force. It spreads a unified Western (primarily American) visual identity and value system across national borders, displacing local cultural ideals.",
+    "relevanz": "Outdoor advertising by McDonald's, Coca-Cola, Apple, and other global brands in public space shapes the visual identity of cities worldwide in an almost identical manner — at the expense of local cultural distinctiveness."
+  },
+  "culture-002": {
+    "zusammenfassung": "Academic analysis of how global advertising and consumer culture contribute to the emergence of a homogeneous global culture. Specifically examines global brands (Coca-Cola, Apple, McDonald's) and their effect on cultural convergence.",
+    "kernbefund": "Global brands impose a consistent image and value system across national borders, promoting cultural convergence. Local cultural ideals — including beauty standards — are increasingly aligning with Western norms. Outdoor advertising is the primary channel through which these messages penetrate public space.",
+    "relevanz": "Every billboard for a Western global product in public space is an act of cultural overwriting (Überformung) — it sets Western standards as the norm without local communities being able to vote on it."
+  },
+  "culture-003": {
+    "zusammenfassung": "Current (2024) analysis of how global advertising platforms and media — including outdoor advertising — contribute to cultural homogenisation and threaten local traditions and diversity.",
+    "kernbefund": "Global advertising and media platforms contribute measurably to cultural homogenisation. Local traditions and cultural diversity are being displaced by the dominance of global brand messages in public space. This is a currently growing problem.",
+    "relevanz": "Outdoor advertising is physically anchored in public space and is therefore a particularly persistent part of the cultural environment. Digital DOOH (Digital Out-of-Home) screens accelerate the spread of global brand messages into local spaces."
+  },
+  "culture-004": {
+    "zusammenfassung": "UNESCO has explicitly identified commercial outdoor advertising as a threat to the visual integrity of World Heritage Sites in its guidelines for sustainable urban management. Several European cities have been called upon to limit OOH (Out-of-Home) advertising in buffer zones.",
+    "kernbefund": "Commercial outdoor advertising in historic city centres and UNESCO buffer zones undermines the authentic visual perception of cultural heritage sites. UNESCO defines \"Visual Integrity\" as a protected asset: the cityscape should reflect the historical significance of a place — large-scale advertising, particularly DOOH with animated content and night-time illumination, directly conflicts with this protection objective.",
+    "relevanz": "Cities such as Paris, Prague, Vienna, and Florence have introduced OOH advertising restrictions in historic core zones, partly under pressure from UNESCO. In Germany, Nuremberg's old town and Berlin-Mitte are potentially affected as buffer zones of UNESCO sites. Advertising concessions in these areas are subject to increasing legal pressure."
+  },
+  "eco-005": {
+    "zusammenfassung": "An analysis of advertisers using outdoor advertising shows that public space surfaces are booked disproportionately often by climate-damaging industries seeking to drive non-sustainable consumption.",
+    "kernbefund": "The most profitable clients for outdoor advertising companies are automobile manufacturers (particularly SUVs), low-cost airlines, fast-food chains, and the fashion industry (Fast Fashion). The constant visual presence of these products in public space cements an extremely resource-intensive lifestyle as a social norm (induced consumption).",
+    "relevanz": "Outdoor advertising is harmful not only through the electricity consumption of the displays themselves (Scope 1/2), but above all through what are known as \"Advertised Emissions\" (Scope 3) — the greenhouse gases arising from the additional consumption of high-carbon products that are advertised."
+  },
+  "eco-006": {
+    "zusammenfassung": "The climate impact of the advertising industry extends far beyond the electricity consumption of screens — it lies in the induced additional consumption of CO2-intensive products.",
+    "kernbefund": "Reports by Purpose Disruptors show that advertising massively increases greenhouse gas emissions from the population by artificially boosting the sale of climate-damaging products (such as SUVs, air travel, or fast food). These \"Advertised Emissions\" account for a significant share of the ecological footprint of an urban society. Estimates for the UK market show that the additional demand generated by advertising increases emissions by approximately 32%. Outdoor advertising acts here as a \"Choice Architect\" that normalises climate-damaging lifestyles in public space.",
+    "relevanz": "Advertising companies that describe themselves as \"climate-neutral\" (by offsetting only the electricity of their screens) ignore the massive Scope 3 effect of the advertised content. This is a form of systemic greenwashing."
+  },
+  "eco-007": {
+    "zusammenfassung": "Long-term advertising contracts bind municipalities to private corporations and curtail democratic authority over the design of public space.",
+    "kernbefund": "Cities frequently enter into contracts lasting 15 to 20 years with advertising companies, in which the provision of bus shelters or public toilets is exchanged for exclusive advertising rights. These Public-Private Partnerships (PPPs) often develop into debt traps: municipalities lose control over the cityscape and can often only enforce new ecological or social standards (e.g. bans on junk food advertising) by making massive compensation payments to the companies. Furthermore, the locations of the infrastructure often prioritise advertising visibility rather than the needs of citizens, leading to neglect of outlying districts.",
+    "relevanz": "The supposedly \"free\" infrastructure is purchased at a high price: the loss of political room for manoeuvre and the long-term privatisation of public space."
+  },
+  "econ-001": {
+    "zusammenfassung": "Review study on the relationship between income inequality, status-driven consumption, and status anxiety. Shows that advertising promoting status symbols directly contributes to household debt and non-sustainable consumption.",
+    "kernbefund": "Income inequality is associated with higher status-driven consumption and status anxiety. This status anxiety, fuelled by advertising, leads to household debt, spatial inequalities, and non-sustainable consumption behaviour with higher CO₂ emissions.",
+    "relevanz": "Outdoor advertising for luxury goods, status symbols, and aspirationally \"upward-oriented\" consumer goods reaches all social strata in public space — including those who cannot afford these goods, generating status anxiety and debt particularly among lower-income population groups."
+  },
+  "econ-002": {
+    "zusammenfassung": "Econometric study on the relationship between rising income inequality and growing consumer debt. Shows that households with smaller income gains take on debt to maintain their consumption relative to wealthier households.",
+    "kernbefund": "Rising income inequality substantially increases consumer debt. Households with smaller income gains take on debt to emulate the consumption of wealthier groups — a mechanism that advertising deliberately exploits (\"Keeping up with the Joneses\").",
+    "relevanz": "Outdoor advertising in public space confronts all income groups with the same consumption incentives. Advertising for high-priced goods in public space is a direct driver of the \"keeping up\" mechanism that drives households into debt."
+  },
+  "econ-003": {
+    "zusammenfassung": "NBER (National Bureau of Economic Research) working paper documenting the long-term correlation between growing income inequality and consumption patterns in the USA since the 1960s. Analyses how marketing and advertising accelerate status-driven consumption.",
+    "kernbefund": "Decades of data confirm the relationship between rising inequality and non-sustainable consumption patterns. Advertising and marketing play a central role in accelerating status-driven consumption that perpetuates inequalities.",
+    "relevanz": "Outdoor advertising has been a driver of these consumption patterns for decades — it is the most visible and most pervasive form of commercial messaging in public space."
+  },
+  "econ-004": {
+    "zusammenfassung": "Wharton School of Business research study on the effect of income inequality on conspicuous and inconspicuous consumption. Shows that higher inequality leads to more ostentatious (visible) status consumption — precisely what outdoor advertising for high-priced goods incentivises.",
+    "kernbefund": "Higher inequality increases status-signalling consumption (conspicuous consumption). Advertising for luxury goods and status products in public space deliberately exploits and amplifies this mechanism — it targets all income groups and generates social comparison processes that lead to irrational purchasing decisions.",
+    "relevanz": "Outdoor advertising for premium and status goods is particularly effective in public space because it reaches all social strata and generates social comparisons in a context where poverty and wealth meet directly."
+  },
+  "econ-008": {
+    "zusammenfassung": "DOOH (Digital Out-of-Home) hardware (LED screens, control units, power supply) has a real service life of 5–7 years, after which the hardware must be replaced. The disposal costs for electronic waste from commercial signage have so far been largely externalised — onto municipalities, taxpayers, and developing countries.",
+    "kernbefund": "The UN E-Waste Monitor 2020 documents that commercial electronic signage waste is one of the fastest-growing e-waste streams. DOOH hardware contains hazardous substances (lead, mercury in older LEDs, indium) for whose proper disposal no adequate take-back systems exist. Cities and municipalities bear the follow-on costs of advertising installations that are disposed of or illegally abandoned in public space.",
+    "relevanz": "Investors in DOOH infrastructure must factor in disposal costs at the end of the hardware lifecycle. In cities with strict advertising bans (São Paulo, Grenoble), significant dismantling and disposal costs arose. The EU Corporate Sustainability Due Diligence Directive (CSDDD) could in future hold DOOH operators accountable for the full hardware lifecycle impact."
+  }
+}

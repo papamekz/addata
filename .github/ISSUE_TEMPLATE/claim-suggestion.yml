@@ -1,0 +1,53 @@
+name: Claim suggestion
+description: Suggest a new independent OOH/DOOH risk claim
+title: "[Claim] "
+labels: ["claim-suggestion"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Claim title
+      description: Short, specific claim title.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - regulation
+        - health
+        - politics
+        - environment
+        - resources
+        - psychology
+        - urban
+        - economy
+        - safety
+        - privacy
+        - equity
+        - culture
+        - alternatives
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Prefer courts, regulators, peer-reviewed papers, public agencies, WHO/UN/EU sources, or investigative reporting with primary documents.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence summary
+      description: What does the source document? Include numbers, jurisdiction, year, and caveats.
+    validations:
+      required: true
+  - type: textarea
+    id: duplicate_check
+    attributes:
+      label: Duplicate check
+      description: Which existing claim IDs did you compare against?
+    validations:
+      required: true

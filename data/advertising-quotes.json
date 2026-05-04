@@ -1,0 +1,372 @@
+{
+  "version": "1.4",
+  "generated": "2026-05-03",
+  "note": "Short cultural, philosophical, poetic, and ethical quote fragments about advertising, publicity, spectacle, consumer persuasion, billboards, and manufactured desire. These are context records linked to empirical claims; they are not empirical evidence claims.",
+  "quotes": [
+    {
+      "id": "quote-001",
+      "author": "John Berger",
+      "work": "Ways of Seeing",
+      "year": 1972,
+      "quote": "All publicity works upon anxiety.",
+      "theme": "anxiety",
+      "source_url": "https://www.goodreads.com/work/quotes/2507145-ways-of-seeing",
+      "source_quality": "secondary excerpt; verify against book text for formal citation",
+      "context_note": "Berger reads advertising as a system that first creates insecurity and then sells commodities as relief. For OOH analysis, the quote frames unavoidable public ads as ambient pressure on self-image, status, and belonging.",
+      "context_note_de": "Berger versteht Werbung als System, das zuerst Unsicherheit erzeugt und dann Waren als Erlösung anbietet. Für OOH-Analysen deutet das Zitat öffentliche Werbung als dauerhaften Druck auf Selbstbild, Status und Zugehörigkeit.",
+      "related_claims": ["psych-010", "psych-011", "health-005"]
+    },
+    {
+      "id": "quote-002",
+      "author": "John Berger",
+      "work": "Ways of Seeing",
+      "year": 1972,
+      "quote": "Publicity is about social relations, not objects.",
+      "theme": "status and social relations",
+      "source_url": "https://www.goodreads.com/work/quotes/2507145-ways-of-seeing",
+      "source_quality": "secondary excerpt; verify against book text for formal citation",
+      "context_note": "The useful point is that advertising often sells imagined social position rather than the object itself. This connects cultural critique with claims about status anxiety, symbolic consumption, and unequal exposure.",
+      "context_note_de": "Der Kern ist, dass Werbung häufig eine vorgestellte soziale Position verkauft, nicht nur das Produkt selbst. Das verbindet Kulturkritik mit Claims zu Statusangst, symbolischem Konsum und ungleicher Exposition.",
+      "related_claims": ["eco-006", "econ-001", "psych-009"]
+    },
+    {
+      "id": "quote-003",
+      "author": "Guy Debord",
+      "work": "The Society of the Spectacle",
+      "year": 1967,
+      "quote": "The spectacle is not a collection of images.",
+      "theme": "spectacle",
+      "source_url": "https://en.wikiquote.org/wiki/Guy_Debord",
+      "source_quality": "attributed with work/chapter reference",
+      "context_note": "Debord's concept is useful because it treats advertising images as part of a broader social relation, not as isolated signs. In OOH contexts, the quote helps explain why domination of public sightlines matters politically and culturally.",
+      "context_note_de": "Debords Begriff ist nützlich, weil er Werbebilder als Teil sozialer Beziehungen versteht, nicht als isolierte Zeichen. Für OOH erklärt das Zitat, warum die Besetzung öffentlicher Sichtachsen politisch und kulturell relevant ist.",
+      "related_claims": ["urban-004", "culture-004", "psych-007"]
+    },
+    {
+      "id": "quote-004",
+      "author": "Guy Debord",
+      "work": "The Society of the Spectacle",
+      "year": 1967,
+      "quote": "The more you consume the less you live.",
+      "theme": "consumer culture",
+      "source_url": "https://www.goodreads.com/work/quotes/371226-la-soci-t-du-spectacle",
+      "source_quality": "secondary excerpt; verify translation against source edition for formal citation",
+      "context_note": "This is a compressed critique of consumer culture: life is displaced into purchasing and display. Use it as philosophical context for claims about overconsumption and advertised emissions, not as empirical evidence.",
+      "context_note_de": "Das ist eine verdichtete Kritik an Konsumkultur: Leben wird in Kaufen und Vorzeigen verschoben. Das Zitat eignet sich als philosophischer Kontext für Claims zu Überkonsum und beworbenen Emissionen, nicht als empirischer Beleg.",
+      "related_claims": ["econ-001", "psych-011", "eco-006"]
+    },
+    {
+      "id": "quote-005",
+      "author": "John Kenneth Galbraith",
+      "work": "The Affluent Society",
+      "year": 1958,
+      "quote": "Production creates the wants.",
+      "theme": "manufactured demand",
+      "source_url": "https://mises.org/mises-daily/galbraith-was-right-about-advertising",
+      "source_quality": "secondary discussion quoting the work",
+      "context_note": "Galbraith's point is that industrial production and advertising can generate wants instead of merely satisfying pre-existing needs. This supports the dataset's focus on advertising as demand creation and emissions amplification.",
+      "context_note_de": "Galbraiths Punkt ist, dass industrielle Produktion und Werbung Wünsche erzeugen können, statt nur bestehende Bedürfnisse zu bedienen. Das stützt den Datensatzfokus auf Werbung als Nachfrageproduktion und Emissionsverstärker.",
+      "related_claims": ["psych-009", "eco-006", "econ-001"]
+    },
+    {
+      "id": "quote-006",
+      "author": "John Kenneth Galbraith",
+      "work": "The Affluent Society",
+      "year": 1958,
+      "quote": "It is not necessary to advertise food to hungry people.",
+      "theme": "basic needs and persuasion",
+      "source_url": "https://quote.org/quote/it-is-not-necessary-to-advertise-food-1205041",
+      "source_quality": "weak secondary quote database; use as context only until checked against a primary edition",
+      "context_note": "The interpretation is about persuasion beyond basic need: heavy advertising is most relevant where desire, brand preference, habit, or overconsumption must be created. Because the source is weak, use this as a thematic prompt only.",
+      "context_note_de": "Die Deutung zielt auf Überredung jenseits echter Grundbedürfnisse: Massive Werbung wird dort wichtig, wo Begehren, Markenpräferenz, Gewohnheit oder Überkonsum erzeugt werden sollen. Wegen der schwachen Quelle nur als thematischer Hinweis verwenden.",
+      "related_claims": ["health-014", "health-009", "equity-001"]
+    },
+    {
+      "id": "quote-007",
+      "author": "David Ogilvy",
+      "work": "Confessions of an Advertising Man",
+      "year": 1963,
+      "quote": "I have never seen one improved by a billboard.",
+      "theme": "billboards and landscape",
+      "source_url": "https://www.theguardian.com/education/2000/nov/27/highereducation.mbas",
+      "source_quality": "secondary excerpt in Guardian reproduction of No Logo, citing Ogilvy's book",
+      "context_note": "Ogilvy is useful here because the critique comes from inside the advertising profession. The quote frames billboards as visual degradation of landscape and public space, connecting cultural critique with urban design and environmental claims.",
+      "context_note_de": "Ogilvy ist hier besonders brauchbar, weil die Kritik aus der Werbebranche selbst kommt. Das Zitat deutet Billboards als visuelle Verschlechterung von Landschaft und öffentlichem Raum und verbindet Kulturkritik mit Stadtbild- und Umweltclaims.",
+      "related_claims": ["urban-003", "culture-004", "res-012"]
+    },
+    {
+      "id": "quote-017",
+      "author": "David Ogilvy",
+      "work": "Confessions of an Advertising Man",
+      "year": 1963,
+      "quote": "The consumer isn't a moron; she is your wife.",
+      "theme": "consumer intelligence and anti-slogan critique",
+      "source_url": "https://www.bonmots.com/source/confessions-of-an-advertising-man",
+      "source_urls": [
+        "https://www.bonmots.com/source/confessions-of-an-advertising-man",
+        "https://www.britannica.com/quotes/David-Ogilvy",
+        "https://www.goodreads.com/work/quotes/44217-confessions-of-an-advertising-man"
+      ],
+      "source_quality": "Bonmots and Britannica quote pages cite Confessions of an Advertising Man; use short excerpt plus context note for copyright-safe display",
+      "context_note": "Ogilvy's longer point is that advertisers insult consumer intelligence when they rely on empty slogans and vague adjectives instead of giving people substantive information.",
+      "context_note_de": "Ogilvys längerer Punkt ist, dass Werbetreibende die Intelligenz von Konsumenten beleidigen, wenn sie sich auf leere Slogans und vage Adjektive verlassen, statt belastbare Informationen zu liefern.",
+      "completeness_note": "The linked sources contain a longer passage. The dataset displays the central short excerpt and paraphrases the continuation for copyright-safe use.",
+      "completeness_note_de": "Die verlinkten Quellen enthalten eine längere Passage. Der Datensatz zeigt den zentralen kurzen Ausschnitt und paraphrasiert die Fortsetzung urheberrechtlich sicher.",
+      "related_claims": ["psych-003", "psych-007", "reg-031"]
+    },
+    {
+      "id": "quote-008",
+      "author": "Marshall McLuhan",
+      "work": "Culture Is Our Business",
+      "year": 1970,
+      "quote": "Ads are the cave art of the twentieth century.",
+      "theme": "advertising as cultural record",
+      "source_url": "https://www.wired.com/2006/12/ads-are-the-cav/",
+      "source_quality": "secondary article; source commonly attributed to Culture Is Our Business",
+      "context_note": "McLuhan's line can be read two ways: ads are culturally revealing, but also evidence that commercial imagery became a dominant public art form. In this dataset it is best used to discuss cultural saturation rather than direct harm.",
+      "context_note_de": "McLuhans Satz lässt sich doppelt lesen: Werbung verrät viel über Kultur, zeigt aber auch, dass kommerzielle Bilder zu einer dominanten öffentlichen Kunstform wurden. Im Datensatz passt er vor allem zu kultureller Sättigung, nicht als direkter Schadensbeleg.",
+      "related_claims": ["culture-004", "culture-007", "culture-009"]
+    },
+    {
+      "id": "quote-009",
+      "author": "Banksy / disputed attribution note",
+      "work": "Cut It Out / advertising text",
+      "year": 2004,
+      "quote": "They are The Advertisers and they are laughing at you.",
+      "theme": "public-space advertising and consent",
+      "source_url": "https://en.wikiquote.org/wiki/Banksy",
+      "source_quality": "attributed; authorship dispute documented in quote note",
+      "context_note": "The value of this record is the consent critique: public advertising occupies attention without asking permission. Because authorship is disputed, treat it as cultural street-art context rather than a clean Banksy quotation.",
+      "context_note_de": "Der Wert dieses Eintrags liegt in der Zustimmungskritik: Außenwerbung besetzt Aufmerksamkeit, ohne vorher zu fragen. Wegen der umstrittenen Autorschaft sollte der Eintrag als Street-Art-Kontext gelten, nicht als sauberes Banksy-Zitat.",
+      "attribution_note": "The longer text is widely attributed to Banksy, but reporting has noted overlap with Sean Tejaratchi's 1999 zine essay. Keep this record as disputed cultural context, not a clean quotation.",
+      "related_claims": ["urban-004", "psych-007", "equity-005"]
+    },
+    {
+      "id": "quote-010",
+      "author": "Raymond Williams",
+      "work": "Advertising: The Magic System",
+      "year": 1960,
+      "quote": "The short description of the pattern we have is magic.",
+      "theme": "advertising as magic system",
+      "source_url": "https://www.psychologytoday.com/us/blog/psyched/200807/advertising-is-magic",
+      "source_quality": "secondary excerpt; essay has academic DOI listing at De Gruyter",
+      "context_note": "Williams describes advertising as a ritual system that attaches hopes, identities, and social meanings to commodities. This helps agents interpret why purely factual ad-disclosure can miss the symbolic work advertising performs.",
+      "context_note_de": "Williams beschreibt Werbung als rituelles System, das Hoffnungen, Identitäten und soziale Bedeutungen an Waren bindet. Das hilft Agents zu verstehen, warum rein faktische Werbeoffenlegung die symbolische Arbeit von Werbung oft verfehlt.",
+      "related_claims": ["psych-007", "psych-009", "eco-006"]
+    },
+    {
+      "id": "quote-011",
+      "author": "Raymond Williams",
+      "work": "Advertising: The Magic System",
+      "year": 1960,
+      "quote": "the official art of modern capitalist society",
+      "theme": "advertising and capitalist culture",
+      "source_url": "https://www.epicpeople.org/business-anthropology-and-magical-systems-the-case-of-advertising/",
+      "source_quality": "secondary academic discussion quoting Williams",
+      "context_note": "This quote frames advertising as the dominant aesthetic language of commercial society. For OOH analysis, it supports cultural claims about who gets to shape the visual commons and whose messages become normal.",
+      "context_note_de": "Das Zitat deutet Werbung als dominante ästhetische Sprache kommerzieller Gesellschaft. Für OOH-Analysen stützt es Kulturclaims darüber, wer den visuellen Gemeinraum prägt und wessen Botschaften normal wirken.",
+      "related_claims": ["culture-004", "urban-004", "eco-006"]
+    },
+    {
+      "id": "quote-012",
+      "author": "Vance Packard",
+      "work": "The Hidden Persuaders",
+      "year": 1957,
+      "quote": "Probing and manipulation... has seriously antihumanistic implications.",
+      "theme": "manipulation and autonomy",
+      "source_url": "https://libquotes.com/vance-packard/works/the-hidden-persuaders",
+      "source_quality": "sourced quote excerpt with work reference",
+      "context_note": "Packard's concern is autonomy: persuasion research can move from informing people to probing vulnerabilities and shaping choices. This is directly relevant to biometric, behavioural, and programmatic DOOH systems.",
+      "context_note_de": "Packards Sorge betrifft Autonomie: Persuasionsforschung kann von Information zu Verwundbarkeitsanalyse und Verhaltenssteuerung kippen. Das ist direkt relevant für biometrische, verhaltensbasierte und programmatische DOOH-Systeme.",
+      "related_claims": ["priv-006", "priv-009", "psych-008"]
+    },
+    {
+      "id": "quote-013",
+      "author": "Neil Postman",
+      "work": "Amusing Ourselves to Death",
+      "year": 1985,
+      "quote": "The truth or falsity of an advertiser's claim is simply not an issue.",
+      "theme": "image advertising and truth",
+      "source_url": "https://www.goodreads.com/work/quotes/2337731-amusing-ourselves-to-death-public-discourse-in-the-age-of-show-business",
+      "source_quality": "secondary excerpt; verify against book text for formal citation",
+      "context_note": "Postman is pointing at a shift from propositional truth to image management. The quote is useful for greenwashing and political-ad claims, where mood, identity, and spectacle can crowd out verifiable claims.",
+      "context_note_de": "Postman beschreibt eine Verschiebung von überprüfbarer Aussage zu Image-Management. Das Zitat ist nützlich für Greenwashing- und politische Werbeclaims, bei denen Stimmung, Identität und Spektakel überprüfbare Aussagen verdrängen können.",
+      "related_claims": ["reg-031", "reg-037", "psych-007"]
+    },
+    {
+      "id": "quote-014",
+      "author": "Aldous Huxley",
+      "work": "Brave New World Revisited",
+      "year": 1958,
+      "quote": "We do not buy just an auto, we buy prestige.",
+      "theme": "symbolic consumer desire",
+      "source_url": "https://www.huxley.net/bnw-revisited/",
+      "source_quality": "online full text of the work",
+      "context_note": "Huxley highlights symbolic consumption: advertising sells status, distinction, and identity alongside material goods. This interpretation connects to claims about status anxiety, car advertising, and high-carbon aspiration.",
+      "context_note_de": "Huxley betont symbolischen Konsum: Werbung verkauft Status, Abgrenzung und Identität zusammen mit materiellen Gütern. Diese Deutung passt zu Claims über Statusangst, Autowerbung und CO2-intensive Leitbilder.",
+      "related_claims": ["psych-009", "econ-001", "eco-006"]
+    },
+    {
+      "id": "quote-015",
+      "author": "Ogden Nash",
+      "work": "Song of the Open Road",
+      "year": 1932,
+      "quote": "A billboard lovely as a tree",
+      "theme": "poetic billboard critique",
+      "source_url": "https://www.poetry.com/poem/58853/song-of-the-open-road",
+      "source_quality": "poem archive; New Yorker publication record also exists",
+      "context_note": "Nash's poem works as satire of roadside advertising replacing landscape. Because poetry uses compression and irony, use this as cultural texture for visual-pollution claims rather than as factual evidence.",
+      "context_note_de": "Nashs Gedicht funktioniert als Satire auf Straßenwerbung, die Landschaft ersetzt. Weil Lyrik mit Verdichtung und Ironie arbeitet, sollte der Eintrag als kulturelle Textur für Visual-Pollution-Claims dienen, nicht als Sachbeleg.",
+      "related_claims": ["urban-003", "culture-004", "res-012"]
+    },
+    {
+      "id": "quote-016",
+      "author": "Naomi Klein",
+      "work": "No Logo",
+      "year": 2000,
+      "quote": "produce brands, as opposed to products",
+      "theme": "branding and corporate power",
+      "source_url": "https://www.theguardian.com/education/2000/nov/27/highereducation.mbas",
+      "source_quality": "Guardian excerpt from No Logo",
+      "context_note": "Klein's critique is that modern firms often invest more in symbolic brand worlds than in the material product itself. This helps explain why public advertising space becomes strategically valuable even when it adds no civic function.",
+      "context_note_de": "Kleins Kritik lautet, dass moderne Unternehmen oft stärker in symbolische Markenwelten investieren als in das materielle Produkt selbst. Das erklärt, warum öffentlicher Werberaum strategisch wertvoll wird, obwohl er keine städtische Funktion ergänzt.",
+      "related_claims": ["culture-003", "psych-009", "eco-006"]
+    },
+    {
+      "id": "quote-018",
+      "author": "George Orwell",
+      "work": "Keep the Aspidistra Flying",
+      "year": 1936,
+      "quote": "Advertising is the rattling of a stick inside a swill-bucket.",
+      "theme": "advertising as noise and stimulus",
+      "source_url": "https://www.magicalquote.com/bookquotes/advertising-is-the-rattling-of-a-stick-inside-a-swill-bucket/",
+      "source_urls": [
+        "https://www.magicalquote.com/bookquotes/advertising-is-the-rattling-of-a-stick-inside-a-swill-bucket/",
+        "https://www.goodreads.com/quotes/86009-advertising-is-the-rattling-of-a-stick-inside-a-swill"
+      ],
+      "source_quality": "secondary quote pages; MagicalQuote gives book, chapter, and edition/page reference",
+      "context_note": "Orwell's metaphor treats advertising as crude attention-making rather than reasoned communication. For OOH, it is useful as a literary frame for noise, repetition, and stimulus in shared public space.",
+      "context_note_de": "Orwells Metapher deutet Werbung als grobes Aufmerksamkeitssignal statt als vernünftige Kommunikation. Für OOH eignet sie sich als literarischer Rahmen für Lärm, Wiederholung und Reizsteuerung im öffentlichen Raum.",
+      "related_claims": ["psych-007", "urban-004", "culture-004"]
+    },
+    {
+      "id": "quote-019",
+      "author": "David Foster Wallace",
+      "work": "Infinite Jest",
+      "year": 1996,
+      "quote": "create an anxiety relievable by purchase",
+      "theme": "advertising and purchasable anxiety",
+      "source_url": "https://www.goodreads.com/quotes/189542-it-did-what-all-ads-are-supposed-to-do-create",
+      "source_urls": [
+        "https://www.goodreads.com/quotes/189542-it-did-what-all-ads-are-supposed-to-do-create",
+        "https://www.azquotes.com/quote/392480"
+      ],
+      "source_quality": "secondary quote pages; AZQuotes cites Infinite Jest page reference",
+      "context_note": "Wallace condenses a core mechanism of consumer advertising: first activate insecurity, then offer a product as relief. This links directly to claims about body image, status anxiety, and unavoidable exposure.",
+      "context_note_de": "Wallace verdichtet einen Kernmechanismus von Konsumwerbung: erst Unsicherheit aktivieren, dann ein Produkt als Entlastung anbieten. Das passt direkt zu Claims über Körperbild, Statusangst und unvermeidbare Exposition.",
+      "related_claims": ["psych-010", "psych-011", "health-005"]
+    },
+    {
+      "id": "quote-020",
+      "author": "Howard Luck Gossage",
+      "work": "Is There Any Hope for Advertising?",
+      "year": 1986,
+      "quote": "People read what interests them; and sometimes it's an ad.",
+      "theme": "attention and relevance",
+      "source_url": "https://www.wired.com/1995/12/just-your-luck-2/",
+      "source_urls": [
+        "https://www.wired.com/1995/12/just-your-luck-2/",
+        "https://www.azquotes.com/quote/583264"
+      ],
+      "source_quality": "Wired review of The Book of Gossage plus secondary quote page citing the 1986 collection",
+      "context_note": "Gossage was an advertising insider and critic. The quote is useful because it undercuts the industry's assumption that bought space automatically deserves attention; public-space advertising still imposes exposure even when it is not wanted.",
+      "context_note_de": "Gossage war Werbepraktiker und Werbekritiker zugleich. Das Zitat untergräbt die Branchenannahme, dass gekaufter Raum automatisch Aufmerksamkeit verdient; Außenwerbung erzwingt dennoch Exposition, auch wenn sie nicht gewollt ist.",
+      "related_claims": ["psych-006", "psych-007", "urban-004"]
+    },
+    {
+      "id": "quote-021",
+      "author": "Christopher Lasch",
+      "work": "The Culture of Narcissism",
+      "year": 1979,
+      "quote": "promote consumption as a way of life",
+      "theme": "consumer culture and manufactured appetite",
+      "source_url": "https://libquotes.com/christopher-lasch/works/the-culture-of-narcissism",
+      "source_urls": [
+        "https://libquotes.com/christopher-lasch/works/the-culture-of-narcissism",
+        "https://www.azquotes.com/quote/1369948"
+      ],
+      "source_quality": "sourced quote pages referencing The Culture of Narcissism",
+      "context_note": "Lasch's critique moves beyond individual ads: advertising trains consumption as a social norm and life strategy. This is useful for environmental and economy claims where harm comes from aggregate demand, not one campaign.",
+      "context_note_de": "Laschs Kritik geht über einzelne Anzeigen hinaus: Werbung trainiert Konsum als soziale Norm und Lebensstrategie. Das ist wichtig für Umwelt- und Wirtschaftsclaims, bei denen der Schaden aus aggregierter Nachfrage entsteht, nicht aus einer einzelnen Kampagne.",
+      "related_claims": ["econ-001", "eco-006", "env-016"]
+    },
+    {
+      "id": "quote-022",
+      "author": "J. G. Ballard",
+      "work": "Crash / interview-attributed cultural quote",
+      "year": 1973,
+      "quote": "politics conducted as a branch of advertising",
+      "theme": "politics as advertising spectacle",
+      "source_url": "https://www.goodreads.com/quotes/7513300-we-live-in-a-world-ruled-by-fictions-of-every",
+      "source_urls": [
+        "https://www.goodreads.com/quotes/7513300-we-live-in-a-world-ruled-by-fictions-of-every",
+        "https://quotation.io/quote/live-world-ruled-fictions-every-kind-mass"
+      ],
+      "source_quality": "secondary quote pages; use short excerpt only and verify before formal citation",
+      "context_note": "Ballard's phrase links advertising with political image-making. For this dataset it supports the governance theme: outdoor media can carry political spectacle, lobbying narratives, and public legitimacy campaigns, not only commercial product ads.",
+      "context_note_de": "Ballards Formulierung verbindet Werbung mit politischer Imageproduktion. Für den Datensatz stützt sie die Governance-Perspektive: Außenmedien tragen nicht nur Produktwerbung, sondern auch politisches Spektakel, Lobby-Narrative und Legitimitätskampagnen.",
+      "related_claims": ["pol-017", "pol-023", "reg-031"]
+    },
+    {
+      "id": "quote-023",
+      "author": "H. G. Wells",
+      "work": "attributed quotation",
+      "year": 1900,
+      "quote": "Advertising is legalized lying.",
+      "theme": "truth claims and advertising",
+      "source_url": "https://theysaidso.com/quote/h-g-wells-advertising-is-legalized-lying",
+      "source_urls": [
+        "https://theysaidso.com/quote/h-g-wells-advertising-is-legalized-lying",
+        "https://citatis.com/a2034/16344/"
+      ],
+      "source_quality": "weak attribution; keep as attributed cultural context, not a verified primary-source quotation",
+      "context_note": "The line is useful as a sharp ethical slogan about truth in advertising, but the attribution is weak. Use it only as attributed cultural context for greenwashing, disclosure, and misleading-claim discussions.",
+      "context_note_de": "Der Satz ist als zugespitzte ethische Formel über Wahrheit in der Werbung nützlich, aber die Zuschreibung ist schwach. Er sollte nur als zugeschriebener Kulturkontext für Greenwashing, Offenlegung und irreführende Claims genutzt werden.",
+      "related_claims": ["reg-031", "reg-037", "psych-003"]
+    },
+    {
+      "id": "quote-024",
+      "author": "Gilberto Kassab",
+      "work": "São Paulo Clean City Law remarks",
+      "year": 2007,
+      "quote": "visual pollution is the most obvious",
+      "theme": "public policy and visual pollution",
+      "source_url": "https://content.time.com/time/specials/2007/article/0,28804,1709961_1711305_1860002,00.html",
+      "source_urls": [
+        "https://content.time.com/time/specials/2007/article/0,28804,1709961_1711305_1860002,00.html",
+        "https://www.enn.com/articles/22788-sao-paulo-bans-outdoor-ads-in-fight-against-pollution"
+      ],
+      "source_quality": "reported public-policy quote in TIME; ENN/Adbusters coverage corroborates Clean City framing",
+      "context_note": "Kassab's quote matters because it translates advertising critique into municipal policy language. It frames billboards as an environmental and urban-quality issue rather than merely a matter of taste.",
+      "context_note_de": "Kassabs Zitat ist wichtig, weil es Werbekritik in kommunale Politiksprache übersetzt. Es rahmt Billboards als Umwelt- und Stadtqualitätsproblem, nicht bloß als Geschmacksfrage.",
+      "related_claims": ["urban-010", "reg-019", "culture-004"]
+    },
+    {
+      "id": "quote-025",
+      "author": "Khaled Gaiji",
+      "work": "Resistance to Advertising Aggression / IPS interview",
+      "year": 2020,
+      "quote": "Adverts create obstacles. Without them you can breathe.",
+      "theme": "ad-free public space and urban relief",
+      "source_url": "https://www.ipsnews.net/2020/08/growing-global-movement-end-outdoor-advertising/",
+      "source_urls": [
+        "https://www.ipsnews.net/2020/08/growing-global-movement-end-outdoor-advertising/",
+        "https://www.globalissues.org/news/2020/08/11/26716"
+      ],
+      "source_quality": "interview quote in Inter Press Service, mirrored by Global Issues",
+      "context_note": "Gaiji gives the public-space experience of ad removal: less visual obstruction, more urban legibility, and a felt sense of relief. This complements empirical claims about visual clutter and community impact.",
+      "context_note_de": "Gaiji beschreibt die Erfahrung entfernten Werbedrucks im öffentlichen Raum: weniger visuelle Blockade, mehr Lesbarkeit der Stadt und ein spürbares Aufatmen. Das ergänzt empirische Claims zu visueller Überlastung und Community Impact.",
+      "related_claims": ["urban-004", "alt-001", "culture-004"]
+    }
+  ]
+}

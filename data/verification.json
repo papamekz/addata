@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-02",
+  "purpose": "Manual verification overlay for claims that are legally, temporally, or source-quality sensitive. This file does not replace the source URLs in claim Markdown; it records audit decisions for agent ingestion.",
+  "status_values": {
+    "verified": "Primary source or high-quality independent source supports the claim as written.",
+    "corrected": "Claim was revised during audit because the previous wording was too broad or inaccurate.",
+    "needs_primary_source": "Claim is plausible but should be strengthened with a primary official source.",
+    "source_critique": "The cited source is not independent; the claim is retained only because it critiques or documents that source's own statement/allegation."
+  },
+  "claims": {
+    "health-015": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions",
+      "note": "Previous wording incorrectly described the UK 2026 HFSS rules as a national OOH ban. Official guidance supports TV/ODPS/IPTV watershed and paid-online restrictions; OOH remains a regulatory gap."
+    },
+    "priv-005": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
+      "note": "Previous wording overstated Article 5 as a blanket ban on biometric categorisation in public space. Revised to describe high-risk/prohibited-practice boundaries and the need for AI Act/GDPR review."
+    },
+    "priv-007": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "note": "Added during AI Act audit. Article 50 explicitly requires deployers of emotion-recognition or biometric-categorisation systems to inform exposed natural persons and process personal data under EU data-protection law."
+    },
+    "priv-008": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
+      "note": "Added during AI Act audit. Article 5 prohibits biometric categorisation used to infer sensitive attributes; this gives DOOH due diligence a precise red line rather than a blanket ban claim."
+    },
+    "health-019": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.gov.uk/government/consultations/brand-advertising-exemption-from-advertising-restrictions-for-less-healthy-food-or-drink/outcome/response-to-brand-advertising-exemption-from-advertising-restrictions-for-less-healthy-food-or-drink",
+      "note": "Added during UK HFSS audit. Official UK response confirms an explicit brand-advertising exemption for the TV/online LHF restrictions."
+    },
+    "health-020": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html",
+      "note": "Added during UK HFSS audit. ASA/CAP confirms the enforceable media scope: TV/ODPS before 9pm and paid online at any time, not general OOH."
+    },
+    "health-021": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html",
+      "note": "Added during UK HFSS enforcement audit. ASA confirms first rulings applying the LHF identifiability test to Iceland and Lidl ads."
+    },
+    "reg-030": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.asa.org.uk/rulings/lloyds-bank-plc-a24-1244509-lloyds-bank-plc.html",
+      "note": "Previous wording overstated the ruling as an OOH ban. ASA upheld a LinkedIn post; the bus-shelter poster was assessed but not upheld."
+    },
+    "reg-025": {
+      "status": "needs_primary_source",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame",
+      "note": "Source changed from secondary press coverage to Dutch government parliamentary-answer page. Still worth adding the exact Amsterdam council decision URL if available."
+    },
+    "reg-021": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
+      "note": "Source changed from secondary trade press to Rechtspraak summary. Wording tightened to APV-based local outdoor-ad ban effective 1 January 2025 and verified category scope."
+    },
+    "reg-032": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
+      "note": "Previous wording overstated the April 2025 interim ruling as an EU-wide precedent. Revised to a preliminary Dutch court decision with persuasive value for municipal regulation."
+    },
+    "reg-012": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
+      "note": "Previous wording overstated the Vernier ruling as a Europe-wide precedent. Revised to a strong Swiss reference case with comparative value outside Switzerland."
+    },
+    "reg-024": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
+      "note": "Source changed from secondary NGO/press coverage to Vernier/Federal Supreme Court summary. Removed overbroad claims that the precedent automatically applies to all Swiss municipalities or that Zurich/Bern had already followed."
+    },
+    "reg-022": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/",
+      "note": "Claim supported by DUH press release and independent trade coverage, but source is not the court judgment itself. Wording tightened from broad 'OOH greenwashing banned' to fossil-fuel climate-neutrality claims being legally attackable."
+    },
+    "reg-023": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
+      "note": "Updated from 2015 Commission investigation press release to final CJEU appeal judgment C-710/22 P. Wording tightened to concrete EU state-aid recovery risk, avoiding broad corruption/systematic-use assertions."
+    },
+    "env-016": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/",
+      "note": "Previous wording incorrectly said the German government confirmed 113,000 MWh/year. The shutdown duty is government-backed via EnSikuMaV; the 113,000 MWh figure is an industry self-report and is now labelled accordingly."
+    },
+    "env-001": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+      "note": "DarkSky supports high luminance, glare, lack of shielding, curfews, and ecological/light-pollution risk. The previous 30x household-energy headline was not supported by the cited DarkSky source and was replaced."
+    },
+    "env-002": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://scope3.com/news/the-state-of-sustainable-advertising-q2-2023",
+      "note": "Previous wording used an unsupported aviation-sector comparison and attributed the 7.2 MtCO2e figure to peer-reviewed literature. Revised to Scope3 commercial estimate for display + streaming ads; DOOH share is not separately quantified."
+    },
+    "env-005": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.igb-berlin.de/en/news/light-pollution-reason-insect-decline",
+      "note": "Previous wording overstated causality and used the wrong year. Revised to credible/plausible link based on IGB's 2018 overview."
+    },
+    "env-006": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.senckenberg.de/en/press-releases/the-dark-side-of-light-night-time-illumination-threatens-insects/",
+      "note": "Source supports 1,564 affected genes in Chironomus riparius larvae, delayed development, oxidative stress and reduced reproductive capacity. Year corrected to 2025."
+    },
+    "health-005": {
+      "status": "verified",
+      "checked": "2026-05-02",
+      "source_checked": "https://link.springer.com/article/10.1007/s11121-024-01763-x",
+      "note": "Prevention Science article is open access and supports the 'well over one million' annual US deaths framing for harmful marketing across reviewed industries. Source year corrected to 2025 publication."
+    },
+    "health-016": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://doi.org/10.1136/bmjph-2025-004245",
+      "note": "Previous wording overstated causality, included unsupported lives-saved language, and used an outdated BMJ citation. Revised to BMJ Public Health 2026 repeated cross-sectional evidence associating Lithuania's full alcohol marketing ban with less risky adolescent drinking."
+    },
+    "reg-034": {
+      "status": "corrected",
+      "checked": "2026-05-02",
+      "source_checked": "https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf",
+      "note": "Previous wording named the wrong rapporteur and was too OOH-specific. Revised to Elisa Morgera's A/HRC/59/42 recommendations to ban fossil advertising/promotion/sponsorship and criminalize fossil-fuel disinformation/greenwashing."
+    },
+    "safety-003": {
+      "status": "corrected",
+      "checked": "2026-05-03",
+      "source_checked": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+      "note": "Previous wording overstated the Swedish evidence as a rural-road ban/removal order. Revised to the peer-reviewed finding: electronic billboards attracted longer and more frequent driver glances; the publication does not conclusively establish traffic-safety hazard."
+    },
+    "safety-006": {
+      "status": "corrected",
+      "checked": "2026-05-03",
+      "source_checked": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+      "note": "Previous wording overclaimed dangerous gaze deviation and removal as a documented consequence. Revised to longer gaze/fixation evidence with the authors' caveat that safety hazard cannot be concluded from the available data alone."
+    },
+    "safety-007": {
+      "status": "corrected",
+      "checked": "2026-05-03",
+      "source_checked": "https://rosap.ntl.bts.gov/view/dot/36939",
+      "note": "Previous wording implied direct causal proof and fixed headline percentages. Revised to the US DOT repository abstract: digital billboard presence was correlated with increased crash rates in influence zones across 18 Alabama/Florida sites."
+    },
+    "reg-016": {
+      "status": "corrected",
+      "checked": "2026-05-03",
+      "source_checked": "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces",
+      "note": "Previous source/year mixed Haarlem 2022 and Amsterdam 2026. Revised to Amsterdam city council's 2026 decision with transition-period caveat; Haarlem retained as earlier pioneer."
+    },
+    "reg-019": {
+      "status": "corrected",
+      "checked": "2026-05-03",
+      "source_checked": "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/",
+      "note": "Previous wording incorrectly described Belgium as having enacted a complete national fossil-fuel advertising ban including OOH/DOOH. Revised to RTBF public-broadcaster contract restriction plus legislative-momentum signal."
+    },
+    "res-010": {
+      "status": "source_critique",
+      "checked": "2026-05-02",
+      "source_checked": "https://www.ledsignsupply.com/billboard-led/environmental/",
+      "note": "Industry source with independent=false. Retain only as an industry self-admission/source-critique claim, not as independent LCA evidence."
+    },
+    "pol-012": {
+      "status": "source_critique",
+      "checked": "2026-05-02",
+      "source_checked": "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/",
+      "note": "Commercial short-seller research with independent=false and documented conflict. Retain only as an allegation/market-event claim with careful hedging."
+    },
+    "pol-016": {
+      "status": "source_critique",
+      "checked": "2026-05-03",
+      "source_checked": "https://www.stroeer.de/newsroom/presse/stroeer-2024-mit-rekordwerten-bei-umsatz-erstmals-ueber-2-milliarden-euro-und-ebitda/",
+      "note": "Operator source with independent=false. Retain only for Ströer's own reported 2024 revenue and strategy language; the ~80% German DOOH share remains an Invidis market estimate, not an audited company metric."
+    },
+    "eco-009": {
+      "status": "source_critique",
+      "checked": "2026-05-03",
+      "source_checked": "https://www.jcdecaux.com/news-media/press-releases/publication-2024-universal-registration-document",
+      "note": "Operator filings and commercial market data are used only for self-reported risk factors and scenario exposure, not as independent evidence for a fixed revenue-at-risk percentage. Claim wording correctly avoids the earlier hard 45% figure."
+    },
+    "eco-010": {
+      "status": "source_critique",
+      "checked": "2026-05-03",
+      "source_checked": "https://investor.clearchannel.com/financials/sec-filings/content/0001334978-24-000006/cco-20231231.htm",
+      "note": "Operator SEC/annual-report sources with independent=false. Retain as self-disclosed regulatory, permit, concession and digital-inventory risk evidence; do not present as independent LCA or public-interest assessment."
+    },
+    "pol-017": {
+      "status": "source_critique",
+      "checked": "2026-05-03",
+      "source_checked": "https://www.jcdecaux.com/news-media/press-releases/publication-2024-universal-registration-document",
+      "note": "Mixed evidence claim. Operator filings are used for self-disclosed OOH/DOOH risk factors, Concurrences/CNMC for antitrust scrutiny, and Muddy Waters only as an interested market-actor allegation. The claim is correctly framed as risk signals, not proven wrongdoing."
+    },
+    "reg-038": {
+      "status": "source_critique",
+      "checked": "2026-05-02",
+      "note": "Industry-funded report is the object of critique. Do not present as independent evidence for low OOH emissions."
+    }
+  }
+}

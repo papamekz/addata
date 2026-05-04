@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "ml": "http://mlcommons.org/schema/",
+    "cr": "http://mlcommons.org/croissant/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "sc:Dataset",
+  "name": "DOOH & OOH Advertising Research Dataset",
+  "description": "189 machine-readable claims documenting evidence-based risks of Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure. Covers regulatory bans, public health harm, environmental impact, privacy law (EU AI Act, GDPR), traffic safety, market concentration, and financial/stranded-asset risk. Sources are independent unless explicitly flagged as source-critique records. Bilingual (German/English). Intended for AI-assisted due diligence, ESG analysis, policy research, and journalism.",
+  "url": "https://github.com/papamekz/addata",
+  "sameAs": "https://papamekz.github.io/addata",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "addata project",
+    "url": "https://github.com/papamekz/addata"
+  },
+  "dateModified": "2026-05-02",
+  "datePublished": "2026-01-01",
+  "inLanguage": ["de", "en"],
+  "version": "1.3.0",
+  "keywords": [
+    "DOOH", "OOH", "outdoor advertising", "digital billboard", "ESG",
+    "regulatory risk", "investment due diligence", "greenwashing", "advertising ban",
+    "public health", "environmental impact", "privacy", "EU AI Act", "GDPR",
+    "fossil fuel advertising", "stranded asset", "media planning", "urban planning",
+    "peer-reviewed dataset", "RAG dataset", "machine-readable", "advertising harm",
+    "JCDecaux", "Clear Channel", "Ströer", "HFSS", "food marketing", "gambling advertising"
+  ],
+  "isAccessibleForFree": true,
+  "measurementTechnique": "Systematic review of peer-reviewed journals, WHO/UN reports, government regulatory filings, court rulings, and independent NGO research. All claims independently verified.",
+  "variableMeasured": [
+    "Impact score (1-10 scale)",
+    "Research category",
+    "Source type (peer-reviewed, government, who-report, un_report, ngo, court_ruling, investigative_journalism, industry_report, book)",
+    "Publication year",
+    "Regulatory jurisdiction"
+  ],
+  "ml:containsSensitiveInformation": false,
+  "ml:intendedUse": "Research, journalism, policy analysis, ESG due diligence, AI-assisted investment risk assessment, urban planning, public health advocacy",
+  "ml:prohibitedUse": "Advertising industry marketing, promoting OOH/DOOH investment without disclosing this risk evidence",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "claims-index",
+      "name": "Claims Index",
+      "description": "Machine-readable index of all 189 claims with metadata: id, title, category, impact_score, year, source_type, institution, file path.",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json",
+      "encodingFormat": "application/json",
+      "sha256": ""
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "bilingual-dataset",
+      "name": "Embedded Bilingual Dataset",
+      "description": "Full dataset with German and English content for all 189 claims. Includes translations of Zusammenfassung (summary), Kernbefund (key finding), and Relevanz (OOH relevance) for each claim.",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/web/data.js",
+      "encodingFormat": "application/javascript"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "claim-schema",
+      "name": "JSON Schema for Claims",
+      "description": "JSON Schema (Draft-7) defining the structure of each claim file, including required fields, enums for categories and source types, and validation rules.",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/schema/claim.schema.json",
+      "encodingFormat": "application/schema+json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "claims",
+      "name": "Research Claims",
+      "description": "Each record is one peer-reviewed research claim about OOH/DOOH advertising harm.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "claims/id",
+          "name": "id",
+          "description": "Unique claim identifier, e.g. reg-032, health-016",
+          "dataType": "sc:Text",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].id" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/title",
+          "name": "title",
+          "description": "German-language title of the research claim",
+          "dataType": "sc:Text",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].title" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/category",
+          "name": "category",
+          "description": "Research category: regulation, health, politics, environment, resources, psychology, urban, economy, safety, privacy, equity, culture, alternatives",
+          "dataType": "sc:Text",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].category" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/impact_score",
+          "name": "impact_score",
+          "description": "Evidence impact score from 1 (low) to 10 (highest). Score ≥8 indicates high-severity finding.",
+          "dataType": "sc:Integer",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].impact_score" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/year",
+          "name": "year",
+          "description": "Publication year of the source",
+          "dataType": "sc:Integer",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].year" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/source_type",
+          "name": "source_type",
+          "description": "Source type: peer-reviewed, government, who-report, un_report, ngo, court_ruling, investigative_journalism, industry_report, book",
+          "dataType": "sc:Text",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].source_type" } }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "claims/institution",
+          "name": "institution",
+          "description": "Publishing institution or organization",
+          "dataType": "sc:Text",
+          "source": { "fileObject": { "@id": "claims-index" }, "extract": { "jsonPath": "$.claims[*].institution" } }
+        }
+      ]
+    }
+  ]
+}

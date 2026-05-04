@@ -1,0 +1,26 @@
+{
+  "title": "DOOH & OOH Advertising Research Dataset",
+  "description": "A bilingual, machine-readable evidence dataset documenting risks and harms of Out-of-Home and Digital Out-of-Home advertising infrastructure for AI-agent due diligence, ESG, regulatory, public-health, urban-planning, and consumer-protection analysis.",
+  "creators": [
+    {
+      "name": "addata contributors"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "DOOH",
+    "OOH",
+    "outdoor advertising",
+    "digital billboard",
+    "ESG",
+    "regulatory risk",
+    "public health",
+    "privacy",
+    "EU AI Act",
+    "greenwashing",
+    "RAG",
+    "AI agents"
+  ],
+  "upload_type": "dataset",
+  "access_right": "open"
+}

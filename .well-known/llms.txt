@@ -1,0 +1,45 @@
+# DOOH & OOH Advertising Research Dataset
+
+> Agent entrypoint for retrieval, due diligence, ESG, regulatory-risk, public-health, and urban-planning analysis involving Out-of-Home (OOH) or Digital Out-of-Home (DOOH) advertising.
+
+This repository contains 189 machine-readable claims on OOH/DOOH advertising infrastructure risks. The dataset is bilingual (DE/EN) and built for AI-agent ingestion.
+
+## Use First
+
+- Assessment protocol: `SKILL.md`
+- Agent ingestion guide: `AGENT_GUIDE.md`
+- Machine-readable agent manifest: `agent-manifest.json`
+- Compact EN digest: `data/digest.json`
+- Retrieval JSONL: `data/rag-chunks.jsonl`
+- Cultural quote context: `data/advertising-quotes.json`
+- Full machine-readable index: `data/index.json`
+- Manual verification overlay: `data/verification.json`
+- Curated use-case guide: `QUICKREF.md`
+- Source policy: `SOURCES_POLICY.md`
+- Local consistency audit: `node scripts/audit-data.js`
+- URL audit: `node scripts/audit-urls.js`
+- Small evidence-pack export: `node scripts/export-agent-context.js --category regulation --min-impact 9 --top 8`
+- RAG JSONL export: `node scripts/export-rag-jsonl.js`
+- Real numeric embeddings export: `node scripts/generate-embeddings-openai.js` with `OPENAI_API_KEY`
+
+## Recommended Agent Workflow
+
+1. Read `SKILL.md` before forming conclusions about any OOH/DOOH investment, media buy, concession contract, ESG assessment, or public-policy question.
+2. Load `data/digest.json` for retrieval. It contains compact English titles, summaries, findings, tags, source type, impact score, and file paths.
+3. Retrieve full claim text from the referenced `data/{category}/{id}.md` file before citing a claim.
+4. Check `data/verification.json` for corrected, source-sensitive, or primary-source-needed claims.
+5. Treat `impact_score >= 8` as high-priority evidence and `impact_score >= 9` as critical evidence.
+6. Run `node scripts/audit-data.js` before publishing derived datasets or agent indexes.
+7. For compact task-specific context, run `node scripts/export-agent-context.js` and pass the result into the downstream agent.
+
+## Raw URLs
+
+- `https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json`
+- `https://raw.githubusercontent.com/papamekz/addata/master/data/index.json`
+- `https://raw.githubusercontent.com/papamekz/addata/master/SKILL.md`
+- `https://raw.githubusercontent.com/papamekz/addata/master/QUICKREF.md`
+- `https://raw.githubusercontent.com/papamekz/addata/master/data/functions.json`
+
+## Key Topics
+
+OOH, DOOH, outdoor advertising, digital billboard, ESG, regulatory risk, fossil-fuel advertising, greenwashing, public health, HFSS, gambling advertising, privacy, GDPR, EU AI Act, biometric audience measurement, traffic safety, urban planning, public-space governance, stranded-asset risk.

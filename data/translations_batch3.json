@@ -1,0 +1,87 @@
+{
+  "equity-001": {
+    "zusammenfassung": "Study on the distribution of harmful product advertising (alcohol, unhealthy food, gambling) in public space and on school routes. Also analyzes the effectiveness of advertising bans.",
+    "kernbefund": "Children are systematically exposed to advertising for harmful products on their way to school. Advertising along home-to-school routes reinforces messages through repetition. Neighborhoods with particularly high exposure show elevated health risks. Voluntary bans are ineffective — only mandatory government regulations show measurable impact.",
+    "relevanz": "Children have no control over what advertising they are exposed to on their daily routes. This is a structural violation of their protection — a public space that daily confronts children with alcohol, junk food, and gambling advertising fails in its duty as a safe environment."
+  },
+  "equity-002": {
+    "zusammenfassung": "Environmental justice (the fair distribution of environmental benefits and burdens) study in Los Angeles on the spatial inequality of harmful outdoor advertising (alcohol, tobacco, junk food). Reveals structural racism and class inequality in the placement of outdoor advertising.",
+    "kernbefund": "Low-income neighborhoods and neighborhoods with a high proportion of people of color bear a disproportionately high burden of harmful outdoor advertising. The distribution is not random but follows patterns that correlate with existing social inequalities — outdoor advertising reinforces and perpetuates these inequalities.",
+    "relevanz": "Outdoor advertising is not a neutral medium — it is strategically placed so that vulnerable groups are disproportionately exposed. This is a form of structural discrimination by commercial interests in public space."
+  },
+  "equity-003": {
+    "zusammenfassung": "A comprehensive study in the United Kingdom shows that commercial outdoor advertising appears up to six times more frequently in low-income areas than in affluent neighborhoods.",
+    "kernbefund": "The report \"Unavoidable Impact\" documents that people in poorer neighborhoods are not only more frequently exposed to advertising for junk food, alcohol, and gambling, but also suffer more severely from visual pollution and light pollution (DOOH). Affluent residential areas often successfully repel advertising billboards.",
+    "relevanz": "Outdoor advertising intensifies social and health inequalities (environmental justice) by systematically targeting vulnerable population groups."
+  },
+  "equity-004": {
+    "zusammenfassung": "The modernization of advertising infrastructure in the Global North leads to the export of ecologically harmful and inefficient hardware to developing countries.",
+    "kernbefund": "When advertising companies in Europe or North America upgrade their inventory to the latest, more energy-efficient LED generation, the old, power-hungry, and often maintenance-intensive panels are frequently exported as \"second-hand hardware\" to countries in the Global South. There, these installations contribute to overloading local power grids and end up on informal waste dumps at the end of their lifecycle. This phenomenon is criticized as \"eco-colonialism\" (the externalization of environmental costs onto less powerful nations): the Global North \"cleans up\" its urban footprint while the ecological and energy-related damage is offloaded to countries with weaker environmental laws.",
+    "relevanz": "The industry's sustainability reports are often geographically selective. The global hardware footprint is obscured by externalizing the harmful part of the value chain (disposal/dumping)."
+  },
+  "health-001": {
+    "zusammenfassung": "Systematic review study on outdoor food advertising: reach, effectiveness, and impacts on eating behavior and health. Published in BMC Public Health, Springer Nature.",
+    "kernbefund": "Outdoor food advertising is as extensive and effective as digital or TV advertising. Skepticism among adolescents does not protect against its effects. Both young children and older adolescents are susceptible. Evidence shows that advertising influences dietary preferences and consumption patterns.",
+    "relevanz": "Unlike TV or online, outdoor advertising for unhealthy food cannot be switched off, clicked away, or filtered. Children are exposed to it along their entire school route — in a context where no parental supervision or guidance is possible."
+  },
+  "health-002": {
+    "zusammenfassung": "Canadian cross-sectional study that establishes for the first time a direct correlation between exposure to outdoor food advertising and the actual purchasing behavior of adolescents. Peer-reviewed, published in Oxford Health Promotion International.",
+    "kernbefund": "The study demonstrates a statistically significant direct correlation between the frequency of exposure to outdoor food advertising and the purchasing behavior of adolescents. More advertising = more purchases of the advertised (predominantly unhealthy) products.",
+    "relevanz": "This study provides the most direct causal evidence: outdoor food advertising measurably changes the purchasing behavior of adolescents. Published in 2024 — this is current, reliable evidence."
+  },
+  "health-003": {
+    "zusammenfassung": "Cross-sectional study quantifying the relationship between the density of food advertising in a neighborhood and the residents' risk of overweight. Published in BMC Public Health.",
+    "kernbefund": "A higher proportion of food advertising in neighborhoods is associated with increased rates of overweight and obesity. For every 10% increase in the share of food advertising, the risk of overweight rises by a factor of 1.05. The effect is measurable at the neighborhood level and is statistically significant.",
+    "relevanz": "This study directly quantifies the health damage from outdoor food advertising at the population level. It shows that the placement of advertising in public space has measurable public health consequences."
+  },
+  "health-004": {
+    "zusammenfassung": "WHO guideline and ELENA (e-Library of Evidence for Nutrition Actions) intervention on food marketing to children. The WHO recommends binding legislative measures to protect children from marketing for foods high in saturated fats, trans fats, free sugars, and salt.",
+    "kernbefund": "Voluntary self-regulatory commitments by the advertising industry are demonstrably ineffective. The WHO calls for binding, state-enforced restrictions — including for outdoor advertising — because otherwise children are left defenseless against aggressive marketing.",
+    "relevanz": "The WHO explicitly names outdoor advertising as one of the channels that must be regulated. This is one of the highest international health authorities classifying outdoor advertising targeting children as harmful to health."
+  },
+  "health-005": {
+    "zusammenfassung": "Peer-reviewed study in Prevention Science (Springer) analyzing harmful marketing as an overlooked social determinant of health. Examines 6 industries: tobacco, alcohol, pharmaceuticals, processed foods, firearms, and fossil fuels.",
+    "kernbefund": "Marketing across 6 industries is causally responsible for disease and death. More than 1 million Americans die annually from the consequences of products promoted through marketing. The study frames harmful marketing as a structural public health determinant — comparable to poverty or lack of education.",
+    "relevanz": "Outdoor advertising is the most visible and universally accessible channel for precisely these harmful products (alcohol, tobacco, unhealthy food). In public space, exposure is unavoidable — especially for vulnerable groups (children, people with addiction disorders)."
+  },
+  "health-006": {
+    "zusammenfassung": "Study by the University of Hamburg, commissioned by the Deutsche Allianz Nichtübertragbare Krankheiten (DANK — German Alliance for Non-Communicable Diseases) and the AOK-Bundesverband (national health insurer federation). Systematically analyzes food advertising directed at children in Germany.",
+    "kernbefund": "A child between 3 and 13 years of age in Germany sees an average of 15 food advertisements for unhealthy products per day (5 online, 10 on television). 92% of all food advertisements directed at children concern unhealthy products (89% on TV, 98% online).",
+    "relevanz": "Outdoor advertising is part of the same advertising ecosystem that generates this systematic exposure of children to unhealthy food. On the school route, at bus stops, and in shopping zones, children are exposed to the same brand messages — without parental supervision and without the ability to switch off."
+  },
+  "health-007": {
+    "zusammenfassung": "DFG (Deutsche Forschungsgemeinschaft — German Research Foundation)-funded FAIR project (Fraunhofer ISI, Darmstadt University of Applied Sciences, University of Mannheim) examining the impact of influencer marketing on adolescents in Germany. Survey of more than 1,000 adolescents.",
+    "kernbefund": "Approximately 50% of surveyed adolescents had purchased products advertised by influencers. More than half had spent over 50 euros on influencer-promoted products within 6 months. Adolescents are particularly vulnerable due to intensive social media use and less developed advertising literacy.",
+    "relevanz": "Influencer marketing and outdoor advertising are part of the same advertising system. Both exploit similar psychological mechanisms (parasocial relationships, attention capture, status appeals). The vulnerability of adolescents to advertising messages in public space is analogous to their susceptibility to influencer marketing."
+  },
+  "health-008": {
+    "zusammenfassung": "The omnipresence of sports betting and gambling advertising at bus stops and on billboards is identified by public health experts as a major driver of addictive behavior.",
+    "kernbefund": "Outdoor advertising for gambling normalizes risky behavior, triggers relapse in recovered problem gamblers, and introduces adolescents to sports betting at an early age. Unlike TV advertising, vulnerable individuals cannot avoid advertising in public space — for example, on the way to school or work.",
+    "relevanz": "Outdoor advertising acts as a direct multiplier of health and financial crises for vulnerable groups through the aggressive promotion of addictive products (alongside alcohol, also gambling)."
+  },
+  "health-009": {
+    "zusammenfassung": "Scientific studies document the massive positive effect of advertising restrictions on public health.",
+    "kernbefund": "A comprehensive study by LSHTM (London School of Hygiene & Tropical Medicine) and the University of Sheffield examined the 2019 ban on advertising for products high in fat, sugar, and salt (HFSS — High in Fat, Sugar and Salt) across the London transport network (TfL — Transport for London). The result: the ban led to a reduction in weekly energy intake from HFSS products of an average of 6.7% per household. This corresponds to a long-term prevention of an estimated 94,867 obesity cases and nearly 3,000 cases of type 2 diabetes in London. In addition, the British health system (NHS) is saving costs exceeding £200 million as a result.",
+    "relevanz": "This is one of the strongest pieces of evidence that outdoor advertising is not mere information but directly influences the eating behavior of an entire city of millions. Advertising bans are a highly effective preventive medicine measure."
+  },
+  "health-010": {
+    "zusammenfassung": "In Germany, the school is legally enshrined as an advertising-free protected space in order to preserve pedagogical integrity and pupils' independence.",
+    "kernbefund": "As a representative example, § 99 of the Schulgesetz NRW (School Act for the State of North Rhine-Westphalia) stipulates that advertising that does not serve educational purposes is generally prohibited on school premises. This encompasses both the distribution of materials and the posting of posters on school grounds. The aim is to protect minors during a sensitive phase of development from the influence of commercial actors and to ensure that school remains a place of critical reflection rather than unfiltered consumption. Sponsoring is only permitted under the strictest conditions, with the advertising effect required to \"clearly take a back seat to the educational benefit.\"",
+    "relevanz": "If the state protects schools as advertising-free zones, the ethical question arises as to why the same protection for children in the immediate vicinity of schools (at bus stops and on school routes) is systematically undermined by commercial OOH (out-of-home) installations."
+  },
+  "health-011": {
+    "zusammenfassung": "Nighttime illumination from digital advertising displays directly interferes with the hormonal regulation of the human sleep-wake cycle.",
+    "kernbefund": "Digital advertising screens use LEDs that often operate at very high color temperatures (above 6,500 Kelvin), which emit a high proportion of blue light. This short-wave light suppresses the release of melatonin in the pineal gland — a hormone essential for sleep and cellular regeneration. Residents in urban areas whose windows are lit up by DOOH (Digital Out-of-Home) screens suffer from a chronic shift in their circadian rhythm. The American Medical Association (AMA) warns of long-term consequences such as sleep disorders, metabolic diseases, and an increased risk of certain cancers caused by ALAN (Artificial Light at Night).",
+    "relevanz": "DOOH operators often argue in terms of brightness per surface area, but ignore the biological potency of color temperature. The nighttime emission of blue light is a massive intrusion on the physical integrity of residents."
+  },
+  "health-012": {
+    "zusammenfassung": "Peer-reviewed longitudinal study examining the relationship between the density of outdoor alcohol advertising near schools and alcohol consumption as well as consumption intentions among adolescents.",
+    "kernbefund": "Adolescents in neighborhoods with a high density of outdoor alcohol advertising show significantly higher intentions to consume alcohol and report higher actual consumption. Outdoor alcohol advertising near schools and residential areas acts as an independent risk factor — more potent than TV advertising, because it cannot be avoided.",
+    "relevanz": "Outdoor alcohol advertising is largely legal and unregulated in Germany. The WHO has called for mandatory restrictions on alcohol marketing in public places. Unlike TV advertising (restricted after 10 p.m.), OOH is visible around the clock — including to children on their school route."
+  },
+  "health-013": {
+    "zusammenfassung": "A systematic umbrella review (2023, Public Health journal) synthesized 8 systematic reviews covering a combined total of 74 individual studies. Result: there is consistent evidence of a **causal relationship** between gambling advertising and more positive attitudes toward gambling as well as increased willingness to gamble — with a clear **dose-response effect**. Children, adolescents, and already at-risk individuals are most severely affected. 1 in 7 UK gambling advertisements contained no age warning whatsoever; 84% of warning labels and 54% of harm-minimization messages had very low visibility.",
+    "kernbefund": "The causal relationship is established on the basis of 74 studies — significantly more evidence than exists for most regulated product categories. The dose-response relationship means: the more advertising, the stronger the effect. OOH (out-of-home advertising) is particularly critical because children cannot avoid it. Existing self-regulatory measures (warning labels) are demonstrably ineffective.",
+    "relevanz": "Gambling advertising is one of the most important revenue categories for DOOH networks in Europe. The evidence clearly demonstrates: OOH gambling advertising causes measurable, dose-dependent harm — particularly to children on school routes and low-income population groups who are disproportionately exposed. Regulatory bodies in the UK, Belgium, and Spain have already enacted restrictions; Germany is under increasing political pressure."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claim",
+  "description": "A single evidence-based claim about the negative impacts of outdoor advertising.",
+  "type": "object",
+  "required": ["id", "title", "category", "impact_score", "impact_type", "source", "verified", "tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+-[0-9]{3}$",
+      "description": "Unique claim identifier, e.g. psych-001"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Short descriptive title of the claim"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["psychology", "environment", "urban", "economy", "health", "culture", "equity", "regulation", "resources", "politics", "safety", "privacy", "alternatives"],
+      "description": "Primary harm category"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Optional finer-grained subcategory"
+    },
+    "impact_score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Severity of harm, 1 (minor) to 10 (severe)"
+    },
+    "impact_type": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "psychological", "physical", "environmental", "social",
+          "economic", "cultural", "health", "cognitive",
+          "safety", "privacy", "regulation", "environment",
+          "economy", "ecological", "surveillance", "equity",
+          "political", "corruption", "children", "energy",
+          "global", "greenwashing", "corporate-communication",
+          "legal", "misleading-metrics", "urban"
+        ]
+      },
+      "minItems": 1,
+      "description": "Types of harm this claim documents"
+    },
+    "source": {
+      "type": "object",
+      "required": ["title", "year", "url", "type", "independent"],
+      "properties": {
+        "title": { "type": "string" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "institution": { "type": "string" },
+        "year": { "type": "integer", "minimum": 1900, "maximum": 2030 },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "peer-reviewed",
+            "who-report",
+            "un_report",
+            "government",
+            "court_ruling",
+            "ngo",
+            "investigative_journalism",
+            "industry_report",
+            "commercial-research",
+            "grey-literature",
+            "industry",
+            "book"
+          ]
+        },
+        "open_access": { "type": "boolean" },
+        "independent": {
+          "type": "boolean",
+          "description": "Whether the source is independent of the advertising industry. False is allowed only for claims that explicitly analyse or criticise the source itself rather than relying on it as independent evidence."
+        }
+      }
+    },
+    "corroborating_sources": {
+      "type": "array",
+      "description": "Additional reliable sources that corroborate or contextualize the claim.",
+      "items": {
+        "type": "object",
+        "required": ["title", "year", "url", "type", "independent"],
+        "properties": {
+          "title": { "type": "string" },
+          "authors": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "institution": { "type": "string" },
+          "year": { "type": "integer", "minimum": 1900, "maximum": 2030 },
+          "url": { "type": "string", "format": "uri" },
+          "doi": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "peer-reviewed",
+              "who-report",
+              "un_report",
+              "government",
+              "court_ruling",
+              "ngo",
+              "investigative_journalism",
+              "industry_report",
+              "commercial-research",
+              "grey-literature",
+              "industry",
+              "book"
+            ]
+          },
+          "open_access": { "type": "boolean" },
+          "independent": { "type": "boolean" }
+        }
+      }
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Whether source independence has been manually verified"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Searchable keywords for AI retrieval"
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2}$" },
+      "default": ["en"]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "DOOH & OOH Advertising Research Dataset"
+abstract: >
+  189 machine-readable claims documenting evidence-based risks of
+  Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
+  Covers regulatory bans, public health harm, environmental impact, privacy law,
+  traffic safety, and market concentration. Bilingual (German/English).
+  All sources are independent — zero advertising-industry-funded research.
+authors:
+  - name: "addata contributors"
+repository-code: "https://github.com/papamekz/addata"
+url: "https://papamekz.github.io/addata"
+license: CC-BY-4.0
+date-released: "2026-05-01"
+version: "1.3.0"
+keywords:
+  - DOOH
+  - OOH
+  - outdoor advertising
+  - digital billboard
+  - ESG
+  - regulatory risk
+  - investment due diligence
+  - greenwashing
+  - advertising ban
+  - public health
+  - environmental impact
+  - privacy
+  - EU AI Act
+  - fossil fuel advertising
+  - peer-reviewed dataset
+  - RAG dataset
