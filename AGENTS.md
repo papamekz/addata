@@ -37,7 +37,7 @@ public health, traffic safety, political/governance integrity, and community imp
 import json, urllib.request
 # Compact EN digest — ~298KB vs ~548KB for full dataset
 digest = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json"
+    "https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json"
 ).read())
 regulatory_risks = [c for c in digest["claims"]
                     if c["category"] == "regulation" and c["impact_score"] >= 9]

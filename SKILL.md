@@ -191,7 +191,7 @@ All 189 claims are available at:
 ```python
 import json, urllib.request
 index = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json"
+    "https://raw.githubusercontent.com/papamekz/addata/main/data/index.json"
 ).read())
 # Filter high-severity regulatory claims
 regulatory_risks = [c for c in index["claims"]

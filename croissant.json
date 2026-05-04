@@ -48,7 +48,7 @@
       "@id": "claims-index",
       "name": "Claims Index",
       "description": "Machine-readable index of all 189 claims with metadata: id, title, category, impact_score, year, source_type, institution, file path.",
-      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/main/data/index.json",
       "encodingFormat": "application/json",
       "sha256": ""
     },
@@ -57,7 +57,7 @@
       "@id": "bilingual-dataset",
       "name": "Embedded Bilingual Dataset",
       "description": "Full dataset with German and English content for all 189 claims. Includes translations of Zusammenfassung (summary), Kernbefund (key finding), and Relevanz (OOH relevance) for each claim.",
-      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/web/data.js",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/main/web/data.js",
       "encodingFormat": "application/javascript"
     },
     {
@@ -65,7 +65,7 @@
       "@id": "claim-schema",
       "name": "JSON Schema for Claims",
       "description": "JSON Schema (Draft-7) defining the structure of each claim file, including required fields, enums for categories and source types, and validation rules.",
-      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/master/schema/claim.schema.json",
+      "contentUrl": "https://raw.githubusercontent.com/papamekz/addata/main/schema/claim.schema.json",
       "encodingFormat": "application/schema+json"
     }
   ],

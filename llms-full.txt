@@ -49,11 +49,11 @@ This repository contains 189 machine-readable claims on OOH/DOOH advertising inf
 
 ## Raw URLs
 
-- `https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json`
-- `https://raw.githubusercontent.com/papamekz/addata/master/data/index.json`
-- `https://raw.githubusercontent.com/papamekz/addata/master/SKILL.md`
-- `https://raw.githubusercontent.com/papamekz/addata/master/QUICKREF.md`
-- `https://raw.githubusercontent.com/papamekz/addata/master/data/functions.json`
+- `https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json`
+- `https://raw.githubusercontent.com/papamekz/addata/main/data/index.json`
+- `https://raw.githubusercontent.com/papamekz/addata/main/SKILL.md`
+- `https://raw.githubusercontent.com/papamekz/addata/main/QUICKREF.md`
+- `https://raw.githubusercontent.com/papamekz/addata/main/data/functions.json`
 
 ## Key Topics
 

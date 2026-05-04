@@ -64,7 +64,7 @@ Companies, agencies, investors, and city planners evaluating DOOH/OOH exposure f
 import json, urllib.request
 
 # Compact EN digest — recommended for agent ingestion (~298KB vs ~548KB full)
-url = "https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json"
+url = "https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json"
 digest = json.loads(urllib.request.urlopen(url).read())
 
 # Filter by research category
