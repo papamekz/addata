@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof URBAN_DATA !== 'undefined') {
     init(URBAN_DATA);
   } else {
-    fetch('../data/index.json')
+    fetch('data/index.json')
       .then(r => r.json())
       .then(data => init(data))
       .catch(err => console.error('Error:', err));
@@ -439,10 +439,10 @@ document.addEventListener('DOMContentLoaded', () => {
       <div>
         <div class="info-section-label">${t('info_agent_files')}</div>
         <div class="info-link-grid">
-          <a href="../data/digest.json" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSON</span>data/digest.json</a>
-          <a href="../data/rag-chunks.jsonl" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSONL</span>data/rag-chunks.jsonl</a>
-          <a href="../llms.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>LLM</span>llms.txt</a>
-          <a href="../llms-full.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>FULL</span>llms-full.txt</a>
+          <a href="data/digest.json" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSON</span>data/digest.json</a>
+          <a href="data/rag-chunks.jsonl" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSONL</span>data/rag-chunks.jsonl</a>
+          <a href="llms.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>LLM</span>llms.txt</a>
+          <a href="llms-full.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>FULL</span>llms-full.txt</a>
           <a href="../DATA_QUALITY.md" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>QA</span>DATA_QUALITY.md</a>
           <a href="../ro-crate-metadata.json" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>RO</span>ro-crate-metadata.json</a>
         </div>

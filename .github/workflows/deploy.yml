@@ -26,10 +26,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload web folder
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp -R web/. _site/
+          cp -R data schema _site/
+          cp llms.txt llms-full.txt agent-manifest.json croissant.json ro-crate-metadata.json datapackage.json _site/
+          cp robots.txt sitemap.xml _site/
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./web
+          path: ./_site
 
       - name: Deploy to GitHub Pages
         id: deployment

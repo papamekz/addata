@@ -7,37 +7,37 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/data/index.json</loc>
+    <loc>https://papamekz.github.io/addata/data/index.json</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json</loc>
+    <loc>https://papamekz.github.io/addata/data/digest.json</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/data/rag-chunks.jsonl</loc>
+    <loc>https://papamekz.github.io/addata/data/rag-chunks.jsonl</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/data/advertising-quotes.json</loc>
+    <loc>https://papamekz.github.io/addata/data/advertising-quotes.json</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/schema/claim.schema.json</loc>
+    <loc>https://papamekz.github.io/addata/schema/claim.schema.json</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/papamekz/addata/main/croissant.json</loc>
+    <loc>https://papamekz.github.io/addata/croissant.json</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
