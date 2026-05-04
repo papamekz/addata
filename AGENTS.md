@@ -51,6 +51,21 @@ node scripts/query.js --keyword greenwashing --format json
 node scripts/query.js --id reg-037
 ```
 
+## Adding Claims
+
+AI agents may extend the dataset, but must follow `AGENT_CLAIM_WORKFLOW.md`.
+Always search for duplicates first, prefer primary or independent sources, and
+use `scripts/scaffold-claim.js` instead of manually choosing IDs. New claims
+must pass:
+
+```sh
+node scripts/build-data.js
+node scripts/audit-data.js
+node scripts/audit-urls.js
+node scripts/export-rag-jsonl.js
+node scripts/build-agent-artifacts.js
+```
+
 ## Key Findings Summary
 
 - **Regulatory:** 50+ cities have enacted or are advancing fossil fuel OOH ad

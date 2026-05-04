@@ -3,20 +3,23 @@ id: REPLACE-ID
 title: "Short, specific claim title"
 category: regulation
 impact_score: 7
-impact_level: "elevated"
 impact_type:
-  - "regulatory_risk"
+  - "regulation"
 source:
   title: "Source title"
-  url: "https://example.org/source"
-  year: 2026
-  type: "government"
   institution: "Institution name"
+  year: 2026
+  url: "https://example.org/source"
+  type: "government"
+  open_access: true
+  independent: true
 tags:
   - "ooh"
   - "dooh"
 verified: false
-language: "de"
+languages:
+  - de
+  - en
 ---
 
 # Short, specific claim title

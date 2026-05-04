@@ -25,6 +25,7 @@
     "copilot_instructions": "COPILOT.md",
     "cursor_instructions": "CURSOR.md",
     "agent_guide": "AGENT_GUIDE.md",
+    "agent_claim_workflow": "AGENT_CLAIM_WORKFLOW.md",
     "assessment_protocol": "SKILL.md",
     "compact_digest": "data/digest.json",
     "retrieval_jsonl": "data/rag-chunks.jsonl",
@@ -36,6 +37,7 @@
     "data_quality": "DATA_QUALITY.md",
     "dataset_card": "DATA_CARD.md",
     "schema": "schema/claim.schema.json",
+    "claim_intake_schema": "schema/claim-intake.schema.json",
     "tool_schemas": "data/functions.json",
     "quick_reference": "QUICKREF.md",
     "source_policy": "SOURCES_POLICY.md",
@@ -68,6 +70,8 @@
     "Check data/verification.json before presenting source-sensitive claims.",
     "Cite source URLs from the claim record, not only dataset file paths.",
     "Run scripts/audit-data.js and scripts/audit-urls.js before publishing derived datasets."
+    ,
+    "When adding claims, follow AGENT_CLAIM_WORKFLOW.md and use scripts/scaffold-claim.js to avoid duplicate IDs."
   ],
   "public_scripts": {
     "query": "scripts/query.js",
