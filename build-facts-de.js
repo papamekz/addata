@@ -24,10 +24,12 @@ function parseMd(content) {
   const fm = frontmatterMatch[1];
   const body = content.slice(frontmatterMatch[0].length);
 
-  // Parse frontmatter fields
+  // Parse frontmatter fields — handles both quoted (with embedded „…"/") and unquoted values
   const get = (key) => {
-    const m = fm.match(new RegExp(`^${key}:\\s*"?([^"\\n]+)"?`, 'm'));
-    return m ? m[1].trim() : null;
+    const mq = fm.match(new RegExp(`^${key}:\\s*"((?:[^"\\\\]|\\\\.)*)"`, 'm'));
+    if (mq) return mq[1].replace(/\\"/g, '"').trim();
+    const mu = fm.match(new RegExp(`^${key}:\\s*([^\\n]+)`, 'm'));
+    return mu ? mu[1].trim() : null;
   };
   const getNum = (key) => {
     const m = fm.match(new RegExp(`^${key}:\\s*(\\d+)`, 'm'));
