@@ -1,6 +1,6 @@
 ---
 id: culture-004
-title: "UNESCO warnt: kommerzielle Außenwerbung bedroht visuelle Integrität von Weltkulturerbe-Stätten"
+title: "Visuelle Integrität von Weltkulturerbe-Stätten wird durch Werbung und bauliche Überformung beeinträchtigt"
 category: culture
 subcategory: heritage
 impact_score: 8
@@ -8,14 +8,22 @@ impact_type:
   - cultural
   - social
 source:
-  title: "World Heritage and Sustainable Development: Managing Visual Integrity"
+  title: "Walled City losing charm to posters, encroachments"
   authors: []
-  institution: "UNESCO World Heritage Centre"
-  year: 2019
-  url: "https://whc.unesco.org/en/sustainabledevelopment/"
-  type: government
+  institution: "The Times of India"
+  year: 2025
+  url: "https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms"
+  type: grey-literature
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "What do we visually focus on in a World Heritage Site? A case study of the visual perception of the heritage landscape of the traditional industrial district in Chengdu, China"
+    institution: "Sustainability and Society / Nature"
+    year: 2022
+    url: "https://www.nature.com/articles/s41599-022-01411-1"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - unesco
@@ -32,12 +40,12 @@ languages:
 
 ## Zusammenfassung
 
-Die UNESCO hat in ihren Leitlinien für nachhaltiges Stadtmanagement explizit kommerzielle Außenwerbung als Bedrohung für die visuelle Integrität von Weltkulturerbe-Stätten identifiziert. Mehrere europäische Städte wurden aufgefordert, OOH-Werbung in Pufferzonen zu begrenzen.
+Berichte aus UNESCO-geschützten Stadtkernen und die Forschung zur visuellen Integrität von World-Heritage-Orten zeigen, dass Werbung, Poster und bauliche Überformung das historische Stadtbild beeinträchtigen können.
 
 ## Kernbefund
 
-Kommerzielle Außenwerbung in historischen Innenstädten und UNESCO-Pufferzonen untergräbt die authentische visuelle Wahrnehmung von Kulturerbestätten. Die UNESCO definiert "Visual Integrity" als Schutzgut: Das Stadtbild soll die historische Bedeutung eines Ortes widerspiegeln — großflächige Werbung, insbesondere DOOH mit bewegten Inhalten und nächtlicher Beleuchtung, kollidiert direkt mit diesem Schutzanliegen.
+Kommerzielle Außenwerbung in historischen Innenstädten und World-Heritage-Kontexten kann die visuelle Wahrnehmung überlagern und den Charakter des Ortsbilds verändern. Die zugrunde liegende Forschung beschreibt visuelle Integrität als schutzwürdigen Aspekt von Kulturerbe-Landschaften.
 
 ## Relevanz für Außenwerbung
 
-Städte wie Paris, Prag, Wien und Florenz haben OOH-Werbebeschränkungen in historischen Kernzonen eingeführt, teilweise unter Druck der UNESCO. In Deutschland sind Nürnbergs Altstadt und Berlins Mitte als Pufferzonen von UNESCO-Stätten potenziell betroffen. Werbekonzessionen in diesen Bereichen unterliegen zunehmendem juristischen Druck.
+Städte mit sensiblen historischen Kernen reagieren häufig mit Werbe- und Gestaltungsvorgaben, wenn das Stadtbild durch Poster, Schilder oder andere Überformungen beeinträchtigt wird. Für OOH ist das vor allem ein Standort-, Gestaltungs- und Genehmigungsrisiko.

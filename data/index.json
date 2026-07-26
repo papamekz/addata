@@ -1248,11 +1248,11 @@
     },
     {
       "id": "culture-004",
-      "title": "UNESCO warnt: kommerzielle Außenwerbung bedroht visuelle Integrität von Weltkulturerbe-Stätten",
+      "title": "Visuelle Integrität von Weltkulturerbe-Stätten wird durch Werbung und bauliche Überformung beeinträchtigt",
       "category": "culture",
       "impact_score": 8,
       "year": 2019,
-      "source_type": "government",
+      "source_type": "grey-literature",
       "institution": "UNESCO World Heritage Centre",
       "open_access": true,
       "file": "data/culture/culture-004.md"

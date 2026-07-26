@@ -2714,13 +2714,14 @@
       "category": "culture",
       "impact_score": 8,
       "year": 2019,
-      "source_type": "government",
-      "institution": "UNESCO World Heritage Centre",
-      "source_url": "https://whc.unesco.org/en/sustainabledevelopment/",
+      "source_type": "grey-literature",
+      "institution": "The Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms",
       "source_urls": [
-        "https://whc.unesco.org/en/sustainabledevelopment/"
+        "https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms",
+        "https://www.nature.com/articles/s41599-022-01411-1"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2928,9 +2929,10 @@
       "institution": "Muddy Waters Research",
       "source_url": "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/",
       "source_urls": [
-        "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/"
+        "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/",
+        "https://www.institutionalinvestor.com/article/2bsvwyj3bm86748gykvsw/portfolio/muddy-waters-ends-2016-with-a-big-gain"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "source_critique",
       "verification_note": "Commercial short-seller research with independent=false and documented conflict. Retain only as an allegation/market-event claim with careful hedging.",
       "tags": [
@@ -3054,10 +3056,10 @@
       "year": 2024,
       "source_type": "court_ruling",
       "institution": "Court of Justice of the European Union / European Commission",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
+      "source_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf%3Bjsessionid%3DD57B3B424F4F3910F5F7DD55FE48B92A?language=fr&num=C-710%2F22",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0710"
+        "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf%3Bjsessionid%3DD57B3B424F4F3910F5F7DD55FE48B92A?language=fr&num=C-710%2F22",
+        "https://www.brusselstimes.com/1243043/european-court-of-justice-orders-jcdecaux-belgium-to-refund-state-aid"
       ],
       "source_count": 2,
       "verification_status": "corrected",
@@ -3401,10 +3403,10 @@
       "year": 2024,
       "source_type": "government",
       "institution": "Europäische Kommission / EUR-Lex",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/sustainable-consumption_en",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
-        "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng"
+        "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/sustainable-consumption_en",
+        "https://commission.europa.eu/document/download/3c257883-bb2a-4dd9-a6dc-501d587bb34f_en?filename=faq-empowerting-consumers-gtd.pdf"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -3584,13 +3586,12 @@
       "year": 2024,
       "source_type": "government",
       "institution": "European Union",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated Article 5 as a blanket ban on biometric categorisation in public space. Revised to describe high-risk/prohibited-practice boundaries and the need for AI Act/GDPR review.",
       "tags": [
@@ -3942,7 +3943,7 @@
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
       "source_urls": [
         "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
       ],
       "source_count": 2,
       "verification_status": "verified",
@@ -3972,7 +3973,7 @@
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
       "source_urls": [
         "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
       ],
       "source_count": 2,
       "verification_status": "verified",
