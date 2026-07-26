@@ -1219,9 +1219,11 @@
       "institution": "Bundesumweltministerium / Geography Realm",
       "source_url": "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/",
       "source_urls": [
-        "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/"
+        "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/",
+        "https://www.bundesumweltministerium.de/faq/was-macht-das-insektenschutzgesetz",
+        "https://dserver.bundestag.de/btd/19/281/1928182.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
