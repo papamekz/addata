@@ -13,11 +13,19 @@ source:
     - "Campbell, Margaret C."
   institution: "Journal of Consumer Psychology, Wiley"
   year: 1995
-  url: "https://api.crossref.org/works/10.1207/s15327663jcp0403_02"
+  url: "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1207%2Fs15327663jcp0403_02"
   doi: "10.1207/s15327663jcp0403_02"
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "When Attention-Getting Advertising Tactics Elicit Consumer Inferences of Manipulative Intent"
+    institution: "Semantic Scholar"
+    year: 1995
+    url: "https://www.semanticscholar.org/paper/When-Attention-Getting-Advertising-Tactics-Elicit-Campbell/2a7a8891577f9b8a6cbcdce60a4ed0ed75800c3e"
+    type: research-index
+    open_access: false
+    independent: true
 verified: true
 tags:
   - manipulation

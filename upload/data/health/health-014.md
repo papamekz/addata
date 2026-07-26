@@ -19,9 +19,9 @@ source:
   independent: true
 corroborating_sources:
   - title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
-    institution: "WHO Institutional Repository for Information Sharing"
+    institution: "World Health Organization"
     year: 2023
-    url: "https://iris.who.int/handle/10665/370113"
+    url: "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/adolescent-and-young-adult-health/resource-bank-for-adolescent-health/who-guidelines"
     type: who-report
     open_access: true
     independent: true

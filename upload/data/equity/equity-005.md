@@ -13,6 +13,21 @@ source:
   url: "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Adfree Cities launches new research on ads and inequality"
+    institution: "The Guardian"
+    year: 2024
+    url: "https://www.theguardian.com/media/2024/mar/04/four-in-five-billboard-ads-in-england-and-wales-in-poorer-areas"
+    type: news
+    open_access: true
+    independent: true
+  - title: "Disadvantage and Ad Panel Density in Black Neighborhoods"
+    institution: "American Journal of Public Health"
+    year: 2008
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags: [equity, environmental-justice, poverty, urban-planning, disproportionate-impact]
 ---

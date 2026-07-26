@@ -13,6 +13,21 @@ source:
   url: "https://adfreecities.org.uk"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Orienting Response and Memory for Web Advertisements: Exploring Effects of Pop-up Windows and Animation"
+    institution: "Penn State University"
+    year: 2004
+    url: "https://pure.psu.edu/en/publications/orienting-response-and-memory-for-web-advertisements-exploring-ef/"
+    type: research-index
+    open_access: true
+    independent: true
+  - title: "Orienting and Emotional Perception: Facilitation, Attenuation, and Detrimental Effects"
+    institution: "Frontiers in Psychology"
+    year: 2012
+    url: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00493/full"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags: [orienting-response, attention-theft, dooh, digital-screens, cognitive-load]
 ---

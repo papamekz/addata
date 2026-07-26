@@ -1813,9 +1813,11 @@
       "institution": "Adfree Cities / Cognitive Psychology Studies",
       "source_url": "https://adfreecities.org.uk",
       "source_urls": [
-        "https://adfreecities.org.uk"
+        "https://adfreecities.org.uk",
+        "https://pure.psu.edu/en/publications/orienting-response-and-memory-for-web-advertisements-exploring-ef/",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00493/full"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2101,9 +2103,11 @@
       "institution": "Berlin Werbefrei e.V.",
       "source_url": "https://berlin-werbefrei.de",
       "source_urls": [
-        "https://berlin-werbefrei.de"
+        "https://berlin-werbefrei.de",
+        "https://www.tagesspiegel.de/berlin/initiative-berlin-werbefrei-ubergibt-42810-unterschriften-3970360.html",
+        "https://berlin-werbefrei.de/2018/01/11/pm-unterschriftensammlung-fuer-ein-werbefreies-berlin-startet-am-16-januar/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2251,9 +2255,11 @@
       "institution": "Privacy International",
       "source_url": "https://privacyinternational.org/examples/surveillance-billboards",
       "source_urls": [
-        "https://privacyinternational.org/examples/surveillance-billboards"
+        "https://privacyinternational.org/examples/surveillance-billboards",
+        "https://ico.org.uk/media2/migrated/2619985/ico-opinion-the-use-of-lfr-in-public-places-20210618.pdf",
+        "https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_201903_video_devices_en_0.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2873,9 +2879,11 @@
       "institution": "Transparenzportal Hamburg / Hamburgische Bürgerschaft",
       "source_url": "https://suche.transparenz.hamburg.de/dataset/jcdecaux-deutschland-gmbh-vertrag-werbung-an-stadtinformationsanlagen-und-fahrgastunterstaenden",
       "source_urls": [
-        "https://suche.transparenz.hamburg.de/dataset/jcdecaux-deutschland-gmbh-vertrag-werbung-an-stadtinformationsanlagen-und-fahrgastunterstaenden"
+        "https://suche.transparenz.hamburg.de/dataset/jcdecaux-deutschland-gmbh-vertrag-werbung-an-stadtinformationsanlagen-und-fahrgastunterstaenden",
+        "https://www.welt.de/regionales/hamburg/article1291343/Aussenwerbung-Werberechte-fuer-500-Millionen-Euro-vergeben.html",
+        "https://www.abendblatt.de/hamburg/article107339079/Werbung-in-der-Stadt-Hamburg-kassiert-508-Millionen-Euro.html"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3183,15 +3191,15 @@
     },
     {
       "id": "env-016",
-      "title": "German Energy Saving Ordinance restricted illuminated outdoor advertising — 113,000 MWh/year is an industry figure for DOOH consumption",
+      "title": "German Energy Saving Ordinance restricted illuminated outdoor advertising — the industry points to high DOOH electricity use",
       "category": "environment",
       "impact_score": 9,
       "year": 2022,
       "source_type": "industry",
-      "institution": "ADZINE / IDOOH / Bundesregierung Deutschland",
-      "source_url": "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/",
+      "institution": "invidis",
+      "source_url": "https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/",
       "source_urls": [
-        "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/",
+        "https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/",
         "https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2022/08/20220824-habeck-treiben-energieeinsparung-weiter-voran-bundeskabinett-billigt-energieeinspar-verordnungen.html",
         "https://www.bmwk.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=1"
       ],
@@ -3993,9 +4001,11 @@
       "institution": "Adfree Cities",
       "source_url": "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf",
       "source_urls": [
-        "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf"
+        "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf",
+        "https://www.theguardian.com/media/2024/mar/04/four-in-five-billboard-ads-in-england-and-wales-in-poorer-areas",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -4049,7 +4059,7 @@
         "https://api.openraadsinformatie.nl/v1/resolve/api.notubiz.nl/document/16477799",
         "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces",
         "https://www.gemeente.nu/bedrijfsvoering/ondernemersbeleid/verbod-op-reclames-voor-vlees-en-fossiele-brandstoffen-in-amsterdam/",
-        "https://marketingreport.nl/amsterdamse-gemeenteraad-verbiedt-fossiele-en-vleesreclame-via-apv-per-1-mei-2026/"
+        "https://www.euronews.com/2026/02/06/amsterdam-to-enact-landmark-ban-on-fossil-fuel-and-meat-advertising-in-public-spaces"
       ],
       "source_count": 4,
       "verification_status": null,

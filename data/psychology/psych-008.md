@@ -13,6 +13,21 @@ source:
   url: "https://privacyinternational.org/examples/surveillance-billboards"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "The use of live facial recognition technology in public places"
+    institution: "Information Commissioner's Office"
+    year: 2021
+    url: "https://ico.org.uk/media2/migrated/2619985/ico-opinion-the-use-of-lfr-in-public-places-20210618.pdf"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Guidelines 3/2019 on processing of personal data through video devices"
+    institution: "European Data Protection Board"
+    year: 2019
+    url: "https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_201903_video_devices_en_0.pdf"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags: [psychology, surveillance, facial-detection, facial-recognition, ava, emotion-tracking]
 ---
