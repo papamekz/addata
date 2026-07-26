@@ -13,6 +13,14 @@ source:
   url: "https://www.scenic.org"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Economic Impact of Billboard Locations on Property Values"
+    institution: "Econsult Solutions / OAAA"
+    year: 2011
+    url: "https://oaaa.org/wp-content/uploads/2022/09/Philly-propvalue.pdf"
+    type: report
+    open_access: true
+    independent: true
 verified: true
 tags: [property-values, billboard-blight, real-estate, gentrification, visual-pollution]
 ---

@@ -74,7 +74,7 @@ culture(9) · alternatives(4)
 
 ### Datenqualität
 
-- Größter Restpunkt: 115 Claims haben nur eine Source-URL. Nicht blind überall Zweitlinks ergänzen,
+- Größter Restpunkt: 28 Claims haben nur eine Source-URL (Stand `audit-data.js`, Juli 2026). Nicht blind überall Zweitlinks ergänzen,
   sondern zuerst High-Impact-Claims (`impact_score >= 9`) und Claims mit hohem rechtlichen/finanziellen Gewicht.
 - Für Single-Source-Claims bevorzugt DOI, PubMed/PMC, offizielle Gerichts-/Regierungsseiten,
   Archivseiten oder bibliografische Mirror ergänzen.
@@ -124,11 +124,11 @@ culture(9) · alternatives(4)
    git add -A
    git commit -m "Initial release: 189 OOH/DOOH research claims, bilingual DE/EN"
    git branch -M main
-   git remote add origin https://github.com/papamekz/ooh-advertising-research.git
+   git remote add origin https://github.com/papamekz/addata.git
    git push -u origin main
    ```
 
-   Voraussetzung: Repo `ooh-advertising-research` muss auf GitHub als **leeres** Repo existieren
+   Voraussetzung: Repo `addata` muss auf GitHub als **leeres** Repo existieren
    (ohne README/License/gitignore anlegen — sonst Push-Konflikt).
 
    GitHub Topics nach dem Push setzen (für Auffindbarkeit):

@@ -4,6 +4,8 @@
 
 This repository contains 189 machine-readable claims on OOH/DOOH advertising infrastructure risks. The dataset is bilingual (DE/EN) and built for AI-agent ingestion.
 
+Selection criteria: this is an adverse-evidence corpus, not a representative sample of the literature. Records were collected by searching for documented harms, risks, and regulatory actions; studies reporting null or beneficial effects were not sought and are largely absent, and industry sources are excluded as evidence. Treat corpus-level counts and `impact_score` distributions as properties of this collection, not as scientific consensus. Individual claims remain independently verifiable via their source URLs. Full statement: `DATA_CARD.md` ("Selection Criteria and Known Bias").
+
 ## Use First
 
 - Assessment protocol: `SKILL.md`

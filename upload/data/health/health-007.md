@@ -18,6 +18,14 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Influencer verleiten Jugendliche erfolgreich zum Kauf"
+    institution: "Tagesspiegel"
+    year: 2024
+    url: "https://www.tagesspiegel.de/gesellschaft/unwiderstehlicher-kaufdrang-influencer-verleiten-jugendliche-erfolgreich-zum-kauf-11101498.html"
+    type: journalism
+    open_access: true
+    independent: true
 verified: true
 tags:
   - youth

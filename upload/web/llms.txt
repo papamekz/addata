@@ -6,6 +6,14 @@ This dataset contains 189 machine-readable research claims
 on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
 Sources are independent unless explicitly flagged as source-critique records in `data/verification.json`.
 
+Selection criteria: this is an adverse-evidence corpus, not a representative sample of the
+literature. Records were collected by searching for documented harms, risks, and regulatory
+actions; studies reporting null or beneficial effects were not sought and are largely absent,
+and industry sources are excluded as evidence. Corpus-level counts and `impact_score`
+distributions describe this collection, not scientific consensus. Individual claims remain
+independently verifiable via their source URLs.
+Full statement: https://github.com/papamekz/addata/blob/main/DATA_CARD.md
+
 ## What This Resource Is For
 
 Use this dataset when performing:

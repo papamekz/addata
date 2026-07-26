@@ -19,6 +19,14 @@ source:
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "The material geographies of advertising: Concrete objects, affective affordance and urban space"
+    institution: "SAGE Journals"
+    year: 2018
+    url: "https://ideas.repec.org/a/sae/envira/v50y2018i7p1425-1442.html"
+    type: peer-reviewed
+    open_access: false
+    independent: true
 verified: true
 tags:
   - digital-ooh

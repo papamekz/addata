@@ -18,6 +18,21 @@ source:
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "Borrowing-to-Keep-Up-with-the-Joneses: Inequality, Debt, and Conspicuous Consumption"
+    institution: "World Bank"
+    year: 2020
+    url: "https://documents1.worldbank.org/curated/en/742421597065801715/pdf/Borrowing-to-Keep-Up-with-the-Joneses-Inequality-Debt-and-Conspicuous-Consumption.pdf"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Household Debt, Consumption and Inequality"
+    institution: "Florida International University"
+    year: 2020
+    url: "https://economics.fiu.edu/research/pdfs/2020_working_papers/2011.pdf"
+    type: grey-literature
+    open_access: true
+    independent: true
 verified: true
 tags:
   - consumer-debt

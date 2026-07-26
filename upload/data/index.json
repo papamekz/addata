@@ -137,7 +137,7 @@
     },
     {
       "id": "psych-005",
-      "title": "Subliminale Werbung beeinflusst nachweislich das Kaufverhalten",
+      "title": "Subliminale Werbung kann Kaufentscheidungen unter engen Bedingungen beeinflussen",
       "category": "psychology",
       "impact_score": 6,
       "year": 2019,
@@ -592,8 +592,8 @@
       "category": "resources",
       "impact_score": 9,
       "year": 2009,
-      "source_type": "ngo",
-      "institution": "Greenpeace USA / Ecology Center",
+      "source_type": "peer-reviewed",
+      "institution": "PubMed",
       "open_access": true,
       "file": "data/resources/res-005.md"
     },
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "env-014",
-      "title": "Mikroplastik aus PVC-Werbebannern kontaminiert Böden und Gewässer in städtischen Räumen",
+      "title": "PVC-Werbebanner können als Kunststoffabfall Mikroplastik freisetzen und so in urbane Boden- und Wasserpfade gelangen",
       "category": "environment",
       "impact_score": 8,
       "year": 2017,
@@ -1248,11 +1248,11 @@
     },
     {
       "id": "culture-004",
-      "title": "UNESCO warnt: kommerzielle Außenwerbung bedroht visuelle Integrität von Weltkulturerbe-Stätten",
+      "title": "Visuelle Integrität von Weltkulturerbe-Stätten wird durch Werbung und bauliche Überformung beeinträchtigt",
       "category": "culture",
       "impact_score": 8,
       "year": 2019,
-      "source_type": "government",
+      "source_type": "grey-literature",
       "institution": "UNESCO World Heritage Centre",
       "open_access": true,
       "file": "data/culture/culture-004.md"

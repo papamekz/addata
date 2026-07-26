@@ -14,6 +14,14 @@ source:
   doi: "10.1080/15389588.2012.731546"
   type: peer-reviewed
   independent: true
+corroborating_sources:
+  - title: "The Impact of Billboards on Driver Visual Behavior: A Systematic Literature Review"
+    institution: "PMC / NIH"
+    year: 2015
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags: [sweden, ban, traffic-safety, distraction, government-action]
 ---

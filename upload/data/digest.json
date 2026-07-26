@@ -94,9 +94,10 @@
       "institution": "PubMed Central / National Institutes of Health",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/",
+        "https://pubmed.ncbi.nlm.nih.gov/19227390/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -121,9 +122,10 @@
       "institution": "PubMed Central",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/",
+        "https://pubmed.ncbi.nlm.nih.gov/37256748/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -175,9 +177,11 @@
       "institution": "PubMed Central / Neuroscience research",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6027235/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -201,9 +205,11 @@
       "institution": "Munich Personal RePEc Archive (MPRA)",
       "source_url": "https://mpra.ub.uni-muenchen.de/92124/",
       "source_urls": [
-        "https://mpra.ub.uni-muenchen.de/92124/"
+        "https://mpra.ub.uni-muenchen.de/92124/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/",
+        "https://scholar.nycu.edu.tw/en/publications/a-meta-analysis-of-consumer-choice-and-subliminal-advertising/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -253,9 +259,11 @@
       "institution": "DarkSky International (International Dark-Sky Association)",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "DarkSky supports high luminance, glare, lack of shielding, curfews, and ecological/light-pollution risk. The previous 30x household-energy headline was not supported by the cited DarkSky source and was replaced.",
       "tags": [
@@ -335,9 +343,11 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/",
       "source_urls": [
-        "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/"
+        "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/",
+        "https://darksky.org/resources/what-is-light-pollution/light-pollution-solutions/lighting/",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -363,9 +373,11 @@
       "institution": "University College London, The Bartlett School of Planning / Routledge",
       "source_url": "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764",
       "source_urls": [
-        "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764"
+        "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764",
+        "https://pubmed.ncbi.nlm.nih.gov/14709704/",
+        "https://pubmed.ncbi.nlm.nih.gov/32244358/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -417,9 +429,11 @@
       "institution": "Scientific Reports, Nature Publishing Group",
       "source_url": "https://www.nature.com/articles/s41598-024-56403-9",
       "source_urls": [
-        "https://www.nature.com/articles/s41598-024-56403-9"
+        "https://www.nature.com/articles/s41598-024-56403-9",
+        "https://pubmed.ncbi.nlm.nih.gov/31610855/",
+        "https://pubmed.ncbi.nlm.nih.gov/14709704/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -529,9 +543,11 @@
       "institution": "Quantitative Marketing and Economics, Springer Nature",
       "source_url": "https://link.springer.com/article/10.1007/s11129-005-0351-1",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/s11129-005-0351-1"
+        "https://link.springer.com/article/10.1007/s11129-005-0351-1",
+        "https://documents1.worldbank.org/curated/en/742421597065801715/pdf/Borrowing-to-Keep-Up-with-the-Joneses-Inequality-Debt-and-Conspicuous-Consumption.pdf",
+        "https://economics.fiu.edu/research/pdfs/2020_working_papers/2011.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -555,9 +571,11 @@
       "institution": "National Bureau of Economic Research (NBER)",
       "source_url": "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
       "source_urls": [
-        "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf"
+        "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
+        "https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million",
+        "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -581,9 +599,11 @@
       "institution": "Wharton School of Business, University of Pennsylvania",
       "source_url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf",
       "source_urls": [
-        "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf"
+        "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf",
+        "https://eprints.whiterose.ac.uk/id/eprint/192880/",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/90CD9FBDA70008B206E49CA1EEBCCD21/S2059599900001394a.pdf/debt_for_status_consumer_credit_ordinary_consumption_and_the_sense_of_place.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -636,9 +656,11 @@
       "institution": "Health Promotion International, Oxford Academic",
       "source_url": "https://api.crossref.org/works/10.1093/heapro/daaf016",
       "source_urls": [
-        "https://api.crossref.org/works/10.1093/heapro/daaf016"
+        "https://api.crossref.org/works/10.1093/heapro/daaf016",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9330687/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12182458/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -917,9 +939,10 @@
       "institution": "Fraunhofer-Institut für System- und Innovationsforschung (ISI), Karlsruhe",
       "source_url": "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html",
       "source_urls": [
-        "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html"
+        "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html",
+        "https://www.tagesspiegel.de/gesellschaft/unwiderstehlicher-kaufdrang-influencer-verleiten-jugendliche-erfolgreich-zum-kauf-11101498.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1007,9 +1030,11 @@
       "institution": "Bayerische Akademie für Naturschutz und Landschaftspflege (ANL Bayern)",
       "source_url": "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf",
       "source_urls": [
-        "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf"
+        "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf",
+        "https://sites.warnercnr.colostate.edu/soundandlightecologyteam/wp-content/uploads/sites/146/2020/11/biologicalconservation2020.pdf",
+        "https://www.buglife.org.uk/campaigns/light-pollution/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1035,9 +1060,10 @@
       "institution": "World Without Fossil Ads / Adfree Cities",
       "source_url": "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/",
       "source_urls": [
-        "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/"
+        "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/",
+        "https://adfreecities.org.uk/2025/05/hamburg-initiative-to-remove-outdoor-advertising-screens-growing-european-movement/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1094,7 +1120,7 @@
       "source_url": "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
       "source_urls": [
         "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
-        "https://legislacao.prefeitura.sp.gov.br/lei-14223-de-26-de-setembro-de-2006",
+        "https://direitosp.fgv.br/sites/default/files/2022-01/arquivos/cidade_limpa_-_narrativa.pdf",
         "https://www.theguardian.com/cities/2015/aug/11/can-cities-kick-ads-ban-urban-billboards",
         "https://www.wired.com/2007/06/urban-spam-dele/"
       ],
@@ -1186,9 +1212,10 @@
       "institution": "SpringerLink / Peer-reviewed",
       "source_url": "https://link.springer.com/article/10.1007/BF02386023",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/BF02386023"
+        "https://link.springer.com/article/10.1007/BF02386023",
+        "https://www1.wdr.de/stichtag/stichtag-deutscher-werberat-100.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1213,9 +1240,11 @@
       "institution": "Bundesumweltministerium / Geography Realm",
       "source_url": "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/",
       "source_urls": [
-        "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/"
+        "https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/",
+        "https://www.bundesumweltministerium.de/faq/was-macht-das-insektenschutzgesetz",
+        "https://dserver.bundestag.de/btd/19/281/1928182.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1263,9 +1292,11 @@
       "institution": "Adfree Cities UK",
       "source_url": "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/",
       "source_urls": [
-        "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/"
+        "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/",
+        "https://weall.org/the-environmental-impacts-of-corporate-advertising/",
+        "https://adfreecities.org.uk/wp-content/uploads/2022/11/Advertising-and-Light-Pollution-Adfree-Cities-Briefing-update.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1290,9 +1321,10 @@
       "institution": "AV Interactive / AV Magazine",
       "source_url": "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/",
       "source_urls": [
-        "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/"
+        "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/",
+        "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Pressemitteilungen/2022/09/20220928-cabinet-adopts-changes-to-energy-saving-ordinance.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1318,9 +1350,10 @@
       "institution": "It's Nice That / citing European Commission ECOBOARD figures",
       "source_url": "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
       "source_urls": [
-        "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121"
+        "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
+        "https://cordis.europa.eu/article/id/92567-reducing-billboard-advertising-waste"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1342,11 +1375,11 @@
       "category": "resources",
       "impact_score": 9,
       "year": 2009,
-      "source_type": "ngo",
-      "institution": "Greenpeace USA / Ecology Center",
-      "source_url": "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html",
+      "source_type": "peer-reviewed",
+      "institution": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39765168/",
       "source_urls": [
-        "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html",
+        "https://pubmed.ncbi.nlm.nih.gov/39765168/",
         "https://www.greenpeace.org/usa/?p=13701",
         "https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=51",
         "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/vinyl-chloride",
@@ -1378,9 +1411,10 @@
       "institution": "PubMed Central / US EPA",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/",
+        "https://www.epa.gov/sites/default/files/2015-01/documents/printing.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1556,8 +1590,8 @@
       "source_url": "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
       "source_urls": [
         "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
-        "https://trid.trb.org/view/1475885",
-        "https://trid.trb.org/View/1337321",
+        "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
+        "https://rosap.ntl.bts.gov/view/dot/36939",
         "https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/"
       ],
       "source_count": 4,
@@ -1578,9 +1612,11 @@
       "institution": "Jerry Wachtel / Scenic America",
       "source_url": "https://www.scenic.org",
       "source_urls": [
-        "https://www.scenic.org"
+        "https://www.scenic.org",
+        "https://rosap.ntl.bts.gov/view/dot/36939",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1644,9 +1680,11 @@
       "institution": "Landesamt für Natur, Umwelt und Verbraucherschutz NRW (LANUV)",
       "source_url": "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf",
       "source_urls": [
-        "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf"
+        "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf",
+        "https://www.gov.uk/guidance/light-pollution",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1728,9 +1766,10 @@
       "institution": "Traffic Injury Prevention / Trafikverket",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/23682577/"
+        "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated the Swedish evidence as a rural-road ban/removal order. Revised to the peer-reviewed finding: electronic billboards attracted longer and more frequent driver glances; the publication does not conclusively establish traffic-safety hazard.",
       "tags": [],
@@ -1855,9 +1894,11 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2043,9 +2084,10 @@
       "institution": "Scenic America / Urban Studies",
       "source_url": "https://www.scenic.org",
       "source_urls": [
-        "https://www.scenic.org"
+        "https://www.scenic.org",
+        "https://oaaa.org/wp-content/uploads/2022/09/Philly-propvalue.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2235,9 +2277,11 @@
       "institution": "International Dark-Sky Association (IDA)",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/33450951/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2277,9 +2321,11 @@
       "institution": "Basel Action Network (BAN) / E-Waste Monitor",
       "source_url": "https://www.ban.org",
       "source_urls": [
-        "https://www.ban.org"
+        "https://www.ban.org",
+        "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+        "https://wiki.ban.org/images/1/13/TheScamRecyclingContinuesUpdate_1.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2318,8 +2364,8 @@
       "source_url": "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
       "source_urls": [
         "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
-        "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf",
-        "https://trid.trb.org/View/904585",
+        "https://rosap.ntl.bts.gov/view/dot/22716",
+        "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf",
         "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf"
       ],
       "source_count": 4,
@@ -2360,9 +2406,10 @@
       "institution": "Nordic Innovation",
       "source_url": "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/",
       "source_urls": [
-        "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/"
+        "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/",
+        "https://www.nordicinnovation.org/news/launching-nordic-smart-city-roadmap"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2422,9 +2469,11 @@
       "institution": "Service-Public.fr / Direction de l'information légale et administrative",
       "source_url": "https://entreprendre.service-public.gouv.fr/vosdroits/F24301",
       "source_urls": [
-        "https://entreprendre.service-public.gouv.fr/vosdroits/F24301"
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F24301",
+        "https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes",
+        "https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2586,9 +2635,11 @@
       "institution": "Environmental Chemistry Letters, Springer",
       "source_url": "https://link.springer.com/article/10.1007/s10311-016-0569-z",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/s10311-016-0569-z"
+        "https://link.springer.com/article/10.1007/s10311-016-0569-z",
+        "https://www.nrdc.org/sites/default/files/2025-06/microplastic_deluge_how_these_small_plastic_particles_harm_our_health_and_the_environment.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10450477/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2645,9 +2696,10 @@
       "institution": "World without Fossil Ads",
       "source_url": "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/",
       "source_urls": [
-        "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/"
+        "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/",
+        "https://ds1.static.rtbf.be/uploader/pdf/a/5/0/beta_d537219571cfe9f6dcb782c4c4d239dd.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording incorrectly described Belgium as having enacted a complete national fossil-fuel advertising ban including OOH/DOOH. Revised to RTBF public-broadcaster contract restriction plus legislative-momentum signal.",
       "tags": [
@@ -2698,13 +2750,14 @@
       "category": "culture",
       "impact_score": 8,
       "year": 2019,
-      "source_type": "government",
-      "institution": "UNESCO World Heritage Centre",
-      "source_url": "https://whc.unesco.org/en/sustainabledevelopment/",
+      "source_type": "grey-literature",
+      "institution": "The Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms",
       "source_urls": [
-        "https://whc.unesco.org/en/sustainabledevelopment/"
+        "https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms",
+        "https://www.nature.com/articles/s41599-022-01411-1"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2730,9 +2783,10 @@
       "institution": "United Nations University / ITU / ISWA",
       "source_url": "https://ewastemonitor.info/gem-2020/",
       "source_urls": [
-        "https://ewastemonitor.info/gem-2020/"
+        "https://ewastemonitor.info/gem-2020/",
+        "https://www.itu.int/en/itu-d/environment/documents/toolbox/gem_2020_def.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2791,9 +2845,10 @@
       "institution": "CORRECTIV / ZDF Frontal / Der Spiegel",
       "source_url": "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/",
       "source_urls": [
-        "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/"
+        "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/",
+        "https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2850,9 +2905,11 @@
       "institution": "Der Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html",
       "source_urls": [
-        "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html"
+        "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/05/lobbying-in-the-21st-century_bb7a371a/c6d8eff8-en.pdf",
+        "https://www.lboro.ac.uk/media/media/subjects/politics-international-studies/images/staff-profiles/downloads/friendorfoe.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2911,9 +2968,10 @@
       "institution": "Muddy Waters Research",
       "source_url": "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/",
       "source_urls": [
-        "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/"
+        "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/",
+        "https://www.institutionalinvestor.com/article/2bsvwyj3bm86748gykvsw/portfolio/muddy-waters-ends-2016-with-a-big-gain"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "source_critique",
       "verification_note": "Commercial short-seller research with independent=false and documented conflict. Retain only as an allegation/market-event claim with careful hedging.",
       "tags": [
@@ -2941,7 +2999,7 @@
       "source_url": "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
       "source_urls": [
         "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
-        "https://www.uni-leipzig.de/newsdetail/artikel/studie-klimaschaedliche-fernsehwerbung-verletzt-medienstaatsvertrag-2024-05-06"
+        "https://www.deutschlandfunk.de/viele-spots-werben-fuer-klimaschaedliche-produkte-studie-sieht-verstoss-gegen-medienstaatsvertrag-102.html"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -3037,10 +3095,10 @@
       "year": 2024,
       "source_type": "court_ruling",
       "institution": "Court of Justice of the European Union / European Commission",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
+      "source_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf%3Bjsessionid%3DD57B3B424F4F3910F5F7DD55FE48B92A?language=fr&num=C-710%2F22",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0710"
+        "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf%3Bjsessionid%3DD57B3B424F4F3910F5F7DD55FE48B92A?language=fr&num=C-710%2F22",
+        "https://www.brusselstimes.com/1243043/european-court-of-justice-orders-jcdecaux-belgium-to-refund-state-aid"
       ],
       "source_count": 2,
       "verification_status": "corrected",
@@ -3230,9 +3288,10 @@
       "institution": "Schwedische Transportverwaltung (Trafikverket) / Accident Analysis & Prevention",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/23682577/"
+        "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overclaimed dangerous gaze deviation and removal as a documented consequence. Revised to longer gaze/fixation evidence with the authors' caveat that safety hazard cannot be concluded from the available data alone.",
       "tags": [
@@ -3259,9 +3318,10 @@
       "institution": "NPR / US-Senat (Schumer, Franken) / Private Internet Access",
       "source_url": "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers",
       "source_urls": [
-        "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers"
+        "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers",
+        "https://www.csoonline.com/article/555083/billboards-can-track-your-location-and-privacy-advocates-dont-like-it.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3290,9 +3350,10 @@
       "institution": "Georgia Institute of Technology / US Department of Transportation",
       "source_url": "https://trid.trb.org/View/1337321",
       "source_urls": [
-        "https://trid.trb.org/View/1337321"
+        "https://trid.trb.org/View/1337321",
+        "https://cityclerk.lacity.org/onlinedocs/2022/22-0392_PC_M_05-10-2022.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording implied direct causal proof and fixed headline percentages. Revised to the US DOT repository abstract: digital billboard presence was correlated with increased crash rates in influence zones across 18 Alabama/Florida sites.",
       "tags": [
@@ -3383,10 +3444,10 @@
       "year": 2024,
       "source_type": "government",
       "institution": "Europäische Kommission / EUR-Lex",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/sustainable-consumption_en",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
-        "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng"
+        "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/sustainable-consumption_en",
+        "https://commission.europa.eu/document/download/3c257883-bb2a-4dd9-a6dc-501d587bb34f_en?filename=faq-empowerting-consumers-gtd.pdf"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -3566,11 +3627,12 @@
       "year": 2024,
       "source_type": "government",
       "institution": "European Union",
-      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated Article 5 as a blanket ban on biometric categorisation in public space. Revised to describe high-risk/prohibited-practice boundaries and the need for AI Act/GDPR review.",
       "tags": [
@@ -3770,9 +3832,11 @@
       "institution": "Frontiers in Psychology",
       "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full",
       "source_urls": [
-        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full"
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full",
+        "https://pubmed.ncbi.nlm.nih.gov/16111619/",
+        "https://pubmed.ncbi.nlm.nih.gov/15936668/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3879,9 +3943,10 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -3922,7 +3987,7 @@
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
       "source_urls": [
         "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
       ],
       "source_count": 2,
       "verification_status": "verified",
@@ -3952,7 +4017,7 @@
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
       "source_urls": [
         "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
       ],
       "source_count": 2,
       "verification_status": "verified",
@@ -3981,9 +4046,11 @@
       "institution": "University of Warwick",
       "source_url": "https://adfreecities.org.uk/what-we-do/advertising-mental-health/",
       "source_urls": [
-        "https://adfreecities.org.uk/what-we-do/advertising-mental-health/"
+        "https://adfreecities.org.uk/what-we-do/advertising-mental-health/",
+        "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf",
+        "https://www.mqmentalhealth.org/adding-to-the-problem-advertising-and-mental-health/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -4151,9 +4218,10 @@
       "institution": "CORRECTIV",
       "source_url": "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/",
       "source_urls": [
-        "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/"
+        "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/",
+        "https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -4269,9 +4337,10 @@
       "institution": "Advertising Standards Authority (ASA)",
       "source_url": "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html",
       "source_urls": [
-        "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html"
+        "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html",
+        "https://www.theguardian.com/business/2026/apr/15/lidl-iceland-ads-uk-junk-food-asa-instagram-daily-mail"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "verified",
       "verification_note": "Added during UK HFSS enforcement audit. ASA confirms first rulings applying the LHF identifiability test to Iceland and Lidl ads.",
       "tags": [
@@ -4361,7 +4430,7 @@
         "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
         "https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/",
         "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
-        "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html"
+        "https://pubmed.ncbi.nlm.nih.gov/39765168/"
       ],
       "source_count": 4,
       "verification_status": null,
@@ -4721,9 +4790,10 @@
       "institution": "Environment and Planning A / Aberystwyth Research Portal",
       "source_url": "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv",
       "source_urls": [
-        "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv"
+        "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv",
+        "https://ideas.repec.org/a/sae/envira/v50y2018i7p1425-1442.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -4750,9 +4820,11 @@
       "institution": "American Journal of Preventive Medicine / PubMed",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/9713672/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/9713672/"
+        "https://pubmed.ncbi.nlm.nih.gov/9713672/",
+        "https://pubmed.ncbi.nlm.nih.gov/9713672/",
+        "https://truthinitiative.org/research-resources/tobacco-industry-marketing/after-school-smoke-problem-tobacco-retailers-near"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -4779,9 +4851,10 @@
       "institution": "BMC Public Health",
       "source_url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y",
       "source_urls": [
-        "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y"
+        "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [

@@ -17,6 +17,14 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Lidl and Iceland ads are first banned under new UK junk food rules"
+    institution: "The Guardian"
+    year: 2026
+    url: "https://www.theguardian.com/business/2026/apr/15/lidl-iceland-ads-uk-junk-food-asa-instagram-daily-mail"
+    type: news
+    open_access: true
+    independent: true
 verified: true
 tags:
   - hfss

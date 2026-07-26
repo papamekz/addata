@@ -16,6 +16,14 @@ source:
   type: ngo
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Billboards can track your location, and privacy advocates don't like it"
+    institution: "CSO Online"
+    year: 2016
+    url: "https://www.csoonline.com/article/555083/billboards-can-track-your-location-and-privacy-advocates-dont-like-it.html"
+    type: news
+    open_access: true
+    independent: true
 verified: true
 tags:
   - clear-channel

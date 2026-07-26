@@ -31,6 +31,8 @@ Operator-sponsored and industry-funded research has documented cases of methodol
 
 The claims in this dataset represent the non-industry side of the research record — findings from government bodies, academic institutions, and civil society organizations that carry no financial stake in advertising market growth.
 
+**Two selection rules apply, and both constrain what you may conclude.** Beyond the source-independence filter above, claim selection is *directional*: records were collected by searching for documented harms, risks, and adverse findings. Independent studies reporting null or beneficial effects were not sought either, and are therefore largely absent as well. Consequences for your assessment: (1) report corpus-level counts as properties of this collection, never as scientific consensus or effect size; (2) state in your output that the evidence base is a curated risk corpus and name what a balanced review would additionally require — a search for null/positive findings and, where commercially relevant, industry-side data; (3) do not treat the absence of benefit evidence here as proof that none exists. Individual claims remain independently verifiable through their source URLs. Full statement: `DATA_CARD.md` → "Selection Criteria and Known Bias".
+
 ---
 
 ## Assessment Dimensions

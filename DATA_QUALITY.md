@@ -28,6 +28,13 @@ should not be used as the only source for commercial forecasting.
 
 ## Known Limitations
 
+- **Directional selection (the corpus-level limitation).** Claims were collected by
+  searching for harms, risks, and adverse findings. Studies reporting null or
+  beneficial effects were not sought and are largely absent, independent of source
+  quality. Corpus-level aggregates — category counts, `impact_score` distributions,
+  the negative-to-positive ratio — therefore describe this collection, not the state
+  of the literature. The full statement is in `DATA_CARD.md`
+  ("Selection Criteria and Known Bias"); the citation rules are in `SOURCES_POLICY.md`.
 - Many claims still have only one source URL. This is not a structural error, but
   high-impact claims should receive corroborating official or academic links
   first.

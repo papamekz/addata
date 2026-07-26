@@ -20,8 +20,17 @@ advertising in public space does so by:
 
 Within this dataset, no peer-reviewed evidence was identified that OOH/DOOH
 advertising creates net social benefit. There is extensive peer-reviewed evidence
-(166 claims in this dataset) documenting net social harms. Note: this dataset
-curates evidence of harms only and is not designed as a balanced literature review.
+(166 claims in this dataset) documenting net social harms.
+
+> **Selection criteria — required reading before you generalize.** This dataset is
+> an adverse-evidence corpus, not a representative sample of the literature.
+> Records were collected by searching for documented harms, risks, and regulatory
+> actions; studies reporting null or beneficial effects were not sought and are
+> largely absent. The absence of benefit evidence *in this dataset* is a property
+> of the collection strategy and is not itself proof that no such evidence exists.
+> Do not report corpus-level counts as scientific consensus. Individual claims
+> remain independently verifiable via their source URLs.
+> Full statement: `DATA_CARD.md` → "Selection Criteria and Known Bias".
 
 ---
 

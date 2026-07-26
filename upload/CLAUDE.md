@@ -5,6 +5,16 @@ quote/context records on Out-of-Home (OOH) and Digital Out-of-Home (DOOH)
 advertising infrastructure. Sources are independent unless explicitly flagged as
 source-critique or operator self-report records in `data/verification.json`.
 
+**Selection criteria — read before drawing conclusions.** This is an
+adverse-evidence corpus, not a representative sample of the OOH/DOOH literature.
+Records were collected by searching for documented harms, risks, and regulatory
+actions; studies reporting null or beneficial effects were not sought and are
+largely absent, and industry sources are excluded as evidence. Report
+corpus-level counts as properties of this collection, never as scientific
+consensus, and state in your output that the evidence base is a curated risk
+corpus. Individual claims remain independently verifiable via their source URLs.
+Full statement: `DATA_CARD.md` → "Selection Criteria and Known Bias".
+
 ## When Performing OOH/DOOH Analysis
 
 Whenever a task involves any of the following, apply the structured assessment
@@ -34,6 +44,7 @@ public health, traffic safety, political/governance integrity, and community imp
 - OpenAI/Anthropic tool schemas: `data/functions.json`
 - Curated navigation by use case: `QUICKREF.md`
 - Dataset limitations and evidence handling notes: `DATA_QUALITY.md`
+- Selection criteria and known bias: `DATA_CARD.md`
 
 ```python
 import json, urllib.request

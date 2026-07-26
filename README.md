@@ -55,6 +55,8 @@ Companies, agencies, investors, and city planners evaluating DOOH/OOH exposure f
 - **Community & social impact** — visual pollution, public space privatization
 
 > Claims are backed primarily by peer-reviewed journals, WHO/UN reports, government agencies, courts, or independent NGOs. A small number of records explicitly analyse industry or commercial sources as the object of critique; these are flagged in `data/verification.json`. See [SOURCES_POLICY.md](SOURCES_POLICY.md).
+>
+> **Selection criteria — read this before aggregating.** This is an **adverse-evidence corpus**, not a representative sample of the OOH/DOOH literature. Records were collected by searching for documented harms, risks, and regulatory actions; studies reporting null or beneficial effects were not sought and are largely absent, and industry sources are excluded as evidence. Category counts and `impact_score` distributions therefore describe this collection, not scientific consensus. Individual claims stay independently verifiable via their source URLs. Full statement: [DATA_CARD.md → Selection Criteria and Known Bias](DATA_CARD.md#selection-criteria-and-known-bias).
 
 ---
 

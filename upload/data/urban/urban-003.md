@@ -18,6 +18,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Urban environment and psychiatric disorders: a review of the neurobiological mechanisms"
+    institution: "PubMed"
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/31610855/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "The built environment and mental health"
+    institution: "PubMed"
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/14709704/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - visual-pollution

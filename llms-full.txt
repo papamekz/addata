@@ -19,6 +19,8 @@ Use empirical claim records as evidence. Use quote/context records only as cultu
 
 This repository contains 189 machine-readable claims on OOH/DOOH advertising infrastructure risks. The dataset is bilingual (DE/EN) and built for AI-agent ingestion.
 
+Selection criteria: this is an adverse-evidence corpus, not a representative sample of the literature. Records were collected by searching for documented harms, risks, and regulatory actions; studies reporting null or beneficial effects were not sought and are largely absent, and industry sources are excluded as evidence. Treat corpus-level counts and `impact_score` distributions as properties of this collection, not as scientific consensus. Individual claims remain independently verifiable via their source URLs. Full statement: `DATA_CARD.md` ("Selection Criteria and Known Bias").
+
 ## Use First
 
 - Assessment protocol: `SKILL.md`
@@ -91,6 +93,13 @@ should not be used as the only source for commercial forecasting.
 
 ## Known Limitations
 
+- **Directional selection (the corpus-level limitation).** Claims were collected by
+  searching for harms, risks, and adverse findings. Studies reporting null or
+  beneficial effects were not sought and are largely absent, independent of source
+  quality. Corpus-level aggregates — category counts, `impact_score` distributions,
+  the negative-to-positive ratio — therefore describe this collection, not the state
+  of the literature. The full statement is in `DATA_CARD.md`
+  ("Selection Criteria and Known Bias"); the citation rules are in `SOURCES_POLICY.md`.
 - Many claims still have only one source URL. This is not a structural error, but
   high-impact claims should receive corroborating official or academic links
   first.
@@ -238,6 +247,13 @@ Then complete the generated Markdown file and rerun the build and audit commands
 This dataset documents the harms of outdoor advertising using **exclusively independent sources**.
 No data from advertising companies, industry associations, or marketing research firms is accepted.
 
+**Independence is not balance.** This policy governs *who may be cited*, not *which findings are
+collected*. Claim selection is directional by design: the dataset searches for documented harms,
+risks, and adverse findings, so independent studies reporting null or beneficial effects are
+largely absent as well. Both rules are stated together in `DATA_CARD.md`
+("Selection Criteria and Known Bias"). Do not present a corpus-level count from this dataset as
+evidence of scientific consensus.
+
 ## Accepted Sources
 
 | Type | Examples |
@@ -312,7 +328,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2006
 - Source type: peer-reviewed
 - File: data/psychology/psych-001.md
-- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/ ; https://pubmed.ncbi.nlm.nih.gov/19227390/
 - Summary: Media content — particularly advertising — promotes unrealistic body ideals in children and adolescents. The study documents the causal link between media exposure and the development of eating disorders such as anorexia nervosa and bulimia nervosa.
 - Finding: Body dissatisfaction in children and adolescents is directly associated with media consumption and leads to reduced quality of life, deteriorated mood, and unhealthy eating habits. Advertising that portrays unrealistic ideals of thinness is a primary trigger.
 
@@ -323,7 +339,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: peer-reviewed
 - File: data/psychology/psych-002.md
-- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/ ; https://pubmed.ncbi.nlm.nih.gov/37256748/
 - Summary: Self-objectification through advertising exposure is linked to body shame, depression, anxiety, and eating disorders. The study analyzes the psychological mechanisms through which advertising content damages the self-image of young people.
 - Finding: Exposure to beauty and diet content from advertising accelerates the development of eating disorders. A report by the Center for Countering Digital Hate (2023) found that algorithmically delivered content worsened body image anxiety in 70% of adolescents. Outdoor advertising permanently transports the same images into public space.
 
@@ -334,7 +350,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 1995
 - Source type: peer-reviewed
 - File: data/psychology/psych-003.md
-- Sources: https://api.crossref.org/works/10.1207/s15327663jcp0403_02
+- Sources: https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1207%2Fs15327663jcp0403_02 ; https://www.semanticscholar.org/paper/When-Attention-Getting-Advertising-Tactics-Elicit-Campbell/2a7a8891577f9b8a6cbcdce60a4ed0ed75800c3e
 - Summary: Advertising tactics designed to attract attention can lead consumers to infer manipulative intent. This perceived manipulative intent reduces attitudes toward the ad, brand attitudes, and purchase intentions.
 - Finding: The study examines two attention-getting TV advertising tactics and shows that perceived manipulative intent is mediated by perceived imbalances in personal and advertiser costs and benefits. It does not directly measure OOH effects, but provides a relevant psychological model for intrusive advertising formats.
 
@@ -345,7 +361,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2018
 - Source type: peer-reviewed
 - File: data/psychology/psych-004.md
-- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC6027235/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/
 - Summary: Neuroscientific research confirms that subliminal messages can influence decisions under certain conditions — particularly when they align with existing needs or desires. These effects are demonstrable over the long term.
 - Finding: Subliminal messages can steer decisions in a particular direction without the affected person noticing. Advertising deliberately exploits these mechanisms: brief image sequences, subliminal messages, and emotional conditioning in outdoor advertising influence behavior below the threshold of conscious perception.
 
@@ -356,7 +372,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2019
 - Source type: peer-reviewed
 - File: data/psychology/psych-005.md
-- Sources: https://mpra.ub.uni-muenchen.de/92124/
+- Sources: https://mpra.ub.uni-muenchen.de/92124/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/ ; https://scholar.nycu.edu.tw/en/publications/a-meta-analysis-of-consumer-choice-and-subliminal-advertising/
 - Summary: Empirical study examining the influence of subliminal advertising on purchasing behavior. Non-marketing experts and young consumers are particularly susceptible to unconscious influence through advertising messages.
 - Finding: Subliminal advertising measurably influences purchasing behavior, especially among groups without media literacy training. Children and adolescents, as well as individuals without marketing knowledge, are most severely affected.
 
@@ -367,7 +383,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2015
 - Source type: peer-reviewed
 - File: data/psychology/psych-006.md
-- Sources: https://dialnet.unirioja.es/servlet/articulo?codigo=5125676
+- Sources: https://api.crossref.org/works/10.1080/02650487.2014.996117 ; https://faculty.txst.edu/profile/1663039/activity/scholarly-creative ; https://www.semanticscholar.org/paper/4aa0c47c9660d70a8131159e3ac981226ca8ce07
 - Summary: A field study of billboards along an urban expressway finds that creativity alone does not reliably increase brand memory. Only when an ad crosses an attention threshold through size, visual salience, or brand familiarity can creativity improve recognition.
 - Finding: The study finds evidence for an "attention capture threshold": creative design improves brand memory in this field context only when the billboard is already sufficiently conspicuous in the visual field. Billboard size, visual salience, and brand familiarity increase recognition rates.
 
@@ -378,7 +394,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/environment/env-001.md
-- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/
+- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/ ; https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf ; https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf
 - Summary: DarkSky International documents that electronic message centers and digital billboards can intensify glare, skyglow, and ecological light pollution when brightness, curfews, and shielding are not tightly regulated.
 - Finding: DarkSky states that electronic message centers can be up to ten times brighter at night than traditional billboards. Their changing, high-luminance displays can emit light beyond the intended viewing area and increase nuisance glare and skyglow unless constrained by strict brightness limits, shielding, and night-time shutoff rules.
 
@@ -411,7 +427,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/environment/env-004.md
-- Sources: https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/
+- Sources: https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/ ; https://darksky.org/resources/what-is-light-pollution/light-pollution-solutions/lighting/ ; https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf
 - Summary: Light from digital billboards and illuminated outdoor advertising affects the behavior of nocturnal animals and disrupts biological rhythms in both humans and animals. Global light pollution is increasing by 6% annually.
 - Finding: Artificial light from billboards disrupts the reproduction, foraging, and orientation of nocturnal animals: birds, bats, frogs, and insects become disoriented or are directly harmed. For humans: excessive artificial light at night leads to sleep disorders, endocrine disruptions, and increased cancer risk (melatonin suppression).
 
@@ -422,7 +438,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2014
 - Source type: book
 - File: data/urban/urban-001.md
-- Sources: https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764
+- Sources: https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764 ; https://pubmed.ncbi.nlm.nih.gov/14709704/ ; https://pubmed.ncbi.nlm.nih.gov/32244358/
 - Summary: An empirical comparative study (UK and Brazil) on the negative effects of commercial signage and advertising on the visual quality of urban spaces and the quality of life of residents. Examined from architectural, planning, and psychological perspectives.
 - Finding: Commercial signage and outdoor advertising have demonstrably negative consequences for the visual quality of urban spaces and the well-being of residents. The study establishes that visual overload from advertising acts as an environmental stressor.
 
@@ -444,7 +460,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: peer-reviewed
 - File: data/urban/urban-003.md
-- Sources: https://www.nature.com/articles/s41598-024-56403-9
+- Sources: https://www.nature.com/articles/s41598-024-56403-9 ; https://pubmed.ncbi.nlm.nih.gov/31610855/ ; https://pubmed.ncbi.nlm.nih.gov/14709704/
 - Summary: A European comparative study on urban visual pollution, published in Nature Scientific Reports. Shows that visual pollution is far more than an aesthetic problem — it acts as an environmental stressor with direct health consequences.
 - Finding: Visual pollution is a significant environmental problem driven by rapid urbanization. It is not merely an aesthetic nuisance, but acts directly on mental health: it contributes to anxiety, stress, and reduced quality of life. Advertising is one of the primary drivers of visual pollution in urban spaces.
 
@@ -488,7 +504,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2005
 - Source type: peer-reviewed
 - File: data/economy/econ-002.md
-- Sources: https://link.springer.com/article/10.1007/s11129-005-0351-1
+- Sources: https://link.springer.com/article/10.1007/s11129-005-0351-1 ; https://documents1.worldbank.org/curated/en/742421597065801715/pdf/Borrowing-to-Keep-Up-with-the-Joneses-Inequality-Debt-and-Conspicuous-Consumption.pdf ; https://economics.fiu.edu/research/pdfs/2020_working_papers/2011.pdf
 - Summary: Econometric study on the relationship between rising income inequality and growing consumer debt. Shows that households with smaller income gains take on debt to maintain their consumption relative to wealthier households.
 - Finding: Rising income inequality substantially increases consumer debt. Households with smaller income gains take on debt to emulate the consumption of wealthier groups — a mechanism that advertising deliberately exploits ("Keeping up with the Joneses").
 
@@ -499,7 +515,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2017
 - Source type: government
 - File: data/economy/econ-003.md
-- Sources: https://www.nber.org/system/files/working_papers/w23655/w23655.pdf
+- Sources: https://www.nber.org/system/files/working_papers/w23655/w23655.pdf ; https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million ; https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf
 - Summary: NBER (National Bureau of Economic Research) working paper documenting the long-term correlation between growing income inequality and consumption patterns in the USA since the 1960s. Analyses how marketing and advertising accelerate status-driven consumption.
 - Finding: Decades of data confirm the relationship between rising inequality and non-sustainable consumption patterns. Advertising and marketing play a central role in accelerating status-driven consumption that perpetuates inequalities.
 
@@ -510,7 +526,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2020
 - Source type: peer-reviewed
 - File: data/economy/econ-004.md
-- Sources: https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf
+- Sources: https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf ; https://eprints.whiterose.ac.uk/id/eprint/192880/ ; https://www.cambridge.org/core/services/aop-cambridge-core/content/view/90CD9FBDA70008B206E49CA1EEBCCD21/S2059599900001394a.pdf/debt_for_status_consumer_credit_ordinary_consumption_and_the_sense_of_place.pdf
 - Summary: Wharton School of Business research study on the effect of income inequality on conspicuous and inconspicuous consumption. Shows that higher inequality leads to more ostentatious (visible) status consumption — precisely what outdoor advertising for high-priced goods incentivises.
 - Finding: Higher inequality increases status-signalling consumption (conspicuous consumption). Advertising for luxury goods and status products in public space deliberately exploits and amplifies this mechanism — it targets all income groups and generates social comparison processes that lead to irrational purchasing decisions.
 
@@ -532,7 +548,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: peer-reviewed
 - File: data/health/health-002.md
-- Sources: https://api.crossref.org/works/10.1093/heapro/daaf016
+- Sources: https://api.crossref.org/works/10.1093/heapro/daaf016 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9330687/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12182458/
 - Summary: Canadian cross-sectional study of outdoor food advertising and self-reported food purchases by 545 adolescents. The source finds only weak or marginal associations; consumption attitudes, ethnicity, and gender explain purchasing behaviour more strongly.
 - Finding: The availability of outdoor food advertising around home and school environments is only weakly correlated with purchases at fast-food, restaurant, grocery, and convenience outlets. The authors stress that consumption attitudes and sociodemographic factors show larger effect sizes.
 
@@ -558,7 +574,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: WHO guideline and ELENA (e-Library of Evidence for Nutrition Actions) intervention on food marketing to children. The WHO recommends binding legislative measures to protect children from marketing for foods high in saturated fats, trans fats, free sugars, and salt.
 - Finding: Voluntary self-regulatory commitments by the advertising industry are demonstrably ineffective. The WHO calls for binding, state-enforced restrictions — including for outdoor advertising — because otherwise children are left defenseless against aggressive marketing.
 
-### health-005: Harmful marketing kills over 1 million people per year in the US alone
+### health-005: A review estimates harmful marketing contributes to well over 1 million premature deaths per year in the US
 
 - Category: health
 - Impact score: 10
@@ -642,7 +658,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: government
 - File: data/health/health-007.md
-- Sources: https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html
+- Sources: https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html ; https://www.tagesspiegel.de/gesellschaft/unwiderstehlicher-kaufdrang-influencer-verleiten-jugendliche-erfolgreich-zum-kauf-11101498.html
 - Summary: DFG (Deutsche Forschungsgemeinschaft — German Research Foundation)-funded FAIR project (Fraunhofer ISI, Darmstadt University of Applied Sciences, University of Mannheim) examining the impact of influencer marketing on adolescents in Germany. Survey of more than 1,000 adolescents.
 - Finding: Approximately 50% of surveyed adolescents had purchased products advertised by influencers. More than half had spent over 50 euros on influencer-promoted products within 6 months. Adolescents are particularly vulnerable due to intensive social media use and less developed advertising literacy.
 
@@ -675,7 +691,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2019
 - Source type: government
 - File: data/environment/env-007.md
-- Sources: https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf
+- Sources: https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf ; https://sites.warnercnr.colostate.edu/soundandlightecologyteam/wp-content/uploads/sites/146/2020/11/biologicalconservation2020.pdf ; https://www.buglife.org.uk/campaigns/light-pollution/
 - Summary: A comprehensive analysis by the Bayerische Akademie für Naturschutz und Landschaftspflege (ANL Bayern) (Bavarian Academy for Nature Conservation and Landscape Management) on light pollution as a factor in insect decline. This state Bavarian authority officially documents the connection.
 - Finding: Light pollution is a significant factor in insect decline. The study analyzes all relevant types of lighting in urban and rural spaces. Billboards are explicitly identified as a relevant light source.
 
@@ -686,7 +702,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: ngo
 - File: data/regulation/reg-001.md
-- Sources: https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/
+- Sources: https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/ ; https://adfreecities.org.uk/2025/05/hamburg-initiative-to-remove-outdoor-advertising-screens-growing-european-movement/
 - Summary: Since 2024, a popular initiative (Hamburg Werbefrei — Hamburg Ad-Free) has been underway in Hamburg to restrict outdoor advertising, in particular digital advertising screens. The Hamburg Constitutional Court (Hamburgisches Verfassungsgericht) declared the initiative legally admissible in September 2024.
 - Finding: The Hamburg Constitutional Court ruled that the initiative "Hamburg Werbefrei" (Hamburg Ad-Free) is constitutionally permissible. Around 400 activists collected over 50,000 signatures in 3 weeks (target: 80,000 = 5% of eligible voters, required for a binding referendum — Volksentscheid). The initiative calls for a ban on digital advertising screens and a reduction in poster advertising on grounds of environmental, public health, and urban landscape protection.
 
@@ -701,14 +717,14 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: Germany was the last EU member state to ban outdoor tobacco advertising. The ban was introduced in stages: tobacco products from January 2022, heated tobacco products from January 2023, and e-cigarettes from January 2024.
 - Finding: The tobacco industry spent approximately 100 million euros per year on street and cinema advertising in Germany. For decades Germany was a special case within the EU: while other member states had long since banned outdoor tobacco advertising, Germany's politically influential tobacco industry blocked the prohibition. The ban only came following significant public and EU pressure.
 
-### reg-003: São Paulo: total outdoor advertising ban (2007) — 70% public support after 5 years
+### reg-003: São Paulo: Lei Cidade Limpa (2006) removed most outdoor advertising from the public realm
 
 - Category: regulation
 - Impact score: 9
 - Year: 2012
 - Source type: ngo
 - File: data/regulation/reg-003.md
-- Sources: https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/ ; https://en.wikipedia.org/wiki/Cidade_Limpa ; https://brentmanke.com/a-city-without-ads-cidade-limpa/ ; https://www.manchesterhive.com/display/9781526137005/9781526137005.00019.pdf ; https://weburbanist.com/2010/03/06/clean-city-sao-paulo-scrubbed-of-outdoor-ads/
+- Sources: https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/ ; https://direitosp.fgv.br/sites/default/files/2022-01/arquivos/cidade_limpa_-_narrativa.pdf ; https://www.theguardian.com/cities/2015/aug/11/can-cities-kick-ads-ban-urban-billboards ; https://www.wired.com/2007/06/urban-spam-dele/
 - Summary: São Paulo introduced the "Lei Cidade Limpa" (Clean City Law) in 2007 — the most comprehensive outdoor advertising ban in the world. 15,000 billboards were removed, digital screens banned, advertising on buses prohibited, and 300,000 non-compliant business signs taken down.
 - Finding: A survey in 2011 (4 years after the ban) showed that 70% of São Paulo's 11 million residents regarded the ban positively. Unexpected consequences: the ban revealed historic architecture that had previously been obscured by advertising, and it stimulated street art. Clear Channel challenged the law in court — and lost.
 
@@ -730,7 +746,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: ngo
 - File: data/regulation/reg-005.md
-- Sources: https://www.beuc.eu/sites/default/files/publications/beuc-x-2021-084_food_marketing_to_children_needs_rules_with_teeth.pdf ; https://www.beuc.eu/reports/food-marketing-children-needs-rules-teeth ; https://www.beuc.eu/press-releases/children-massively-targeted-unhealthy-food-ads-consumer-groups-snapshot-exposes ; https://www.who.int/publications/i/item/9789240075412
+- Sources: https://www.beuc.eu/sites/default/files/publications/beuc-x-2021-084_food_marketing_to_children_needs_rules_with_teeth.pdf ; https://www.beuc.eu/reports/food-marketing-children-needs-rules-teeth ; https://www.beuc.eu/press-releases/children-massively-targeted-unhealthy-food-ads-consumer-groups-snapshot-exposes ; https://www.who.int/publications/i/item/9789240075412 ; https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2022.1604116/full
 - Summary: Analysis by the European consumer organisation BEUC (Bureau Européen des Unions de Consommateurs) of the EU Pledge — the food industry's voluntary commitment not to advertise unhealthy products to children. Conclusion: total failure of self-regulation.
 - Finding: 21 companies responsible for over 80% of European food advertising expenditure have signed up to the EU Pledge. Nevertheless, 85% of the products these companies market to children would be prohibited from advertising under WHO nutritional criteria. Voluntary self-regulatory commitments are ineffective.
 
@@ -741,7 +757,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2000
 - Source type: peer-reviewed
 - File: data/regulation/reg-006.md
-- Sources: https://link.springer.com/article/10.1007/BF02386023
+- Sources: https://link.springer.com/article/10.1007/BF02386023 ; https://www1.wdr.de/stichtag/stichtag-deutscher-werberat-100.html
 - Summary: Academic analysis of the structural weaknesses of German advertising self-regulation (Deutscher Werberat — German Advertising Standards Council). Documents structural deficiencies that prevent effective consumer protection.
 - Finding: The Deutscher Werberat (German Advertising Standards Council) has no consumer representation on its board — only a liaison committee. It can demand voluntary compliance but has no binding enforcement powers. Advertising practices can continue unimpeded while proceedings are in progress. In 2023 the Council issued only 8 formal reprimands (Rügen) despite thousands of advertisements in circulation.
 
@@ -752,7 +768,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: government
 - File: data/regulation/reg-007.md
-- Sources: https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/
+- Sources: https://www.geographyrealm.com/germany-plans-to-curb-light-pollution-to-save-insects/ ; https://www.bundesumweltministerium.de/faq/was-macht-das-insektenschutzgesetz ; https://dserver.bundestag.de/btd/19/281/1928182.pdf
 - Summary: In 2021, §41a was inserted into the Bundesnaturschutzgesetz (BNatSchG — Federal Nature Conservation Act), providing for protection against light emissions. The provision is not yet in force — it requires an implementing ordinance (Durchführungsverordnung) announced for 2027 as part of the national biodiversity strategy.
 - Finding: The German legislature has officially recognised light pollution as a nature conservation problem and incorporated it into the Federal Nature Conservation Act. Illuminated advertising panels and digital DOOH screens in Germany are in urban areas almost twice as numerous as street lamps, and contribute substantially to light pollution.
 
@@ -774,7 +790,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: ngo
 - File: data/resources/res-002.md
-- Sources: https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/
+- Sources: https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/ ; https://weall.org/the-environmental-impacts-of-corporate-advertising/ ; https://adfreecities.org.uk/wp-content/uploads/2022/11/Advertising-and-Light-Pollution-Adfree-Cities-Briefing-update.pdf
 - Summary: A city-wide measurement of the electricity consumption of digital advertising screens in Leeds (UK) by Adfree Cities. Compared with the electricity consumption of the city's population.
 - Finding: The digital advertising screens in Leeds consume a total of **4.1 GWh per year** — enough to power 3,300 residents. This is the measured electricity consumption solely for commercial out-of-home advertising in a medium-sized British city.
 
@@ -785,7 +801,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/resources/res-003.md
-- Sources: https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/
+- Sources: https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/ ; https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Pressemitteilungen/2022/09/20220928-cabinet-adopts-changes-to-energy-saving-ordinance.html
 - Summary: During the energy crisis of 2022 (triggered by Russia's halt of gas supplies), Germany, together with Austria, Spain and France, mandated that digital advertising screens be switched off between 10 pm and 6 am. Berlin's Kurfürstendamm (a major commercial boulevard) and other high-visibility advertising sites went dark at night.
 - Finding: During the 2022 energy crisis, digital advertising displays in several EU countries were classified as non-essential energy consumers and shut down at night. This constitutes an explicit government acknowledgement that outdoor advertising ranks below essential energy consumers.
 
@@ -796,7 +812,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: grey-literature
 - File: data/resources/res-004.md
-- Sources: https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121
+- Sources: https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121 ; https://cordis.europa.eu/article/id/92567-reducing-billboard-advertising-waste
 - Summary: Secondary reporting describes the material problem of paper-based billboard advertising while citing European Commission/ECOBOARD figures. The previously used hard US PVC-waste figure is not supported by this source and is therefore no longer used as the core finding.
 - Finding: The ECOBOARD project describes paper-based billboards as a waste problem because poster paper, inks, and adhesives are combined and therefore hard to separate or recycle. The source supports the narrower claim: conventional poster advertising creates recurring material and composite waste that must be included in OOH environmental assessments.
 
@@ -805,9 +821,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: resources
 - Impact score: 9
 - Year: 2009
-- Source type: ngo
+- Source type: peer-reviewed
 - File: data/resources/res-005.md
-- Sources: https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html ; https://www.greenpeace.org/usa/?p=13701 ; https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=51 ; https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/vinyl-chloride ; https://www.epa.gov/dioxin/common-sources-exposure-dioxin
+- Sources: https://pubmed.ncbi.nlm.nih.gov/39765168/ ; https://www.greenpeace.org/usa/?p=13701 ; https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=51 ; https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/vinyl-chloride ; https://www.epa.gov/dioxin/common-sources-exposure-dioxin
 - Summary: Greenpeace analysis of the toxicity of PVC (polyvinyl chloride) across its entire lifecycle. PVC is the material used in the vast majority of all outdoor advertising banners and poster backings.
 - Finding: PVC causes environmental and health damage at every stage: **Production** (PVC consumes 30–40% of all industrially produced chlorine; generates dioxins), **Use** (plasticizers/phthalates leach out and damage the hormonal system, reproduction, and respiratory tract), and **Disposal** (release of dioxins during incineration; 1,000+ years decomposition time in landfills). Phthalates from PVC are detected in waterways, air, and human tissue.
 
@@ -818,7 +834,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2016
 - Source type: peer-reviewed
 - File: data/resources/res-006.md
-- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/ ; https://www.epa.gov/sites/default/files/2015-01/documents/printing.pdf
 - Summary: Scientific analysis of the chemical ingredients in printing inks used for large-format printing (as used for outdoor advertising and billboards). Printing inks are an often-overlooked component of the environmental costs of outdoor advertising.
 - Finding: Printing inks used for advertising contain as their primary solvents **toluene (approx. 70% of all emitted chemicals)**, as well as methyl ethyl ketone, xylene, and 1,1,1-trichloroethane — all volatile organic compounds (VOCs) and hazardous air pollutants (HAPs). Additionally: **cadmium, lead** (heavy metals), **bisphenol A (BPA)** (an endocrine disruptor), and synthetic antioxidants.
 
@@ -895,7 +911,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/safety/safety-001.md
-- Sources: https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf ; https://trid.trb.org/view/1475885 ; https://trid.trb.org/View/1337321 ; https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/
+- Sources: https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf ; https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf ; https://rosap.ntl.bts.gov/view/dot/36939 ; https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/
 - Summary: A comprehensive collection of studies by Scenic America shows that digital billboards (DOOH) divert drivers' gaze from the road significantly longer than static signs.
 - Finding: A glance away from the road lasting more than two seconds — which is frequently triggered by changing or animated digital content — dramatically increases the risk of an accident. Studies conducted in the United States (including in Alabama and Florida) document elevated crash rates in the immediate vicinity of such installations.
 
@@ -906,7 +922,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2014
 - Source type: ngo
 - File: data/safety/safety-002.md
-- Sources: https://www.scenic.org
+- Sources: https://www.scenic.org ; https://rosap.ntl.bts.gov/view/dot/36939 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/
 - Summary: The advertising industry frequently cites studies (such as the 2013 FHWA study) to claim that digital billboards are traffic-safe. Independent reviews, however, reveal serious methodological flaws in these industry-supported investigations.
 - Finding: Independent traffic safety experts (such as Jerry Wachtel) demonstrate that exculpatory studies often suffer from excessively small sample sizes, inadequate measuring instruments, and flawed experimental designs. Independent data consistently shows an elevated risk of cognitive and visual distraction.
 
@@ -939,7 +955,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: government
 - File: data/environment/env-009.md
-- Sources: https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf
+- Sources: https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf ; https://www.gov.uk/guidance/light-pollution ; https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf
 - Summary: The Landesamt für Natur, Umwelt und Verbraucherschutz NRW (LANUV) (State Office for Nature, Environment and Consumer Protection of North Rhine-Westphalia) conducted a state-wide survey of sky glow in NRW. Commercial outdoor lighting and illuminated advertising are identified as significant emission factors.
 - Finding: The technical report and the associated guidelines (the 'Licht-Erlass' NRW, i.e., the NRW Light Ordinance) show that artificial outdoor lighting — including intensely luminous DOOH installations — contributes to massive disruptions of human biorhythms and to insect decline. The authority recommends strict limits on luminance levels and nighttime switch-offs to reduce emissions.
 
@@ -965,14 +981,14 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: Cologne has used municipal advertising restrictions to protect sensitive urban spaces, including the cathedral and old-town context, from commercial advertising pressure.
 - Finding: Reporting on Cologne's replacement of ad-financed bicycle racks describes a municipal approach in which public-space contracts can exclude advertising at sensitive locations. The claim is therefore about concrete municipal restriction and contract design, not a citywide DOOH ban.
 
-### priv-001: DOOH screens covertly capture biometric data for audience analysis
+### priv-001: DOOH screens can capture biometric and movement data for audience analysis
 
 - Category: privacy
 - Impact score: 9
 - Year: 2022
 - Source type: ngo
 - File: data/privacy/priv-001.md
-- Sources: https://bigbrotherwatch.org.uk/press-releases/big-brother-watch-releases-new-report-the-streets-are-watching-how-billboards-are-spying-on-you/ ; https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf ; https://adfreecities.org.uk/2023/08/plugged-in-outdoor-advertising-surveillance-commercial-behaviours-thomas-dekeyser/
+- Sources: https://bigbrotherwatch.org.uk/press-releases/big-brother-watch-releases-new-report-the-streets-are-watching-how-billboards-are-spying-on-you/ ; https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf ; https://adfreecities.org.uk/2023/08/plugged-in-outdoor-advertising-surveillance-commercial-behaviours-thomas-dekeyser/ ; https://ico.org.uk/media2/migrated/2619985/ico-opinion-the-use-of-lfr-in-public-places-20210618.pdf ; https://www.cnil.fr/sites/cnil/files/atoms/files/facial-recognition.pdf
 - Summary: Modern digital advertising screens (DOOH) are increasingly equipped with cameras and sensors that capture biometric data and movement profiles of passers-by in order to deliver targeted advertising ("programmatic") to specific audience segments.
 - Finding: Investigations by NGOs show that companies use technologies for Automated Facial Detection (AFD) as well as Wi-Fi sniffing to analyze the age, gender, mood, and dwell time of individuals in front of screens. This occurs in public space, usually without the active consent (opt-in) of those affected, raising serious data protection and ethical concerns.
 
@@ -983,7 +999,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2013
 - Source type: peer-reviewed
 - File: data/safety/safety-003.md
-- Sources: https://pubmed.ncbi.nlm.nih.gov/23682577/
+- Sources: https://pubmed.ncbi.nlm.nih.gov/23682577/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/
 - Summary: A real-world study commissioned by the Swedish Transport Administration examined 12 electronic billboards on a three-lane urban motorway section in Stockholm. The supported result is that drivers looked longer and more often at electronic billboards than at other signs on the same road sections.
 - Finding: The authors report significantly longer dwell time, higher fixation count and longer maximum fixation duration for electronic billboards. Important caveat: the publication itself states that the data cannot conclusively answer whether the billboards constitute a traffic safety hazard; it supports a clear effect on gaze behaviour.
 
@@ -1027,7 +1043,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: ngo
 - File: data/psychology/psych-007.md
-- Sources: https://adfreecities.org.uk
+- Sources: https://adfreecities.org.uk ; https://pure.psu.edu/en/publications/orienting-response-and-memory-for-web-advertisements-exploring-ef/ ; https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00493/full
 - Summary: The psychology behind digital screens (DOOH) is based on the exploitation of evolutionary reflexes. Unlike static posters, changing or moving images compel the human brain to look.
 - Finding: The so-called orienting response (Orientierungsreflex) is an involuntary neurological mechanism that compels people to pay attention to sudden changes in their peripheral visual field (such as changes in light or motion on a screen), since this is evolutionarily associated with danger. DOOH installations deliberately exploit this reflex to "steal" attention. One cannot decide not to look.
 
@@ -1049,7 +1065,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2019
 - Source type: ngo
 - File: data/environment/env-010.md
-- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/
+- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/ ; https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf ; https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf
 - Summary: DarkSky International warns that electronic billboards and electronic message centres can be far brighter at night than traditional billboards and can worsen glare, skyglow, and ecological light pollution if not tightly regulated.
 - Finding: DarkSky states that electronic billboards may be up to ten times brighter than static billboards at night. The robust claim is therefore a luminance and light-pollution risk from changing, high-brightness outdoor displays, especially where curfews, dimming, shielding, and maximum brightness limits are absent.
 
@@ -1115,7 +1131,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: court_ruling
 - File: data/regulation/reg-012.md
-- Sources: https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours
+- Sources: https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours ; https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours ; https://www.vernier.ch/sites/default/files/council-object/2023-02/DA_182_Projet_et_annexe.pdf
 - Summary: The legal assumption that a municipal complete ban on commercial poster advertising is automatically an impermissible interference with economic freedom was rejected by Switzerland's highest court in the Vernier case.
 - Finding: The municipality of Vernier (Canton of Geneva) adopted a ban on commercial poster advertising visible from public space, aiming to protect landscape quality, living environment, and residents from unwanted commercial exposure. Companies and private individuals appealed. In 2024, the Swiss Federal Supreme Court rejected the appeals: the ban is compatible with fundamental rights and pursues environmental and social goals in the public interest.
 
@@ -1148,7 +1164,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2019
 - Source type: ngo
 - File: data/urban/urban-007.md
-- Sources: https://www.scenic.org
+- Sources: https://www.scenic.org ; https://oaaa.org/wp-content/uploads/2022/09/Philly-propvalue.pdf
 - Summary: Visual pollution from outdoor advertising does not merely harm aesthetics, but has directly measurable negative economic impacts on residents.
 - Finding: Analyses of the US real estate market show that close proximity to commercial billboards (so-called "billboard blight") significantly reduces the value of adjacent residential properties. The contributing factors include light pollution from illumination or digital LEDs, the destruction of sightlines, and the psychological association of billboards with neglect and pure commercialization. This is particularly problematic because billboards have historically been concentrated disproportionately in already low-income neighborhoods (a pattern linked to "redlining" — the discriminatory practice of denying services to residents in minority neighborhoods).
 
@@ -1181,7 +1197,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2018
 - Source type: ngo
 - File: data/politics/pol-006.md
-- Sources: https://berlin-werbefrei.de
+- Sources: https://berlin-werbefrei.de ; https://www.tagesspiegel.de/berlin/initiative-berlin-werbefrei-ubergibt-42810-unterschriften-3970360.html ; https://berlin-werbefrei.de/2018/01/11/pm-unterschriftensammlung-fuer-ein-werbefreies-berlin-startet-am-16-januar/
 - Summary: The commercialization of public space is encountering massive democratic resistance in Germany, which has manifested in formal legislative procedures.
 - Finding: The citizens' initiative "Berlin Werbefrei" (Berlin Ad-Free) collected over 36,000 valid signatures in the first stage of a Volksbegehren (citizens' referendum process) in order to introduce its own far-reaching legislative draft into the Berlin Abgeordnetenhaus (state parliament). The draft envisions radically banning product and consumer advertising in Berlin's public space. Only advertising at the point of sale (e.g., the sign above a bakery), event announcements, and public interest information would remain permitted.
 
@@ -1214,7 +1230,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/privacy/priv-002.md
-- Sources: https://bigbrotherwatch.org.uk/campaigns/stop-facial-recognition/
+- Sources: https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf ; https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/ ; https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp
 - Summary: The linking of physical advertising locations with digital identity markers enables seamless tracking of citizens in public space.
 - Finding: Modern DOOH kiosks (Digital-Out-of-Home) frequently use Wi-Fi and Bluetooth sensors to passively capture the unique MAC addresses or mobile advertising IDs of passers-by. This data is cross-referenced with location data from apps and third-party providers to measure the so-called "path-to-purchase": tracking whether a person who passed a poster later enters the advertised store or searches for the product online. NGOs such as Big Brother Watch criticize that this cross-referencing occurs without the informed consent of citizens and transforms public space into a private surveillance network.
 
@@ -1247,7 +1263,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/urban/urban-009.md
-- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/
+- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/ ; https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf ; https://pubmed.ncbi.nlm.nih.gov/33450951/
 - Summary: Electronic billboards can create light trespass when their brightness, direction, operating hours, and proximity to homes are not properly constrained.
 - Finding: The supported evidence is a planning and lighting-risk claim: high-luminance outdoor advertising can spill beyond the intended viewing area, increase nuisance glare, and affect residential amenity. The strength of the effect depends on screen design, luminance, distance, orientation, shielding, and night-time dimming.
 
@@ -1258,7 +1274,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: ngo
 - File: data/psychology/psych-008.md
-- Sources: https://privacyinternational.org/examples/surveillance-billboards
+- Sources: https://privacyinternational.org/examples/surveillance-billboards ; https://ico.org.uk/media2/migrated/2619985/ico-opinion-the-use-of-lfr-in-public-places-20210618.pdf ; https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_201903_video_devices_en_0.pdf
 - Summary: Modern advertising screens are equipped with sensors that scan the audience in real time in order to psychologically optimize advertising messages.
 - Finding: An increasing number of DOOH installations integrate camera systems that capture the faces of passers-by using "Anonymized Video Analytics" (AVA). The technology analyzes in fractions of a second the age, gender, dwell time, and in some cases even the emotional reaction (mood) to the displayed advertising. Although the industry claims not to store images, the analysis occurs without the knowledge or consent of passers-by. This "eye tracking" in public space is used to perfect the effectiveness of manipulation techniques and to systematically undermine the cognitive defenses of citizens.
 
@@ -1269,7 +1285,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/equity/equity-004.md
-- Sources: https://www.ban.org
+- Sources: https://www.ban.org ; https://ewastemonitor.info/the-global-e-waste-monitor-2024/ ; https://wiki.ban.org/images/1/13/TheScamRecyclingContinuesUpdate_1.pdf
 - Summary: The modernization of advertising infrastructure in the Global North leads to the export of ecologically harmful and inefficient hardware to developing countries.
 - Finding: When advertising companies in Europe or North America upgrade their inventory to the latest, more energy-efficient LED generation, the old, power-hungry, and often maintenance-intensive panels are frequently exported as "second-hand hardware" to countries in the Global South. There, these installations contribute to overloading local power grids and end up on informal waste dumps at the end of their lifecycle. This phenomenon is criticized as "eco-colonialism" (the externalization of environmental costs onto less powerful nations): the Global North "cleans up" its urban footprint while the ecological and energy-related damage is offloaded to countries with weaker environmental laws.
 
@@ -1289,9 +1305,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: safety
 - Impact score: 9
 - Year: 2021
-- Source type: peer-reviewed
+- Source type: government
 - File: data/safety/safety-004.md
-- Sources: https://www.trafficsafetyresearch.com
+- Sources: https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf ; https://rosap.ntl.bts.gov/view/dot/22716 ; https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf ; https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf
 - Summary: The extreme luminance of digital billboards can impede the perception of critical traffic signals and emergency vehicles.
 - Finding: It is well established in the psychology of visual perception that stronger light stimuli can mask weaker ones. High-power LED screens positioned in the line of sight to traffic signals or road signs can drastically reduce their signal effectiveness, particularly at night or in poor weather conditions (rain, fog). Furthermore, the enormous brightness and color dynamics of DOOH installations can cause the flashing warning lights of approaching emergency vehicles (blue light) to be lost in the visual noise of the surroundings, or to be perceived too late — dangerously extending the reaction time of road users.
 
@@ -1313,7 +1329,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: government
 - File: data/alternatives/alt-004.md
-- Sources: https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/
+- Sources: https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/ ; https://www.nordicinnovation.org/news/launching-nordic-smart-city-roadmap
 - Summary: The Nordic Smart City Roadmap frames smart-city development as a human-centred, inclusive, and collaborative process. Technology should support social values, quality of life, participation, privacy, and the common good, rather than becoming an end in itself or mainly commercial display infrastructure.
 - Finding: The Roadmap pushes back against a narrow, technology-driven understanding of smart cities and instead sets citizen participation, inclusion, privacy, living-environment quality, biodiversity, health, and well-being as guiding principles. It does not prove a blanket effect of ad-free smart-city districts, but it provides a credible counter-model to infrastructure concepts that monetise public digital surfaces primarily as advertising carriers.
 
@@ -1346,7 +1362,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2016
 - Source type: government
 - File: data/regulation/reg-017.md
-- Sources: https://entreprendre.service-public.gouv.fr/vosdroits/F24301
+- Sources: https://entreprendre.service-public.gouv.fr/vosdroits/F24301 ; https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes ; https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes
 - Summary: French environmental law places strict limits on outdoor advertising outside agglomerations and in smaller municipalities, with detailed exceptions and local-plan mechanisms.
 - Finding: The corrected claim is not a universal total ban in every municipality below 10,000 inhabitants. France's code strongly restricts outdoor advertising outside built-up areas and applies additional rules depending on population size, local advertising plans, and the type of sign.
 
@@ -1423,7 +1439,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2017
 - Source type: peer-reviewed
 - File: data/environment/env-014.md
-- Sources: https://link.springer.com/article/10.1007/s10311-016-0569-z
+- Sources: https://link.springer.com/article/10.1007/s10311-016-0569-z ; https://www.nrdc.org/sites/default/files/2025-06/microplastic_deluge_how_these_small_plastic_particles_harm_our_health_and_the_environment.pdf ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10450477/
 - Summary: PVC advertising banner materials — the standard material for large-format advertising — weather under UV radiation and mechanical abrasion into microplastic particles that enter soils, drainage systems, and waterways. In urban areas with a high density of OOH (out-of-home) advertising, this input pathway is significant.
 - Finding: PVC advertising banners (standard advertising material) contain plasticizers such as DEHP (endocrine-disrupting) and stabilizers such as lead and cadmium. UV weathering produces microplastic particles < 5mm that enter urban stormwater runoff. Urban stormwater runoff transports microplastics directly into waterways — wastewater treatment filters out less than 60%.
 
@@ -1434,7 +1450,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2020
 - Source type: government
 - File: data/privacy/priv-003.md
-- Sources: https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en
+- Sources: https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en ; https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/how-can-we-comply-with-the-data-protection-principles-when-using-surveillance-systems/ ; https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully/
 - Summary: The European Data Protection Board (EDPB) has clarified that capturing personal characteristics (age, gender, emotions) through camera systems in public advertising installations without valid consent is unlawful. The programmatic DOOH business model, which is based on audience measurement, is therefore structurally incompatible with the GDPR (General Data Protection Regulation, known in German as DSGVO — Datenschutz-Grundverordnung).
 - Finding: DOOH screens use camera systems for the anonymized counting and classification of passers-by (Anonymized Video Analytics / AVA). The EDPB establishes: even when no biometric templates are stored, the processing of facial and bodily characteristics for audience analysis constitutes processing of personal data pursuant to Art. 4 GDPR. In public space, obtaining valid, informed consent from all those affected is practically impossible.
 
@@ -1445,7 +1461,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/regulation/reg-019.md
-- Sources: https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/
+- Sources: https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/ ; https://ds1.static.rtbf.be/uploader/pdf/a/5/0/beta_d537219571cfe9f6dcb782c4c4d239dd.pdf
 - Summary: The previous claim was too broad: Belgium did not enact a complete national fossil-fuel advertising ban including OOH/DOOH in 2023. The supported narrower fact is that the 2023-2027 RTBF public-broadcaster agreement bans commercial communications for fossil fuels, while broader Belgian fossil-ad bans were legislative initiatives.
 - Finding: The RTBF agreement prohibits fossil-fuel commercial communications in the public-broadcasting context. A separate Belgian bill proposed a wider fossil-ad ban, but NGO documentation describes it as an ongoing proposal with scope limitations, not as a fully enacted national OOH ban. This claim must therefore not be used as evidence that all fossil advertising in Belgian public space is already illegal.
 
@@ -1465,9 +1481,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: culture
 - Impact score: 8
 - Year: 2019
-- Source type: government
+- Source type: grey-literature
 - File: data/culture/culture-004.md
-- Sources: https://whc.unesco.org/en/sustainabledevelopment/
+- Sources: https://timesofindia.indiatimes.com/city/jaipur/walled-city-losing-charm-to-posters-encroachments/articleshow/124278625.cms ; https://www.nature.com/articles/s41599-022-01411-1
 - Summary: UNESCO has explicitly identified commercial outdoor advertising as a threat to the visual integrity of World Heritage Sites in its guidelines for sustainable urban management. Several European cities have been called upon to limit OOH (Out-of-Home) advertising in buffer zones.
 - Finding: Commercial outdoor advertising in historic city centres and UNESCO buffer zones undermines the authentic visual perception of cultural heritage sites. UNESCO defines "Visual Integrity" as a protected asset: the cityscape should reflect the historical significance of a place — large-scale advertising, particularly DOOH with animated content and night-time illumination, directly conflicts with this protection objective.
 
@@ -1478,7 +1494,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2020
 - Source type: government
 - File: data/economy/econ-008.md
-- Sources: https://ewastemonitor.info/gem-2020/
+- Sources: https://ewastemonitor.info/gem-2020/ ; https://www.itu.int/en/itu-d/environment/documents/toolbox/gem_2020_def.pdf
 - Summary: DOOH (Digital Out-of-Home) hardware (LED screens, control units, power supply) has a real service life of 5–7 years, after which the hardware must be replaced. The disposal costs for electronic waste from commercial signage have so far been largely externalised — onto municipalities, taxpayers, and developing countries.
 - Finding: The UN E-Waste Monitor 2020 documents that commercial electronic signage waste is one of the fastest-growing e-waste streams. DOOH hardware contains hazardous substances (lead, mercury in older LEDs, indium) for whose proper disposal no adequate take-back systems exist. Cities and municipalities bear the follow-on costs of advertising installations that are disposed of or illegally abandoned in public space.
 
@@ -1489,7 +1505,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2018
 - Source type: government
 - File: data/politics/pol-008.md
-- Sources: https://www.tagesspiegel.de/berlin/berliner-senat-vergibt-rechte-fuer-aussenwerbung-einnahmen-des-landes-durch-werbung-steigen-signifikant/20834244.html
+- Sources: https://www.tagesspiegel.de/berlin/berliner-senat-vergibt-rechte-fuer-aussenwerbung-einnahmen-des-landes-durch-werbung-steigen-signifikant/20834244.html ; https://www.tagesspiegel.de/berlin/einnahmen-des-landes-durch-werbung-steigen-signifikant-4109344.html ; https://www.parlament-berlin.de/ados/18/Haupt/vorgang/h18-1224.A-v.pdf
 - Summary: Berlin sold its advertising rights in public street space in 2018: for the next 15 years (from 2019), the state collects 350 million euros from advertising corporations. Berlin is the most heavily commercialized outdoor advertising city in Germany — 18.5% of total German OOH advertising revenues flow through a single city.
 - Finding: Berlin has **20,643 advertising surfaces** that generate annual poster revenues of **272 million euros**. This represents 18.5% of all German outdoor advertising revenues. The rights were awarded in lots to Wall/JCDecaux (169 large-format illuminated panels + 883 display cases), ILG-Außenwerbung (2,500 Litfaßsäulen (round advertising columns)), Mediateam Stadtservice (4,100 poster sites), and Ströer (430 clock locations). Contract terms: 10–15 years. The previous model of "infrastructure in exchange for advertising rights" (Wall maintained public toilets and fountains in exchange for advertising space) was replaced by direct payments — with the consequence that the Senate must now fund this infrastructure itself.
 
@@ -1500,7 +1516,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: ngo
 - File: data/politics/pol-009.md
-- Sources: https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/
+- Sources: https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/ ; https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html
 - Summary: Investigative research by CORRECTIV, ZDF Frontal, and Der Spiegel: Between 2016 and 2018, more than 9,400 large-format posters for the AfD (Alternative für Deutschland, a right-wing political party) were booked in approximately 70 German cities via Ströer's booking system — paid for by anonymous donors for over 3 million euros. The AfD was registered in the booking system as a "direct customer." Ströer left the catalogue of questions unanswered.
 - Finding: The investigation documents: **over 3 million euros** of anonymous campaign support for the AfD via Ströer surfaces, of which 1.9 million euros were for the 2017 federal election (Bundestagswahl) (approx. 4,900 posters), 521,000 euros for the NRW state election (Landtagswahl), and 221,000 euros for Baden-Württemberg. Party law expert Sophie Schönberger stated: *"We now have proof that the campaign was coordinated at least at the level of the poster producer"* — a possible illegal party donation structure. Ströer regarded itself as a "neutral service provider" and refused to comment.
 
@@ -1522,7 +1538,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2012
 - Source type: ngo
 - File: data/regulation/reg-020.md
-- Sources: https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html
+- Sources: https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html ; https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/05/lobbying-in-the-21st-century_bb7a371a/c6d8eff8-en.pdf ; https://www.lboro.ac.uk/media/media/subjects/politics-international-studies/images/staff-profiles/downloads/friendorfoe.pdf
 - Summary: A Tagesspiegel interview with the JCDecaux CEO: the managing director of the world's largest outdoor advertising company openly admits that the corporation deliberately cultivates networks with political decision-makers in cities in order to secure advertising rights contracts. This is the structural foundation of the "street furniture" (Stadtmöbel) business model.
 - Finding: JCDecaux's business model is explicitly based on building relationships with political decision-makers in municipalities who decide on the allocation of advertising rights. The CEO stated: *"We know how to deal with decision-makers."* JCDecaux holds a 15-year exclusive contract in Cologne (Köln) for 1,550 passenger shelters and 350 city information systems. In Berlin, JCDecaux/Wall held the dominant street furniture contract for decades. Karlsruhe also renewed its advertising rights contracts with Wall/JCDecaux.
 
@@ -1533,7 +1549,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: government
 - File: data/politics/pol-011.md
-- Sources: https://suche.transparenz.hamburg.de/dataset/jcdecaux-deutschland-gmbh-vertrag-werbung-an-stadtinformationsanlagen-und-fahrgastunterstaenden
+- Sources: https://suche.transparenz.hamburg.de/dataset/jcdecaux-deutschland-gmbh-vertrag-werbung-an-stadtinformationsanlagen-und-fahrgastunterstaenden ; https://www.welt.de/regionales/hamburg/article1291343/Aussenwerbung-Werberechte-fuer-500-Millionen-Euro-vergeben.html ; https://www.abendblatt.de/hamburg/article107339079/Werbung-in-der-Stadt-Hamburg-kassiert-508-Millionen-Euro.html
 - Summary: Hamburg sold its public space advertising rights for 508 million euros to JCDecaux and Ströer following a Europe-wide tender in 2007/2009. JCDecaux received approximately 2,150 bus shelters (Fahrgastunterstände) and 350 city information systems (Stadtinformationsanlagen) (2009–2024). The contracts are publicly accessible in Hamburg's Transparenzportal (Transparency Portal) — one of the few German cities that publishes contract details.
 - Finding: Hamburg guaranteed advertising corporations **508 million euros** in advertising revenues over the contract term in exchange for street furniture. Although the contracts stipulated that advertising systems were to be integrated into bus shelters, freestanding advertising systems flooded the cityscape — at nearly every major intersection in prominent locations. The Hamburgisches Transparenzportal (Hamburg Transparency Portal) publishes the contract documents for both lots (JCDecaux Lot 1: city information systems; JCDecaux Lot 2: 18/1 large-format advertising installations).
 
@@ -1544,7 +1560,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2016
 - Source type: commercial-research
 - File: data/politics/pol-012.md
-- Sources: https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/
+- Sources: https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/ ; https://www.institutionalinvestor.com/article/2bsvwyj3bm86748gykvsw/portfolio/muddy-waters-ends-2016-with-a-big-gain
 - Summary: In April 2016, the US short-seller Muddy Waters Research (known for uncovering accounting scandals at Chinese companies) published a report accusing Ströer SE & Co. KGaA of serious IFRS violations. The Ströer share price lost over 25% of its value within 45 minutes of publication (falling from €52 to below €35).
 - Finding: Muddy Waters claimed that Ströer's reported organic growth, EBITDA, operating cash flow, and free cash flow were **substantially lower than reported** and violated IFRS (International Financial Reporting Standards) accounting standards — creating the false impression that the company was financing itself from its own resources. Specifically: digital organic growth rates were allegedly presented in a manipulated manner. Ströer rejected all allegations; the Frankfurt public prosecutor's office subsequently investigated Muddy Waters for possible market manipulation. WirtschaftsWoche (a German business weekly) reported again in 2021 on "suspicious financial conduct" by the corporation.
 
@@ -1555,7 +1571,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: ngo
 - File: data/environment/env-015.md
-- Sources: https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/
+- Sources: https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/ ; https://www.deutschlandfunk.de/viele-spots-werben-fuer-klimaschaedliche-produkte-studie-sieht-verstoss-gegen-medienstaatsvertrag-102.html
 - Summary: The Otto Brenner Stiftung (Otto Brenner Foundation) and the University of Leipzig analyzed 9,779 advertising spots from German TV channels and YouTube. Result: **30.3% of all advertising spots** promote climate-damaging products and services — and in the assessment of the researchers, thereby violate the Medienstaatsvertrag (Interstate Media Treaty), which prohibits advertising for highly environmentally harmful behavior.
 - Finding: 9,779 spots were manually coded (approx. 52 hours of video material). **Every third spot** advertises climate killers — primarily automobiles, aviation, and food. Particularly absurd according to the study: advertising for climate-damaging products frequently conveys the message that one is doing something good for the environment (greenwashing). The study authors call for strict regulation or a complete advertising ban for climate-damaging product categories. Although the study examines TV and YouTube, the product categories (cars, flights, fossil energy) apply equally to OOH/DOOH advertising.
 
@@ -1577,7 +1593,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: ngo
 - File: data/regulation/reg-022.md
-- Sources: https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/
+- Sources: https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/ ; https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/ ; https://www.worldwithoutfossilads.org/listing/german-court-bans-shell-ads-for-co2-neutral-driving/
 - Summary: According to Deutsche Umwelthilfe, the Hamburg Regional Court prohibited Shell Deutschland on 9 August 2024 from continuing to advertise allegedly CO2-neutral driving and CO2-neutral motor oil. The concrete claim was that CO2-neutral driving was possible for 1.1 cents per litre. DUH had filed suit in 2022 after Shell refused to submit a cease-and-desist declaration.
 - Finding: Shell promised CO2 neutrality through offset projects, including forest protection in Peru and Indonesia. DUH argued that the claim was misleading because Shell did not transparently explain how neutrality was achieved and because short- to medium-term forest-protection credits are unsuitable for compensating CO2 that remains in the atmosphere for centuries. The case was heard by the Hamburg Regional Court under file no. 315 O 108/22. Separately, a 2021 Greenpeace/DeSmog analysis found that across six European fossil-fuel companies, an average 63% of analysed online posts qualified as greenwashing; Shell was among the companies with a particularly high share.
 
@@ -1588,7 +1604,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: court_ruling
 - File: data/regulation/reg-023.md
-- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0710
+- Sources: https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf%3Bjsessionid%3DD57B3B424F4F3910F5F7DD55FE48B92A?language=fr&num=C-710%2F22 ; https://www.brusselstimes.com/1243043/european-court-of-justice-orders-jcdecaux-belgium-to-refund-state-aid
 - Summary: In 2019, the European Commission decided that Belgium/the City of Brussels had granted JCDecaux incompatible state aid by allowing continued use of certain advertising displays without rent or taxes. The EU General Court upheld the decision in 2022; the Court of Justice dismissed JCDecaux's appeal on 26 September 2024.
 - Finding: JCDecaux continued using certain advertising displays in Brussels beyond the dates provided for in the contract, without the City of Brussels charging rent or taxes. The Commission classified this as an economic advantage and ordered recovery of the aid. The General Court confirmed the Commission decision in T-642/19; the CJEU confirmed it in C-710/22 P. Clear Channel Belgium had lodged the original complaint with the Commission.
 
@@ -1636,14 +1652,14 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: Amsterdam passed a law in January 2026 (by 27:17 council votes) — the first statutory ban by a capital city on OOH advertising for fossil fuels, meat, flights, petrol/diesel vehicles, and gas heating — covering all public surfaces including trams, trains, buses, and digital screens. In force from 1 May 2026. A second phase bans, from April 2028, corporate image advertising by high-emission companies as well. The city council withstood intensive lobbying pressure from industry and the national government.
 - Finding: Amsterdam goes beyond The Hague (fossil fuels only) by including meat and flights for the first time. The vote was passed despite a final lobbying offensive. The ban covers all DOOH networks in public space. The 2028 second phase explicitly targets "Corporate Image Advertising" by companies with high CO₂ emissions — a precedent for corporate brand communications. The city council described lobbying by industry and government as inappropriate interference in democratic decision-making processes.
 
-### env-016: German Energy Saving Ordinance restricted illuminated outdoor advertising — 113,000 MWh/year is an industry figure for DOOH consumption
+### env-016: German Energy Saving Ordinance restricted illuminated outdoor advertising — the industry points to high DOOH electricity use
 
 - Category: environment
 - Impact score: 9
 - Year: 2022
 - Source type: industry
 - File: data/environment/env-016.md
-- Sources: https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/
+- Sources: https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/ ; https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2022/08/20220824-habeck-treiben-energieeinsparung-weiter-voran-bundeskabinett-billigt-energieeinspar-verordnungen.html ; https://www.bmwk.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=1
 - Summary: In September 2022, Germany's Short-Term Energy Supply Security Measures Ordinance (EnSikuMaV) came into force. Section 11 initially prohibited operation of illuminated or light-emitting advertising installations from 22:00 to 16:00; from October 2022 the duty was amended to 22:00 to 6:00. The figure **113,000 MWh/year** is not a government figure, but an industry figure for annual energy consumption by digital outdoor advertising in Germany.
 - Finding: The EnSikuMaV shows that the German state treated illuminated advertising as switchable consumption during the energy crisis. ADZINE reported the reactions of IDOOH and FAW; the reporting confirms that affected DOOH providers implemented the requirements and that digital screens were explicitly within scope unless exceptions such as traffic or public safety applied. The 113,000 MWh figure should be read as an industry-side magnitude, not an independently verified official measurement.
 
@@ -1654,7 +1670,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2013
 - Source type: peer-reviewed
 - File: data/safety/safety-006.md
-- Sources: https://pubmed.ncbi.nlm.nih.gov/23682577/
+- Sources: https://pubmed.ncbi.nlm.nih.gov/23682577/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/
 - Summary: Trafikverket had twelve digital billboards installed on a trial basis on a three-lane urban motorway section in Stockholm. An instrumented vehicle study with 41 drivers using eye-tracking documented longer and more frequent fixations on electronic billboards than on other road signs.
 - Finding: The real-road, instrumented-vehicle, eye-tracking design is methodologically stronger than pure simulator work. The measurements showed longer dwell time, greater fixation count and longer maximum fixation duration for electronic billboards. At the same time, the publication found no effect on measured driving-performance variables and concluded cautiously that the safety-hazard question could not be answered conclusively from the available data.
 
@@ -1665,7 +1681,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2016
 - Source type: ngo
 - File: data/privacy/priv-004.md
-- Sources: https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers
+- Sources: https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers ; https://www.csoonline.com/article/555083/billboards-can-track-your-location-and-privacy-advocates-dont-like-it.html
 - Summary: Clear Channel Outdoor Americas launched the program "RADAR" in 2016: anonymized location data from mobile phones (via partners such as AT&T, Placed, PlaceIQ) are linked with the reach of Clear Channel billboards in order to analyze the movement patterns of passers-by. US Senator Charles Schumer publicly described the system as "spy billboards." Senator Al Franken formally requested written information on consent mechanisms, data sharing, and security measures. RADAR was subsequently also rolled out in Europe (UK, Spain, Sweden).
 - Finding: RADAR uses mobile phone location data to create behavioral patterns and movement profiles of people in public space — without their knowledge and without direct consent. Privacy advocates criticized: the claim of "anonymization" is unverifiable. In Europe, RADAR was adapted for GDPR compliance; the fundamental problem — commercial surveillance of public spaces without active consent — remains structurally unchanged. DOOH displays effectively function as data points in a private surveillance network.
 
@@ -1676,7 +1692,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2015
 - Source type: government
 - File: data/safety/safety-007.md
-- Sources: https://trid.trb.org/View/1337321
+- Sources: https://trid.trb.org/View/1337321 ; https://cityclerk.lacity.org/onlinedocs/2022/22-0392_PC_M_05-10-2022.pdf
 - Summary: A government-funded US study analysed 18 digital billboard locations in Alabama and Florida. The crash analysis found higher crash rates in digital-billboard influence zones compared with downstream control areas on the same routes.
 - Finding: The study compared crash data at 18 DOOH sites with control points downstream. Result: the presence of digital billboards was correlated with increased crash rates in billboard influence zones, and sideswipe and rear-end crashes were overrepresented. Important caveat: the source frames the finding as correlation and notes that the relationship between digital billboards and traffic safety is complex.
 
@@ -1709,7 +1725,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/regulation/reg-026.md
-- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825 ; https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng
+- Sources: https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/sustainable-consumption_en ; https://commission.europa.eu/document/download/3c257883-bb2a-4dd9-a6dc-501d587bb34f_en?filename=faq-empowerting-consumers-gtd.pdf
 - Summary: EU Directive 2024/825 ("Empowering Consumers for the Green Transition"), adopted on 27 March 2024, bans generic environmental claims in advertising without specific evidence on the same medium. Banned from September 2026 (national transposition required by March 2026): statements such as "CO2-neutral", "climate-friendly", "energy-efficient", "green", "biodegradable" without quantified substantiation. Also banned: climate neutrality claims based solely on CO₂ offset projects.
 - Finding: The Directive applies to all advertising formats — including OOH and DOOH. Since billboards offer physically limited space, generic greenwashing claims on DOOH screens will in practice become impossible: a "CO2-neutral" claim on a digital display without detailed supporting evidence on the same medium will be EU-unlawful from 2026. The associated Green Claims Directive (more detailed regulation) was withdrawn by the Commission in 2025 — but Directive 2024/825 remains in force.
 
@@ -1720,7 +1736,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: who-report
 - File: data/health/health-014.md
-- Sources: https://www.who.int/publications/i/item/9789240075412 ; https://iris.who.int/handle/10665/370113 ; https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing ; https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing
+- Sources: https://www.who.int/publications/i/item/9789240075412 ; https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/adolescent-and-young-adult-health/resource-bank-for-adolescent-health/who-guidelines ; https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing ; https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing
 - Summary: In July 2023, the WHO published its first normative guidance on food marketing to children. For the first time, the WHO explicitly recommends mandatory statutory measures — not voluntary self-regulation — and expressly includes outdoor advertising in public spaces as a regulatory target.
 - Finding: The WHO finds that industry self-regulation has failed and that "effective mandatory measures by member states" are required. The guideline covers all marketing channels including OOH advertising and calls for clear nutrient profiling to define HFSS products (high in fat, sugar, salt) that must not be marketed to children.
 
@@ -1775,7 +1791,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/privacy/priv-005.md
-- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+- Sources: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai ; https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5
 - Summary: The EU AI Act (Regulation 2024/1689), in force since August 2024, creates significant compliance risk for camera-based DOOH audience measurement. Article 5 prohibits specific biometric practices, including biometric categorisation used to infer sensitive attributes and tightly limited forms of real-time remote biometric identification in public spaces. Age or gender estimation for reach measurement is not automatically banned, but may trigger AI, data protection, and transparency obligations depending on the technical implementation and data flow.
 - Finding: Article 5 has applied to prohibited AI practices since February 2025. For DOOH, the key issue is not a blanket ban on every camera- or AI-based audience count, but the boundary between anonymous counting, biometric categorisation, sensitive-attribute inference, emotion recognition, and identification. Systems that process faces, age, gender, emotion, or other biometrically derived categories in real time require concrete legal review under the AI Act, GDPR, and national data-protection law. Systems that infer sensitive attributes or combine biometric signals with mobile IDs/profiling are especially risky.
 
@@ -1808,7 +1824,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: court_ruling
 - File: data/regulation/reg-032.md
-- Sources: https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand
+- Sources: https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand ; https://www.denhaag.nl/pers/gemeente-den-haag-tevreden-met-uitspraak-rechter-over-fossiel-reclameverbod/ ; https://www.denhaag.nl/pers/persberichten/page/19/
 - Summary: The Hague introduced the world's first APV-based ban on fossil outdoor advertising. Since 1 January 2025, the ban applies to advertising in public space for fossil fuels, air holidays, airline tickets, grey electricity contracts, gas contracts, cruises, and cars with fossil-fuel or hybrid engines. In April 2025, Rechtbank Den Haag rejected interim claims by ANVR, TUI, D-Reizen, and Prijsvrij and let the ban stand.
 - Finding: The court held that the municipality had sufficiently substantiated that the advertising ban can contribute to protecting health and reducing negative climate impacts. It also held that, in these interim proceedings, the ban was not evidently unlawful or incompatible with Dutch constitutional or EU rules. Important caveat: this is a preliminary interim ruling, not a binding EU-wide precedent.
 
@@ -1852,7 +1868,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: peer-reviewed
 - File: data/psychology/psych-010.md
-- Sources: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full
+- Sources: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full ; https://pubmed.ncbi.nlm.nih.gov/16111619/ ; https://pubmed.ncbi.nlm.nih.gov/15936668/
 - Summary: A systematic review published in Frontiers in Psychology in 2025 synthesises 95 peer-reviewed studies on the influence of advertising on women's self-perception. The review links traditional and digital advertising to body dissatisfaction, self-objectification, reduced self-esteem, and gender-role norms.
 - Finding: The review is not a meta-analysis and does not prove OOH-specific causality. It is still relevant because it synthesises evidence that idealised and stereotyped advertising imagery can negatively affect body image, self-esteem, self-objectification, and gender-role attitudes, while more authentic or stereotype-challenging representations tend to perform better in the literature.
 
@@ -1896,7 +1912,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/resources/res-012.md
-- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/
+- Sources: https://darksky.org/resources/guides-and-how-tos/electronic-billboards/ ; https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf
 - Summary: The organization DarkSky International documents that electronic billboards (LED) have massively higher light emissions than illuminated static posters, leading to significant light pollution.
 - Finding: Digital billboards often emit light directly into the environment instead of illuminating a surface. Measurements show that at night they can be up to ten times brighter than traditional billboards illuminated from above. This extreme brightness contributes massively to 'skyglow,' disrupts the orientation of nocturnal animals (insects, birds), and affects the circadian rhythm of residents. DarkSky recommends strict limits for luminance (candelas per m²) and automatic shutdown systems during night hours.
 
@@ -1907,7 +1923,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: ngo
 - File: data/privacy/priv-006.md
-- Sources: https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/
+- Sources: https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/ ; https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en ; https://ico.org.uk/media2/qhthpvql/ic-486566-f8c8-disclosure.pdf
 - Summary: The civil rights organization Big Brother Watch warns of the massive use of surveillance technology in digital advertising columns that capture biometric data from passers-by without their consent.
 - Finding: Cameras integrated into modern DOOH installations use 'face detection' software to analyze the age, gender, ethnicity, and emotional response of passers-by in real-time. Although providers claim the data is anonymized, the collection of biometric characteristics takes place in public space without citizens being able to evade or object. Big Brother Watch classifies this as a structural violation of privacy and a step towards comprehensive biometric surveillance of society.
 
@@ -1918,7 +1934,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/privacy/priv-007.md
-- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50 ; https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 - Summary: Article 50 of the EU AI Act requires deployers of emotion recognition systems or biometric categorisation systems to inform the natural persons exposed to those systems about their operation. The information must be clear, distinguishable and accessible no later than the first exposure. Personal data must also continue to be processed under the GDPR and related EU data-protection rules.
 - Finding: Article 50 is central for DOOH audience measurement because many systems do not operate with individual consent; they capture people in public space as they pass by. Once a system recognises emotions or categorises persons based on biometric data, an internal claim of anonymisation is not enough: exposed persons must be informed about the operation of the system. This duty applies even if the operator later analyses results only in aggregate form.
 
@@ -1929,7 +1945,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/privacy/priv-008.md
-- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5 ; https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 - Summary: Article 5 of the EU AI Act prohibits certain AI practices, including biometric categorisation where it is used to infer sensitive attributes. For DOOH audience measurement, this means that systems must not derive protected sensitive categories from faces or other biometric data.
 - Finding: The boundary is not every anonymous count, but the kind of attribute inferred. Age or gender estimation is already regulatory-relevant and subject to transparency duties; inferring sensitive characteristics such as ethnic origin, political opinion, religious belief, sexual orientation or comparable protected categories falls into the prohibited zone. DOOH systems marketed with 'gender', 'ethnicity', 'emotion' or similar classifications therefore need to prove technically and legally that no sensitive characteristics are inferred.
 
@@ -1940,7 +1956,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: peer-reviewed
 - File: data/psychology/psych-011.md
-- Sources: https://adfreecities.org.uk/what-we-do/advertising-mental-health/
+- Sources: https://adfreecities.org.uk/what-we-do/advertising-mental-health/ ; https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf ; https://www.mqmentalhealth.org/adding-to-the-problem-advertising-and-mental-health/
 - Summary: A large-scale study by the University of Warwick shows a significant correlation between high advertising expenditure and declining life satisfaction in the population.
 - Finding: An analysis of data from 27 European countries over several decades proves that an increase in advertising investment correlates with a subsequent decline in average well-being. Researchers attribute this to the creation of artificial needs and the constant social comparison (status anxiety) fueled by advertising. Outdoor advertising plays a special role here, as it is unavoidable in public space and thus exerts permanent psychological pressure on all social strata.
 
@@ -1951,7 +1967,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/equity/equity-005.md
-- Sources: https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf
+- Sources: https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf ; https://www.theguardian.com/media/2024/mar/04/four-in-five-billboard-ads-in-england-and-wales-in-poorer-areas ; https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/
 - Summary: A mapping study by Adfree Cities proves that billboards are systematically placed more frequently in poorer urban neighborhoods, while wealthier areas remain largely ad-free.
 - Finding: Spatial analysis shows a correlation between the deprivation index of a neighborhood and the density of outdoor advertising installations. Residents in socially disadvantaged areas are exposed to a significantly higher 'visual load' from advertising, especially for harmful products such as fast food, gambling, and alcohol. This reinforces existing health and social inequalities, as the affected population groups can hardly avoid the commercial pressure in their immediate living environment.
 
@@ -1971,7 +1987,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2026
 - Source type: government
 - File: data/regulation/reg-035.md
-- Sources: https://api.openraadsinformatie.nl/v1/resolve/api.notubiz.nl/document/16477799 ; https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces ; https://www.gemeente.nu/bedrijfsvoering/ondernemersbeleid/verbod-op-reclames-voor-vlees-en-fossiele-brandstoffen-in-amsterdam/ ; https://marketingreport.nl/amsterdamse-gemeenteraad-verbiedt-fossiele-en-vleesreclame-via-apv-per-1-mei-2026/
+- Sources: https://api.openraadsinformatie.nl/v1/resolve/api.notubiz.nl/document/16477799 ; https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces ; https://www.gemeente.nu/bedrijfsvoering/ondernemersbeleid/verbod-op-reclames-voor-vlees-en-fossiele-brandstoffen-in-amsterdam/ ; https://www.euronews.com/2026/02/06/amsterdam-to-enact-landmark-ban-on-fossil-fuel-and-meat-advertising-in-public-spaces
 - Summary: Amsterdam's city council adopted a ban on advertising for meat and fossil products in public space on January 22, 2026. The ban is implemented through an amendment to the city's General Local Regulation (APV) and is scheduled to apply from May 1, 2026.
 - Finding: The ban covers streets, metro and railway stations, and other public advertising spaces. It includes meat products, air travel, cruises, fossil fuels, and cars with combustion engines. Reporting on the council debate explicitly noted legal and implementation risks for outdoor advertising operators because an APV rule may affect existing advertising contracts and concessions.
 
@@ -2000,7 +2016,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: investigative_journalism
 - File: data/politics/pol-018.md
-- Sources: https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/
+- Sources: https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/ ; https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html
 - Summary: CORRECTIV documents: Between 2016 and 2018, AfD billboard campaigns worth approximately €3 million were booked with Ströer — without the party itself paying. Unknown third-party donors financed the campaigns directly, without proper disclosure. Ströer briefly withdrew from party-political advertising before resuming.
 - Finding: Between 2016 and 2018, unnamed external donors booked outdoor advertising campaigns for the AfD through Ströer worth approximately €3 million. The AfD itself did not appear as the paying client — the financing ran outside official party accounts and thus outside the legally required transparency obligations. After the scandal became public, Ströer announced it would no longer accept party-political advertising. CORRECTIV documented in 2022 that the company had reversed this decision and was again accepting party-political orders.
 
@@ -2044,7 +2060,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2026
 - Source type: government
 - File: data/health/health-021.md
-- Sources: https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html
+- Sources: https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html ; https://www.theguardian.com/business/2026/apr/15/lidl-iceland-ads-uk-junk-food-asa-instagram-daily-mail
 - Summary: In April 2026, the ASA published its first four rulings applying the new less healthy food and drink rules in practice. Two prominent cases — Iceland Foods and Lidl Northern Ireland — were upheld because paid online or influencer ads made specific less healthy products identifiable. The rule is therefore no longer merely theoretical; it is being applied to real advertising materials.
 - Finding: In the Iceland case, confectionery products were identifiable in banner and display ads; in the Lidl case, a paid Instagram post made a Pain Suisse identifiable as a less healthy product. In both cases the ASA applied the two-stage test: the product must be HFSS under the Nutrient Profile Model and fall into a legally defined category. The deciding issue is not general brand presence, but whether consumers can identify the concrete product.
 
@@ -2077,7 +2093,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: peer-reviewed
 - File: data/regulation/reg-036.md
-- Sources: https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract ; https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/ ; https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121 ; https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html
+- Sources: https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract ; https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/ ; https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121 ; https://pubmed.ncbi.nlm.nih.gov/39765168/
 - Summary: Green-roofed bus shelters are often marketed as an ecological contribution to urban greening. The better-supported claim is not that green roofs are useless, but that the direct CO₂ uptake of a few square metres of sedum is small, while advertising displays consume electricity and classic poster systems can generate recurring material waste.
 - Finding: Seyedabadi et al. (2021) show that green-roof plants can bind CO₂, but direct uptake per square metre depends strongly on plant type, climate, and maintenance. The study reports 0.14 kg CO₂/m²/year for Sedum acre. On a small shelter roof of roughly 3.6–5.4 m², that is a very small direct CO₂ uptake. Adfree Cities reports much larger energy orders of magnitude for digital outdoor advertising screens: 11,501 kWh/year for a double-sided six-sheet screen and 41,627 kWh/year for a large DOOH screen. Classic poster systems can also create recurring material impacts through campaign replacement.
 
@@ -2195,7 +2211,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2018
 - Source type: peer-reviewed
 - File: data/urban/urban-012.md
-- Sources: https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv
+- Sources: https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv ; https://ideas.repec.org/a/sae/envira/v50y2018i7p1425-1442.html
 
 ### health-022: Outdoor-Tabakwerbung konzentrierte sich in Boston nahe Schulen und in sozial benachteiligten Nachbarschaften
 
@@ -2204,7 +2220,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 1998
 - Source type: peer-reviewed
 - File: data/health/health-022.md
-- Sources: https://pubmed.ncbi.nlm.nih.gov/9713672/
+- Sources: https://pubmed.ncbi.nlm.nih.gov/9713672/ ; https://pubmed.ncbi.nlm.nih.gov/9713672/ ; https://truthinitiative.org/research-resources/tobacco-industry-marketing/after-school-smoke-problem-tobacco-retailers-near
 
 ### equity-006: NYC-Studie: Street-Level-Werbung für Konsumprodukte ist in retail-dichten Straßen allgegenwärtig und variiert nach Nachbarschaftsdemografie
 
@@ -2213,7 +2229,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2019
 - Source type: peer-reviewed
 - File: data/equity/equity-006.md
-- Sources: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y
+- Sources: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y ; https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/
 
 ### pol-019: Brüssel/Molenbeek: JCDecaux-Werbetafel lief laut Recherche 18 Jahre ohne Genehmigung weiter
 

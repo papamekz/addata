@@ -18,6 +18,21 @@ source:
   type: book
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "The built environment and mental health"
+    institution: "PubMed"
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/14709704/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "The Role of Urban Morphology Design on Enhancing Physical and Mental Health"
+    institution: "PubMed"
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32244358/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - visual-pollution

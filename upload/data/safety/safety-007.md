@@ -16,6 +16,14 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Communication from Public - City Clerk"
+    institution: "City of Los Angeles"
+    year: 2022
+    url: "https://cityclerk.lacity.org/onlinedocs/2022/22-0392_PC_M_05-10-2022.pdf"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags:
   - verkehrsunfall

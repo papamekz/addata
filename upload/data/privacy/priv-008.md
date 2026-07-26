@@ -18,13 +18,10 @@ source:
   open_access: true
   independent: true
 corroborating_sources:
-  - title: "Regulation (EU) 2024/1689 — Artificial Intelligence Act"
-    authors:
-      - "European Parliament"
-      - "Council of the European Union"
-    institution: "European Union"
+  - title: "AI Act | Shaping Europe's digital future"
+    institution: "European Commission"
     year: 2024
-    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+    url: "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
     type: government
     open_access: true
     independent: true

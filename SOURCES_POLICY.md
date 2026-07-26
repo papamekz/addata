@@ -5,6 +5,13 @@
 This dataset documents the harms of outdoor advertising using **exclusively independent sources**.
 No data from advertising companies, industry associations, or marketing research firms is accepted.
 
+**Independence is not balance.** This policy governs *who may be cited*, not *which findings are
+collected*. Claim selection is directional by design: the dataset searches for documented harms,
+risks, and adverse findings, so independent studies reporting null or beneficial effects are
+largely absent as well. Both rules are stated together in `DATA_CARD.md`
+("Selection Criteria and Known Bias"). Do not present a corpus-level count from this dataset as
+evidence of scientific consensus.
+
 ## Accepted Sources
 
 | Type | Examples |

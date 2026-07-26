@@ -17,13 +17,13 @@ corroborating_sources:
   - title: "Digital Advertising Billboards and Driver Distraction"
     institution: "ROSA / National Transportation Library"
     year: 2015
-    url: "https://trid.trb.org/view/1475885"
+    url: "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf"
     type: government
     independent: true
   - title: "Investigation of the Potential Relationship Between Crash Occurrence and the Presence of Digital Advertising Billboards in Alabama and Florida"
     institution: "TRID / Transportation Research Board"
     year: 2015
-    url: "https://trid.trb.org/View/1337321"
+    url: "https://rosap.ntl.bts.gov/view/dot/36939"
     type: government
     independent: true
   - title: "Safety, Economic & Environmental Concerns"

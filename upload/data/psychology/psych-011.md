@@ -13,6 +13,21 @@ source:
   url: "https://adfreecities.org.uk/what-we-do/advertising-mental-health/"
   type: peer-reviewed
   independent: true
+corroborating_sources:
+  - title: "Advertising as a Major Source of Human Dissatisfaction"
+    institution: "University of Warwick / Mannheim"
+    year: 2019
+    url: "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Adding to the Problem: Advertising and Mental Health"
+    institution: "MQ Mental Health"
+    year: 2023
+    url: "https://www.mqmentalhealth.org/adding-to-the-problem-advertising-and-mental-health/"
+    type: ngo
+    open_access: true
+    independent: true
 verified: true
 tags: [mental-health, well-being, life-satisfaction, status-anxiety, europe]
 ---

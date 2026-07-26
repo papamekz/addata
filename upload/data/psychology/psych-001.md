@@ -19,6 +19,14 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Body image, eating disorders, and the media"
+    institution: "PubMed"
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19227390/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - children
