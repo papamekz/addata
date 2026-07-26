@@ -14,17 +14,17 @@ source:
   open_access: true
   independent: true
 corroborating_sources:
-  - title: "NCHRP Report 600: Human Factors Guidelines for Road Systems"
-    institution: "Transportation Research Board"
-    year: 2007
-    url: "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf"
-    type: peer-reviewed
+  - title: "The use of commercial advertising on large scale electronic billboards for highways and their relation to driver safety and driver distraction, literature review"
+    institution: "Oregon Dept. of Transportation Research Unit / ROSA P"
+    year: 2008
+    url: "https://rosap.ntl.bts.gov/view/dot/22716"
+    type: government
     open_access: true
     independent: true
   - title: "Visual clutter in road environments: what it does, and what to do about it"
     institution: "Australasian Road Safety Research, Policing and Education Conference / TRID"
     year: 2008
-    url: "https://trid.trb.org/View/904585"
+    url: "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf"
     type: conference
     open_access: true
     independent: true

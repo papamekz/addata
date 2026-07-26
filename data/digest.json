@@ -1213,7 +1213,7 @@
       "source_url": "https://link.springer.com/article/10.1007/BF02386023",
       "source_urls": [
         "https://link.springer.com/article/10.1007/BF02386023",
-        "https://werberat.de/english-keyfacts/"
+        "https://www1.wdr.de/stichtag/stichtag-deutscher-werberat-100.html"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -1590,8 +1590,8 @@
       "source_url": "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
       "source_urls": [
         "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
-        "https://trid.trb.org/view/1475885",
-        "https://trid.trb.org/View/1337321",
+        "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
+        "https://rosap.ntl.bts.gov/view/dot/36939",
         "https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/"
       ],
       "source_count": 4,
@@ -1766,9 +1766,10 @@
       "institution": "Traffic Injury Prevention / Trafikverket",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/23682577/"
+        "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated the Swedish evidence as a rural-road ban/removal order. Revised to the peer-reviewed finding: electronic billboards attracted longer and more frequent driver glances; the publication does not conclusively establish traffic-safety hazard.",
       "tags": [],
@@ -2083,9 +2084,10 @@
       "institution": "Scenic America / Urban Studies",
       "source_url": "https://www.scenic.org",
       "source_urls": [
-        "https://www.scenic.org"
+        "https://www.scenic.org",
+        "https://oaaa.org/wp-content/uploads/2022/09/Philly-propvalue.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2362,8 +2364,8 @@
       "source_url": "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
       "source_urls": [
         "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
-        "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf",
-        "https://trid.trb.org/View/904585",
+        "https://rosap.ntl.bts.gov/view/dot/22716",
+        "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf",
         "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf"
       ],
       "source_count": 4,
@@ -2404,9 +2406,10 @@
       "institution": "Nordic Innovation",
       "source_url": "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/",
       "source_urls": [
-        "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/"
+        "https://pub.nordicinnovation.org/Nordic-Smart-City-Roadmap/",
+        "https://www.nordicinnovation.org/news/launching-nordic-smart-city-roadmap"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2780,9 +2783,10 @@
       "institution": "United Nations University / ITU / ISWA",
       "source_url": "https://ewastemonitor.info/gem-2020/",
       "source_urls": [
-        "https://ewastemonitor.info/gem-2020/"
+        "https://ewastemonitor.info/gem-2020/",
+        "https://www.itu.int/en/itu-d/environment/documents/toolbox/gem_2020_def.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3284,9 +3288,10 @@
       "institution": "Schwedische Transportverwaltung (Trafikverket) / Accident Analysis & Prevention",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/23682577/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/23682577/"
+        "https://pubmed.ncbi.nlm.nih.gov/23682577/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording overclaimed dangerous gaze deviation and removal as a documented consequence. Revised to longer gaze/fixation evidence with the authors' caveat that safety hazard cannot be concluded from the available data alone.",
       "tags": [
@@ -3345,9 +3350,10 @@
       "institution": "Georgia Institute of Technology / US Department of Transportation",
       "source_url": "https://trid.trb.org/View/1337321",
       "source_urls": [
-        "https://trid.trb.org/View/1337321"
+        "https://trid.trb.org/View/1337321",
+        "https://cityclerk.lacity.org/onlinedocs/2022/22-0392_PC_M_05-10-2022.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording implied direct causal proof and fixed headline percentages. Revised to the US DOT repository abstract: digital billboard presence was correlated with increased crash rates in influence zones across 18 Alabama/Florida sites.",
       "tags": [
@@ -4784,9 +4790,10 @@
       "institution": "Environment and Planning A / Aberystwyth Research Portal",
       "source_url": "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv",
       "source_urls": [
-        "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv"
+        "https://research.aber.ac.uk/en/publications/the-material-geographies-of-advertising-concrete-objects-affectiv",
+        "https://ideas.repec.org/a/sae/envira/v50y2018i7p1425-1442.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [

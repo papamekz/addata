@@ -20,6 +20,14 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "The Global E-waste Monitor 2020"
+    institution: "International Telecommunication Union (ITU)"
+    year: 2020
+    url: "https://www.itu.int/en/itu-d/environment/documents/toolbox/gem_2020_def.pdf"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags:
   - e-waste
