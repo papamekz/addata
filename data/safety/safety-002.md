@@ -13,6 +13,21 @@ source:
   url: "https://www.scenic.org"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Digital Advertising Billboards and Driver Distraction"
+    institution: "ROSA P / US DOT"
+    year: 2015
+    url: "https://rosap.ntl.bts.gov/view/dot/36939"
+    type: government
+    open_access: true
+    independent: true
+  - title: "The Impact of Billboards on Driver Visual Behavior"
+    institution: "PubMed Central"
+    year: 2015
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags: [traffic-safety, industry-bias, research-flaws]
 ---

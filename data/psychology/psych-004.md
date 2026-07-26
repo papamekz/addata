@@ -17,6 +17,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Subliminal Priming - State of the Art and Future Perspectives"
+    institution: "PMC / Behavioral Sciences"
+    year: 2018
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6027235/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Who does Red Bull give wings to? Sensation seeking moderates the effects of subliminal brand priming on choice"
+    institution: "PMC / PLOS ONE"
+    year: 2015
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - subliminal

@@ -18,6 +18,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Income inequality, status consumption and status anxiety: An exploratory review"
+    institution: "ScienceDirect"
+    year: 2022
+    url: "https://eprints.whiterose.ac.uk/id/eprint/192880/"
+    type: peer-reviewed
+    open_access: false
+    independent: true
+  - title: "Debt for status? Consumer credit, ordinary consumption, and the sense of place"
+    institution: "Cambridge University Press"
+    year: 2023
+    url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/90CD9FBDA70008B206E49CA1EEBCCD21/S2059599900001394a.pdf/debt_for_status_consumer_credit_ordinary_consumption_and_the_sense_of_place.pdf"
+    type: peer-reviewed
+    open_access: false
+    independent: true
 verified: true
 tags:
   - conspicuous-consumption

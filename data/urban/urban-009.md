@@ -13,6 +13,21 @@ source:
   url: "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Light Pollution in London"
+    institution: "Greater London Authority"
+    year: 2022
+    url: "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Urban Lighting Research Transdisciplinary Framework"
+    institution: "PubMed"
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/33450951/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags: [urban, light-pollution, light-trespass, privacy, quality-of-life]
 ---

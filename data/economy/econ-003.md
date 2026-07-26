@@ -17,6 +17,21 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Advertising as a Major Source of Human Dissatisfaction"
+    institution: "CEPR / University of Warwick"
+    year: 2019
+    url: "https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million"
+    type: grey-literature
+    open_access: true
+    independent: true
+  - title: "Advertising as a Major Source of Human Dissatisfaction"
+    institution: "University of Mannheim"
+    year: 2019
+    url: "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf"
+    type: grey-literature
+    open_access: true
+    independent: true
 verified: true
 tags:
   - inequality

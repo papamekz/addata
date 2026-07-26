@@ -177,9 +177,11 @@
       "institution": "PubMed Central / Neuroscience research",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204644/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6027235/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -203,9 +205,11 @@
       "institution": "Munich Personal RePEc Archive (MPRA)",
       "source_url": "https://mpra.ub.uni-muenchen.de/92124/",
       "source_urls": [
-        "https://mpra.ub.uni-muenchen.de/92124/"
+        "https://mpra.ub.uni-muenchen.de/92124/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/",
+        "https://scholar.nycu.edu.tw/en/publications/a-meta-analysis-of-consumer-choice-and-subliminal-advertising/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -369,9 +373,11 @@
       "institution": "University College London, The Bartlett School of Planning / Routledge",
       "source_url": "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764",
       "source_urls": [
-        "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764"
+        "https://www.routledge.com/Visual-Pollution-Advertising-Signage-and-Environmental-Quality/Portella/p/book/9781138273764",
+        "https://pubmed.ncbi.nlm.nih.gov/14709704/",
+        "https://pubmed.ncbi.nlm.nih.gov/32244358/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -537,9 +543,11 @@
       "institution": "Quantitative Marketing and Economics, Springer Nature",
       "source_url": "https://link.springer.com/article/10.1007/s11129-005-0351-1",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/s11129-005-0351-1"
+        "https://link.springer.com/article/10.1007/s11129-005-0351-1",
+        "https://documents1.worldbank.org/curated/en/742421597065801715/pdf/Borrowing-to-Keep-Up-with-the-Joneses-Inequality-Debt-and-Conspicuous-Consumption.pdf",
+        "https://economics.fiu.edu/research/pdfs/2020_working_papers/2011.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -563,9 +571,11 @@
       "institution": "National Bureau of Economic Research (NBER)",
       "source_url": "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
       "source_urls": [
-        "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf"
+        "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
+        "https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million",
+        "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -589,9 +599,11 @@
       "institution": "Wharton School of Business, University of Pennsylvania",
       "source_url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf",
       "source_urls": [
-        "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf"
+        "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/Leapfrogging-over-the-Joneses-Effects-of-Inequality-on-Conspicuous-and-Inconspicuous-Consumption.pdf",
+        "https://eprints.whiterose.ac.uk/id/eprint/192880/",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/90CD9FBDA70008B206E49CA1EEBCCD21/S2059599900001394a.pdf/debt_for_status_consumer_credit_ordinary_consumption_and_the_sense_of_place.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1108,7 +1120,7 @@
       "source_url": "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
       "source_urls": [
         "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
-        "https://legislacao.prefeitura.sp.gov.br/lei-14223-de-26-de-setembro-de-2006",
+        "https://direitosp.fgv.br/sites/default/files/2022-01/arquivos/cidade_limpa_-_narrativa.pdf",
         "https://www.theguardian.com/cities/2015/aug/11/can-cities-kick-ads-ban-urban-billboards",
         "https://www.wired.com/2007/06/urban-spam-dele/"
       ],
@@ -1600,9 +1612,11 @@
       "institution": "Jerry Wachtel / Scenic America",
       "source_url": "https://www.scenic.org",
       "source_urls": [
-        "https://www.scenic.org"
+        "https://www.scenic.org",
+        "https://rosap.ntl.bts.gov/view/dot/36939",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411179/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2261,9 +2275,11 @@
       "institution": "International Dark-Sky Association (IDA)",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/33450951/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2450,9 +2466,11 @@
       "institution": "Service-Public.fr / Direction de l'information légale et administrative",
       "source_url": "https://entreprendre.service-public.gouv.fr/vosdroits/F24301",
       "source_urls": [
-        "https://entreprendre.service-public.gouv.fr/vosdroits/F24301"
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F24301",
+        "https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes",
+        "https://www.ecologie.gouv.fr/politiques-publiques/reglementation-publicite-exterieure-enseignes-preenseignes"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2675,9 +2693,10 @@
       "institution": "World without Fossil Ads",
       "source_url": "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/",
       "source_urls": [
-        "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/"
+        "https://www.worldwithoutfossilads.org/listing/first-public-broadcaster-to-ban-fossil-ads-in-belgium/",
+        "https://ds1.static.rtbf.be/uploader/pdf/a/5/0/beta_d537219571cfe9f6dcb782c4c4d239dd.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording incorrectly described Belgium as having enacted a complete national fossil-fuel advertising ban including OOH/DOOH. Revised to RTBF public-broadcaster contract restriction plus legislative-momentum signal.",
       "tags": [
@@ -2882,9 +2901,11 @@
       "institution": "Der Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html",
       "source_urls": [
-        "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html"
+        "https://www.tagesspiegel.de/wirtschaft/wir-wissen-wie-man-mit-entscheidungstragern-umgeht-3779758.html",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/05/lobbying-in-the-21st-century_bb7a371a/c6d8eff8-en.pdf",
+        "https://www.lboro.ac.uk/media/media/subjects/politics-international-studies/images/staff-profiles/downloads/friendorfoe.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3805,9 +3826,11 @@
       "institution": "Frontiers in Psychology",
       "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full",
       "source_urls": [
-        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full"
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full",
+        "https://pubmed.ncbi.nlm.nih.gov/16111619/",
+        "https://pubmed.ncbi.nlm.nih.gov/15936668/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3914,9 +3937,10 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -4016,9 +4040,11 @@
       "institution": "University of Warwick",
       "source_url": "https://adfreecities.org.uk/what-we-do/advertising-mental-health/",
       "source_urls": [
-        "https://adfreecities.org.uk/what-we-do/advertising-mental-health/"
+        "https://adfreecities.org.uk/what-we-do/advertising-mental-health/",
+        "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf",
+        "https://www.mqmentalhealth.org/adding-to-the-problem-advertising-and-mental-health/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],

@@ -1,6 +1,6 @@
 ---
 id: psych-005
-title: "Subliminale Werbung beeinflusst nachweislich das Kaufverhalten"
+title: "Subliminale Werbung kann Kaufentscheidungen unter engen Bedingungen beeinflussen"
 category: psychology
 subcategory: subliminal
 impact_score: 6
@@ -17,6 +17,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Who does Red Bull give wings to? Sensation seeking moderates the effects of subliminal brand priming on choice"
+    institution: "PMC / PLOS ONE"
+    year: 2015
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4472981/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "A meta-analysis of consumer choice and subliminal advertising"
+    institution: "Journal of Marketing"
+    year: 1996
+    url: "https://scholar.nycu.edu.tw/en/publications/a-meta-analysis-of-consumer-choice-and-subliminal-advertising/"
+    type: peer-reviewed
+    open_access: false
+    independent: true
 verified: true
 tags:
   - subliminal
@@ -29,7 +44,7 @@ languages:
 
 ## Zusammenfassung
 
-Empirische Studie, die den Einfluss subliminaler Werbung auf das Kaufverhalten untersucht. Nicht-Marketingexperten und junge Konsumenten sind besonders anfällig für unbewusste Beeinflussung durch Werbebotschaften.
+Empirische Studie, die den Einfluss subliminaler Werbung auf Kaufverhalten und Kaufabsichten untersucht. Die robuste Formulierung ist vorsichtiger als die frühere Claim-Fassung: Effekte sind möglich, aber klein, kontextabhängig und in der Literatur umstritten.
 
 ## Kernbefund
 

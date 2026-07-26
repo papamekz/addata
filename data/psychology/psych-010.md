@@ -20,6 +20,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Body image and media use among adolescents"
+    institution: "PubMed"
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/16111619/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Impact of the media on adolescent body image"
+    institution: "PubMed"
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/15936668/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - body-image
