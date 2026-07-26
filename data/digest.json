@@ -253,9 +253,11 @@
       "institution": "DarkSky International (International Dark-Sky Association)",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "DarkSky supports high luminance, glare, lack of shielding, curfews, and ecological/light-pollution risk. The previous 30x household-energy headline was not supported by the cited DarkSky source and was replaced.",
       "tags": [
@@ -335,9 +337,11 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/",
       "source_urls": [
-        "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/"
+        "https://darksky.org/what-we-do/advancing-responsible-outdoor-lighting/research/",
+        "https://darksky.org/resources/what-is-light-pollution/light-pollution-solutions/lighting/",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1007,9 +1011,11 @@
       "institution": "Bayerische Akademie für Naturschutz und Landschaftspflege (ANL Bayern)",
       "source_url": "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf",
       "source_urls": [
-        "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf"
+        "https://www.anl.bayern.de/publikationen/anliegen/doc/an41122voith_et_al_2019_lichtverschmutzung.pdf",
+        "https://sites.warnercnr.colostate.edu/soundandlightecologyteam/wp-content/uploads/sites/146/2020/11/biologicalconservation2020.pdf",
+        "https://www.buglife.org.uk/campaigns/light-pollution/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1644,9 +1650,11 @@
       "institution": "Landesamt für Natur, Umwelt und Verbraucherschutz NRW (LANUV)",
       "source_url": "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf",
       "source_urls": [
-        "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf"
+        "https://www.lanuk.nrw.de/fileadmin/lanuvpubl/3_fachberichte/30113.pdf",
+        "https://www.gov.uk/guidance/light-pollution",
+        "https://www.london.gov.uk/sites/default/files/2023-05/Environment%20Committee%20-%20Light%20Pollution%20Report.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1855,9 +1863,11 @@
       "institution": "DarkSky International",
       "source_url": "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
       "source_urls": [
-        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
+        "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/",
+        "https://darksky.org/app/uploads/2019/10/EMC-Guidelines-IDA2019-1.1.pdf",
+        "https://www.scenic.org/wp-content/uploads/2022/05/19-05-13-Environmental-Impacts-Flyer-RV-04-2019-FINAL.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2277,9 +2287,11 @@
       "institution": "Basel Action Network (BAN) / E-Waste Monitor",
       "source_url": "https://www.ban.org",
       "source_urls": [
-        "https://www.ban.org"
+        "https://www.ban.org",
+        "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+        "https://wiki.ban.org/images/1/13/TheScamRecyclingContinuesUpdate_1.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2586,9 +2598,11 @@
       "institution": "Environmental Chemistry Letters, Springer",
       "source_url": "https://link.springer.com/article/10.1007/s10311-016-0569-z",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/s10311-016-0569-z"
+        "https://link.springer.com/article/10.1007/s10311-016-0569-z",
+        "https://www.nrdc.org/sites/default/files/2025-06/microplastic_deluge_how_these_small_plastic_particles_harm_our_health_and_the_environment.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10450477/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2791,9 +2805,10 @@
       "institution": "CORRECTIV / ZDF Frontal / Der Spiegel",
       "source_url": "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/",
       "source_urls": [
-        "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/"
+        "https://correctiv.org/top-stories/2021/09/15/afd-wahlkampf-werbung-millionenauftraege-anonyme-spender-spendenaffaere/",
+        "https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3259,9 +3274,10 @@
       "institution": "NPR / US-Senat (Schumer, Franken) / Private Internet Access",
       "source_url": "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers",
       "source_urls": [
-        "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers"
+        "https://www.npr.org/sections/thetwo-way/2016/02/29/468598100/using-billboards-company-will-collect-personal-information-to-help-advertisers",
+        "https://www.csoonline.com/article/555083/billboards-can-track-your-location-and-privacy-advocates-dont-like-it.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3568,9 +3584,11 @@
       "institution": "European Union",
       "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated Article 5 as a blanket ban on biometric categorisation in public space. Revised to describe high-risk/prohibited-practice boundaries and the need for AI Act/GDPR review.",
       "tags": [
@@ -4151,9 +4169,10 @@
       "institution": "CORRECTIV",
       "source_url": "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/",
       "source_urls": [
-        "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/"
+        "https://correctiv.org/aktuelles/afd-spendenskandal/2022/07/01/rueckzug-vom-rueckzug-plakatwerber-stroeer-nimmt-wieder-auftraege-fuer-parteipolitische-werbung-an/",
+        "https://www.tagesschau.de/investigativ/ndr-wdr/afd-spenden-135.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -4269,9 +4288,10 @@
       "institution": "Advertising Standards Authority (ASA)",
       "source_url": "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html",
       "source_urls": [
-        "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html"
+        "https://www.asa.org.uk/news/from-principle-to-practice-how-we-re-enforcing-the-new-less-healthy-ad-rules.html",
+        "https://www.theguardian.com/business/2026/apr/15/lidl-iceland-ads-uk-junk-food-asa-instagram-daily-mail"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "verified",
       "verification_note": "Added during UK HFSS enforcement audit. ASA confirms first rulings applying the LHF identifiability test to Iceland and Lidl ads.",
       "tags": [
@@ -4750,9 +4770,11 @@
       "institution": "American Journal of Preventive Medicine / PubMed",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/9713672/",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/9713672/"
+        "https://pubmed.ncbi.nlm.nih.gov/9713672/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK99238/",
+        "https://truthinitiative.org/research-resources/tobacco-industry-marketing/after-school-smoke-problem-tobacco-retailers-near"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -4779,9 +4801,10 @@
       "institution": "BMC Public Health",
       "source_url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y",
       "source_urls": [
-        "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y"
+        "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7821-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [

@@ -21,6 +21,14 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Disadvantage and Ad Panel Density in Black Neighborhoods"
+    institution: "American Journal of Public Health / PMC"
+    year: 2007
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078248/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - outdoor-advertising

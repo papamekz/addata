@@ -21,6 +21,21 @@ source:
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "Outdoor tobacco advertising in six Boston neighborhoods"
+    institution: "NCBI Bookshelf"
+    year: 1998
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK99238/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "After School Smoke: The problem of tobacco retailers near schools"
+    institution: "Truth Initiative"
+    year: 2024
+    url: "https://truthinitiative.org/research-resources/tobacco-industry-marketing/after-school-smoke-problem-tobacco-retailers-near"
+    type: ngo
+    open_access: true
+    independent: true
 verified: true
 tags:
   - tobacco

@@ -13,6 +13,21 @@ source:
   url: "https://www.ban.org"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "The Global E-waste Monitor 2024"
+    institution: "Global E-waste Monitor"
+    year: 2024
+    url: "https://ewastemonitor.info/the-global-e-waste-monitor-2024/"
+    type: report
+    open_access: true
+    independent: true
+  - title: "The Scam Recycling Continues"
+    institution: "Basel Action Network"
+    year: 2016
+    url: "https://wiki.ban.org/images/1/13/TheScamRecyclingContinuesUpdate_1.pdf"
+    type: ngo
+    open_access: true
+    independent: true
 verified: true
 tags: [global-south, equity, dumping, e-waste, eco-colonialism, led]
 ---
