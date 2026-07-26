@@ -592,8 +592,8 @@
       "category": "resources",
       "impact_score": 9,
       "year": 2009,
-      "source_type": "ngo",
-      "institution": "Greenpeace USA / Ecology Center",
+      "source_type": "peer-reviewed",
+      "institution": "PubMed",
       "open_access": true,
       "file": "data/resources/res-005.md"
     },

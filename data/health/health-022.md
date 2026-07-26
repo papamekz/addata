@@ -25,7 +25,7 @@ corroborating_sources:
   - title: "Outdoor tobacco advertising in six Boston neighborhoods"
     institution: "NCBI Bookshelf"
     year: 1998
-    url: "https://www.ncbi.nlm.nih.gov/books/NBK99238/"
+    url: "https://pubmed.ncbi.nlm.nih.gov/9713672/"
     type: peer-reviewed
     open_access: true
     independent: true

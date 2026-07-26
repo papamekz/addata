@@ -1271,9 +1271,11 @@
       "institution": "Adfree Cities UK",
       "source_url": "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/",
       "source_urls": [
-        "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/"
+        "https://adfreecities.org.uk/2021/01/the-ads-in-leeds-consume-as-much-electricity-as-3300-people/",
+        "https://weall.org/the-environmental-impacts-of-corporate-advertising/",
+        "https://adfreecities.org.uk/wp-content/uploads/2022/11/Advertising-and-Light-Pollution-Adfree-Cities-Briefing-update.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1298,9 +1300,10 @@
       "institution": "AV Interactive / AV Magazine",
       "source_url": "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/",
       "source_urls": [
-        "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/"
+        "https://www.avinteractive.com/territories-news/europe/germany-switches-digital-signs-off-at-night-to-save-energy-22-08-2022/",
+        "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Pressemitteilungen/2022/09/20220928-cabinet-adopts-changes-to-energy-saving-ordinance.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1350,11 +1353,11 @@
       "category": "resources",
       "impact_score": 9,
       "year": 2009,
-      "source_type": "ngo",
-      "institution": "Greenpeace USA / Ecology Center",
-      "source_url": "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html",
+      "source_type": "peer-reviewed",
+      "institution": "PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39765168/",
       "source_urls": [
-        "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html",
+        "https://pubmed.ncbi.nlm.nih.gov/39765168/",
         "https://www.greenpeace.org/usa/?p=13701",
         "https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=51",
         "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/vinyl-chloride",
@@ -4384,7 +4387,7 @@
         "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
         "https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/",
         "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
-        "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html"
+        "https://pubmed.ncbi.nlm.nih.gov/39765168/"
       ],
       "source_count": 4,
       "verification_status": null,
@@ -4774,7 +4777,7 @@
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/9713672/",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/9713672/",
-        "https://www.ncbi.nlm.nih.gov/books/NBK99238/",
+        "https://pubmed.ncbi.nlm.nih.gov/9713672/",
         "https://truthinitiative.org/research-resources/tobacco-industry-marketing/after-school-smoke-problem-tobacco-retailers-near"
       ],
       "source_count": 3,
