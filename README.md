@@ -58,6 +58,8 @@ Companies, agencies, investors, and city planners evaluating DOOH/OOH exposure f
 >
 > **Selection criteria — read this before aggregating.** This is an **adverse-evidence corpus**, not a representative sample of the OOH/DOOH literature. Records were collected by searching for documented harms, risks, and regulatory actions; studies reporting null or beneficial effects were not sought and are largely absent, and industry sources are excluded as evidence. Category counts and `impact_score` distributions therefore describe this collection, not scientific consensus. Individual claims stay independently verifiable via their source URLs. Full statement: [DATA_CARD.md → Selection Criteria and Known Bias](DATA_CARD.md#selection-criteria-and-known-bias).
 
+For the shortest agent-first entrypoint, open [AGENT_INDEX.md](AGENT_INDEX.md).
+
 ---
 
 ## Quick Start for AI Agents

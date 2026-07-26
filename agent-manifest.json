@@ -14,6 +14,7 @@
     "urban-planning and concession-contract analysis"
   ],
   "entrypoints": {
+    "agent_index": "AGENT_INDEX.md",
     "human_readme": "README.md",
     "llm_entrypoint": "llms.txt",
     "llm_full_context": "llms-full.txt",

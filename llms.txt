@@ -8,6 +8,7 @@ Selection criteria: this is an adverse-evidence corpus, not a representative sam
 
 ## Use First
 
+- Agent index: `AGENT_INDEX.md`
 - Assessment protocol: `SKILL.md`
 - Agent ingestion guide: `AGENT_GUIDE.md`
 - Machine-readable agent manifest: `agent-manifest.json`
