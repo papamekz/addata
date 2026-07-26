@@ -36,7 +36,12 @@
         "type": "string",
         "enum": [
           "psychological", "physical", "environmental", "social",
-          "economic", "cultural", "health", "cognitive"
+          "economic", "cultural", "health", "cognitive",
+          "safety", "privacy", "regulation", "environment",
+          "economy", "ecological", "surveillance", "equity",
+          "political", "corruption", "children", "energy",
+          "global", "greenwashing", "corporate-communication",
+          "legal", "misleading-metrics", "urban"
         ]
       },
       "minItems": 1,
@@ -57,13 +62,63 @@
         "doi": { "type": "string" },
         "type": {
           "type": "string",
-          "enum": ["peer-reviewed", "who-report", "government", "ngo", "book"]
+          "enum": [
+            "peer-reviewed",
+            "who-report",
+            "un_report",
+            "government",
+            "court_ruling",
+            "ngo",
+            "investigative_journalism",
+            "industry_report",
+            "commercial-research",
+            "grey-literature",
+            "industry",
+            "book"
+          ]
         },
         "open_access": { "type": "boolean" },
         "independent": {
           "type": "boolean",
-          "const": true,
-          "description": "Must be true — no advertising industry sources allowed"
+          "description": "Whether the source is independent of the advertising industry. False is allowed only for claims that explicitly analyse or criticise the source itself rather than relying on it as independent evidence."
+        }
+      }
+    },
+    "corroborating_sources": {
+      "type": "array",
+      "description": "Additional reliable sources that corroborate or contextualize the claim.",
+      "items": {
+        "type": "object",
+        "required": ["title", "year", "url", "type", "independent"],
+        "properties": {
+          "title": { "type": "string" },
+          "authors": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "institution": { "type": "string" },
+          "year": { "type": "integer", "minimum": 1900, "maximum": 2030 },
+          "url": { "type": "string", "format": "uri" },
+          "doi": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "peer-reviewed",
+              "who-report",
+              "un_report",
+              "government",
+              "court_ruling",
+              "ngo",
+              "investigative_journalism",
+              "industry_report",
+              "commercial-research",
+              "grey-literature",
+              "industry",
+              "book"
+            ]
+          },
+          "open_access": { "type": "boolean" },
+          "independent": { "type": "boolean" }
         }
       }
     },

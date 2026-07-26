@@ -346,7 +346,7 @@
     },
     {
       "id": "health-005",
-      "title": "Schädliches Marketing tötet über 1 Million Menschen pro Jahr in den USA allein",
+        "title": "Ein Review schätzt: Schädliches Marketing trägt in den USA zu weit über 1 Million vorzeitigen Todesfällen pro Jahr bei",
       "category": "health",
       "impact_score": 10,
       "year": 2025,
@@ -482,14 +482,14 @@
       "category": "regulation",
       "impact_score": 8,
       "year": 2020,
-      "source_type": "ngo",
+      "source_type": "government",
       "institution": "The Local / Tobacco Control Laws",
       "open_access": true,
       "file": "data/regulation/reg-002.md"
     },
     {
       "id": "reg-003",
-      "title": "São Paulo: Totales Außenwerbungsverbot (2007) — 70 % der Bevölkerung unterstützen es nach 5 Jahren",
+        "title": "São Paulo: Lei Cidade Limpa (2006) entfernte den Großteil der Außenwerbung aus dem öffentlichen Raum",
       "category": "regulation",
       "impact_score": 9,
       "year": 2012,
@@ -504,7 +504,7 @@
       "category": "regulation",
       "impact_score": 8,
       "year": 2015,
-      "source_type": "ngo",
+      "source_type": "government",
       "institution": "World Without Fossil Ads / Euronews",
       "open_access": true,
       "file": "data/regulation/reg-004.md"
@@ -753,7 +753,7 @@
     },
     {
       "id": "priv-001",
-      "title": "DOOH-Screens erfassen heimlich biometrische Daten zur Zielgruppenanalyse",
+        "title": "DOOH-Screens können biometrische und Bewegungsdaten zur Zielgruppenanalyse erfassen",
       "category": "privacy",
       "impact_score": 9,
       "year": 2022,
@@ -874,7 +874,7 @@
     },
     {
       "id": "reg-010",
-      "title": "Werbekonzerne ignorieren systematisch Bauvorschriften und Helligkeitslimits",
+      "title": "UK-Kampagnenberichte zeigen wiederholte Verstöße gegen Bauvorschriften und Helligkeitslimits im Outdoor Advertising",
       "category": "regulation",
       "impact_score": 9,
       "year": 2022,
@@ -896,7 +896,7 @@
     },
     {
       "id": "reg-012",
-      "title": "Das Schweizer Bundesgericht bestätigt die Legalität kommunaler Werbeverbote",
+      "title": "Das Schweizer Bundesgericht bestätigt die Legalität kommunaler Werbeverbote in Vernier",
       "category": "regulation",
       "impact_score": 10,
       "year": 2024,
@@ -995,12 +995,12 @@
     },
     {
       "id": "priv-002",
-      "title": "Der 'Path-to-Purchase' Abgleich: Passives Tracking von Mobile-IDs durch DOOH-Stelen",
+        "title": "Der 'Path-to-Purchase'-Abgleich: DOOH kann Mobile-IDs und Standortdaten verknüpfen",
       "category": "privacy",
       "impact_score": 9,
       "year": 2022,
-      "source_type": "ngo",
-      "institution": "Big Brother Watch / EFF",
+        "source_type": "ngo",
+        "institution": "Big Brother Watch",
       "open_access": true,
       "file": "data/privacy/priv-002.md"
     },
@@ -1072,12 +1072,12 @@
     },
     {
       "id": "safety-004",
-      "title": "Signal-Maskierung: Beeinträchtigung der Sichtbarkeit von Notfall- und Verkehrssignalen durch DOOH",
+        "title": "Billboards können Fahrer von Verkehrsschildern ablenken und die Reaktionszeit erhöhen",
       "category": "safety",
       "impact_score": 9,
       "year": 2021,
-      "source_type": "peer-reviewed",
-      "institution": "Traffic Safety Research Journal",
+        "source_type": "government",
+        "institution": "National Center for Transportation Systems Productivity and Management / USDOT",
       "open_access": true,
       "file": "data/safety/safety-004.md"
     },
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "health-010",
-      "title": "Strenge gesetzliche Werbeverbote an Schulen zum Schutz von Minderjährigen vor Konsumdruck",
+      "title": "NRW-Schulgesetz: Werbung, die nicht schulischen Zwecken dient, ist in Schulen grundsätzlich unzulässig",
       "category": "health",
       "impact_score": 9,
       "year": 2023,
@@ -1332,7 +1332,7 @@
     },
     {
       "id": "env-015",
-      "title": "Studie: 30% aller deutschen TV-Werbespots sind Klimakiller — verstößt gegen Medienstaatsvertrag (2024)",
+      "title": "Studie: Rund 30 % der TV- und YouTube-Spots bewirbt klimaschädliche Produkte; Forscher sehen Konflikt mit dem Medienstaatsvertrag (2024)",
       "category": "environment",
       "impact_score": 9,
       "year": 2024,
@@ -1341,7 +1341,7 @@
     },
     {
       "id": "reg-021",
-      "title": "Den Haag: Erste Stadt weltweit verbietet Fossil-Fuel OOH-Werbung für Autos, Flüge & Kreuzfahrten ab 2025",
+      "title": "Den Haag: APV-basiertes Verbot fossiler OOH-Werbung im öffentlichen Raum ab 2025",
       "category": "regulation",
       "impact_score": 10,
       "year": 2025,
@@ -1386,7 +1386,7 @@
     },
     {
       "id": "reg-024",
-      "title": "Schweiz: Bundesgericht bestätigt vollständiges Werbeverbot in Vernier — 172 Werbetafeln entfernt, Zürich und Bern folgen",
+      "title": "Schweiz: Bundesgericht bestätigt Werbeverbot für kommerzielle Plakatwerbung in Vernier — 172 Werbetafeln entfernt",
       "category": "regulation",
       "impact_score": 10,
       "year": 2024,
@@ -1395,7 +1395,7 @@
     },
     {
       "id": "reg-025",
-      "title": "Amsterdam: Erste Hauptstadt weltweit verbietet OOH-Werbung für fossile Brennstoffe UND Fleisch — in Kraft ab Mai 2026",
+      "title": "Amsterdam: APV-Verbot für OOH-Werbung für fossile Brennstoffe und Fleisch ab Mai 2026",
       "category": "regulation",
       "impact_score": 10,
       "year": 2026,
@@ -1405,7 +1405,7 @@
     },
     {
       "id": "env-016",
-      "title": "Deutsche Energiesparverordnung beschränkte beleuchtete Außenwerbung — 113.000 MWh/Jahr ist eine Branchenangabe zum DOOH-Verbrauch",
+      "title": "Deutschland führte 2022 eine befristete Abschaltpflicht für beleuchtete Außenwerbung ein; 113.000 MWh/Jahr ist eine Branchenangabe zum DOOH-Verbrauch",
       "category": "environment",
       "impact_score": 9,
       "year": 2022,
@@ -1490,7 +1490,7 @@
     },
     {
       "id": "reg-027",
-      "title": "Edinburgh verbietet OOH-Werbung für fossile Brennstoffe UND Rüstungsprodukte — EU-weit einzigartig (2024)",
+      "title": "Edinburgh: Werbe- und Sponsoring-Policy schließt fossile Brennstoffe und Rüstungsprodukte von kommunalen Flächen aus (2024)",
       "category": "regulation",
       "impact_score": 9,
       "year": 2024,
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "reg-031",
-      "title": "UK Competition and Markets Authority: Bis zu 10% des Jahresumsatzes Strafe für Greenwashing-Werbung ab April 2025",
+      "title": "UK Competition and Markets Authority: Direkte Geldbußen bis zu 10% des Jahresumsatzes bei Verstößen gegen Verbraucherrecht ab April 2025",
       "category": "regulation",
       "impact_score": 9,
       "year": 2025,
@@ -1655,7 +1655,7 @@
     },
     {
       "id": "priv-006",
-      "title": "Big Brother Watch: DOOH-Screens nutzen heimlich biometrische Gesichtserkennung zur Zielgruppenanalyse",
+      "title": "Big Brother Watch: DOOH-/Billboard-Systeme können Face-Detection und Mobile-Tracking für Zielgruppenanalyse nutzen",
       "category": "privacy",
       "impact_score": 10,
       "year": 2024,
@@ -2099,7 +2099,7 @@
       "category": "politics",
       "impact_score": 10,
       "year": 2023,
-      "source_type": "grey-literature",
+      "source_type": "government",
       "institution": "Corruption, Crime & Compliance / Volkov Law",
       "open_access": true,
       "file": "data/politics/pol-024.md"

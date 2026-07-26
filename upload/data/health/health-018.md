@@ -1,30 +1,52 @@
 ---
 id: health-018
-title: "EMA-Studie 2025: Kinder berichten stärkeres Verlangen nach ungesundem Essen nach Sicht von OOH-Lebensmittelwerbung — direkter kausaler Zusammenhang belegt"
+title: "Appetite 2025: Kinder erkennen ungesunde Außenwerbung nahe Schulen und berichten Einfluss auf Präferenzen"
 category: health
-impact_score: 9
+impact_score: 7
 impact_type:
   - health
   - psychological
   - children
 source:
-  title: "Ecological Momentary Assessment of Children's Exposure and Response to Outdoor Food Advertising"
+  title: "Children's views on outdoor advertising of unhealthy food and beverages near schools"
   authors:
-    - "Boyland, E."
-    - "et al."
-  institution: "ScienceDirect / Appetite (Journal)"
+    - "Francis, J."
+    - "Ross, E."
+    - "Pulker, C."
+    - "Brinkman, S."
+    - "Mandzufas, J."
+    - "Martin, K."
+    - "Howard, J."
+    - "Trapp, G."
+  institution: "Appetite / PubMed"
   year: 2025
-  url: "https://www.sciencedirect.com/science/article/pii/S0195666325000030"
-  doi: "10.1016/j.appet.2025.107000"
+  url: "https://pubmed.ncbi.nlm.nih.gov/39778813/"
+  doi: "10.1016/j.appet.2025.107851"
   type: peer-reviewed
+  open_access: true
   independent: true
+corroborating_sources:
+  - title: "Children's views on outdoor advertising of unhealthy food and beverages near schools"
+    institution: "University of Western Australia Research Repository"
+    year: 2025
+    url: "https://research-repository.uwa.edu.au/en/publications/childrens-views-on-outdoor-advertising-of-unhealthy-food-and-beve/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Children's views on outdoor advertising of unhealthy food and beverages near schools"
+    institution: "Edith Cowan University Research Online"
+    year: 2025
+    url: "https://www.semanticscholar.org/paper/Children%27s-views-on-outdoor-advertising-of-food-and-Francis-Ross/09320a76aa0b3def292f95377f5c6f7a7085b1b8"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - kinder
   - lebensmittelwerbung
   - verlangen
-  - ema
-  - kausal
+  - kinderperspektive
+  - qualitativ
   - schule
   - ooh
 languages:
@@ -34,12 +56,12 @@ languages:
 
 ## Zusammenfassung
 
-Eine Studie mittels Ecological Momentary Assessment (EMA) dokumentiert einen direkten kausalen Zusammenhang: Kinder berichten nach der Betrachtung von OOH-Lebensmittelwerbung signifikant stärkere Gelüste auf ungesunde Produkte. Die Teilnehmer waren sich der Werbung für ungesunde Lebensmittel und Getränke in der Nähe ihrer Schule bewusst und gaben an, dass diese ihre Nahrungsvorlieben und ihr Essverhalten beeinflusst.
+Eine 2025 in *Appetite* veröffentlichte Studie untersuchte die Sicht von Kindern auf Außenwerbung für ungesunde Lebensmittel und Getränke in Schulnähe. Die Teilnehmenden nahmen solche Werbung wahr und viele berichteten, dass sie ihre Lebensmittelpräferenzen und Ernährung beeinflusse.
 
 ## Kernbefund
 
-Die Studie nutzt Ecological Momentary Assessment (EMA) — eine Methode die Reaktionen im realen Alltagskontext erfasst, nicht im Labor. Kinder wurden unmittelbar nach der Exposition gegenüber Außenwerbung für Lebensmittel befragt. Ergebnis: **Signifikant erhöhte Gelüste auf beworbene ungesunde Produkte** direkt nach der Sichtung von OOH-Werbung. Die Kinder erkannten die Werbung in ihrer Schulumgebung aktiv und berichteten über deren Einfluss auf ihre Ernährungsentscheidungen. Schulen in sozial benachteiligten Gebieten haben systematisch mehr Lebensmittelwerbung im Umkreis von 250 Metern — ein bereits in Vorläuferstudien (equity-001, equity-002) belegter Befund der hier durch Kausalnachweis ergänzt wird.
+Die Studie ist qualitative und wahrnehmungsbezogene Evidenz, kein EMA-Kausalexperiment. Belastbar ist: Kinder erkennen ungesunde Außenwerbung in ihrem Schulumfeld, bewerten sie häufig als problematisch und unterstützen Einschränkungen, etwa für Werbung im Schulumfeld oder auf öffentlichen Verkehrsmitteln.
 
 ## Relevanz für Außenwerbung
 
-Frühere Studien belegten Korrelation; diese Studie belegt Kausalität im Alltagskontext. Der Nachweis ist besonders relevant für die Debatte um OOH-Verbote für HFSS-Produkte (health-015, health-014): Er zeigt, dass Verbote nicht nur theoretisch sinnvoll sind, sondern ein nachweislich schädliches Verhalten unterbrechen.
+Die Studie stärkt den Kinderschutz-Fall für OOH/HFSS-Regulierung, weil sie die eigene Wahrnehmung und berichtete Beeinflussung von Kindern in Schulumgebungen dokumentiert. Für Kausal- oder Bevölkerungseffekte sollte sie zusammen mit systematischen Reviews und Policy-Evaluationsstudien verwendet werden.

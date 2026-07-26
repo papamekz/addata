@@ -17,6 +17,25 @@ source:
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Studie: Kinder sehen pro Tag 15 Werbungen für ungesundes Essen"
+    institution: "Deutsche Allianz Nichtübertragbare Krankheiten (DANK)"
+    year: 2021
+    url: "https://www.dank-allianz.de/pressemeldung/studie-kinder-sehen-pro-tag-15-werbungen-fuer-ungesundes-essen.html"
+    type: ngo
+    independent: true
+  - title: "Kinder sehen pro Tag 15 Werbeanzeigen für ungesunde Lebensmittel"
+    institution: "Deutsches Ärzteblatt"
+    year: 2021
+    url: "https://www.aerzteblatt.de/news/kinder-sehen-pro-tag-15-werbeanzeigen-fuer-ungesunde-lebensmittel-9b4343cf-e767-4eb1-a3cb-2bdd5343d2f2"
+    type: grey-literature
+    independent: true
+  - title: "Hamburger Studie: Schutz für Kinder vor gezielter Werbung für ungesundes Essen"
+    institution: "Leibniz-Institut für Präventionsforschung und Epidemiologie (BIPS)"
+    year: 2021
+    url: "https://www.bips-institut.de/forschung/forschungsergebnisse/hamburger-studie-schutz-fuer-kinder-vor-gezielter-werbung-fuer-ungesundes-essen.html"
+    type: grey-literature
+    independent: true
 verified: true
 tags:
   - children

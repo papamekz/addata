@@ -1,9 +1,9 @@
 ---
 id: safety-007
-title: "US-Studie: 25–29% höhere Unfallraten in der Nähe digitaler Werbetafeln auf Highways (Florida und Alabama)"
+title: "US-DOT-Studie: Digitale Werbetafeln korrelieren an 18 Standorten mit höheren Unfallraten"
 category: safety
 subcategory: driver-distraction
-impact_score: 9
+impact_score: 8
 impact_type:
   - safety
 source:
@@ -12,7 +12,7 @@ source:
     - "Sisiopiku, Virginia P."
   institution: "Georgia Institute of Technology / US Department of Transportation"
   year: 2015
-  url: "https://rosap.ntl.bts.gov/view/dot/36939"
+  url: "https://trid.trb.org/View/1337321"
   type: government
   open_access: true
   independent: true
@@ -34,12 +34,12 @@ languages:
 
 ## Zusammenfassung
 
-Eine staatlich geförderte US-Studie analysierte 18 digitale Werbetafel-Standorte auf US-Highways. An Standorten in Florida wurden **25 % höhere Unfallraten** gemessen, in Alabama **29 % höhere Unfallraten** — verglichen mit Kontrollstandorten auf demselben Streckenabschnitt ohne digitale Werbetafeln. Die Studie wurde vom US-Verkehrsministerium (DOT) gefördert und am Georgia Institute of Technology durchgeführt.
+Eine staatlich geförderte US-Studie analysierte 18 digitale Werbetafel-Standorte in Alabama und Florida. Die Crash-Analyse fand erhöhte Unfallraten in Einflusszonen digitaler Werbetafeln gegenüber Kontrollbereichen stromabwärts derselben Strecken. Die Studie wurde im US-DOT-Repository ROSA P veröffentlicht.
 
 ## Kernbefund
 
-Die Studie verglich Unfalldaten an 18 DOOH-Standorten mit Kontrollpunkten stromabwärts derselben Strecken. Ergebnis: Signifikant erhöhte Crashraten direkt bei und unmittelbar nach digitalen Werbetafeln. Die Analyse kontrollierte für Fahrbahngeometrie und Verkehrsvolumen. Das ist eine der meistzitierten Real-World-Unfallstudien im Kompendium von Scenic America (dem US-amerikanischen Gegner von Highway-Werbung).
+Die Studie verglich Unfalldaten an 18 DOOH-Standorten mit Kontrollpunkten stromabwärts derselben Strecken. Ergebnis: Die Präsenz digitaler Werbetafeln war mit erhöhten Crashraten in den Einflusszonen korreliert; Seitenstreif- und Auffahrunfälle waren überrepräsentiert. Wichtiges Caveat: Die Quelle formuliert den Befund als Korrelation und betont, dass die Beziehung zwischen digitalen Werbetafeln und Verkehrssicherheit komplex ist.
 
 ## Relevanz für Außenwerbung
 
-Digitale Werbetafeln an Schnellstraßen erhöhen das Unfallrisiko für alle Verkehrsteilnehmer nachweislich. Die gesellschaftlichen Kosten — medizinische Behandlung, Sachschäden, Produktivitätsverluste — werden auf die Allgemeinheit externalisiert, während der Gewinn beim OOH-Betreiber verbleibt. Straßenbehörden, die DOOH-Konzessionen an Schnellstraßen vergeben, übertragen damit ein dokumentiertes Sicherheitsrisiko auf die Öffentlichkeit.
+Digitale Werbetafeln an Schnellstraßen sind ein dokumentiertes Sicherheitsrisiko, aber die belastbare Formulierung ist "korreliert mit höheren Crashraten", nicht ein isolierter Kausalnachweis. Straßenbehörden, die DOOH-Konzessionen an Schnellstraßen vergeben, sollten deshalb standortbezogene Unfallanalysen, Sichtachsen, Wechselintervalle und Helligkeit als Genehmigungsbedingungen verlangen.

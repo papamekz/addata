@@ -10,10 +10,10 @@ impact_type:
 source:
   title: "Advertising and the homogenization of cultures: Perspectives from ASEAN"
   authors:
-    - "Multiple authors"
+    - "Frith, Katherine T."
   institution: "Asian Journal of Communication, Taylor & Francis"
   year: 2003
-  url: "https://www.tandfonline.com/doi/abs/10.1080/01292980309364830"
+  url: "https://api.crossref.org/works/10.1080/01292980309364830"
   doi: "10.1080/01292980309364830"
   type: peer-reviewed
   open_access: false

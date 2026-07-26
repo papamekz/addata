@@ -21,19 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
     culture:      '◇',
     alternatives: '⌀',
     equity:       '⊜',
+    quotes:       '❝',
   };
 
   function severityInfo(score) {
-    if (score >= 9) return { cls: 'severity-kritisch', icon: '⊗', bar: '▰▰▰▰▰', label: 'KRITISCH' };
-    if (score >= 7) return { cls: 'severity-erhoeht',  icon: '⊘', bar: '▰▰▰▱▱', label: 'ERHÖHT'  };
-    if (score >= 5) return { cls: 'severity-mittel',   icon: '⊙', bar: '▰▰▱▱▱', label: 'MITTEL'  };
-    return             { cls: 'severity-gering',   icon: '○', bar: '▰▱▱▱▱', label: 'GERING'  };
+    if (score >= 9) return { cls: 'severity-kritisch', icon: '⊗', bar: '▰▰▰▰▰', label: t('severity_critical') };
+    if (score >= 7) return { cls: 'severity-erhoeht',  icon: '⊘', bar: '▰▰▰▱▱', label: t('severity_elevated')  };
+    if (score >= 5) return { cls: 'severity-mittel',   icon: '⊙', bar: '▰▰▱▱▱', label: t('severity_medium')    };
+    return             { cls: 'severity-gering',   icon: '○', bar: '▰▱▱▱▱', label: t('severity_low')       };
   }
 
   function highlightText(text) {
     if (!text) return '';
     // Escape HTML first
-    text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    text = escapeHtml(text);
     // Numbers with % (including ↑/↓ before them)
     text = text.replace(/(↑\s*|↓\s*)?(\d[\d.,]*\s*%)/g,
       (m) => `<span class="highlight-red">${m}</span>`);
@@ -86,11 +87,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const datenschutzClose   = document.getElementById('datenschutz-close');
   const privacyBody        = document.getElementById('privacy-body');
 
+  function escapeHtml(value) {
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/`/g, '&#96;');
+  }
+
   // ── Load data ──────────────────────────────────
   if (typeof URBAN_DATA !== 'undefined') {
     init(URBAN_DATA);
   } else {
-    fetch('../data/index.json')
+    fetch('data/index.json')
       .then(r => r.json())
       .then(data => init(data))
       .catch(err => console.error('Error:', err));
@@ -108,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function init(data) {
     dataset = data;
     claims  = shuffle(data.claims);
-    dbCount.textContent = data.total_claims;
+    dbCount.textContent = data.total_records || data.claims.length;
 
     Object.keys(data.categories).sort().forEach(cat => {
       const opt = document.createElement('option');
@@ -175,21 +189,21 @@ document.addEventListener('DOMContentLoaded', () => {
     claimStage.innerHTML = `
       <div class="stage-doc-header">
         <span class="stage-cat-icon" style="color:${catColor}">${icon}</span>
-        <span class="stage-category" style="color:${catColor}">${categoryLabel(c.category)}</span>
+        <span class="stage-category" style="color:${catColor}">${escapeHtml(categoryLabel(c.category))}</span>
         <span class="stage-doc-sep">·</span>
         <span class="stage-az">⌗ ${c.id}</span>
         <span class="stage-doc-sep">·</span>
-        <span class="stage-year-doc">${c.year}</span>
+        <span class="stage-year-doc">${escapeHtml(c.year || '—')}</span>
         <span class="stage-counter">[${String(i + 1).padStart(3, '0')} ／ ${claims.length}]</span>
       </div>
       <div class="stage-doc-body">
-        <div class="stage-befund-label">Befund</div>
+        <div class="stage-befund-label">${t('finding_label')}</div>
         <h1 class="stage-title">${highlightText(claimTitle(c))}</h1>
       </div>
       <div class="stage-doc-footer">
         <div class="stage-source-block">
           <span class="stage-source-icon">◈</span>
-          <span>${(c.source_type || '').toUpperCase()} · ${c.institution || '—'}</span>
+          <span>${escapeHtml((c.source_type || '').toUpperCase())} · ${escapeHtml(c.institution || '—')}</span>
         </div>
         <div class="stage-severity ${sev.cls}">
           <span class="stage-severity-icon">${sev.icon}</span>
@@ -288,7 +302,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const cat  = categoryFilter.value;
     const filtered = dataset.claims.filter(c => {
       const matchSearch = !term ||
-        c.title.toLowerCase().includes(term) ||
+        (c.title || '').toLowerCase().includes(term) ||
+        (c.title_en || '').toLowerCase().includes(term) ||
+        (c.zusammenfassung || '').toLowerCase().includes(term) ||
+        (c.zusammenfassung_en || '').toLowerCase().includes(term) ||
+        (c.kernbefund || '').toLowerCase().includes(term) ||
+        (c.kernbefund_en || '').toLowerCase().includes(term) ||
         (c.id || '').toLowerCase().includes(term);
       const matchCat = cat === 'all' || c.category === cat;
       return matchSearch && matchCat;
@@ -307,12 +326,12 @@ document.addEventListener('DOMContentLoaded', () => {
       row.innerHTML = `
         <div class="db-row-cat" style="color:${catColor}">
           <span class="db-row-cat-icon">${icon}</span>
-          <span>${categoryLabel(c.category)}</span>
+          <span>${escapeHtml(categoryLabel(c.category))}</span>
         </div>
-        <span class="db-row-id">${c.id}</span>
-        <span class="db-row-title">${claimTitle(c)}</span>
+        <span class="db-row-id">${escapeHtml(c.id)}</span>
+        <span class="db-row-title">${escapeHtml(claimTitle(c))}</span>
         <span class="db-row-sev ${sev.cls}" style="color:inherit">${sev.icon}</span>
-        <span class="db-row-year">${c.year}</span>
+        <span class="db-row-year">${escapeHtml(c.year || '—')}</span>
       `;
       row.addEventListener('click', () => openDetail(c));
       dbGrid.appendChild(row);
@@ -322,12 +341,15 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderInfoPanel() {
     if (!dataset) return;
     const allClaims = dataset.claims;
+    const empirical = allClaims.filter(c => c.record_type !== 'quote');
+    const quotes    = allClaims.filter(c => c.record_type === 'quote');
     const total     = allClaims.length;
-    const avgScore  = (allClaims.reduce((s, c) => s + (c.impact_score || 0), 0) / total).toFixed(1);
-    const highCount = allClaims.filter(c => c.impact_score >= 8).length;
-    const years     = allClaims.map(c => Number(c.year)).filter(Boolean);
+    const empiricalTotal = empirical.length;
+    const avgScore  = (empirical.reduce((s, c) => s + (c.impact_score || 0), 0) / empiricalTotal).toFixed(1);
+    const highCount = empirical.filter(c => c.impact_score >= 8).length;
+    const years     = empirical.map(c => Number(c.year)).filter(Boolean);
     const yearRange = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '—';
-    const catCount  = Object.keys(dataset.categories || {}).length;
+    const catCount  = Object.keys(dataset.categories || {}).filter(cat => cat !== 'quotes').length;
 
     const catCounts = {};
     allClaims.forEach(c => { catCounts[c.category] = (catCounts[c.category] || 0) + 1; });
@@ -339,20 +361,31 @@ document.addEventListener('DOMContentLoaded', () => {
         const catColor = `var(--cat-${cat}, var(--primary))`;
         return `<span class="info-cat-pill">
           <span class="info-cat-icon" style="color:${catColor}">${icon}</span>
-          <span>${categoryLabel(cat)}</span>
+          <span>${escapeHtml(categoryLabel(cat))}</span>
           <span class="info-cat-count">(${count})</span>
         </span>`;
       }).join('');
 
     infoBody.innerHTML = `
-      <p class="info-about">${t('info_about')}</p>
+      <div class="info-hero">
+        <div class="info-hero-kicker">DOOH / OOH · RAG · ESG · POLICY</div>
+        <p class="info-about">${t('info_about')}</p>
+      </div>
 
       <div>
         <div class="info-section-label">${t('info_stats')}</div>
         <div class="info-stat-grid">
           <div class="info-stat">
-            <span class="info-stat-value">${total}</span>
+            <span class="info-stat-value">${empiricalTotal}</span>
             <span class="info-stat-label">${t('info_claims_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${total}</span>
+            <span class="info-stat-label">${t('info_records_label')}</span>
+          </div>
+          <div class="info-stat">
+            <span class="info-stat-value">${quotes.length || dataset.quote_count || 0}</span>
+            <span class="info-stat-label">${t('info_quotes_label')}</span>
           </div>
           <div class="info-stat">
             <span class="info-stat-value">${catCount}</span>
@@ -371,8 +404,29 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="info-stat-label">${t('info_period_label')}</span>
           </div>
           <div class="info-stat">
-            <span class="info-stat-value">100%</span>
+            <span class="info-stat-value">0 broken</span>
             <span class="info-stat-label">${t('info_sources_label')}</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="info-section-label">${t('info_use_head')}</div>
+        <div class="info-use-grid">
+          <div class="info-use-card">
+            <span class="info-use-icon">⌕</span>
+            <span class="info-use-title">${t('info_use_1_title')}</span>
+            <span class="info-use-text">${t('info_use_1_text')}</span>
+          </div>
+          <div class="info-use-card">
+            <span class="info-use-icon">⎔</span>
+            <span class="info-use-title">${t('info_use_2_title')}</span>
+            <span class="info-use-text">${t('info_use_2_text')}</span>
+          </div>
+          <div class="info-use-card">
+            <span class="info-use-icon">✓</span>
+            <span class="info-use-title">${t('info_use_3_title')}</span>
+            <span class="info-use-text">${t('info_use_3_text')}</span>
           </div>
         </div>
       </div>
@@ -382,9 +436,27 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="info-cat-grid">${catPills}</div>
       </div>
 
+      <div>
+        <div class="info-section-label">${t('info_agent_files')}</div>
+        <div class="info-link-grid">
+          <a href="data/digest.json" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSON</span>data/digest.json</a>
+          <a href="data/rag-chunks.jsonl" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>JSONL</span>data/rag-chunks.jsonl</a>
+          <a href="llms.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>LLM</span>llms.txt</a>
+          <a href="llms-full.txt" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>FULL</span>llms-full.txt</a>
+          <a href="../DATA_QUALITY.md" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>QA</span>DATA_QUALITY.md</a>
+          <a href="../ro-crate-metadata.json" target="_blank" rel="noopener noreferrer" class="info-file-link"><span>RO</span>ro-crate-metadata.json</a>
+        </div>
+        <p class="info-quality-note">${t('info_quality_note')}</p>
+      </div>
+
+      <div class="info-status">
+        <div class="info-section-label">${t('info_status_head')}</div>
+        <p>${t('info_status_text')}</p>
+      </div>
+
       <div class="info-footer">
         <span>CC-BY-4.0</span>
-        <a href="https://github.com/papamekz/addata" target="_blank" class="inline-link">github.com/papamekz/addata</a>
+        <a href="https://github.com/papamekz/addata" target="_blank" rel="noopener noreferrer" class="inline-link">github.com/papamekz/addata</a>
       </div>
     `;
   }
@@ -404,6 +476,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalBody._claim = c;
     const sev = severityInfo(c.impact_score);
     const catColor = `var(--cat-${c.category}, var(--primary))`;
+    const isQuote = c.record_type === 'quote';
 
     const isEn = currentLang === 'en';
     const zusammenfassung = isEn ? (c.zusammenfassung_en || c.zusammenfassung) : c.zusammenfassung;
@@ -417,32 +490,41 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>` : '';
 
     const tags = c.tags?.length
-      ? `<div class="modal-tags">${c.tags.map(tag => `<span class="modal-tag">${tag}</span>`).join('')}</div>`
+      ? `<div class="modal-tags">${c.tags.map(tag => `<span class="modal-tag">${escapeHtml(tag)}</span>`).join('')}</div>`
       : '';
 
-    const sourceLink = c.source_url
-      ? `<a href="${c.source_url}" target="_blank" class="modal-link">${t('open_source_link')}</a>`
+    const sourceUrls = c.source_urls?.length ? c.source_urls : (c.source_url ? [c.source_url] : []);
+    const sourceLink = sourceUrls.length
+      ? sourceUrls.map((url, i) =>
+          `<a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer" class="modal-link">${sourceUrls.length > 1 ? `${t('open_source_link')} ${i + 1}` : t('open_source_link')}</a>`
+        ).join(' ')
       : '';
+    const related = isQuote && c.related_claims?.length
+      ? `<div class="modal-tags">${c.related_claims.map(id => `<span class="modal-tag">${escapeHtml(id)}</span>`).join('')}</div>`
+      : '';
+    const sourceMeta = isQuote
+      ? `${c.year} · QUOTE CONTEXT · ${c.source_quality || 'context'}`
+      : `${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}`;
 
     modalBody.innerHTML = `
       <div class="modal-proto-header">
-        <span style="font-weight:600;color:${catColor}">⌗ ${c.id}</span>
+        <span style="font-weight:600;color:${catColor}">⌗ ${escapeHtml(c.id)}</span>
         <span class="modal-proto-sep">·</span>
-        <span class="modal-proto-cat" style="color:${catColor}">${categoryLabel(c.category)}</span>
+        <span class="modal-proto-cat" style="color:${catColor}">${escapeHtml(categoryLabel(c.category))}</span>
         <span class="modal-proto-sep">·</span>
-        <span>${c.year}</span>
+        <span>${escapeHtml(c.year || '—')}</span>
       </div>
       <div class="modal-proto-body">
-        <div class="modal-gegenstand-label">Gegenstand</div>
-        <h2 class="modal-title">${claimTitle(c)}</h2>
+        <div class="modal-gegenstand-label">${t('subject_label')}</div>
+        <h2 class="modal-title">${escapeHtml(claimTitle(c))}</h2>
         ${section('zusammenfassung', zusammenfassung)}
-        ${section('kernbefund', kernbefund)}
+        ${section(isQuote ? 'quote_deutung' : 'kernbefund', kernbefund)}
         ${section('relevanz', relevanz)}
       </div>
       <div class="modal-proto-footer">
         <div class="modal-source-block">
-          <div class="modal-source-name">${c.institution || '—'}</div>
-          <div class="modal-source-meta">${c.year} · ${(c.source_type || '').toUpperCase()} · ${t('independent_label')}</div>
+          <div class="modal-source-name">${escapeHtml(c.institution || '—')}</div>
+          <div class="modal-source-meta">${escapeHtml(sourceMeta)}</div>
           ${sourceLink}
         </div>
         <div class="modal-proto-severity ${sev.cls}">
@@ -452,6 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
       ${tags}
+      ${related}
     `;
 
     paused = true;

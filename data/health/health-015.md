@@ -1,22 +1,37 @@
 ---
 id: health-015
-title: "Großbritannien: Vollständiges OOH-Werbeverbot für HFSS-Produkte seit Januar 2026 — weltweites Pilotprojekt"
+title: "Großbritannien: HFSS-Werberegeln seit Januar 2026 gelten für TV und Online — OOH bleibt regulatorische Lücke"
 category: health
 subcategory: food-marketing
-impact_score: 10
+impact_score: 8
 impact_type:
   - health
   - regulation
 source:
-  title: "Advertising restrictions for less healthy food and drink products"
+  title: "Restricting advertising of less healthy food or drink on TV and online: products in scope"
   authors:
     - "UK Department of Health & Social Care"
   institution: "UK Government / Ofcom"
   year: 2026
-  url: "https://www.gov.uk/government/publications/restricting-tv-and-online-advertising-for-products-high-in-fat-salt-and-sugar"
+  url: "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope"
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Less healthy food or drink: advertising and promotions restrictions"
+    institution: "UK Government"
+    year: 2026
+    url: "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Landmark junk food ad ban to protect kids' health"
+    institution: "UK Government"
+    year: 2026
+    url: "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags:
   - hfss
@@ -31,10 +46,10 @@ languages:
 ---
 
 ## Zusammenfassung
-Seit dem 1. Januar 2026 gilt im Vereinigten Königreich ein vollständiges Werbeverbot für HFSS-Produkte (High in Fat, Sugar, Salt) in der Außenwerbung. Das Verbot erstreckt sich auf alle paid-for OOH-Medien — digitale Screens, klassische Plakate und Verkehrsmittelwerbung. Es ist das erste national durchgesetzte HFSS-Verbot für den Außenwerbungssektor weltweit.
+Seit dem 5. Januar 2026 gelten im Vereinigten Königreich gesetzliche Werbebeschränkungen für "less healthy food or drink" (HFSS/LHF): ein 9-Uhr-Abendschutzfenster für TV/ODPS/IPTV und ein vollständiges Verbot bezahlter Online-Werbung für identifizierbare betroffene Produkte. Die offizielle Regelung umfasst keine nationale Außenwerbung. OOH bleibt damit eine regulatorische Lücke, obwohl Public-Health-Evidenz lokale OOH-Beschränkungen als wirksames Instrument stützt.
 
 ## Kernbefund
-Das UK-Verbot deckt alle Werbeformen außerhalb der Wohnung (Out-of-Home) und gilt für Produkte, die nach dem Government Nutrient Profile Model als ungesund eingestuft werden. Fastfood-Ketten, Süßwarenhersteller und Softdrink-Marken sind direkt betroffen. Verstöße werden von der Advertising Standards Authority (ASA) geahndet.
+Die britische Regelung betrifft TV und Online-Medien: betroffene Produkte dürfen vor 21 Uhr nicht im regulierten TV/On-Demand/IPTV-Umfeld beworben werden; bezahlte Online-Werbung ist ganztägig untersagt. Für klassische Plakatflächen, digitale OOH-Screens und Verkehrsmittelwerbung besteht auf nationaler Ebene keine entsprechende Vollregelung. Dadurch entsteht ein Ausweichkanal: Werbebudgets für HFSS-Produkte können weiterhin in Außenwerbung verschoben werden, sofern keine lokalen Regeln greifen.
 
 ## Relevanz für Außenwerbung
-Die UK-Regelung zeigt, dass demokratisch legitimierte Regierungen umfassende OOH-Werbeverbote für gesundheitsschädliche Produkte durchsetzen können und wollen. Da HFSS-Produkte zu den profitabelsten Buchungsgruppen der DOOH-Branche zählen, bedroht das UK-Modell direkt die Geschäftsmodelle internationaler OOH-Konzerne.
+Die UK-Regelung ist kein nationales OOH-Verbot, sondern ein Beleg dafür, dass gesundheitsschädliche Produktwerbung in großen Medienkanälen bereits gesetzlich eingeschränkt wird. Für OOH/DOOH entsteht daraus ein doppeltes Risiko: erstens politischer Druck, die verbliebene Lücke zu schließen; zweitens Reputations- und ESG-Risiko, wenn Außenwerbung als Ausweichmedium für Produktkategorien dient, die in TV und Online aus Public-Health-Gründen beschränkt sind.

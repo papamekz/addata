@@ -455,7 +455,7 @@
           "viewing_distance_m": "50–500",
           "coarser_pixel_pitch": "P10–P16 — pixel grid less visible at distance",
           "typical_height_above_road_m": "8–15",
-          "safety_note": "25–29% higher crash rates documented near highway DOOH displays (safety-007)"
+          "safety_note": "US DOT-funded study reports correlation with higher crash rates in highway DOOH influence zones; use site-specific analysis rather than a universal percentage (safety-007)"
         },
         "urban_variant": {
           "viewing_distance_m": "5–100",

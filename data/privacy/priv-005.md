@@ -1,9 +1,9 @@
 ---
 id: priv-005
-title: "EU AI Act: Biometrische Kategorisierung von Personen im öffentlichen Raum verboten — DOOH-Audience-Measurement direkt betroffen"
+title: "EU AI Act: Biometrische DOOH-Audience-Measurement-Systeme fallen in Hochrisiko- und Verbotsnähe — kein pauschales Art.-5-Verbot"
 category: privacy
 subcategory: biometric-surveillance
-impact_score: 10
+impact_score: 8
 impact_type:
   - privacy
   - regulation
@@ -34,10 +34,10 @@ languages:
 ---
 
 ## Zusammenfassung
-Der EU AI Act (Verordnung 2024/1689), in Kraft seit August 2024, stuft biometrische Kategorisierungssysteme im öffentlichen Raum als hochriskant ein. Systeme, die Emotionen, Alter, Geschlecht oder ethnische Zugehörigkeit aus Kameraaufnahmen ableiten, unterliegen strengen Anforderungen oder sind verboten. Die DOOH-Audience-Measurement-Technologie (Anonymized Video Analytics) fällt direkt in diesen Regulierungsbereich.
+Der EU AI Act (Verordnung 2024/1689), in Kraft seit August 2024, schafft erhebliche Compliance-Risiken für kamerabasierte DOOH-Audience-Measurement-Systeme. Artikel 5 verbietet bestimmte biometrische Praktiken, insbesondere biometrische Kategorisierung zur Ableitung besonders sensibler Merkmale sowie stark begrenzte Formen der Echtzeit-Fernidentifizierung im öffentlichen Raum. Alters- oder Geschlechtsschätzung für Reichweitenmessung ist dadurch nicht pauschal verboten, kann aber je nach Technik, Datenfluss und Zweck unter KI-, Datenschutz- und Transparenzpflichten fallen.
 
 ## Kernbefund
-Artikel 5 des AI Act verbietet mit Wirkung ab Februar 2025 die Echtzeitanalyse biometrischer Merkmale zur Kategorisierung von Personen in öffentlich zugänglichen Räumen ohne explizite Genehmigung. Die meisten DOOH-Audience-Measurement-Systeme (JCDecaux Smart, Clear Channel Live, Ströer Data Analytics) nutzen genau diese Technologien. Die Commerzbank-Kooperation mit Ströer für Zielgruppenanalysen wäre nach Art. 5 AI Act nicht mehr legal.
+Artikel 5 gilt seit Februar 2025 für verbotene KI-Praktiken. Für DOOH ist der entscheidende Punkt nicht ein pauschales Verbot jeder kamera- oder KI-basierten Publikumszählung, sondern die Grenze zwischen anonymisierter Zählung, biometrischer Kategorisierung, sensibler Merkmalsableitung, Emotionserkennung und Identifizierung. Systeme, die Gesichter, Alter, Geschlecht, Emotionen oder andere biometrisch abgeleitete Kategorien in Echtzeit verarbeiten, benötigen daher eine konkrete rechtliche Prüfung unter AI Act, DSGVO und nationalem Datenschutzrecht. Besonders riskant sind Systeme, die sensible Attribute ableiten oder mit mobilen IDs/Profiling kombiniert werden.
 
 ## Relevanz für Außenwerbung
-DOOH-Screens, die mit Kameras zur Zielgruppenanalyse ausgestattet sind, werden durch den EU AI Act zu einem hochregulierten Hochrisikobereich. Das Datenerhebungsversprechen, das programmatisches DOOH-Targeting ermöglicht, ist nach EU-Recht hochgradig rechtsunsicher. Werbekunden, die auf Audience-Data von DOOH-Netzbetreibern setzen, setzen sich Haftungsrisiken aus.
+DOOH-Screens mit Kameras oder sensorischer Zielgruppenanalyse sind nach EU-Recht kein unregulierter Messkanal. Betreiber und Werbekunden müssen nachweisen, dass keine verbotene biometrische Kategorisierung, keine rechtswidrige personenbezogene Verarbeitung und keine intransparente Profilbildung stattfindet. Für programmatisches DOOH bleibt die zentrale Due-Diligence-Frage: Welche Rohdaten werden im öffentlichen Raum verarbeitet, werden biometrische Merkmale abgeleitet, und gibt es eine tragfähige Rechtsgrundlage für Messung und Targeting?

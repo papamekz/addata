@@ -1,9 +1,9 @@
 ---
 id: safety-006
-title: "Schwedische Trafikverket-Studie: Digitale Werbetafeln auf Autobahn verursachen gefährliche Blickabwendung — Tafeln daraufhin entfernt"
+title: "Schwedische Trafikverket-Studie: Digitale Werbetafeln auf Autobahn ziehen längere Fahrerblicke an"
 category: safety
 subcategory: driver-distraction
-impact_score: 9
+impact_score: 8
 impact_type:
   - safety
 source:
@@ -32,12 +32,12 @@ languages:
 
 ## Zusammenfassung
 
-Die schwedische Transportverwaltung (Trafikverket) ließ zwölf digitale Werbetafeln testweise auf einem dreispurigen Stadtautobahnabschnitt in Stockholm installieren. Eine instrumentierte Fahrzeugstudie mit 41 Fahrerinnen und Fahrern per Eye-Tracking dokumentierte: Digitale Werbetafeln wurden deutlich länger fixiert als andere Straßenschilder auf demselben Abschnitt. Blickabwendungszeiten überschritten häufig die kritische 2-Sekunden-Schwelle (ab der Ablenkung als gefährlich gilt). Ergebnis: Trafikverket entschied, die digitalen Werbetafeln vom Autobahnabschnitt zu entfernen. Die Studie wurde in Accident Analysis & Prevention veröffentlicht.
+Die schwedische Transportverwaltung (Trafikverket) ließ zwölf digitale Werbetafeln testweise auf einem dreispurigen Stadtautobahnabschnitt in Stockholm installieren. Eine instrumentierte Fahrzeugstudie mit 41 Fahrerinnen und Fahrern per Eye-Tracking dokumentierte: Digitale Werbetafeln wurden länger und häufiger fixiert als andere Straßenschilder auf demselben Abschnitt. Die Studie wurde in Traffic Injury Prevention veröffentlicht.
 
 ## Kernbefund
 
-Das Studiendesign — real road, instrumented vehicle, eye-tracking — ist methodisch stärker als Simulatorstudien. Die Messung ergab "considerably longer dwell time, greater fixation count, and longer maximum fixation duration" für DOOH-Tafeln gegenüber statischen Schildern. Dies ist der seltene Fall, in dem eine Behörde nach eigener Studie direkt handelte: Die digitalen Werbetafeln wurden auf Grundlage der Forschungsergebnisse entfernt. Das Ergebnis widerlegt die Branchenbehauptung, DOOH sei für den Verkehr sicher.
+Das Studiendesign — real road, instrumented vehicle, eye-tracking — ist methodisch stärker als reine Simulatorstudien. Die Messung ergab längere dwell time, höhere fixation count und längere maximum fixation duration für elektronische Werbetafeln gegenüber anderen Schildern. Zugleich ist der Befund enger als die frühere Claim-Formulierung: Die Publikation fand keinen Effekt auf gemessene Fahrleistungsparameter und kommt zu dem vorsichtigen Schluss, dass die Sicherheitsgefährdung aus den vorliegenden Daten nicht abschließend beantwortet werden kann.
 
 ## Relevanz für Außenwerbung
 
-Die schwedische Studie ist eine der methodisch stärksten Belege für die Verkehrsgefahr durch DOOH an Schnellstraßen — und der direkteste Beleg für eine behördliche Konsequenz: nicht nur eine Empfehlung, sondern eine Entscheidung zur Entfernung. Städte und Straßenbaubehörden, die DOOH-Konzessionen für Standorte an Schnellstraßen genehmigen, tun dies entgegen der vorliegenden Forschungslage.
+Die schwedische Studie ist ein starker Beleg dafür, dass elektronische Werbetafeln auf Schnellstraßen die visuelle Aufmerksamkeit von Fahrern binden. Für Genehmigungen ist sie ein Warnsignal, aber kein alleiniger Nachweis einer erhöhten Unfallrate. Städte und Straßenbaubehörden sollten sie zusammen mit Unfallanalysen, Standortdaten, Helligkeit und Wechselintervallen bewerten.

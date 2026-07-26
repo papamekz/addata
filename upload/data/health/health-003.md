@@ -18,6 +18,19 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Outdoor advertising, obesity, and soda consumption: a cross-sectional study"
+    institution: "PubMed / National Library of Medicine"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23305548/"
+    type: peer-reviewed
+    independent: true
+  - title: "Outdoor advertising, obesity, and soda consumption: a cross-sectional study"
+    institution: "Springer Nature Link"
+    year: 2013
+    url: "https://link.springer.com/article/10.1186/1471-2458-13-20"
+    type: peer-reviewed
+    independent: true
 verified: true
 tags:
   - obesity
@@ -40,4 +53,4 @@ Ein höherer Anteil von Lebensmittelwerbung in Stadtvierteln ist mit erhöhter �
 
 ## Relevanz für Außenwerbung
 
-Diese Querschnittsstudie quantifiziert die Assoziation zwischen der Dichte von Lebensmittelwerbung im öffentlichen Raum und Übergewichtsraten auf Bevölkerungsebene. Als Querschnittsdesign kann sie Kausalität nicht abschließend belegen — Confounding (z.B. Armut als gemeinsamer Faktor) kann nicht ausgeschlossen werden. Stärkere kausale Belege: health-009 (London-Quasi-Experiment) und health-016 (Litauen-Naturexperiment mit 84.189 Probanden).
+Diese Querschnittsstudie quantifiziert die Assoziation zwischen der Dichte von Lebensmittelwerbung im öffentlichen Raum und Übergewichtsraten auf Bevölkerungsebene. Als Querschnittsdesign kann sie Kausalität nicht abschließend belegen — Confounding (z.B. Armut als gemeinsamer Faktor) kann nicht ausgeschlossen werden. Stärkere Policy-Evidenz: health-009 (London-Quasi-Experiment) und health-016 (Litauen-Vollverbot für Alkoholmarketing, wiederholte Querschnittsanalyse).

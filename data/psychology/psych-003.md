@@ -1,6 +1,6 @@
 ---
 id: psych-003
-title: "Aufmerksamkeitserzwingende Werbetaktiken lösen Misstrauen und Abwehr aus, beeinflussen aber trotzdem das Verhalten"
+title: "Aufmerksamkeitsstarke Werbetaktiken können Manipulationsverdacht auslösen"
 category: psychology
 subcategory: manipulation
 impact_score: 7
@@ -13,11 +13,19 @@ source:
     - "Campbell, Margaret C."
   institution: "Journal of Consumer Psychology, Wiley"
   year: 1995
-  url: "https://myscp.onlinelibrary.wiley.com/doi/10.1207/s15327663jcp0403_02"
+  url: "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1207%2Fs15327663jcp0403_02"
   doi: "10.1207/s15327663jcp0403_02"
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "When Attention-Getting Advertising Tactics Elicit Consumer Inferences of Manipulative Intent"
+    institution: "Semantic Scholar"
+    year: 1995
+    url: "https://www.semanticscholar.org/paper/When-Attention-Getting-Advertising-Tactics-Elicit-Campbell/2a7a8891577f9b8a6cbcdce60a4ed0ed75800c3e"
+    type: research-index
+    open_access: false
+    independent: true
 verified: true
 tags:
   - manipulation
@@ -31,12 +39,12 @@ languages:
 
 ## Zusammenfassung
 
-Werbetaktiken, die darauf ausgelegt sind, Aufmerksamkeit zu erzwingen, lassen Konsumenten manipulative Absichten wahrnehmen — und senken damit Werbewirksamkeit, Markeneinstellung und Kaufabsicht. Dennoch zeigen Studien, dass selbst erkannte Manipulation das Kaufverhalten beeinflusst.
+Werbetaktiken, die auffällig Aufmerksamkeit erzeugen sollen, können bei Konsumenten den Schluss auslösen, dass der Werbetreibende manipulativ handeln will. Diese wahrgenommene manipulative Absicht senkt Werbeeinstellung, Markeneinstellung und Kaufabsicht.
 
 ## Kernbefund
 
-Wenn Werbung als manipulativ wahrgenommen wird, sinken Werbeeinstellung, Markeneinstellung und Kaufabsicht signifikant. Das zeigt, dass Außenwerbung bewusst darauf ausgelegt ist, Aufmerksamkeit zu erzwingen — und damit die kognitive Autonomie von Passanten verletzt.
+Die Studie untersucht zwei aufmerksamkeitsstarke TV-Werbetaktiken und zeigt, dass Inferenz von manipulativer Absicht durch wahrgenommene Kosten/Nutzen-Ungleichgewichte vermittelt wird. Der Befund belegt nicht direkt OOH-Wirkung, liefert aber ein relevantes psychologisches Modell für aufdringliche Werbeformate.
 
 ## Relevanz für Außenwerbung
 
-Außenwerbung setzt gezielt auf Reize, die Aufmerksamkeit unwillkürlich auf sich ziehen: grelle Farben, Bewegung (bei digitalen Screens), provokante Motive. Im öffentlichen Raum gibt es keine Möglichkeit, diese Manipulation zu umgehen.
+Für Außenwerbung ist der Claim als Vorsichtssignal zu nutzen: grelle Farben, Bewegung, Provokation oder starke Salienz können Aufmerksamkeit gewinnen, aber zugleich Manipulationsverdacht und psychologische Abwehr auslösen. Für den Datensatz sollte daraus kein direkter Kaufverhaltensnachweis abgeleitet werden.

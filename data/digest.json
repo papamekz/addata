@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-05-29",
+  "generated": "2026-07-26",
   "total": 189,
   "note": "Compact EN index for AI agent ingestion. Full claim text: read data/{file}. Search: node scripts/query.js --help",
   "categories": {
@@ -146,11 +146,12 @@
       "year": 1995,
       "source_type": "peer-reviewed",
       "institution": "Journal of Consumer Psychology, Wiley",
-      "source_url": "https://api.crossref.org/works/10.1207/s15327663jcp0403_02",
+      "source_url": "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1207%2Fs15327663jcp0403_02",
       "source_urls": [
-        "https://api.crossref.org/works/10.1207/s15327663jcp0403_02"
+        "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1207%2Fs15327663jcp0403_02",
+        "https://www.semanticscholar.org/paper/When-Attention-Getting-Advertising-Tactics-Elicit-Campbell/2a7a8891577f9b8a6cbcdce60a4ed0ed75800c3e"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -222,12 +223,14 @@
       "impact_score": 6,
       "year": 2015,
       "source_type": "peer-reviewed",
-      "institution": "International Journal of Advertising / Taylor & Francis",
-      "source_url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5125676",
+      "institution": "Crossref / International Journal of Advertising",
+      "source_url": "https://api.crossref.org/works/10.1080/02650487.2014.996117",
       "source_urls": [
-        "https://dialnet.unirioja.es/servlet/articulo?codigo=5125676"
+        "https://api.crossref.org/works/10.1080/02650487.2014.996117",
+        "https://faculty.txst.edu/profile/1663039/activity/scholarly-creative",
+        "https://www.semanticscholar.org/paper/4aa0c47c9660d70a8131159e3ac981226ca8ce07"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -466,10 +469,10 @@
       "impact_score": 7,
       "year": 2024,
       "source_type": "peer-reviewed",
-      "institution": "Land (MDPI), peer-reviewed open-access journal",
-      "source_url": "https://doaj.org/article/16671ce837af42739771b0dc623c8105",
+      "institution": "IDEAS/RePEc",
+      "source_url": "https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html",
       "source_urls": [
-        "https://doaj.org/article/16671ce837af42739771b0dc623c8105",
+        "https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html",
         "https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html",
         "https://api.crossref.org/works/10.3390/land13070994"
       ],
@@ -499,7 +502,7 @@
       "source_urls": [
         "https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor",
         "https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor",
-        "https://doaj.org/article/1223c596305946fa93e651f7336eafd7"
+        "https://eprints.whiterose.ac.uk/id/eprint/192880/"
       ],
       "source_count": 3,
       "verification_status": null,
@@ -684,7 +687,7 @@
       "source_urls": [
         "https://www.who.int/tools/elena/interventions/food-marketing-children",
         "https://www.who.int/publications/i/item/9789240075412",
-        "https://www.ncbi.nlm.nih.gov/books/NBK592987/",
+        "https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing",
         "https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing"
       ],
       "source_count": 4,
@@ -704,7 +707,7 @@
     },
     {
       "id": "health-005",
-      "title": "Harmful marketing kills over 1 million people per year in the US alone",
+      "title": "A review estimates harmful marketing contributes to well over 1 million premature deaths per year in the US",
       "category": "health",
       "impact_score": 10,
       "year": 2025,
@@ -713,7 +716,7 @@
       "source_url": "https://link.springer.com/article/10.1007/s11121-024-01763-x",
       "source_urls": [
         "https://link.springer.com/article/10.1007/s11121-024-01763-x",
-        "https://api.crossref.org/works/10.1007/s11121-024-01763-x",
+        "https://pubmed.ncbi.nlm.nih.gov/39789304/",
         "https://ouci.dntb.gov.ua/en/works/9QnW1Reo/"
       ],
       "source_count": 3,
@@ -1057,13 +1060,14 @@
       "category": "regulation",
       "impact_score": 8,
       "year": 2020,
-      "source_type": "ngo",
-      "institution": "The Local / Tobacco Control Laws Germany",
-      "source_url": "https://www.thelocal.de/20200918/germany-set-to-ban-cigarette-street-ads-from-2022",
+      "source_type": "government",
+      "institution": "Deutscher Bundestag",
+      "source_url": "https://www.bundestag.de/webarchiv/textarchiv/2020/kw27-de-tabakerzeugnisgesetz-701734",
       "source_urls": [
+        "https://www.bundestag.de/webarchiv/textarchiv/2020/kw27-de-tabakerzeugnisgesetz-701734",
         "https://www.thelocal.de/20200918/germany-set-to-ban-cigarette-street-ads-from-2022"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1081,7 +1085,7 @@
     },
     {
       "id": "reg-003",
-      "title": "São Paulo: total outdoor advertising ban (2007) — 70% public support after 5 years",
+      "title": "São Paulo: Lei Cidade Limpa (2006) removed most outdoor advertising from the public realm",
       "category": "regulation",
       "impact_score": 9,
       "year": 2012,
@@ -1090,12 +1094,11 @@
       "source_url": "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
       "source_urls": [
         "https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/",
-        "https://prefeitura.sp.gov.br/web/licenciamento/w/desenvolvimento_urbano/participacao_social/conselhos_e_orgaos_colegiados/cppu/169850",
-        "https://prefeitura.sp.gov.br/cidade/secretarias/comunicacao/noticias/index.php?p=136949",
-        "https://prefeitura.sp.gov.br/licenciamento/w/noticias/319684",
-        "https://weburbanist.com/2010/03/06/clean-city-sao-paulo-scrubbed-of-outdoor-ads/"
+        "https://legislacao.prefeitura.sp.gov.br/lei-14223-de-26-de-setembro-de-2006",
+        "https://www.theguardian.com/cities/2015/aug/11/can-cities-kick-ads-ban-urban-billboards",
+        "https://www.wired.com/2007/06/urban-spam-dele/"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1117,13 +1120,15 @@
       "category": "regulation",
       "impact_score": 8,
       "year": 2015,
-      "source_type": "ngo",
-      "institution": "World Without Fossil Ads / Euronews",
-      "source_url": "https://www.worldwithoutfossilads.org/listing/grenoble-first-to-ban-outdoor-ads-replaces-them-with-trees/",
+      "source_type": "government",
+      "institution": "Ville de Grenoble",
+      "source_url": "https://www.grenoble.fr/uploads/Presse/pse_fichier/41/6_746_DP_pub.pdf",
       "source_urls": [
+        "https://www.grenoble.fr/uploads/Presse/pse_fichier/41/6_746_DP_pub.pdf",
+        "https://www.grenoble.fr/uploads/Presse/pse_fichier/f1/1353_247_Grenoble-accelere-2022.pdf",
         "https://www.worldwithoutfossilads.org/listing/grenoble-first-to-ban-outdoor-ads-replaces-them-with-trees/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1152,9 +1157,10 @@
         "https://www.beuc.eu/sites/default/files/publications/beuc-x-2021-084_food_marketing_to_children_needs_rules_with_teeth.pdf",
         "https://www.beuc.eu/reports/food-marketing-children-needs-rules-teeth",
         "https://www.beuc.eu/press-releases/children-massively-targeted-unhealthy-food-ads-consumer-groups-snapshot-exposes",
-        "https://www.who.int/publications/i/item/9789240075412"
+        "https://www.who.int/publications/i/item/9789240075412",
+        "https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2022.1604116/full"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1550,7 +1556,7 @@
       "source_url": "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
       "source_urls": [
         "https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf",
-        "https://rosap.ntl.bts.gov/view/dot/36939",
+        "https://trid.trb.org/view/1475885",
         "https://trid.trb.org/View/1337321",
         "https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/"
       ],
@@ -1690,7 +1696,7 @@
     },
     {
       "id": "priv-001",
-      "title": "DOOH screens covertly capture biometric data for audience analysis",
+      "title": "DOOH screens can capture biometric and movement data for audience analysis",
       "category": "privacy",
       "impact_score": 9,
       "year": 2022,
@@ -1700,9 +1706,11 @@
       "source_urls": [
         "https://bigbrotherwatch.org.uk/press-releases/big-brother-watch-releases-new-report-the-streets-are-watching-how-billboards-are-spying-on-you/",
         "https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf",
-        "https://adfreecities.org.uk/2023/08/plugged-in-outdoor-advertising-surveillance-commercial-behaviours-thomas-dekeyser/"
+        "https://adfreecities.org.uk/2023/08/plugged-in-outdoor-advertising-surveillance-commercial-behaviours-thomas-dekeyser/",
+        "https://ico.org.uk/media2/migrated/2619985/ico-opinion-the-use-of-lfr-in-public-places-20210618.pdf",
+        "https://www.cnil.fr/sites/cnil/files/atoms/files/facial-recognition.pdf"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1925,9 +1933,11 @@
       "institution": "Adfree Cities",
       "source_url": "http://adfreecities.org.uk/resources/how-to-object-to-new-advertising-billboards/",
       "source_urls": [
-        "http://adfreecities.org.uk/resources/how-to-object-to-new-advertising-billboards/"
+        "http://adfreecities.org.uk/resources/how-to-object-to-new-advertising-billboards/",
+        "https://www.gov.uk/guidance/advertisements",
+        "https://consultationhub.edinburgh.gov.uk/sfc/planning-guidance-on-outdoor-advertising/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -1965,9 +1975,11 @@
       "institution": "Ville de Vernier / Tribunal fédéral",
       "source_url": "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
       "source_urls": [
-        "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours"
+        "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
+        "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
+        "https://www.vernier.ch/sites/default/files/council-object/2023-02/DA_182_Projet_et_annexe.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated the Vernier ruling as a Europe-wide precedent. Revised to a strong Swiss reference case with comparative value outside Switzerland.",
       "tags": [],
@@ -2151,12 +2163,14 @@
       "impact_score": 9,
       "year": 2022,
       "source_type": "ngo",
-      "institution": "Big Brother Watch / EFF",
-      "source_url": "https://bigbrotherwatch.org.uk/campaigns/stop-facial-recognition/",
+      "institution": "Big Brother Watch",
+      "source_url": "https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf",
       "source_urls": [
-        "https://bigbrotherwatch.org.uk/campaigns/stop-facial-recognition/"
+        "https://bigbrotherwatch.org.uk/wp-content/uploads/2022/10/The-Streets-Are-Watching-You.pdf",
+        "https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/",
+        "https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2192,10 +2206,10 @@
       "impact_score": 8,
       "year": 2015,
       "source_type": "peer-reviewed",
-      "institution": "Procedia CIRP / Crossref",
-      "source_url": "https://api.crossref.org/works/10.1016/j.procir.2015.02.003",
+      "institution": "Semantic Scholar / Procedia CIRP",
+      "source_url": "https://www.semanticscholar.org/paper/Life-Cycle-Assessment-of-CRT%2C-LCD-and-LED-Monitors%E2%98%86-Bhakar-Agur/b8d70a9328237fa48e8b374d5e0cf872dc7d8c39",
       "source_urls": [
-        "https://api.crossref.org/works/10.1016/j.procir.2015.02.003",
+        "https://www.semanticscholar.org/paper/Life-Cycle-Assessment-of-CRT%2C-LCD-and-LED-Monitors%E2%98%86-Bhakar-Agur/b8d70a9328237fa48e8b374d5e0cf872dc7d8c39",
         "https://pubmed.ncbi.nlm.nih.gov/36512948/",
         "https://ewastemonitor.info/the-global-e-waste-monitor-2024/"
       ],
@@ -2293,13 +2307,16 @@
       "category": "safety",
       "impact_score": 9,
       "year": 2021,
-      "source_type": "peer-reviewed",
-      "institution": "Traffic Safety Research Journal",
-      "source_url": "https://www.trafficsafetyresearch.com",
+      "source_type": "government",
+      "institution": "National Center for Transportation Systems Productivity and Management / USDOT",
+      "source_url": "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
       "source_urls": [
-        "https://www.trafficsafetyresearch.com"
+        "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf",
+        "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf",
+        "https://trid.trb.org/View/904585",
+        "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf"
       ],
-      "source_count": 1,
+      "source_count": 4,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2357,9 +2374,10 @@
       "institution": "NL Times",
       "source_url": "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces",
       "source_urls": [
-        "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces"
+        "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces",
+        "https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous source/year mixed Haarlem 2022 and Amsterdam 2026. Revised to Amsterdam city council's 2026 decision with transition-period caveat; Haarlem retained as earlier pioneer.",
       "tags": [],
@@ -2377,9 +2395,10 @@
       "institution": "London School of Hygiene & Tropical Medicine (LSHTM)",
       "source_url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915",
       "source_urls": [
-        "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915"
+        "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915",
+        "https://sphr.nihr.ac.uk/news-and-events/impact/impact-case-study-junk-food-advertising-tfl/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2417,9 +2436,11 @@
       "institution": "Ministerium für Schule und Bildung NRW",
       "source_url": "https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg",
       "source_urls": [
-        "https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg"
+        "https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg",
+        "https://recht.nrw.de/taxonomy/term/28930",
+        "https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument?Id=MMV16%2F3426"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -2531,9 +2552,10 @@
       "institution": "Journal of Studies on Alcohol and Drugs / University of Minnesota",
       "source_url": "https://experts.umn.edu/en/publications/outdoor-alcohol-advertising-near-schools-what-does-it-advertise-a/",
       "source_urls": [
-        "https://experts.umn.edu/en/publications/outdoor-alcohol-advertising-near-schools-what-does-it-advertise-a/"
+        "https://experts.umn.edu/en/publications/outdoor-alcohol-advertising-near-schools-what-does-it-advertise-a/",
+        "https://pubmed.ncbi.nlm.nih.gov/17568965/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2584,11 +2606,13 @@
       "year": 2020,
       "source_type": "government",
       "institution": "European Data Protection Board (EDPB)",
-      "source_url": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32019-processing-personal-data-through-video_en",
+      "source_url": "https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en",
       "source_urls": [
-        "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32019-processing-personal-data-through-video_en"
+        "https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/how-can-we-comply-with-the-data-protection-principles-when-using-surveillance-systems/",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/biometric-data-guidance-biometric-recognition/how-do-we-process-biometric-data-lawfully/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2728,9 +2752,11 @@
       "institution": "Der Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/berlin/berliner-senat-vergibt-rechte-fuer-aussenwerbung-einnahmen-des-landes-durch-werbung-steigen-signifikant/20834244.html",
       "source_urls": [
-        "https://www.tagesspiegel.de/berlin/berliner-senat-vergibt-rechte-fuer-aussenwerbung-einnahmen-des-landes-durch-werbung-steigen-signifikant/20834244.html"
+        "https://www.tagesspiegel.de/berlin/berliner-senat-vergibt-rechte-fuer-aussenwerbung-einnahmen-des-landes-durch-werbung-steigen-signifikant/20834244.html",
+        "https://www.tagesspiegel.de/berlin/einnahmen-des-landes-durch-werbung-steigen-signifikant-4109344.html",
+        "https://www.parlament-berlin.de/ados/18/Haupt/vorgang/h18-1224.A-v.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2906,9 +2932,10 @@
       "institution": "Otto Brenner Stiftung / Universität Leipzig",
       "source_url": "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
       "source_urls": [
-        "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/"
+        "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
+        "https://www.uni-leipzig.de/newsdetail/artikel/studie-klimaschaedliche-fernsehwerbung-verletzt-medienstaatsvertrag-2024-05-06"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2928,7 +2955,7 @@
     },
     {
       "id": "reg-021",
-      "title": "The Hague: first city worldwide to ban fossil fuel OOH advertising for cars, flights & cruises from 2025",
+      "title": "The Hague: APV-based ban on fossil fuel OOH advertising in public space from 2025",
       "category": "regulation",
       "impact_score": 10,
       "year": 2025,
@@ -2936,9 +2963,10 @@
       "institution": "Rechtbank Den Haag / Rechtspraak",
       "source_url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
       "source_urls": [
-        "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand"
+        "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
+        "https://www.rechtspraak.nl/binaries/_rts_1768392709813/content/assets/lbvr/ne/2025/lbvr-ne-2025-nieuwsbrief-rechtspraak-europa-6.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Source changed from secondary trade press to Rechtspraak summary. Wording tightened to APV-based local outdoor-ad ban effective 1 January 2025 and verified category scope.",
       "tags": [
@@ -2969,9 +2997,11 @@
       "institution": "Deutsche Umwelthilfe e.V. / Landgericht Hamburg",
       "source_url": "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/",
       "source_urls": [
-        "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/"
+        "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/",
+        "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klimaklage-der-deutschen-umwelthilfe-gegen-shell-landgericht-hamburg-untersagt-irrefueh/",
+        "https://www.worldwithoutfossilads.org/listing/german-court-bans-shell-ads-for-co2-neutral-driving/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Claim supported by DUH press release and independent trade coverage, but source is not the court judgment itself. Wording tightened from broad 'OOH greenwashing banned' to fossil-fuel climate-neutrality claims being legally attackable.",
       "tags": [
@@ -3001,9 +3031,10 @@
       "institution": "Court of Justice of the European Union / European Commission",
       "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710"
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0710"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Updated from 2015 Commission investigation press release to final CJEU appeal judgment C-710/22 P. Wording tightened to concrete EU state-aid recovery risk, avoiding broad corruption/systematic-use assertions.",
       "tags": [
@@ -3029,12 +3060,13 @@
       "impact_score": 7,
       "year": 2000,
       "source_type": "government",
-      "institution": "Tribunal de Bordeaux / Marketing Week",
-      "source_url": "https://www.marketingweek.com/decaux-sentenced-in-corruption-scandal-2/",
+      "institution": "City of Palo Alto public letter archive",
+      "source_url": "https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/02-15-21-ccm-public-letters.pdf",
       "source_urls": [
-        "https://www.marketingweek.com/decaux-sentenced-in-corruption-scandal-2/"
+        "https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/02-15-21-ccm-public-letters.pdf",
+        "https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/02-15-21-ccm-public-letters-set-1.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3085,7 +3117,7 @@
     },
     {
       "id": "reg-024",
-      "title": "Switzerland: Federal Supreme Court confirms complete advertising ban in Vernier — 172 billboards removed, Zurich and Bern to follow",
+      "title": "Switzerland: Federal Supreme Court confirms advertising ban for commercial posters in Vernier — 172 billboards removed",
       "category": "regulation",
       "impact_score": 10,
       "year": 2024,
@@ -3093,16 +3125,16 @@
       "institution": "Ville de Vernier / Tribunal fédéral",
       "source_url": "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
       "source_urls": [
-        "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours"
+        "https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours",
+        "https://www.vernier.ch/sites/default/files/2026-06/Compte-rendu-d%27activite-n5.pdf",
+        "https://www.vernier.ch/sites/default/files/2025-05/2024_CRAF_web.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Source changed from secondary NGO/press coverage to Vernier/Federal Supreme Court summary. Removed overbroad claims that the precedent automatically applies to all Swiss municipalities or that Zurich/Bern had already followed.",
       "tags": [
         "schweiz",
         "vernier",
-        "zürich",
-        "bern",
         "bundesgericht",
         "werbeverbot",
         "visual-pollution",
@@ -3117,7 +3149,7 @@
     },
     {
       "id": "reg-025",
-      "title": "Amsterdam: first capital city worldwide to ban OOH advertising for fossil fuels AND meat — in force from May 2026",
+      "title": "Amsterdam: APV ban on OOH advertising for fossil fuels and meat from May 2026",
       "category": "regulation",
       "impact_score": 10,
       "year": 2026,
@@ -3125,11 +3157,13 @@
       "institution": "Rijksoverheid / Ministerie van Economische Zaken en Klimaat",
       "source_url": "https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame",
       "source_urls": [
-        "https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame"
+        "https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame",
+        "https://api.openraadsinformatie.nl/v1/resolve/api.notubiz.nl/document/16477799",
+        "https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces"
       ],
-      "source_count": 1,
-      "verification_status": "needs_primary_source",
-      "verification_note": "Source changed from secondary press coverage to Dutch government parliamentary-answer page. Still worth adding the exact Amsterdam council decision URL if available.",
+      "source_count": 3,
+      "verification_status": "verified",
+      "verification_note": "Strengthened with the official Amsterdam council document plus secondary corroboration; the claim is now phrased conservatively without the unsupported 'first capital city worldwide' superlative.",
       "tags": [
         "amsterdam",
         "niederlande",
@@ -3157,9 +3191,11 @@
       "institution": "ADZINE / IDOOH / Bundesregierung Deutschland",
       "source_url": "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/",
       "source_urls": [
-        "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/"
+        "https://www.adzine.de/2022/09/energiesparverordnung-trifft-auf-unverstaendnis-bei-den-aussenwerbern/",
+        "https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2022/08/20220824-habeck-treiben-energieeinsparung-weiter-voran-bundeskabinett-billigt-energieeinspar-verordnungen.html",
+        "https://www.bmwk.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=1"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Previous wording incorrectly said the German government confirmed 113,000 MWh/year. The shutdown duty is government-backed via EnSikuMaV; the 113,000 MWh figure is an industry self-report and is now labelled accordingly.",
       "tags": [
@@ -3244,9 +3280,9 @@
       "year": 2015,
       "source_type": "government",
       "institution": "Georgia Institute of Technology / US Department of Transportation",
-      "source_url": "https://rosap.ntl.bts.gov/view/dot/36939",
+      "source_url": "https://trid.trb.org/View/1337321",
       "source_urls": [
-        "https://rosap.ntl.bts.gov/view/dot/36939"
+        "https://trid.trb.org/View/1337321"
       ],
       "source_count": 1,
       "verification_status": "corrected",
@@ -3275,9 +3311,9 @@
       "year": 2017,
       "source_type": "ngo",
       "institution": "W&V (Werben & Verkaufen)",
-      "source_url": "https://www.wuv.de/Archiv/Str%C3%B6er-wirbt-in-Frankfurt-zum-Schn%C3%A4ppchenpreis",
+      "source_url": "https://www.fr.de/politik/cdu-org26591/kuriose-fall-einer-kuendigung-11092564.html",
       "source_urls": [
-        "https://www.wuv.de/Archiv/Str%C3%B6er-wirbt-in-Frankfurt-zum-Schn%C3%A4ppchenpreis"
+        "https://www.fr.de/politik/cdu-org26591/kuriose-fall-einer-kuendigung-11092564.html"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -3341,9 +3377,10 @@
       "institution": "Europäische Kommission / EUR-Lex",
       "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825"
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825",
+        "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3374,8 +3411,8 @@
       "source_url": "https://www.who.int/publications/i/item/9789240075412",
       "source_urls": [
         "https://www.who.int/publications/i/item/9789240075412",
-        "https://iris.who.int/handle/10665/370113",
-        "https://www.ncbi.nlm.nih.gov/books/NBK592987/",
+        "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/adolescent-and-young-adult-health/resource-bank-for-adolescent-health/who-guidelines",
+        "https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing",
         "https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing"
       ],
       "source_count": 4,
@@ -3401,11 +3438,13 @@
       "year": 2026,
       "source_type": "government",
       "institution": "UK Government / Ofcom",
-      "source_url": "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions",
+      "source_url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
       "source_urls": [
-        "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions"
+        "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+        "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions",
+        "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Previous wording incorrectly described the UK 2026 HFSS rules as a national OOH ban. Official guidance supports TV/ODPS/IPTV watershed and paid-online restrictions; OOH remains a regulatory gap.",
       "tags": [
@@ -3422,17 +3461,19 @@
     },
     {
       "id": "reg-027",
-      "title": "Edinburgh bans OOH advertising for fossil fuels AND arms products — unique across the EU (2024)",
+      "title": "Edinburgh: advertising and sponsorship policy excludes fossil fuels and arms products from council-controlled spaces (2024)",
       "category": "regulation",
       "impact_score": 9,
       "year": 2024,
       "source_type": "government",
       "institution": "City of Edinburgh Council",
-      "source_url": "https://www.edinburgh.gov.uk/news/article/13762/council-to-consider-banning-fossil-fuel-advertising",
+      "source_url": "https://www.edinburgh.gov.uk/downloads/file/28994/advertising-and-sponsorship-policy",
       "source_urls": [
-        "https://www.edinburgh.gov.uk/news/article/13762/council-to-consider-banning-fossil-fuel-advertising"
+        "https://www.edinburgh.gov.uk/downloads/file/28994/advertising-and-sponsorship-policy",
+        "https://www.badverts.org/latest/edinburgh-introduces-landmark-ban-on-advertisements-for-fossil-fuels-and-arms-manufacturers",
+        "https://www.worldwithoutfossilads.org/listing/edinburgh-council-approves-high-carbon-ad-ban/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3567,17 +3608,19 @@
     },
     {
       "id": "reg-031",
-      "title": "UK Competition and Markets Authority: Fines of up to 10% of annual turnover for greenwashing advertising from April 2025",
+      "title": "UK Competition and Markets Authority: Direct fines of up to 10% of annual turnover for breaches of consumer law from April 2025",
       "category": "regulation",
       "impact_score": 9,
       "year": 2025,
       "source_type": "government",
       "institution": "Competition and Markets Authority (CMA), UK",
-      "source_url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "source_url": "https://www.gov.uk/government/publications/direct-consumer-enforcement-guidance-cma200",
       "source_urls": [
-        "https://www.gov.uk/government/organisations/competition-and-markets-authority"
+        "https://www.gov.uk/government/publications/direct-consumer-enforcement-guidance-cma200",
+        "https://www.gov.uk/government/news/cma-to-boost-consumer-and-business-confidence-as-new-consumer-protection-regime-comes-into-force",
+        "https://www.legislation.gov.uk/ukpga/2024/13"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -3602,9 +3645,11 @@
       "institution": "Rechtbank Den Haag / Rechtspraak",
       "source_url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
       "source_urls": [
-        "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand"
+        "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand",
+        "https://www.denhaag.nl/pers/gemeente-den-haag-tevreden-met-uitspraak-rechter-over-fossiel-reclameverbod/",
+        "https://www.denhaag.nl/pers/persberichten/page/19/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "corrected",
       "verification_note": "Previous wording overstated the April 2025 interim ruling as an EU-wide precedent. Revised to a preliminary Dutch court decision with persuasive value for municipal regulation.",
       "tags": [
@@ -3688,9 +3733,10 @@
       "institution": "United Nations Human Rights Council",
       "source_url": "https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf",
       "source_urls": [
-        "https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf"
+        "https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf",
+        "https://digitallibrary.un.org/record/4086999"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "corrected",
       "verification_note": "Previous wording named the wrong rapporteur and was too OOH-specific. Revised to Elisa Morgera's A/HRC/59/42 recommendations to ban fossil advertising/promotion/sponsorship and criminalize fossil-fuel disinformation/greenwashing.",
       "tags": [
@@ -3845,9 +3891,11 @@
       "institution": "Big Brother Watch",
       "source_url": "https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/",
       "source_urls": [
-        "https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/"
+        "https://bigbrotherwatch.org.uk/press-coverage/how-billboards-are-spying-on-you/",
+        "https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en",
+        "https://ico.org.uk/media2/qhthpvql/ic-486566-f8c8-disclosure.pdf"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -3865,9 +3913,10 @@
       "institution": "European Commission",
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
       "source_urls": [
-        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "verified",
       "verification_note": "Added during AI Act audit. Article 50 explicitly requires deployers of emotion-recognition or biometric-categorisation systems to inform exposed natural persons and process personal data under EU data-protection law.",
       "tags": [
@@ -3894,9 +3943,10 @@
       "institution": "European Commission",
       "source_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
       "source_urls": [
-        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5"
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": "verified",
       "verification_note": "Added during AI Act audit. Article 5 prohibits biometric categorisation used to infer sensitive attributes; this gives DOOH due diligence a precise red line rather than a blanket ban claim.",
       "tags": [
@@ -3941,9 +3991,9 @@
       "year": 2023,
       "source_type": "ngo",
       "institution": "Adfree Cities",
-      "source_url": "https://adfreecities.org.uk/research-mapping-social-inequalities-billboard-locations/",
+      "source_url": "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf",
       "source_urls": [
-        "https://adfreecities.org.uk/research-mapping-social-inequalities-billboard-locations/"
+        "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -4121,7 +4171,7 @@
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/39778813/",
         "https://research-repository.uwa.edu.au/en/publications/childrens-views-on-outdoor-advertising-of-unhealthy-food-and-beve/",
-        "https://ro.ecu.edu.au/ecuworks2022-2026/5643/"
+        "https://www.semanticscholar.org/paper/Children%27s-views-on-outdoor-advertising-of-food-and-Francis-Ross/09320a76aa0b3def292f95377f5c6f7a7085b1b8"
       ],
       "source_count": 3,
       "verification_status": null,
@@ -4177,9 +4227,11 @@
       "institution": "ASA / CAP / Ofcom",
       "source_url": "https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html",
       "source_urls": [
-        "https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html"
+        "https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html",
+        "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+        "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": "verified",
       "verification_note": "Added during UK HFSS audit. ASA/CAP confirms the enforceable media scope: TV/ODPS before 9pm and paid online at any time, not general OOH.",
       "tags": [
@@ -4294,9 +4346,9 @@
       "year": 2021,
       "source_type": "peer-reviewed",
       "institution": "Environmental Challenges / DOAJ",
-      "source_url": "https://doaj.org/article/058aa07b68584d2eaa80f99978f9eda2",
+      "source_url": "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
       "source_urls": [
-        "https://doaj.org/article/058aa07b68584d2eaa80f99978f9eda2",
+        "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
         "https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/",
         "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
         "https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html"
@@ -4490,7 +4542,7 @@
       "source_url": "https://cir.nii.ac.jp/crid/1360302870439621632",
       "source_urls": [
         "https://cir.nii.ac.jp/crid/1360302870439621632",
-        "https://docslib.org/doc/4036227/commodified-language-in-chinatown-a-contextualized-approach-to-linguistic-landscape1"
+        "https://www.semanticscholar.org/paper/Commodified-language-in-Chinatown%3A-A-contextualized-Leeman-Modan/b6601d79885bcb5d6eb26d560428e6b4608b101e"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -4543,9 +4595,9 @@
       "year": 2021,
       "source_type": "peer-reviewed",
       "institution": "ISPRS International Journal of Geo-Information / MDPI",
-      "source_url": "https://doaj.org/article/e394c227c51e44a684494c4f484030cc",
+      "source_url": "https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87",
       "source_urls": [
-        "https://doaj.org/article/e394c227c51e44a684494c4f484030cc"
+        "https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -5016,12 +5068,12 @@
       "category": "politics",
       "impact_score": 10,
       "year": 2023,
-      "source_type": "grey-literature",
-      "institution": "Corruption, Crime & Compliance / Volkov Law",
-      "source_url": "https://blog.volkovlaw.com/2023/10/clear-channel-settles-sec-fcpa-case-against-former-chinese-subsidiary-for-26-1-million/",
+      "source_type": "government",
+      "institution": "Stanford FCPA Clearinghouse",
+      "source_url": "https://fcpa.stanford.edu/fcpac-reports/2023-fcpa-q3-report.pdf",
       "source_urls": [
-        "https://blog.volkovlaw.com/2023/10/clear-channel-settles-sec-fcpa-case-against-former-chinese-subsidiary-for-26-1-million/",
-        "https://www.investing.com/news/stock-market-news/sec-says-clear-channel-outdoor-holdings-settles-charges-of-bribing-chinese-officials-3185725"
+        "https://fcpa.stanford.edu/fcpac-reports/2023-fcpa-q3-report.pdf",
+        "https://static.cahill.com/docs/CGR%20Memo%20-%20Clear%20Channel%20and%20Albemarle%20FCPA%20Settlements%20%E2%80%93%20Key%20Takeaways%20for%20Compliance%20Officers.pdf"
       ],
       "source_count": 2,
       "verification_status": null,
@@ -5114,7 +5166,7 @@
       "source_url": "https://www.newindianexpress.com/nation/2024/Jun/06/ghatkopar-hoarding-that-claimed-17-lives-was-installed-on-weak-foundation-mumbai-institute-report",
       "source_urls": [
         "https://www.newindianexpress.com/nation/2024/Jun/06/ghatkopar-hoarding-that-claimed-17-lives-was-installed-on-weak-foundation-mumbai-institute-report",
-        "https://www.mid-day.com/mumbai/mumbai-news/article/ghatkopar-hoarding-collapse-how-grp-bmc-helped-put-up-illegal-billboard-23364090",
+        "https://www.hindustantimes.com/cities/mumbai-news/vjti-report-ghatkopar-billboard-was-installed-on-weak-foundation-101717614448557.html",
         "https://www.hindustantimes.com/cities/mumbai-news/panel-blames-ips-officer-officials-for-ghatkopar-hoarding-collapse-101774380422870.html"
       ],
       "source_count": 3,

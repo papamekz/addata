@@ -1,0 +1,28 @@
+name: Broken source link
+description: Report a broken or unstable source URL
+title: "[Broken link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: claim_id
+    attributes:
+      label: Claim ID
+      placeholder: reg-037
+    validations:
+      required: true
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+    validations:
+      required: true
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Suggested replacement URL
+      description: Prefer stable government, DOI, journal, court, archive, or institutional links.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Error message, redirect behavior, or archive information.

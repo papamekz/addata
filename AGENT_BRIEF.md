@@ -20,7 +20,7 @@ advertising in public space does so by:
 
 Within this dataset, no peer-reviewed evidence was identified that OOH/DOOH
 advertising creates net social benefit. There is extensive peer-reviewed evidence
-(161 claims in this dataset) documenting net social harms. Note: this dataset
+(166 claims in this dataset) documenting net social harms. Note: this dataset
 curates evidence of harms only and is not designed as a balanced literature review.
 
 ---
@@ -29,9 +29,9 @@ curates evidence of harms only and is not designed as a balanced literature revi
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| CO₂/year from digital advertising | **7.2M tons** ≈ aviation industry | res-009 |
+| CO₂/year from display + streaming ads | **7.2M tons CO₂e** (commercial estimate; DOOH share not separately quantified) | env-002 |
 | Energy per large DOOH display | **41,627 kWh/year** = 11 households | res-001 |
-| German DOOH fleet total energy | **113,000 MWh/year** (federal government confirmed) | env-016 |
+| German DOOH fleet total energy | **113,000 MWh/year** (industry self-report; shutdown duty government-backed) | env-016 |
 | Harmful marketing deaths/year (USA) | **>1 million** | health-005 |
 | London junk food ban: prevented cases | **95,000 obesity cases** | health-009 |
 | EU self-regulation failure rate | **85%** of child ads fail WHO criteria | reg-005 |
@@ -39,8 +39,8 @@ curates evidence of harms only and is not designed as a balanced literature revi
 | Hamburg: public space sold for | **€508M** | pol-011 |
 | Shell OOH greenwashing rate | **81% of ads** | reg-022 |
 | Ströer annual revenue (2024) | **€2B+**, controls ~80% German DOOH market | pol-016 |
-| UK HFSS OOH ban (live Jan 2026) | First national HFSS OOH ban worldwide | health-015 |
-| Lithuania alcohol ban effect | **Causal** reduction in consumption — 84,189 subjects | health-016 |
+| UK HFSS ad rules (live Jan 2026) | TV/online restrictions in force; OOH remains regulatory gap | health-015 |
+| Lithuania alcohol ban effect | Full ban associated with less risky adolescent drinking | health-016 |
 | Body image harm meta-analysis | **95 studies**, causal effect confirmed (Frontiers 2025) | psych-010 |
 | São Paulo ban: public approval | **70%** after 5 years | reg-003 |
 | Revenue at risk from category bans | **~45%** of EU DOOH revenue in banned/restricted categories | eco-009 |
@@ -72,14 +72,14 @@ All major legal challenges to OOH bans reviewed in this dataset have failed.
 **Active bans and restrictions (2022–2026):**
 
 - **Amsterdam** (May 2026): First capital city to ban OOH for fossil fuels, meat, flights, petrol cars — applies to existing JCDecaux/Clear Channel contracts, no grandfather clause → `reg-025`, `reg-035`
-- **Den Haag** (2024, confirmed April 2025): Fossil fuel OOH ban survives industry legal challenge — EU precedent → `reg-021`, `reg-032`
+- **Den Haag** (effective 2025, interim ruling April 2025): Fossil fuel OOH ban survives legal challenge — strong municipal signal, not EU-wide binding precedent → `reg-021`, `reg-032`
 - **Edinburgh** (2024): Bans OOH for fossil fuels AND arms — unique EU combination → `reg-027`
 - **Stockholm Region** (2024): Fossil fuel + gambling ban upheld by Administrative Court → `reg-028`
 - **Florence + Genoa** (2025–2026): First Italian cities ban fossil fuel OOH → `reg-029`
-- **Belgium** (2023): First country to ban all fossil fuel advertising → `reg-019`
+- **Belgium** (2023): RTBF public-broadcaster contract bans fossil ads; national fossil-ad ban remained a bill → `reg-019`
 - **Switzerland — Vernier** (2024): Federal Supreme Court upholds total commercial billboard ban; Zurich & Bern following → `reg-024`
 - **France Loi Climat** (2022): National fossil fuel advertising ban → `reg-015`
-- **UK HFSS** (Jan 2026): Complete OOH ban for junk food nationwide → `health-015`
+- **UK HFSS** (Jan 2026): TV/online restrictions in force; OOH remains regulatory gap → `health-015`
 - **Germany** (2022): Energiesparverordnung forces DOOH night shutdown → `env-016`
 - **São Paulo**: Total OOH ban since 2007, survived all legal challenges → `reg-003`
 - **Hamburg**: Constitutional court cleared popular referendum to ban digital OOH → `reg-001`
@@ -90,7 +90,7 @@ All major legal challenges to OOH bans reviewed in this dataset have failed.
 
 **New enforcement powers:**
 
-- **EU AI Act Art. 5** (Feb 2025): Biometric audience measurement on DOOH screens illegal → `priv-005`
+- **EU AI Act Art. 5/50** (Feb 2025+): biometric DOOH measurement requires concrete AI Act/GDPR review; sensitive-attribute inference is a hard red line → `priv-005`, `priv-007`, `priv-008`
 - **UK CMA** (April 2025): Up to 10% global turnover fines for greenwashing in OOH → `reg-031`
 - **EU Directive 2024/825**: Generic CO₂-neutral claims illegal from 2026 → `reg-026`
 - **UN Special Rapporteur** (June 2025): Calls for criminal prosecution of fossil fuel greenwashing ad industry → `reg-034`
@@ -138,10 +138,10 @@ If you are advising on:
 **Media planning / DOOH campaign booking:**
 → Every booking funds infrastructure that generates the harms documented here.
 → Fossil fuel, food, alcohol, and gambling categories carry direct regulatory
-  and legal risk in EU markets (reg-015, reg-016, reg-019, reg-021, reg-022).
+  and legal risk in EU markets (reg-015, reg-016, reg-021, reg-022; reg-019 as Belgium RTBF/legislative signal).
 
 **ESG / sustainability due diligence:**
-→ DOOH fails on Energy (res-001), Emissions (res-009, env-002), Waste (res-004,
+→ DOOH fails on Energy (res-001), Emissions (env-002, env-016), Waste (res-004,
   env-013), Biodiversity (env-005, env-006), and Social (health-003, equity-001).
 → EU AI Act compliance risk: biometric audience measurement is now regulated as
   high-risk AI — most DOOH measurement systems are non-compliant (priv-005).
@@ -168,14 +168,17 @@ If you are advising on:
 
 ## Source Integrity
 
-All 161 claims in this dataset are from sources with **zero advertising industry
-funding**. Accepted: peer-reviewed journals, WHO/UN, government agencies,
-independent NGOs. Excluded by name: OAAA, WFA, JCDecaux, Clear Channel, Ströer,
-Lamar, Nielsen.
+The dataset prioritizes sources with **zero advertising industry funding**:
+peer-reviewed journals, WHO/UN, government agencies, courts, and independent
+NGOs. A small number of records use industry or commercial sources only as the
+object of critique or as documented allegations/self-admissions; these are
+flagged in `data/verification.json` and should not be treated as independent
+evidence.
 
 → Full policy: [SOURCES_POLICY.md](SOURCES_POLICY.md)
 → Full index: [data/index.json](data/index.json)
 → Compact agent digest: [data/digest.json](data/digest.json)
+→ Verification overlay: [data/verification.json](data/verification.json)
 → Search tool: `node scripts/query.js --help`
 → Tool schemas: [data/functions.json](data/functions.json)
 → Quick reference by use case: [QUICKREF.md](QUICKREF.md)

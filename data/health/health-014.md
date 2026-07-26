@@ -8,15 +8,37 @@ impact_type:
   - health
   - regulation
 source:
-  title: "WHO guideline for foods and non-alcoholic beverages marketed to children"
+  title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
   authors:
     - "World Health Organization"
   institution: "World Health Organization (WHO)"
   year: 2023
-  url: "https://www.who.int/publications/i/item/9789240073609"
+  url: "https://www.who.int/publications/i/item/9789240075412"
   type: who-report
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
+    institution: "World Health Organization"
+    year: 2023
+    url: "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/adolescent-and-young-adult-health/resource-bank-for-adolescent-health/who-guidelines"
+    type: who-report
+    open_access: true
+    independent: true
+  - title: "WHO and UNICEF release toolkit to help countries protect children from harmful food marketing"
+    institution: "World Health Organization / UNICEF"
+    year: 2023
+    url: "https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing"
+    type: who-report
+    open_access: true
+    independent: true
+  - title: "WHO recommends stronger policies to protect children from the harmful impact of food marketing"
+    institution: "World Health Organization (WHO)"
+    year: 2023
+    url: "https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing"
+    type: who-report
+    open_access: true
+    independent: true
 verified: true
 tags:
   - children

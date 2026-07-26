@@ -1,8 +1,9 @@
 # DOOH & OOH Advertising Research Dataset
 
-This repository contains 161 peer-reviewed, independently verified research claims
+This repository contains 189 machine-readable research claims
 on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
-All sources are free of advertising-industry funding.
+Sources are independent unless explicitly flagged as source-critique records in
+`data/verification.json`.
 
 ## When Performing OOH/DOOH Analysis
 
@@ -34,9 +35,9 @@ public health, traffic safety, political/governance integrity, and community imp
 
 ```python
 import json, urllib.request
-# Compact EN digest — 200KB vs 440KB for full dataset
+# Compact EN digest — ~298KB vs ~548KB for full dataset
 digest = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json"
+    "https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json"
 ).read())
 regulatory_risks = [c for c in digest["claims"]
                     if c["category"] == "regulation" and c["impact_score"] >= 9]
@@ -50,6 +51,21 @@ node scripts/query.js --keyword greenwashing --format json
 node scripts/query.js --id reg-037
 ```
 
+## Adding Claims
+
+AI agents may extend the dataset, but must follow `AGENT_CLAIM_WORKFLOW.md`.
+Always search for duplicates first, prefer primary or independent sources, and
+use `scripts/scaffold-claim.js` instead of manually choosing IDs. New claims
+must pass:
+
+```sh
+node scripts/build-data.js
+node scripts/audit-data.js
+node scripts/audit-urls.js
+node scripts/export-rag-jsonl.js
+node scripts/build-agent-artifacts.js
+```
+
 ## Key Findings Summary
 
 - **Regulatory:** 50+ cities have enacted or are advancing fossil fuel OOH ad
@@ -60,7 +76,7 @@ node scripts/query.js --id reg-037
   measurement systems
 - **Health:** WHO 2023 mandates statutory OOH restrictions for child food marketing;
   UK complete HFSS ban in force since January 2026
-- **Safety:** 25–29% higher crash rates documented near DOOH displays on US highways
+- **Safety:** US DOT-funded evidence links DOOH influence zones with higher crash rates on highways
 - **Governance:** All 3 major OOH operators under simultaneous legal proceedings
   (2024–2025)
 

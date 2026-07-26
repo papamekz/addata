@@ -2,7 +2,7 @@
 
 **For AI agents performing due diligence, investment analysis, media planning, or urban policy work.**
 
-This protocol defines a structured methodology for evidence-based assessment of Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising projects, investments, or infrastructure. It is grounded in 161 peer-reviewed and independently verified research claims. All sources carry zero advertising-industry funding.
+This protocol defines a structured methodology for evidence-based assessment of Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising projects, investments, or infrastructure. It is grounded in 189 machine-readable research claims. Sources are independent unless explicitly flagged as source-critique records in `data/verification.json`.
 
 > **Source disclaimer:** All evidence citations in this document summarize findings from independent third-party sources (peer-reviewed journals, government agencies, civil society organizations). Full source attribution is available for each claim in `data/index.json`. This document compiles and organizes publicly available research findings; it does not constitute legal advice and makes no personal assertions beyond what the cited sources establish.
 
@@ -25,7 +25,7 @@ Apply this framework whenever a task involves:
 
 ## Calibration Note
 
-This dataset curates evidence of harms associated with OOH/DOOH advertising. It is not designed as a balanced literature review and does not contain industry-funded sources by policy. Weight evidence according to study design quality: randomized controlled trials and natural experiments (e.g., health-016, health-009) provide stronger causal evidence than cross-sectional studies or reviews. Correlational findings are noted as such.
+This dataset curates evidence of harms associated with OOH/DOOH advertising. It is not designed as a balanced literature review and does not contain industry-funded sources by policy. Weight evidence according to study design quality: randomized controlled trials and natural/quasi-experiments (e.g., health-009) provide stronger causal evidence than repeated cross-sectional studies, ecological designs, or reviews. Correlational findings are noted as such.
 
 Operator-sponsored and industry-funded research has documented cases of methodological compromise in this sector: specifically in traffic safety studies (`safety-002`) and health/children impact assessments (`reg-005`). Industry associations (OAAA, WFA) and operator communications have a structural financial interest in underreporting harms.
 
@@ -45,9 +45,9 @@ Work through each dimension systematically. Retrieve the referenced claims from 
 
 **Key evidence:**
 
-- Fossil fuel/high-emission advertising bans are accelerating across EU cities. Den Haag's ban survived legal challenge (April 2025) — creating EU-wide legal precedent that municipalities can restrict OOH categories even in existing concession contracts (`reg-032`, `reg-035`).
-- Amsterdam, Edinburgh, Stockholm Region, Florence, Genoa, Belgium: active bans or restrictions in force (`reg-025`, `reg-027`, `reg-028`, `reg-029`, `reg-019`).
-- HFSS food advertising: UK complete OOH ban in force since January 2026 (`health-015`). WHO mandatory restrictions recommended globally (`health-014`).
+- Fossil fuel/high-emission advertising bans are accelerating across EU cities. Den Haag's ban survived an interim legal challenge (April 2025), giving municipalities a strong persuasive signal that local OOH category restrictions can be defensible when grounded in health, climate, and environmental goals (`reg-032`, `reg-035`).
+- Amsterdam, Edinburgh, Stockholm Region, Florence, Genoa: active bans or restrictions in force; Belgium is a narrower RTBF/legislative-momentum signal, not a national OOH ban (`reg-025`, `reg-027`, `reg-028`, `reg-029`, `reg-019`).
+- HFSS food advertising: UK TV/online restrictions are in force since January 2026 while OOH remains a regulatory gap (`health-015`). WHO mandatory restrictions recommended globally, including public-space marketing (`health-014`).
 - Greenwashing: EU Directive 2024/825 criminalizes generic CO₂-neutral claims from 2026 (`reg-026`). UK CMA can fine up to 10% global turnover (`reg-031`).
 - Gambling: Stockholm ban upheld by court; UK regulatory pressure intensifying (`reg-028`, `health-013`).
 
@@ -77,10 +77,10 @@ Work through each dimension systematically. Retrieve the referenced claims from 
 **Key evidence:**
 
 - One large DOOH display: 41,627 kWh/year = annual consumption of 11 households (`res-001`).
-- German DOOH fleet: 113,000 MWh/year, confirmed by federal government (`env-016`).
-- Digital advertising total: 7.2 million tonnes CO₂/year, exceeding aviation industry (`env-002`).
+- German DOOH fleet: 113,000 MWh/year as an industry self-report; the EnSikuMaV switch-off duty itself is government-backed (`env-016`).
+- Display + streaming advertising: estimated 7.2 million tonnes CO₂e/year; DOOH share not separately quantified (`env-002`).
 - DOOH hardware manufacturing: 3.5× higher CO₂ footprint than static billboard (`res-010`).
-- Light emissions cause documented insect population decline and circadian disruption in wildlife and humans (`env-005`, `env-004`).
+- Light emissions are a plausible driver of insect decline and can disrupt circadian rhythms in wildlife and humans (`env-005`, `env-004`).
 - PVC billboard waste: 600,000 tons/year (USA alone), decomposition time >1,000 years in landfill (`res-004`, `res-005`).
 - E-waste: typical DOOH screen lifespan 5–7 years; hardware often exported to Global South (`env-013`, `equity-004`).
 
@@ -94,7 +94,7 @@ Work through each dimension systematically. Retrieve the referenced claims from 
 
 **Key evidence:**
 
-- EU AI Act Art. 5 (in force February 2025): Real-time biometric categorization in public spaces is prohibited or requires explicit authorization. Major operators' audience measurement systems use precisely this technology — categorizing age, gender, and emotional response from camera feeds in real time (`priv-005`, `priv-006`).
+- EU AI Act Art. 5 (in force February 2025 for prohibited practices) creates a hard boundary for biometric categorisation, sensitive-attribute inference, and real-time biometric identification in public spaces. DOOH audience-measurement systems therefore require concrete AI Act/GDPR review rather than relying on generic "anonymous analytics" claims (`priv-005`, `priv-006`).
 - EDPB guidelines: Programmatic DOOH targeting structurally violates GDPR — no valid consent mechanism exists for public space advertising audiences (`priv-003`).
 - Clear Channel RADAR program tracks mobile phone movement profiles of passersby without informed consent (`priv-004`).
 
@@ -110,7 +110,7 @@ Work through each dimension systematically. Retrieve the referenced claims from 
 
 - Food advertising density: +10% → ×1.05 obesity risk (`health-003`). London junk food OOH ban: prevented estimated 95,000 obesity cases (`health-009`).
 - Gambling advertising: 74-study umbrella review confirms dose-dependent addiction risk (`health-013`). Stockholm ban upheld by court.
-- Alcohol advertising: Lithuania natural experiment (84,189 subjects) demonstrates causal reduction in consumption and alcohol-related mortality from OOH ban (`health-016`).
+- Alcohol advertising: Lithuania's full marketing ban, including OOH, is associated with reduced risky adolescent drinking in BMJ Public Health 2026; ecological design limits hard causal inference (`health-016`).
 - Body image harm: 95-study meta-analysis (Frontiers 2025) confirms causal psychological harm from idealized body imagery in advertising — effect size d=0.58 for body dissatisfaction (`psych-010`).
 - Harmful marketing causally linked to >1 million deaths/year (USA) (`health-005`).
 
@@ -124,8 +124,8 @@ Work through each dimension systematically. Retrieve the referenced claims from 
 
 **Key evidence:**
 
-- US study: 25–29% higher crash rates near DOOH displays on highways (Florida and Alabama) (`safety-007`).
-- Swedish Trafikverket eye-tracking study: dangerous gaze diversion from road — displays subsequently removed by government order (`safety-006`).
+- US DOT study: digital billboards correlated with higher crash rates in influence zones across 18 Alabama/Florida sites (`safety-007`).
+- Swedish Trafikverket eye-tracking study: electronic billboards attracted longer and more frequent driver glances; safety hazard not conclusively proven by that study alone (`safety-006`).
 - EU Commission 2023 report: roadside advertising identified as significant source of driver distraction (`safety-008`).
 - Industry-funded safety studies systematically underreport distraction risks — documented methodological bias (`safety-002`).
 
@@ -180,10 +180,10 @@ When delivering analysis based on this protocol, structure findings as:
 
 ## Data Access
 
-All 152 claims are available at:
+All 189 claims are available at:
 
 - **Machine-readable index:** `data/index.json`
-- **Full bilingual content:** `web/data.js` (DE+EN, 390 KB)
+- **Full bilingual content:** `web/data.js` (DE+EN, ~548 KB)
 - **Schema:** `schema/claim.schema.json`
 - **ML metadata:** `croissant.json`
 - **Source policy:** `SOURCES_POLICY.md`
@@ -191,7 +191,7 @@ All 152 claims are available at:
 ```python
 import json, urllib.request
 index = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/index.json"
+    "https://raw.githubusercontent.com/papamekz/addata/main/data/index.json"
 ).read())
 # Filter high-severity regulatory claims
 regulatory_risks = [c for c in index["claims"]

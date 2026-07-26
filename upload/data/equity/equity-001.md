@@ -1,6 +1,6 @@
 ---
 id: equity-001
-title: "Schulwege von Kindern werden systematisch mit schädlicher Produktwerbung belastet"
+title: "Kinder sind in öffentlichen Außenräumen schädlichem Produktmarketing ausgesetzt"
 category: equity
 subcategory: children-routes
 impact_score: 9
@@ -11,14 +11,38 @@ impact_type:
 source:
   title: "The distribution of harmful product marketing in public outdoor spaces and the effectiveness of marketing bans"
   authors:
-    - "Multiple authors"
-  institution: "ScienceDirect / Peer-reviewed public health"
+    - "Liu, Wei"
+    - "Gage, Ryan"
+    - "Park, Hyunseo"
+    - "Pearson, Amber L."
+    - "Chambers, Tim"
+    - "Smith, Moira"
+    - "Signal, Louise"
+  institution: "Otago University Research Archive / Health & Place"
   year: 2022
-  url: "https://www.sciencedirect.com/science/article/abs/pii/S1353829222001228"
-  doi: "10.1016/j.healthplace.2022.102848"
+  url: "https://hdl.handle.net/10523/19502"
+  doi: "10.1016/j.healthplace.2022.102861"
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "University of Otago news coverage"
+    authors:
+      - "University of Otago"
+    institution: "Medical Xpress"
+    year: 2022
+    url: "https://medicalxpress.com/news/2022-10-reveals-children-exposure.html"
+    type: grey-literature
+    open_access: true
+    independent: true
+  - title: "The distribution of harmful product marketing in public outdoor spaces and the effectiveness of marketing bans"
+    institution: "DigitalNZ / Otago University Research Archive"
+    year: 2022
+    url: "https://digitalnz.org/records/54938683"
+    doi: "10.1016/j.healthplace.2022.102861"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - children
@@ -34,12 +58,12 @@ languages:
 
 ## Zusammenfassung
 
-Studie zur Verteilung schädlicher Produktwerbung (Alkohol, ungesunde Lebensmittel, Glücksspiel) im öffentlichen Raum und auf Schulwegen. Analysiert auch die Wirksamkeit von Werbeverboten.
+Studie zur Verteilung schädlicher Produktwerbung (Alkohol, ungesunde Lebensmittel, Glücksspiel) in öffentlichen Außenräumen der Region Wellington, Neuseeland/Aotearoa. Die Studie nutzt Wearable Cameras und GPS-Daten von Kindern und modelliert die Wirksamkeit unterschiedlicher Verbote.
 
 ## Kernbefund
 
-Kinder sind auf dem Weg zur Schule systematisch Werbung für schädliche Produkte ausgesetzt. Werbung entlang Heimweg-Schule-Routen verstärkt Botschaften durch Wiederholung. Besonders belastete Viertel haben höhere Gesundheitsrisiken. Freiwillige Verbote sind unwirksam — nur staatliche Pflichtregeln zeigen Wirkung.
+Kinder waren in öffentlichen Außenräumen schädlichem Produktmarketing ausgesetzt; Alkohol-, ungesunde Lebensmittel- und Glücksspielmarketing clusterte räumlich. Die modellierte Wirkung von Werbeverboten unterschied sich nach Produkttyp und Deprivation, was auf relevante Equity- und Policy-Fragen hinweist.
 
 ## Relevanz für Außenwerbung
 
-Kinder haben keine Kontrolle darüber, welcher Werbung sie auf ihren täglichen Wegen ausgesetzt sind. Das ist eine strukturelle Verletzung ihres Schutzes — ein öffentlicher Raum, der Kinder täglich mit Alkohol-, Junkfood- und Glücksspielwerbung konfrontiert, versagt als Schutzraum.
+Kinder können ihre Exposition in öffentlichen Räumen kaum kontrollieren. Für OOH/DOOH-Due-Diligence ist besonders relevant, ob Alkohol-, Glücksspiel- und ungesunde Lebensmittelwerbung in der Nähe von Kinderwegen, Schulen, Parks und benachteiligten Quartieren zugelassen wird.

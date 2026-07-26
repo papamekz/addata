@@ -1,6 +1,6 @@
 ---
 id: health-010
-title: "Strenge gesetzliche Werbeverbote an Schulen zum Schutz von Minderjährigen vor Konsumdruck"
+title: "NRW-Schulgesetz: Werbung, die nicht schulischen Zwecken dient, ist in Schulen grundsätzlich unzulässig"
 category: health
 impact_score: 9
 impact_type:
@@ -13,15 +13,30 @@ source:
   url: "https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg"
   type: government
   independent: true
+corroborating_sources:
+  - title: "§ 99 Sponsoring, Werbung"
+    institution: "Recht NRW"
+    year: 2025
+    url: "https://recht.nrw.de/taxonomy/term/28930"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Schulgesetz NRW: Werbung in der Schule grundsätzlich verboten"
+    institution: "Landtag NRW"
+    year: 2016
+    url: "https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument?Id=MMV16%2F3426"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags: [germany, nrw, schools, youth-protection, commercial-ban, education]
 ---
 
 ## Zusammenfassung
-In Deutschland ist die Schule als werbefreier Schutzraum gesetzlich verankert, um die pädagogische Integrität und die Unabhängigkeit der Schüler zu wahren.
+In Nordrhein-Westfalen ist die Schule als weitgehend werbefreier Schutzraum gesetzlich verankert. Der Datensatz sollte dieses Beispiel nicht unkritisch auf ganz Deutschland verallgemeinern.
 
 ## Kernbefund
-Beispielhaft regelt § 99 des Schulgesetzes NRW, dass Werbung, die nicht schulischen Zwecken dient, in der Schule grundsätzlich unzulässig ist. Dies umfasst sowohl das Verteilen von Material als auch das Anbringen von Plakaten auf dem Schulgelände. Ziel ist es, Minderjährige in einer sensiblen Entwicklungsphase vor dem Einfluss kommerzieller Akteure zu schützen und sicherzustellen, dass die Schule ein Ort der kritischen Reflexion und nicht des ungefilterten Konsums ist. Sponsoring ist nur unter strengsten Auflagen möglich, wobei die Werbewirkung "deutlich hinter dem schulischen Nutzen zurücktreten" muss.
+§ 99 des Schulgesetzes NRW macht klar, dass Werbung, die nicht schulischen Zwecken dient, in der Schule grundsätzlich unzulässig ist. Sponsoring ist nur unter engen Bedingungen möglich und muss dem Bildungs- und Erziehungsauftrag untergeordnet bleiben.
 
 ## Relevanz für Außenwerbung
 Wenn der Staat Schulen als werbefreie Zonen schützt, stellt sich die ethische Frage, warum derselbe Schutz für Kinder im unmittelbaren Umfeld der Schule (an Bushaltestellen und Schulwegen) durch kommerzielle OOH-Anlagen systematisch untergraben wird.

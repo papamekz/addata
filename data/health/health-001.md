@@ -18,6 +18,19 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
+    institution: "World Health Organization"
+    year: 2023
+    url: "https://www.who.int/publications/i/item/9789240075412"
+    type: who-report
+    independent: true
+  - title: "Taking action to protect children from the harmful impact of food marketing: a child rights-based approach"
+    institution: "World Health Organization / UNICEF"
+    year: 2023
+    url: "https://www.who.int/publications/i/item/9789240047518"
+    type: un_report
+    independent: true
 verified: true
 tags:
   - food-marketing
@@ -36,7 +49,7 @@ Systematische Übersichtsstudie zu Außenwerbung für Lebensmittel: Reichweite, 
 
 ## Kernbefund
 
-Außenwerbung für Lebensmittel ist genauso umfangreich und wirkungsvoll wie Digital- oder TV-Werbung. Skeptizismus bei Jugendlichen schützt nicht vor den Effekten. Sowohl Kleinkinder als auch ältere Jugendliche sind anfällig. Belege zeigen, dass Werbung Ernährungspräferenzen und Konsummuster beeinflusst.
+Die Scoping Review zeigt, dass Außenwerbung für Lebensmittel ein relevanter Expositionskanal mit eigener Wirkungsmacht ist und in der Schutzlogik nicht schwächer behandelt werden sollte als TV- oder Digitalwerbung. Skeptizismus bei Jugendlichen schützt nicht zuverlässig vor den Effekten. Sowohl Kleinkinder als auch ältere Jugendliche sind anfällig. Belege zeigen, dass Werbung Ernährungspräferenzen und Konsummuster beeinflusst.
 
 ## Relevanz für Außenwerbung
 

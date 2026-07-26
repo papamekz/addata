@@ -99,8 +99,8 @@ function log(file, detail) {
 // CLAUDE.md (DE) — two patterns: sentence count + category line block
 patch('CLAUDE.md', [
   [
-    /Ein "Trojanisches Pferd": \d+ peer-reviewed/,
-    `Ein "Trojanisches Pferd": ${total} peer-reviewed`,
+    /Ein "[^"]+": \d+ peer-reviewed/,
+    match => match.replace(/\d+ peer-reviewed/, `${total} peer-reviewed`),
   ],
   [
     /Master-Index aller \d+ Claims/,

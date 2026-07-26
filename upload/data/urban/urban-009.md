@@ -7,10 +7,10 @@ impact_type:
   - social
   - psychological
 source:
-  title: "Light Trespass and the loss of the night"
+  title: "Electronic billboards, electronic message centers"
   institution: "International Dark-Sky Association (IDA)"
-  year: 2022
-  url: "https://darksky.org"
+  year: 2019
+  url: "https://darksky.org/resources/guides-and-how-tos/electronic-billboards/"
   type: ngo
   independent: true
 verified: true
@@ -18,10 +18,10 @@ tags: [urban, light-pollution, light-trespass, privacy, quality-of-life]
 ---
 
 ## Zusammenfassung
-Digital Out-of-Home-Anlagen verletzen die Grenzen des Privatraums, indem sie unaufgefordert Licht in Wohnungen und Schlafzimmer emittieren.
+Digital-Out-of-Home-Anlagen können Light Trespass verursachen, wenn Licht aus elektronischen Werbetafeln seitlich in Wohnbereiche, Fassaden oder sensible Nutzungen eindringt.
 
 ## Kernbefund
-In der Stadtplanung wird das Phänomen des "Light Trespass" (Lichteinbruch) als eine Form der räumlichen Grenzverletzung gewertet. DOOH-Screens strahlen Licht oft ungerichtet ab, wodurch Fassaden und Innenräume von Anwohnern taghell erleuchtet werden. Da das Licht kommerziell und oft dynamisch (wechselnde Bilder, Blinken) ist, lässt es sich psychologisch schwerer ignorieren als statisches Straßenlicht. Betroffene berichten von einer massiven Minderung der Lebensqualität und dem Gefühl, in den eigenen vier Wänden dem Werbedruck nicht mehr entkommen zu können.
+DarkSky beschreibt elektronische Werbetafeln als ungeschirmte Lichtquellen, deren Licht lateral in angrenzende Umgebungen und Wohnbereiche austreten kann. Das Risiko steigt bei hoher Nachtluminanz, dynamischen Bildwechseln, fehlender Abschaltung und Nähe zu Wohnnutzung.
 
 ## Relevanz für Außenwerbung
-Werbekonzerne privatisieren die Aufmerksamkeit der Bürger, indem sie deren Privaträume visuell besetzen. Das Recht auf Dunkelheit und Rückzug im eigenen Heim wird dem kommerziellen Interesse untergeordnet.
+Für städtische Planung ist Light Trespass ein eigenes Schutzgut: Genehmigungen sollten Blickachsen, Wohnfenster, Schlafzimmer, Helligkeit, Betriebszeiten und Beschwerdemechanismen berücksichtigen. Der Claim ist ein belegtes Immissionsrisiko, nicht der Nachweis für jeden einzelnen DOOH-Standort.

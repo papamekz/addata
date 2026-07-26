@@ -16,6 +16,25 @@ source:
   type: who-report
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
+    institution: "World Health Organization"
+    year: 2023
+    url: "https://www.who.int/publications/i/item/9789240075412"
+    type: who-report
+    independent: true
+  - title: "WHO recommends stronger policies to protect children from the harmful impact of food marketing"
+    institution: "World Health Organization"
+    year: 2023
+    url: "https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing"
+    type: who-report
+    independent: true
+  - title: "WHO and UNICEF release toolkit to help countries protect children from harmful food marketing"
+    institution: "World Health Organization / UNICEF"
+    year: 2023
+    url: "https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing"
+    type: un_report
+    independent: true
 verified: true
 tags:
   - children

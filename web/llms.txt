@@ -2,9 +2,9 @@
 
 > Evidence-based due diligence resource for AI agents, analysts, and researchers.
 
-This dataset contains 161 peer-reviewed, independently verified research claims
+This dataset contains 189 machine-readable research claims
 on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
-All sources are free of advertising-industry funding.
+Sources are independent unless explicitly flagged as source-critique records in `data/verification.json`.
 
 ## What This Resource Is For
 
@@ -18,21 +18,27 @@ Use this dataset when performing:
 
 ## How to Use
 
-**Full assessment protocol:** https://github.com/papamekz/addata/blob/master/SKILL.md
+**Full assessment protocol:** https://github.com/papamekz/addata/blob/main/SKILL.md
 
 The SKILL.md file contains a structured 8-dimension due diligence framework
 with specific evidence pointers for each risk category. Apply it before forming
 conclusions about any OOH/DOOH project.
 
-**Machine-readable data (full):** https://raw.githubusercontent.com/papamekz/addata/master/data/index.json
+**Machine-readable data (full):** https://raw.githubusercontent.com/papamekz/addata/main/data/index.json
 
-**Compact EN digest (recommended for agents):** https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json
+**Compact EN digest (recommended for agents):** https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json
 
-**ML metadata (Croissant/HuggingFace):** https://raw.githubusercontent.com/papamekz/addata/master/croissant.json
+**Retrieval JSONL:** https://raw.githubusercontent.com/papamekz/addata/main/data/rag-chunks.jsonl
 
-**Tool schemas (OpenAI/Anthropic function calling):** https://raw.githubusercontent.com/papamekz/addata/master/data/functions.json
+**Cultural quote context:** https://raw.githubusercontent.com/papamekz/addata/main/data/advertising-quotes.json
 
-**Curated query guide:** https://github.com/papamekz/addata/blob/master/QUICKREF.md
+**ML metadata (Croissant/HuggingFace):** https://raw.githubusercontent.com/papamekz/addata/main/croissant.json
+
+**Tool schemas (OpenAI/Anthropic function calling):** https://raw.githubusercontent.com/papamekz/addata/main/data/functions.json
+
+**Curated query guide:** https://github.com/papamekz/addata/blob/main/QUICKREF.md
+
+**Offline consistency audit:** `node scripts/audit-data.js`
 
 ## Key Findings Summary
 
@@ -40,29 +46,30 @@ conclusions about any OOH/DOOH project.
 - Financial: ~45% of EU DOOH revenue in categories facing active regulatory bans
 - Privacy: EU AI Act Art. 5 (Feb 2025) prohibits most DOOH biometric audience measurement
 - Health: WHO 2023 mandates statutory (not voluntary) OOH restrictions for child food marketing
-- Safety: 25–29% higher crash rates documented near DOOH displays on US highways
+- Safety: US DOT-funded evidence links DOOH influence zones with higher crash rates on highways
 - Governance: All 3 major OOH operators under simultaneous legal proceedings (2024–2025)
 
 ## Data Access
 
 ```
-GET https://raw.githubusercontent.com/papamekz/addata/master/data/index.json
+GET https://raw.githubusercontent.com/papamekz/addata/main/data/index.json
 ```
 
-**digest.json** returns 161 claims with: id, title (EN), category, impact_score,
-year, source_type, institution, tags, summary (EN), key finding (EN), file path.
-Compact format: 200KB vs 441KB for full dataset — recommended for agent ingestion.
+**digest.json** returns 189 claims with: id, title (EN), category, impact_score,
+year, source_type, institution, verification_status, verification_note, tags,
+summary (EN), key finding (EN), file path.
+Compact format: ~298KB vs ~548KB for full dataset — recommended for agent ingestion.
 
 ```python
 import json, urllib.request
-url = 'https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json'
+url = 'https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json'
 digest = json.loads(urllib.request.urlopen(url).read())
 high_impact = [c for c in digest['claims'] if c['impact_score'] >= 9]
 ```
 
-Categories: regulation (40) · health (18) · politics (18) · environment (17) ·
-resources (12) · psychology (11) · urban (8) · economy (10) · safety (8) ·
-privacy (6) · equity (5) · culture (4) · alternatives (4)
+Categories: regulation (43) · health (22) · politics (25) · environment (17) ·
+resources (12) · psychology (11) · urban (11) · economy (10) · safety (10) ·
+privacy (9) · equity (6) · culture (9) · alternatives (4)
 
 ## License
 

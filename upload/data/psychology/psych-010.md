@@ -1,20 +1,22 @@
 ---
 id: psych-010
-title: "95-Studien-Systematik: Werbung verursacht kausal Körperbildschäden bei Jugendlichen — stärkste Evidenz bisher (Frontiers 2025)"
+title: "Frontiers-Review 2025: 95 Studien verknüpfen Werbung mit negativer Selbstwahrnehmung und Körperbildschäden bei Frauen"
 category: psychology
 subcategory: body-image
-impact_score: 10
+impact_score: 8
 impact_type:
   - psychological
   - health
 source:
-  title: "The effect of advertising on body image: a systematic review and meta-analysis of 95 experimental studies"
+  title: "The impact of advertising on women's self-perception: a systematic review"
   authors:
-    - "Diedrichs PC"
-    - "Polo M"
-  institution: "Frontiers in Psychology / Centre for Appearance Research, UWE Bristol"
+    - "Yao Dai"
+    - "Zhixuan Zhu"
+    - "Yuan Guo"
+  institution: "Frontiers in Psychology"
   year: 2025
-  url: "https://www.frontiersin.org/articles/advertising-body-image-meta-analysis-2025"
+  url: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1430079/full"
+  doi: "10.3389/fpsyg.2024.1430079"
   type: peer-reviewed
   open_access: true
   independent: true
@@ -33,10 +35,10 @@ languages:
 ---
 
 ## Zusammenfassung
-Eine in Frontiers in Psychology (2025) veröffentlichte Metaanalyse von 95 experimentellen Studien kommt zu dem Schluss, dass Werbung mit idealisierten Körperbildern kausal Körperunzufriedenheit, Selbstwertprobleme und essgestörtes Verhalten bei Jugendlichen und jungen Erwachsenen verursacht. Es ist die bislang umfassendste Synthese kausaler Evidenz zu diesem Thema.
+Ein 2025 in Frontiers in Psychology veröffentlichter systematischer Review wertet 95 peer-reviewte Studien zum Einfluss von Werbung auf die Selbstwahrnehmung von Frauen aus. Die Arbeit verbindet traditionelle Werbung und digitale Werbeformen mit Körperunzufriedenheit, Selbstobjektifizierung, geringerem Selbstwert und normierenden Geschlechterrollen.
 
 ## Kernbefund
-Die Metaanalyse findet signifikante, konsistente Effekte über 95 Experimente hinweg: Exponierung gegenüber idealisierten Körperbildern in Werbung erhöht Körperunzufriedenheit (Effektstärke d=0.58), depressive Stimmung (d=0.41) und essgestörtes Verhalten (d=0.37). Die Effekte gelten für alle Geschlechter und sind bei frühen Teenagern besonders stark.
+Der Review ist keine Metaanalyse und belegt keine spezifische OOH-Kausalität. Er ist dennoch relevant, weil er die Breite der Evidenz zu idealisierten und stereotypen Werbebildern bündelt: Werbung kann Körperbild, Selbstwert, Selbstobjektifizierung und Geschlechterrollen negativ beeinflussen; authentische und stereotype-brechende Darstellungen schneiden in der Literatur tendenziell besser ab.
 
 ## Relevanz für Außenwerbung
-Außenwerbung ist der öffentlichste aller Werbekanäle — Kinder und Jugendliche können ihr nicht ausweichen. Die systematische Evidenz dieser Metaanalyse unterstützt direkte gesetzliche Verbote für idealisierende Körperbilder in OOH-Kampagnen. Der psychologische Schaden durch Außenwerbung ist damit wissenschaftlich nicht mehr bestreitbar.
+Außenwerbung überträgt diese Risiken in einen nicht individuell kontrollierbaren Raum. Der Claim sollte daher nicht als Beleg für eine isolierte OOH-Wirkung gelesen werden, sondern als psychologische Evidenzbasis dafür, dass öffentliche Werbeflächen mit idealisierten Körper- und Geschlechterbildern ein plausibles Public-Health- und Jugendschutzproblem darstellen.

@@ -1,6 +1,6 @@
 ---
 id: econ-001
-title: "Status-Werbung erzeugt Status-Angst und treibt Haushalte in Schulden"
+title: "Statuskonsum und Statusangst sind mit Schulden und nicht-nachhaltigem Konsum verbunden"
 category: economy
 subcategory: debt
 impact_score: 8
@@ -11,14 +11,44 @@ impact_type:
 source:
   title: "Income inequality, status consumption and status anxiety: An exploratory review of implications for sustainability and directions for future research"
   authors:
-    - "Multiple authors"
-  institution: "ScienceDirect / Sustainability research"
+    - "Pybus, Katie"
+    - "Power, Madeleine"
+    - "Pickett, Kate E."
+    - "Wilkinson, Richard"
+  institution: "Social Sciences & Humanities Open"
   year: 2022
-  url: "https://www.sciencedirect.com/science/article/pii/S2590291122001073"
-  doi: "10.1016/j.spc.2022.04.030"
+  url: "https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor"
+  doi: "10.1016/j.ssaho.2022.100353"
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Income inequality, status consumption and status anxiety"
+    authors:
+      - "Pybus, Katie"
+      - "Power, Madeleine"
+      - "Pickett, Kate E."
+      - "Wilkinson, Richard"
+    institution: "University of York Research Database"
+    year: 2022
+    url: "https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor"
+    doi: "10.1016/j.ssaho.2022.100353"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "DOAJ record"
+    authors:
+      - "Pybus, Katie"
+      - "Power, Madeleine"
+      - "Pickett, Kate E."
+      - "Wilkinson, Richard"
+    institution: "Directory of Open Access Journals"
+    year: 2022
+    url: "https://eprints.whiterose.ac.uk/id/eprint/192880/"
+    doi: "10.1016/j.ssaho.2022.100353"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - status-anxiety
@@ -33,12 +63,12 @@ languages:
 
 ## Zusammenfassung
 
-Überblicksstudie zum Zusammenhang zwischen Einkommensungleichheit, statusgetriebenem Konsum und Status-Angst. Zeigt, dass Werbung, die Status-Symbole bewirbt, direkt zu Haushaltsschulden und nicht-nachhaltigem Konsum beiträgt.
+Explorativer Review zum Zusammenhang zwischen Einkommensungleichheit, Statuskonsum und Statusangst. Die Quelle belegt Assoziationen mit Haushaltsschulden, räumlichen Ungleichheiten, nicht-nachhaltigem Konsum und höheren CO₂-Emissionen; sie belegt jedoch keine direkte Kausalwirkung einzelner Werbekampagnen.
 
 ## Kernbefund
 
-Einkommensungleichheit ist mit höherem statusgetriebenem Konsum und Status-Angst verbunden. Diese durch Werbung angeheizte Status-Angst führt zu Haushaltsschulden, räumlichen Ungleichheiten und nicht-nachhaltigem Konsumverhalten mit höheren CO₂-Emissionen.
+Einkommensungleichheit ist in der Literatur mit höherem Statuskonsum und Statusangst verbunden. Der Review identifiziert Statusangst als plausiblen Mechanismus, über den ungleiche Kontexte zu statusgetriebenem Konsum, Haushaltsschulden, längeren Pendelwegen und höheren CO₂-Emissionen beitragen können.
 
 ## Relevanz für Außenwerbung
 
-Außenwerbung für Luxusgüter, Statussymbole und "aufwärts" orientierte Konsumgüter erreicht alle Bevölkerungsschichten im öffentlichen Raum — einschließlich derer, die sich diese Güter nicht leisten können, was Status-Angst und Schulden besonders in einkommensschwachen Bevölkerungsgruppen erzeugt.
+Außenwerbung für Luxusgüter und Statussymbole kann diesen Mechanismus im öffentlichen Raum verstärken, weil sie soziale Vergleichsbotschaften unausweichlich sichtbar macht. Der robuste Claim ist ein Risikosignal für Produktkategorien und Botschaften mit starkem Statusbezug, nicht der Nachweis, dass OOH allein Haushalte verschuldet.

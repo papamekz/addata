@@ -11,7 +11,7 @@
       "type": "function",
       "function": {
         "name": "search_claims",
-        "description": "Search the DOOH/OOH Advertising Research Dataset for evidence-based claims. Returns claims matching the specified filters, sorted by impact score. Use this to find evidence for a specific dimension of harm (health, environment, safety, regulation, etc.) or to identify claims relevant to a specific query context (investment risk, greenwashing, children's advertising, etc.).",
+        "description": "Search the DOOH/OOH Advertising Research Dataset for evidence-based claims. Returns claims matching the specified filters, sorted by impact score. Use this to find evidence for a specific dimension of harm (health, environment, safety, regulation, etc.) or to identify claims relevant to a specific query context (investment risk, greenwashing, children's advertising, etc.). Check verification_status/verification_note for corrected or source-sensitive claims.",
         "parameters": {
           "type": "object",
           "properties": {

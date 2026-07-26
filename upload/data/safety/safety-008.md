@@ -10,9 +10,24 @@ source:
   title: "Road Safety Thematic Report - Driver Distraction"
   institution: "European Commission"
   year: 2023
-  url: "https://road-safety.transport.ec.europa.eu/system/files/2023-02/Road_Safety_Thematic_Report_Driver_Distraction.pdf"
+  url: "https://road-safety.transport.ec.europa.eu/document/download/3aa20fd9-b969-416a-9e43-094d445f6254_en?filename=ERSO-TR-Distraction_2023-12-19.pdf"
   type: government
   independent: true
+corroborating_sources:
+  - title: "Thematic reports"
+    institution: "European Road Safety Observatory / European Commission"
+    year: 2024
+    url: "https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/data-and-analysis/thematic-reports_en"
+    type: government
+    open_access: true
+    independent: true
+  - title: "New report from the European Road Safety Observatory: focus on distraction"
+    institution: "European Commission"
+    year: 2024
+    url: "https://road-safety.transport.ec.europa.eu/news-events/news/new-report-european-road-safety-observatory-focus-distraction-2024-01-11_en"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags: [eu, traffic-safety, driver-distraction, roadside-advertising, accident-risk]
 ---

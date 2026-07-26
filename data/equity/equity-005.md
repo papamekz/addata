@@ -10,7 +10,7 @@ source:
   title: "Mapping the Social Inequalities of Billboard Locations"
   institution: "Adfree Cities"
   year: 2023
-  url: "https://adfreecities.org.uk/research-mapping-social-inequalities-billboard-locations/"
+  url: "https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf"
   type: ngo
   independent: true
 verified: true

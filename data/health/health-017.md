@@ -1,22 +1,46 @@
 ---
 id: health-017
-title: "Deutsches KLWG-E Kinderlebensmittelwerbegesetz: Industrielobby schwächt Regulierung vor Verabschiedung erheblich ab (2024)"
+title: "Deutsches Kinder-Lebensmittel-Werbegesetz: Ursprünglicher BMEL-Entwurf erfasste Außenwerbung; OOH-Branche lobbyierte dagegen"
 category: health
 subcategory: food-marketing
-impact_score: 9
+impact_score: 8
 impact_type:
   - health
   - regulation
 source:
-  title: "Kindgerechte Lebensmittelwerbegesetz (KLWG-E) — Gesetzgebungsverfahren 2024"
+  title: "Ökonomische Auswirkungen eines Werbe- und Sponsoringverbots im geplanten Kinder-Lebensmittel-Werbegesetz (KLWG) für die Medien- und Werbewirtschaft"
   authors:
-    - "Bundesministerium für Ernährung und Landwirtschaft"
-  institution: "Deutscher Bundestag / BMEL / foodwatch Deutschland"
+    - "Justus Haucap"
+    - "Ina Loebert"
+    - "Susanne Thorwarth"
+  institution: "List Forum für Wirtschafts- und Finanzpolitik / Springer Nature"
   year: 2024
-  url: "https://www.foodwatch.org/de/kampagnen/kindermarketing/klwg"
-  type: government
+  url: "https://link.springer.com/article/10.1007/s41025-024-00281-6"
+  type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Kein Verbot von Außenwerbung im geplanten Kinder-Lebensmittel-Werbegesetz (KLWG)"
+    institution: "Lobbyregister beim Deutschen Bundestag / Bundesverband Aussenmedien"
+    year: 2024
+    url: "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/regelungsvorhabensuche/RV0000463"
+    type: industry
+    open_access: true
+    independent: false
+  - title: "Regelungsvorhaben Kinder-Lebensmittel-Werbegesetz (KLWG)"
+    institution: "Lobbyregister beim Deutschen Bundestag / Ströer"
+    year: 2024
+    url: "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/regelungsvorhabensuche/RV0002234"
+    type: industry
+    open_access: true
+    independent: false
+  - title: "Regelungsvorhaben Vorhaben einer Regulierung von an Kinder gerichteter Lebensmittelwerbung (KLWG)"
+    institution: "Lobbyregister beim Deutschen Bundestag / Wirtschaftsvereinigung Alkoholfreie Getränke"
+    year: 2024
+    url: "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/regelungsvorhabensuche/RV0004643"
+    type: industry
+    open_access: true
+    independent: false
 verified: true
 tags:
   - children
@@ -32,10 +56,10 @@ languages:
 ---
 
 ## Zusammenfassung
-Das 2024 in Deutschland eingebrachte Kindgerechte Lebensmittelwerbegesetz (KLWG-E) sollte Werbung für ungesunde Lebensmittel gegenüber Kindern unter 14 Jahren beschränken — ursprünglich auch in der Außenwerbung. Nach intensivem Lobbying durch Lebensmittelindustrie und Werbebranche wurde der OOH-Bereich aus dem Anwendungsbereich des Gesetzes weitgehend ausgenommen.
+Der 2023 vorgestellte BMEL-Entwurf für ein Kinder-Lebensmittel-Werbegesetz sollte Werbung für Lebensmittel mit hohem Zucker-, Fett- oder Salzgehalt gegenüber Kindern unter 14 Jahren beschränken. Außenwerbung war ausdrücklich Teil des ursprünglichen Ansatzes, unter anderem im Umfeld von Schulen, Kitas, Spielplätzen und Freizeiteinrichtungen.
 
 ## Kernbefund
-foodwatch und weitere Verbraucherschutzorganisationen dokumentierten, dass der Entwurf durch Lobbyinterventionen in mehr als 40 Punkten abgeschwächt wurde. Der OOH-Sektor wurde nicht als eigenständiges Medium reguliert. Die verbleibenden Beschränkungen gelten vor allem für TV und Online — Werbetafeln und DOOH-Screens vor Schulen, Spielplätzen und Kitas bleiben weitgehend unkontrolliert.
+Das Bundestags-Lobbyregister dokumentiert, dass sowohl der Bundesverband Aussenmedien, Ströer als auch Lebensmittelverbände das Regelungsvorhaben 2024 adressierten. Der Außenmedienverband führte das Regelungsvorhaben unter dem Ziel "Kein Verbot von Außenwerbung im geplanten Kinder-Lebensmittel-Werbegesetz"; Ströer beschrieb zusätzlich das Interesse, das grundsätzliche Recht auf Werbung im öffentlichen Raum zu erhalten, und stellte fest, dass das KLWG diesem Anliegen entgegenstehen könne.
 
 ## Relevanz für Außenwerbung
-Deutschland hatte die Chance, als größter EU-Markt einen Präzedenzfall für OOH-Kindermarketing-Verbote zu setzen. Das Scheitern der OOH-Regulierung zeigt das Lobbying-Gewicht der Außenwerbebranche in der deutschen Politik. Es belegt gleichzeitig, dass gesetzliche Lücken im OOH-Bereich nicht zufällig entstehen, sondern aktiv produziert werden.
+Der Claim ist vor allem für Policy- und Due-Diligence-Agenten nützlich: Er zeigt, dass OOH-Kindermarketing in Deutschland nicht nur gesundheitspolitisch relevant ist, sondern als eigenständiges Lobby- und Regulierungsfeld behandelt wird. Außenwerbeflächen rund um kinderrelevante Orte sind damit ein klar identifizierbarer Regulierungsrisiko-Bereich.

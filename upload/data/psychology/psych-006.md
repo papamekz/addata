@@ -1,6 +1,6 @@
 ---
 id: psych-006
-title: "Kreative Außenwerbung manipuliert unbewusste kognitive Verarbeitung gezielt"
+title: "Feldstudie: Sichtbarkeit ist Voraussetzung dafür, dass kreative Billboards Markenerinnerung erhöhen"
 category: psychology
 subcategory: cognitive-manipulation
 impact_score: 6
@@ -10,32 +10,49 @@ impact_type:
 source:
   title: "Creativity, attention and the memory for brands: An outdoor advertising field study"
   authors:
-    - "Multiple authors"
-  institution: "ResearchGate / Academic study"
+    - "Wilson, Rick T."
+    - "Baack, Daniel W."
+    - "Till, Brian D."
+  institution: "Crossref / International Journal of Advertising"
   year: 2015
-  url: "https://www.researchgate.net/publication/281908369_Creativity_attention_and_the_memory_for_brands_An_outdoor_advertising_field_study"
+  url: "https://api.crossref.org/works/10.1080/02650487.2014.996117"
+  doi: "10.1080/02650487.2014.996117"
   type: peer-reviewed
-  open_access: false
+  open_access: true
   independent: true
+corroborating_sources:
+  - title: "Scholarly/Creative work listing for Creativity, attention and the memory for brands"
+    institution: "Texas State University Faculty Profiles"
+    year: 2015
+    url: "https://faculty.txst.edu/profile/1663039/activity/scholarly-creative"
+    type: grey-literature
+    open_access: true
+    independent: true
+  - title: "The Role of Location and Visual Saliency in Capturing Attention to Outdoor Advertising"
+    institution: "Semantic Scholar"
+    year: 2016
+    url: "https://www.semanticscholar.org/paper/4aa0c47c9660d70a8131159e3ac981226ca8ce07"
+    doi: "10.2501/JAR-2016-020"
+    type: peer-reviewed
+    independent: true
 verified: true
 tags:
-  - cognitive-manipulation
   - attention
   - memory
   - outdoor-advertising
-  - unconscious-processing
+  - visual-saliency
 languages:
   - en
 ---
 
 ## Zusammenfassung
 
-Feldstudien zu Außenwerbung zeigen, dass Kreativität in Werbemotiven gezielt eingesetzt wird, um die unwillkürliche Aufmerksamkeit zu kapern und Markenerinnerung durch kontextabhängige Gedächtnismechanismen zu erzeugen.
+Eine Feldstudie zu Billboards entlang einer urbanen Schnellstraße zeigt: Kreativität allein erhöht die Markenerinnerung nicht zuverlässig. Erst wenn eine Anzeige durch Größe, visuelle Salienz oder Markenbekanntheit eine Aufmerksamkeitsschwelle überschreitet, kann Kreativität die Wiedererkennung verbessern.
 
 ## Kernbefund
 
-Außenwerbung nutzt gezielt den Orienting-Response-Mechanismus (unbewusste Aufmerksamkeitsausrichtung auf neue Reize), kontextabhängige Gedächtnisbildung und kognitive Flüssigkeit. Kreative Werbung überwindet dabei eine kognitive "Aufmerksamkeitsschwelle" — das heißt, sie ist so gestaltet, dass sie unwillkürliche Aufmerksamkeit erzwingt.
+Die Studie findet Hinweise auf eine "attention capture threshold": Kreative Gestaltung wirkt in diesem Feldkontext nur dann positiv auf die Markenerinnerung, wenn das Billboard zuvor im visuellen Feld ausreichend auffällig ist. Billboard-Größe, visuelle Salienz und Markenbekanntheit erhöhen die Wiedererkennungsraten.
 
 ## Relevanz für Außenwerbung
 
-Werbefachleute designen Außenwerbung explizit so, dass sie den Blick von Passanten unwillkürlich auf sich zieht — das ist der erklärte Zweck. Diese gezielte Manipulation der unwillkürlichen Kognition im öffentlichen Raum erfolgt ohne Einwilligung der Betroffenen.
+Für OOH/DOOH-Bewertungen ist der belegte Punkt nicht eine harte Aussage über "unbewusste Manipulation", sondern ein belastbarer Wirkmechanismus: Auffälligkeit im öffentlichen Sichtfeld ist Voraussetzung für weitere Werbeverarbeitung und Markenerinnerung. Das macht Platzierung, Größe, Helligkeit und Bewegung zu relevanten Risikofaktoren für Aufmerksamkeitsbelastung.

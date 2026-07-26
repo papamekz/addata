@@ -8,15 +8,30 @@ impact_type:
   - health
   - regulation
 source:
-  title: "Less healthy food or drink: advertising and promotions restrictions"
+  title: "Restricting advertising of less healthy food or drink on TV and online: products in scope"
   authors:
     - "UK Department of Health & Social Care"
   institution: "UK Government / Ofcom"
   year: 2026
-  url: "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions"
+  url: "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope"
   type: government
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Less healthy food or drink: advertising and promotions restrictions"
+    institution: "UK Government"
+    year: 2026
+    url: "https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions"
+    type: government
+    open_access: true
+    independent: true
+  - title: "Landmark junk food ad ban to protect kids' health"
+    institution: "UK Government"
+    year: 2026
+    url: "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags:
   - hfss
@@ -31,7 +46,7 @@ languages:
 ---
 
 ## Zusammenfassung
-Seit dem 5. Januar 2026 gelten im Vereinigten Königreich gesetzliche Werbebeschränkungen für "less healthy food or drink" (HFSS/LHF): ein 9-Uhr-Abendschutzfenster für TV/ODPS/IPTV und ein vollständiges Verbot bezahlter Online-Werbung für identifizierbare betroffene Produkte. Die offizielle Regelung umfasst nach GOV.UK jedoch keine nationale Außenwerbung. OOH bleibt damit eine zentrale regulatorische Lücke, obwohl WHO-Leitlinien und Londoner TfL-Evidenz OOH-Beschränkungen als wirksames Public-Health-Instrument stützen.
+Seit dem 5. Januar 2026 gelten im Vereinigten Königreich gesetzliche Werbebeschränkungen für "less healthy food or drink" (HFSS/LHF): ein 9-Uhr-Abendschutzfenster für TV/ODPS/IPTV und ein vollständiges Verbot bezahlter Online-Werbung für identifizierbare betroffene Produkte. Die offizielle Regelung umfasst keine nationale Außenwerbung. OOH bleibt damit eine regulatorische Lücke, obwohl Public-Health-Evidenz lokale OOH-Beschränkungen als wirksames Instrument stützt.
 
 ## Kernbefund
 Die britische Regelung betrifft TV und Online-Medien: betroffene Produkte dürfen vor 21 Uhr nicht im regulierten TV/On-Demand/IPTV-Umfeld beworben werden; bezahlte Online-Werbung ist ganztägig untersagt. Für klassische Plakatflächen, digitale OOH-Screens und Verkehrsmittelwerbung besteht auf nationaler Ebene keine entsprechende Vollregelung. Dadurch entsteht ein Ausweichkanal: Werbebudgets für HFSS-Produkte können weiterhin in Außenwerbung verschoben werden, sofern keine lokalen Regeln greifen.

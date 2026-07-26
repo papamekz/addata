@@ -24,6 +24,7 @@
  *
  * Returns JSON array of matching claims (compact digest format), or full detail for --id.
  * Loads from data/digest.json — run scripts/build-data.js first if missing.
+ * Claims may include verification_status/verification_note for corrected or source-sensitive records.
  */
 
 const fs   = require('fs');
@@ -111,6 +112,7 @@ function formatText(list) {
   return list.map(c => [
     `[${c.id}] ${c.title}`,
     `  Category: ${c.category} | Impact: ${c.impact_score}/10 | Year: ${c.year} | Source: ${c.source_type}`,
+    c.source_urls?.length ? `  Sources: ${c.source_urls.join(' | ')}` : '',
     c.tags?.length ? `  Tags: ${c.tags.join(', ')}` : '',
     c.summary ? `  Summary: ${c.summary.slice(0, 200)}${c.summary.length > 200 ? '...' : ''}` : '',
     '',
@@ -138,6 +140,11 @@ if (format === 'text') {
       impact_score: c.impact_score,
       year:         c.year,
       source_type:  c.source_type,
+      source_url:   c.source_url || null,
+      source_urls:  c.source_urls || [],
+      source_count: c.source_count || 0,
+      verification_status: c.verification_status || null,
+      verification_note:   c.verification_note || null,
       tags:         c.tags,
       summary:      c.summary,
       file:         c.file,

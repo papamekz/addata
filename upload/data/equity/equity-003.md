@@ -12,6 +12,26 @@ source:
   url: "https://adfreecities.org.uk/unavoidable-impact/"
   type: ngo
   independent: true
+corroborating_sources:
+  - title: "Unavoidable Impact: How outdoor advertising placement relates to health and wealth inequalities"
+    institution: "World Without Fossil Ads"
+    year: 2024
+    url: "https://www.worldwithoutfossilads.org/listing/outdoor-advertising-may-reinforce-social-inequalities-in-health/"
+    type: ngo
+    independent: true
+  - title: "Unavoidable Impact"
+    institution: "Adfree Cities"
+    year: 2024
+    url: "https://adfreecities.org.uk/unavoidable-impact/"
+    type: ngo
+    independent: true
+  - title: "The Prevalence of Harmful Content on Outdoor Advertising in Los Angeles"
+    institution: "PubMed / American Journal of Public Health"
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24524512/"
+    doi: "10.2105/AJPH.2013.301694"
+    type: peer-reviewed
+    independent: true
 verified: true
 tags: [inequality, environmental-justice, demographic-targeting]
 ---

@@ -1,0 +1,44 @@
+name: Data Audit
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  data-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build data
+        run: node scripts/build-data.js
+      - name: Export RAG chunks
+        run: node scripts/export-rag-jsonl.js
+      - name: Audit data
+        run: node scripts/audit-data.js
+      - name: Check public release structure
+        run: |
+          node scripts/build-upload.js
+          cd upload
+          node scripts/build-data.js
+          node scripts/export-rag-jsonl.js
+          node scripts/check-public-release.js
+
+  url-audit:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build data
+        run: node scripts/build-data.js
+      - name: Audit URLs
+        run: node scripts/audit-urls.js

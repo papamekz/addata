@@ -466,7 +466,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: peer-reviewed
 - File: data/urban/urban-005.md
-- Sources: https://doaj.org/article/16671ce837af42739771b0dc623c8105 ; https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html ; https://api.crossref.org/works/10.3390/land13070994
+- Sources: https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html ; https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html ; https://api.crossref.org/works/10.3390/land13070994
 - Summary: A systematic literature review on visual pollution as an environmental problem. Identifies research gaps and methodological approaches to measurement and regulation. Published in 2024 in MDPI Land.
 - Finding: Visual pollution is a recognized and growing environmental problem. Research shows consistent negative impacts on well-being and urban quality. Outdoor advertising is one of the primary drivers, yet it is barely captured by urban environmental regulations.
 
@@ -477,7 +477,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: peer-reviewed
 - File: data/economy/econ-001.md
-- Sources: https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor ; https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor ; https://doaj.org/article/1223c596305946fa93e651f7336eafd7
+- Sources: https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor ; https://pure.york.ac.uk/portal/en/publications/income-inequality-status-consumption-and-status-anxiety-an-explor ; https://eprints.whiterose.ac.uk/id/eprint/192880/
 - Summary: Exploratory review on the relationship between income inequality, status consumption, and status anxiety. The source supports associations with household debt, spatial inequalities, unsustainable consumption, and higher CO₂ emissions, but not a direct causal effect of individual advertising campaigns.
 - Finding: Income inequality is linked in the literature to higher status consumption and status anxiety. The review identifies status anxiety as a plausible mechanism through which unequal contexts can contribute to status-driven consumption, household debt, longer commutes, and higher CO₂ emissions.
 
@@ -554,7 +554,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: who-report
 - File: data/health/health-004.md
-- Sources: https://www.who.int/tools/elena/interventions/food-marketing-children ; https://www.who.int/publications/i/item/9789240075412 ; https://www.ncbi.nlm.nih.gov/books/NBK592987/ ; https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing
+- Sources: https://www.who.int/tools/elena/interventions/food-marketing-children ; https://www.who.int/publications/i/item/9789240075412 ; https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing ; https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing
 - Summary: WHO guideline and ELENA (e-Library of Evidence for Nutrition Actions) intervention on food marketing to children. The WHO recommends binding legislative measures to protect children from marketing for foods high in saturated fats, trans fats, free sugars, and salt.
 - Finding: Voluntary self-regulatory commitments by the advertising industry are demonstrably ineffective. The WHO calls for binding, state-enforced restrictions — including for outdoor advertising — because otherwise children are left defenseless against aggressive marketing.
 
@@ -565,7 +565,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: peer-reviewed
 - File: data/health/health-005.md
-- Sources: https://link.springer.com/article/10.1007/s11121-024-01763-x ; https://api.crossref.org/works/10.1007/s11121-024-01763-x ; https://ouci.dntb.gov.ua/en/works/9QnW1Reo/
+- Sources: https://link.springer.com/article/10.1007/s11121-024-01763-x ; https://pubmed.ncbi.nlm.nih.gov/39789304/ ; https://ouci.dntb.gov.ua/en/works/9QnW1Reo/
 - Summary: Peer-reviewed study in Prevention Science (Springer) analyzing harmful marketing as an overlooked social determinant of health. Examines 6 industries: tobacco, alcohol, pharmaceuticals, processed foods, firearms, and fossil fuels.
 - Finding: Marketing across 6 industries is causally responsible for disease and death. More than 1 million Americans die annually from the consequences of products promoted through marketing. The study frames harmful marketing as a structural public health determinant — comparable to poverty or lack of education.
 
@@ -695,9 +695,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: regulation
 - Impact score: 8
 - Year: 2020
-- Source type: ngo
+- Source type: government
 - File: data/regulation/reg-002.md
-- Sources: https://www.thelocal.de/20200918/germany-set-to-ban-cigarette-street-ads-from-2022
+- Sources: https://www.bundestag.de/webarchiv/textarchiv/2020/kw27-de-tabakerzeugnisgesetz-701734 ; https://www.thelocal.de/20200918/germany-set-to-ban-cigarette-street-ads-from-2022
 - Summary: Germany was the last EU member state to ban outdoor tobacco advertising. The ban was introduced in stages: tobacco products from January 2022, heated tobacco products from January 2023, and e-cigarettes from January 2024.
 - Finding: The tobacco industry spent approximately 100 million euros per year on street and cinema advertising in Germany. For decades Germany was a special case within the EU: while other member states had long since banned outdoor tobacco advertising, Germany's politically influential tobacco industry blocked the prohibition. The ban only came following significant public and EU pressure.
 
@@ -708,7 +708,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2012
 - Source type: ngo
 - File: data/regulation/reg-003.md
-- Sources: https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/ ; https://prefeitura.sp.gov.br/web/licenciamento/w/desenvolvimento_urbano/participacao_social/conselhos_e_orgaos_colegiados/cppu/169850 ; https://prefeitura.sp.gov.br/cidade/secretarias/comunicacao/noticias/index.php?p=136949 ; https://prefeitura.sp.gov.br/licenciamento/w/noticias/319684 ; https://weburbanist.com/2010/03/06/clean-city-sao-paulo-scrubbed-of-outdoor-ads/
+- Sources: https://99percentinvisible.org/article/clean-city-law-secrets-sao-paulo-uncovered-outdoor-advertising-ban/ ; https://en.wikipedia.org/wiki/Cidade_Limpa ; https://brentmanke.com/a-city-without-ads-cidade-limpa/ ; https://www.manchesterhive.com/display/9781526137005/9781526137005.00019.pdf ; https://weburbanist.com/2010/03/06/clean-city-sao-paulo-scrubbed-of-outdoor-ads/
 - Summary: São Paulo introduced the "Lei Cidade Limpa" (Clean City Law) in 2007 — the most comprehensive outdoor advertising ban in the world. 15,000 billboards were removed, digital screens banned, advertising on buses prohibited, and 300,000 non-compliant business signs taken down.
 - Finding: A survey in 2011 (4 years after the ban) showed that 70% of São Paulo's 11 million residents regarded the ban positively. Unexpected consequences: the ban revealed historic architecture that had previously been obscured by advertising, and it stimulated street art. Clear Channel challenged the law in court — and lost.
 
@@ -717,9 +717,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: regulation
 - Impact score: 8
 - Year: 2015
-- Source type: ngo
+- Source type: government
 - File: data/regulation/reg-004.md
-- Sources: https://www.worldwithoutfossilads.org/listing/grenoble-first-to-ban-outdoor-ads-replaces-them-with-trees/
+- Sources: https://www.grenoble.fr/uploads/Presse/pse_fichier/41/6_746_DP_pub.pdf ; https://www.grenoble.fr/uploads/Presse/pse_fichier/f1/1353_247_Grenoble-accelere-2022.pdf ; https://www.worldwithoutfossilads.org/listing/grenoble-first-to-ban-outdoor-ads-replaces-them-with-trees/
 - Summary: Grenoble (France) became the first European city to introduce a comprehensive outdoor advertising ban in its urban area in 2015. Mayor Éric Piolle (Greens) terminated the city's billboard contract and had 326 advertising panels (including 64 large billboards) removed.
 - Finding: 2,051 square metres of advertising space were eliminated. As a replacement: 300+ new community notice boards (Bürgertafeln) for non-profit announcements, trees, and open spaces for local cultural groups. Financial loss: 600,000 euros per year in advertising revenue. The model demonstrates that cities can forgo advertising revenue and reclaim public space.
 
@@ -895,7 +895,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/safety/safety-001.md
-- Sources: https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf ; https://rosap.ntl.bts.gov/view/dot/36939 ; https://trid.trb.org/View/1337321 ; https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/
+- Sources: https://www.scenic.org/wp-content/uploads/2021/10/Billboard-Safety-Study-Compendium-10-16-2020.pdf ; https://trid.trb.org/view/1475885 ; https://trid.trb.org/View/1337321 ; https://www.scenic.org/why-scenic-conservation/billboards-and-sign-control/safety/
 - Summary: A comprehensive collection of studies by Scenic America shows that digital billboards (DOOH) divert drivers' gaze from the road significantly longer than static signs.
 - Finding: A glance away from the road lasting more than two seconds — which is frequently triggered by changing or animated digital content — dramatically increases the risk of an accident. Studies conducted in the United States (including in Alabama and Florida) document elevated crash rates in the immediate vicinity of such installations.
 
@@ -1093,7 +1093,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: ngo
 - File: data/regulation/reg-010.md
-- Sources: http://adfreecities.org.uk/resources/how-to-object-to-new-advertising-billboards/
+- Sources: http://adfreecities.org.uk/resources/how-to-object-to-new-advertising-billboards/ ; https://www.gov.uk/guidance/advertisements ; https://consultationhub.edinburgh.gov.uk/sfc/planning-guidance-on-outdoor-advertising/
 - Summary: The installation and operation of digital billboards frequently violates local building regulations. Corporations exploit the overloaded capacity of municipal authorities.
 - Finding: Investigations in the United Kingdom reveal systematic disregard for conditions and requirements. DOOH installations are often erected entirely without planning permission. Even where conditions exist, contractually agreed brightness limits (luminance) are exceeded, or mandatory night-time switch-offs (e.g. from 23:00 to 06:00) are simply ignored. Advertising corporations often accept fines as a "cost of doing business", since revenue from the illegal advertising airtime is higher, and municipal planning departments are too understaffed to pursue Discontinuance Notices through the courts.
 
@@ -1236,7 +1236,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2015
 - Source type: peer-reviewed
 - File: data/environment/env-013.md
-- Sources: https://api.crossref.org/works/10.1016/j.procir.2015.02.003 ; https://pubmed.ncbi.nlm.nih.gov/36512948/ ; https://ewastemonitor.info/the-global-e-waste-monitor-2024/
+- Sources: https://www.semanticscholar.org/paper/Life-Cycle-Assessment-of-CRT%2C-LCD-and-LED-Monitors%E2%98%86-Bhakar-Agur/b8d70a9328237fa48e8b374d5e0cf872dc7d8c39 ; https://pubmed.ncbi.nlm.nih.gov/36512948/ ; https://ewastemonitor.info/the-global-e-waste-monitor-2024/
 - Summary: The digitalisation of outdoor advertising shifts some environmental burdens from paper and printing materials to electronics, LED modules, power supplies, control systems, and disposal. The robust point is not a single service-life number for all DOOH screens, but the need for full lifecycle assessment.
 - Finding: Lifecycle studies of LCD/LED displays and LED products show that manufacturing, use, and end-of-life can all carry relevant environmental impacts. LED components contain valuable and sometimes critical metals; recycling potential exists, but is not automatically realised. The Global E-waste Monitor 2024 also documents that e-waste is growing faster than formal collection and recycling.
 
@@ -1324,7 +1324,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2026
 - Source type: grey-literature
 - File: data/regulation/reg-016.md
-- Sources: https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces
+- Sources: https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces ; https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame
 - Summary: Dutch cities are increasingly using their control over public space to restrict advertising for emissions-intensive products. Amsterdam voted in January 2026 to ban fossil and meat advertising in public space; Haarlem was an earlier pioneer on meat advertising in 2022.
 - Finding: Amsterdam's city council approved an APV-based ban on advertising for meat and fossil or climate-damaging products in public space. The exact start date was not finally fixed in the cited reporting; city officials indicated that a reasonable transition period was needed. The supported claim is therefore that Amsterdam adopted/formalised the ban, not that it was already fully implemented at every site.
 
@@ -1335,7 +1335,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2022
 - Source type: peer-reviewed
 - File: data/health/health-009.md
-- Sources: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915
+- Sources: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915 ; https://sphr.nihr.ac.uk/news-and-events/impact/impact-case-study-junk-food-advertising-tfl/
 - Summary: Scientific studies document the massive positive effect of advertising restrictions on public health.
 - Finding: A comprehensive study by LSHTM (London School of Hygiene & Tropical Medicine) and the University of Sheffield examined the 2019 ban on advertising for products high in fat, sugar, and salt (HFSS — High in Fat, Sugar and Salt) across the London transport network (TfL — Transport for London). The result: the ban led to a reduction in weekly energy intake from HFSS products of an average of 6.7% per household. This corresponds to a long-term prevention of an estimated 94,867 obesity cases and nearly 3,000 cases of type 2 diabetes in London. In addition, the British health system (NHS) is saving costs exceeding £200 million as a result.
 
@@ -1357,7 +1357,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: government
 - File: data/health/health-010.md
-- Sources: https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg
+- Sources: https://recht.nrw.de/lrgv/gesetz/01082005-schulgesetz-fuer-das-land-nordrhein-westfalen-schulgesetz-nrw-schulg ; https://recht.nrw.de/taxonomy/term/28930 ; https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument?Id=MMV16%2F3426
 - Summary: In Germany, the school is legally enshrined as an advertising-free protected space in order to preserve pedagogical integrity and pupils' independence.
 - Finding: As a representative example, § 99 of the Schulgesetz NRW (School Act for the State of North Rhine-Westphalia) stipulates that advertising that does not serve educational purposes is generally prohibited on school premises. This encompasses both the distribution of materials and the posting of posters on school grounds. The aim is to protect minors during a sensitive phase of development from the influence of commercial actors and to ensure that school remains a place of critical reflection rather than unfiltered consumption. Sponsoring is only permitted under the strictest conditions, with the advertising effect required to "clearly take a back seat to the educational benefit."
 
@@ -1412,7 +1412,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2007
 - Source type: peer-reviewed
 - File: data/health/health-012.md
-- Sources: https://experts.umn.edu/en/publications/outdoor-alcohol-advertising-near-schools-what-does-it-advertise-a/
+- Sources: https://experts.umn.edu/en/publications/outdoor-alcohol-advertising-near-schools-what-does-it-advertise-a/ ; https://pubmed.ncbi.nlm.nih.gov/17568965/
 - Summary: Peer-reviewed longitudinal study examining the relationship between outdoor alcohol advertising near schools and later alcohol-use intentions, norms, attitudes and use indicators among adolescents.
 - Finding: The study documented 931 alcohol advertisements within 1,500 feet of 63 Chicago school sites. Exposure to alcohol outdoor advertising in sixth grade predicted alcohol-use intentions at the end of eighth grade, including among adolescents who had not used alcohol in sixth grade. The robust finding is a longitudinal association with intentions, not standalone proof that OOH causally increases actual consumption.
 
@@ -1434,7 +1434,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2020
 - Source type: government
 - File: data/privacy/priv-003.md
-- Sources: https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32019-processing-personal-data-through-video_en
+- Sources: https://www.edpb.europa.eu/documents/guideline/guidelines-32019-on-processing-of-personal-data-through-video-devices_en
 - Summary: The European Data Protection Board (EDPB) has clarified that capturing personal characteristics (age, gender, emotions) through camera systems in public advertising installations without valid consent is unlawful. The programmatic DOOH business model, which is based on audience measurement, is therefore structurally incompatible with the GDPR (General Data Protection Regulation, known in German as DSGVO — Datenschutz-Grundverordnung).
 - Finding: DOOH screens use camera systems for the anonymized counting and classification of passers-by (Anonymized Video Analytics / AVA). The EDPB establishes: even when no biometric templates are stored, the processing of facial and bodily characteristics for audience analysis constitutes processing of personal data pursuant to Art. 4 GDPR. In public space, obtaining valid, informed consent from all those affected is practically impossible.
 
@@ -1559,14 +1559,14 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: The Otto Brenner Stiftung (Otto Brenner Foundation) and the University of Leipzig analyzed 9,779 advertising spots from German TV channels and YouTube. Result: **30.3% of all advertising spots** promote climate-damaging products and services — and in the assessment of the researchers, thereby violate the Medienstaatsvertrag (Interstate Media Treaty), which prohibits advertising for highly environmentally harmful behavior.
 - Finding: 9,779 spots were manually coded (approx. 52 hours of video material). **Every third spot** advertises climate killers — primarily automobiles, aviation, and food. Particularly absurd according to the study: advertising for climate-damaging products frequently conveys the message that one is doing something good for the environment (greenwashing). The study authors call for strict regulation or a complete advertising ban for climate-damaging product categories. Although the study examines TV and YouTube, the product categories (cars, flights, fossil energy) apply equally to OOH/DOOH advertising.
 
-### reg-021: The Hague: first city worldwide to ban fossil fuel OOH advertising for cars, flights & cruises from 2025
+### reg-021: The Hague: APV-based ban on fossil fuel OOH advertising in public space from 2025
 
 - Category: regulation
 - Impact score: 10
 - Year: 2025
 - Source type: court_ruling
 - File: data/regulation/reg-021.md
-- Sources: https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand
+- Sources: https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/verbod-op-het-maken-van-fossiele-reclame--in-den-haag-blijft-in-stand ; https://www.rechtspraak.nl/binaries/_rts_1768392709813/content/assets/lbvr/ne/2025/lbvr-ne-2025-nieuwsbrief-rechtspraak-europa-6.pdf
 - Summary: The Hague (Den Haag, Netherlands, population roughly 500,000) has had an APV-based ban on fossil outdoor advertising in public space since 1 January 2025. The ban covers advertising for fossil fuels, air holidays, airline tickets, grey electricity contracts, gas contracts, cruises, and cars with fossil-fuel or hybrid engines.
 - Finding: The Den Haag ban is **a direct OOH/DOOH prohibition** for advertising in public space. Rechtbank Den Haag describes the scope as advertising in public space for fossil fuels, air holidays, airline tickets, grey electricity contracts, gas contracts, cruises, and cars with fossil-fuel or hybrid engines. ANVR, TUI, D-Reizen, and Prijsvrij challenged the ban in interim proceedings; their claims were rejected in April 2025. Further cities discussing or enacting similar bans include Amsterdam, Edinburgh, Sydney, Zwolle, Tilburg, and Graz. Belgium enacted a national fossil-fuel advertising restriction in selected media in 2023.
 
@@ -1588,7 +1588,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: court_ruling
 - File: data/regulation/reg-023.md
-- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710
+- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0710 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0710
 - Summary: In 2019, the European Commission decided that Belgium/the City of Brussels had granted JCDecaux incompatible state aid by allowing continued use of certain advertising displays without rent or taxes. The EU General Court upheld the decision in 2022; the Court of Justice dismissed JCDecaux's appeal on 26 September 2024.
 - Finding: JCDecaux continued using certain advertising displays in Brussels beyond the dates provided for in the contract, without the City of Brussels charging rent or taxes. The Commission classified this as an economic advantage and ordered recovery of the aid. The General Court confirmed the Commission decision in T-642/19; the CJEU confirmed it in C-710/22 P. Clear Channel Belgium had lodged the original complaint with the Commission.
 
@@ -1599,7 +1599,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2000
 - Source type: government
 - File: data/politics/pol-013.md
-- Sources: https://www.marketingweek.com/decaux-sentenced-in-corruption-scandal-2/
+- Sources: https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/02-15-21-ccm-public-letters.pdf ; https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/02-15-21-ccm-public-letters-set-1.pdf
 - Summary: Jean-Claude Decaux, founder and chairman of JCDecaux, was convicted by the Tribunal de Bordeaux (Bordeaux Criminal Court, France) for "favoritisme" (favoritism/cronyism) and corruption in the awarding of public contracts. The trigger: a contract worth 39.8 million francs (approx. 6 million euros) for school clocks in 204 schools of the Aquitaine Regional Council was awarded without competitive tender to a Decaux subsidiary. Senator Jacques Verlade was convicted of bribery. Decaux received a six-month suspended sentence and a fine of 100,000 francs. He lodged an appeal.
 - Finding: The case documents the direct personal involvement of the JCDecaux group chairman in the manipulation of public procurement procedures. Instead of a competitive tender, a Decaux company obtained the contract through personal relationships with an elected politician. The criminal court found the award to be unlawful and issued convictions.
 
@@ -1614,25 +1614,25 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: FragDenStaat (a German freedom-of-information platform, comparable to "Ask the State") filed a freedom of information request for the disclosure of advertising rights contracts between the BVG (Berliner Verkehrsbetriebe, Berlin's public transport operator) and Wall GmbH (a JCDecaux subsidiary) as well as Ströer. The Berlin Administrative Court ruled in 2019: the financial terms of the contracts do not have to be disclosed — even though the contracts themselves contained a clause stating they held "no trade secrets." The court nonetheless weighed JCDecaux's interest in confidentiality more heavily than the public interest in transparency.
 - Finding: The public finances public infrastructure through taxes (BVG buses, trams, metro stations), on which JCDecaux exclusively places advertising. The precise financial terms — that is, how much the city receives for the use of its infrastructure — remain secret. The only publicly known figure: BVG advertising revenues amounted to approximately 10 million euros per year according to the authority's own statements. JCDecaux's original bid from 2006 is reported to have been 103 million euros over the contract term. The contract was renewed in 2021 for a further five years without a public tender.
 
-### reg-024: Switzerland: Federal Supreme Court confirms complete advertising ban in Vernier — 172 billboards removed, Zurich and Bern to follow
+### reg-024: Switzerland: Federal Supreme Court confirms advertising ban for commercial posters in Vernier — 172 billboards removed
 
 - Category: regulation
 - Impact score: 10
 - Year: 2024
 - Source type: court_ruling
 - File: data/regulation/reg-024.md
-- Sources: https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours
+- Sources: https://www.vernier.ch/actualites/affichage-commercial-le-tribunal-federal-rejette-les-recours ; https://www.vernier.ch/sites/default/files/2026-06/Compte-rendu-d%27activite-n5.pdf ; https://www.vernier.ch/sites/default/files/2025-05/2024_CRAF_web.pdf
 - Summary: The Swiss Federal Supreme Court confirmed in 2024 that the municipality of Vernier (Canton of Geneva) may ban commercial poster advertising visible from public space, including advertising located on private land. The ban serves landscape quality, living environment, reduction of visual pollution, and protection from unwanted commercial exposure. Of 172 previous advertising locations, the city says almost all were removed; 26 locations remain for cultural and sports notices.
 - Finding: The Federal Supreme Court did not classify the ban as an impermissible economic-policy measure, but as legitimate municipal regulation with environmental and social goals. Vernier points to visual pollution, overconsumption, over-indebtedness, and freeing public space. The ruling creates a robust Swiss reference case; whether other municipalities can adopt comparable rules depends on their legal basis, political process, and policy design.
 
-### reg-025: Amsterdam: first capital city worldwide to ban OOH advertising for fossil fuels AND meat — in force from May 2026
+### reg-025: Amsterdam: APV ban on OOH advertising for fossil fuels and meat from May 2026
 
 - Category: regulation
 - Impact score: 10
 - Year: 2026
 - Source type: government
 - File: data/regulation/reg-025.md
-- Sources: https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame
+- Sources: https://www.rijksoverheid.nl/documenten/kamerstukken/2026/02/10/kamervragen-over-het-besluit-de-gemeente-amsterdam-verbod-fossiele-reclame ; https://api.openraadsinformatie.nl/v1/resolve/api.notubiz.nl/document/16477799 ; https://nltimes.nl/2026/01/23/amsterdam-bans-fossil-fuel-meat-advertising-public-spaces
 - Summary: Amsterdam passed a law in January 2026 (by 27:17 council votes) — the first statutory ban by a capital city on OOH advertising for fossil fuels, meat, flights, petrol/diesel vehicles, and gas heating — covering all public surfaces including trams, trains, buses, and digital screens. In force from 1 May 2026. A second phase bans, from April 2028, corporate image advertising by high-emission companies as well. The city council withstood intensive lobbying pressure from industry and the national government.
 - Finding: Amsterdam goes beyond The Hague (fossil fuels only) by including meat and flights for the first time. The vote was passed despite a final lobbying offensive. The ban covers all DOOH networks in public space. The 2028 second phase explicitly targets "Corporate Image Advertising" by companies with high CO₂ emissions — a precedent for corporate brand communications. The city council described lobbying by industry and government as inappropriate interference in democratic decision-making processes.
 
@@ -1676,7 +1676,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2015
 - Source type: government
 - File: data/safety/safety-007.md
-- Sources: https://rosap.ntl.bts.gov/view/dot/36939
+- Sources: https://trid.trb.org/View/1337321
 - Summary: A government-funded US study analysed 18 digital billboard locations in Alabama and Florida. The crash analysis found higher crash rates in digital-billboard influence zones compared with downstream control areas on the same routes.
 - Finding: The study compared crash data at 18 DOOH sites with control points downstream. Result: the presence of digital billboards was correlated with increased crash rates in billboard influence zones, and sideswipe and rear-end crashes were overrepresented. Important caveat: the source frames the finding as correlation and notes that the relationship between digital billboards and traffic safety is complex.
 
@@ -1687,7 +1687,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2017
 - Source type: ngo
 - File: data/politics/pol-015.md
-- Sources: https://www.wuv.de/Archiv/Str%C3%B6er-wirbt-in-Frankfurt-zum-Schn%C3%A4ppchenpreis
+- Sources: https://www.fr.de/politik/cdu-org26591/kuriose-fall-einer-kuendigung-11092564.html
 - Summary: A W&V (Werben & Verkaufen, a German advertising industry trade publication) investigation (2017) found: Ströer DSM held outdoor advertising rights in Frankfurt at a fixed lease rate of only €409,000 annually plus revenue sharing — a total of approximately €2.6 million per year for the city. By comparison: Hamburg had re-tendered its OOH rights in 2007 and has since received approximately €34 million per year. Frankfurt was thus receiving, by calculation, **1/13 of the Hamburg market price** for comparable-sized public space.
 - Finding: The disparity — €2.6 million vs. €34 million for comparable municipal advertising rights — demonstrates how strongly municipal revenues depend on negotiating power and transparency during the award process. Frankfurt was contractually obligated to re-tender by January 1, 2018. The study implies that without this comparative pressure, many German cities are permanently ceding public space to OOH corporations at far below market value — without democratic oversight of the foregone value.
 
@@ -1709,7 +1709,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/regulation/reg-026.md
-- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825
+- Sources: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400825 ; https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng
 - Summary: EU Directive 2024/825 ("Empowering Consumers for the Green Transition"), adopted on 27 March 2024, bans generic environmental claims in advertising without specific evidence on the same medium. Banned from September 2026 (national transposition required by March 2026): statements such as "CO2-neutral", "climate-friendly", "energy-efficient", "green", "biodegradable" without quantified substantiation. Also banned: climate neutrality claims based solely on CO₂ offset projects.
 - Finding: The Directive applies to all advertising formats — including OOH and DOOH. Since billboards offer physically limited space, generic greenwashing claims on DOOH screens will in practice become impossible: a "CO2-neutral" claim on a digital display without detailed supporting evidence on the same medium will be EU-unlawful from 2026. The associated Green Claims Directive (more detailed regulation) was withdrawn by the Commission in 2025 — but Directive 2024/825 remains in force.
 
@@ -1720,7 +1720,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: who-report
 - File: data/health/health-014.md
-- Sources: https://www.who.int/publications/i/item/9789240075412 ; https://iris.who.int/handle/10665/370113 ; https://www.ncbi.nlm.nih.gov/books/NBK592987/ ; https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing
+- Sources: https://www.who.int/publications/i/item/9789240075412 ; https://iris.who.int/handle/10665/370113 ; https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing ; https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing
 - Summary: In July 2023, the WHO published its first normative guidance on food marketing to children. For the first time, the WHO explicitly recommends mandatory statutory measures — not voluntary self-regulation — and expressly includes outdoor advertising in public spaces as a regulatory target.
 - Finding: The WHO finds that industry self-regulation has failed and that "effective mandatory measures by member states" are required. The guideline covers all marketing channels including OOH advertising and calls for clear nutrient profiling to define HFSS products (high in fat, sugar, salt) that must not be marketed to children.
 
@@ -1731,18 +1731,18 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2026
 - Source type: government
 - File: data/health/health-015.md
-- Sources: https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions
+- Sources: https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope ; https://www.gov.uk/government/collections/less-healthy-food-or-drink-advertising-and-promotions-restrictions ; https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health
 - Summary: Since 5 January 2026, the United Kingdom has enforced statutory advertising restrictions for less healthy food and drink products (HFSS/LHF): a 9pm watershed for TV/ODPS/IPTV and a total ban on paid online advertising for identifiable in-scope products. Official GOV.UK guidance does not create a nationwide outdoor advertising ban. OOH therefore remains a major regulatory gap, even though WHO guidance and London TfL evidence support OOH restrictions as a public-health tool.
 - Finding: The UK rules apply to TV and online media: identifiable less healthy food and drink products may not be advertised before 9pm in regulated TV/on-demand/IPTV environments, and paid online advertising is prohibited at all times. Classic billboards, digital OOH screens, and transit advertising are not covered by an equivalent national rule. This leaves an avoidance channel: HFSS advertising budgets can still move into outdoor media unless local restrictions apply.
 
-### reg-027: Edinburgh bans OOH advertising for fossil fuels AND arms products — unique across the EU (2024)
+### reg-027: Edinburgh: advertising and sponsorship policy excludes fossil fuels and arms products from council-controlled spaces (2024)
 
 - Category: regulation
 - Impact score: 9
 - Year: 2024
 - Source type: government
 - File: data/regulation/reg-027.md
-- Sources: https://www.edinburgh.gov.uk/news/article/13762/council-to-consider-banning-fossil-fuel-advertising
+- Sources: https://www.edinburgh.gov.uk/downloads/file/28994/advertising-and-sponsorship-policy ; https://www.badverts.org/latest/edinburgh-introduces-landmark-ban-on-advertisements-for-fossil-fuels-and-arms-manufacturers ; https://www.worldwithoutfossilads.org/listing/edinburgh-council-approves-high-carbon-ad-ban/
 - Summary: In May 2024, the City of Edinburgh Council resolved to no longer permit advertising for fossil fuels and arms products on all municipal advertising spaces. Edinburgh thereby became the first city to explicitly ban both categories simultaneously from public advertising space.
 - Finding: The Edinburgh ban applies to all municipal advertising contracts and council-owned spaces. The city references its climate commitments and the Edinburgh Climate Pledge. The ban covers airlines, oil companies, and arms manufacturers, and affects contracts with JCDecaux and Clear Channel, which operate municipal advertising spaces in Edinburgh.
 
@@ -1790,14 +1790,14 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Summary: In December 2024, the UK Advertising Standards Authority (ASA) assessed a Lloyds campaign comprising a bus-shelter poster and three paid LinkedIn posts. The complaint alleged that the ads omitted material information about Lloyds' contribution to CO2 and greenhouse-gas emissions. The ASA upheld the complaint only in part: not against the poster, but against a LinkedIn post about the 'low carbon economy', because Lloyds' significant financed emissions were not sufficiently contextualised.
 - Finding: The ASA noted that Lloyds' sustainability report disclosed financed emissions of around 33 MtCO2e for 2022. The upheld LinkedIn post emphasised Lloyds' role in accelerating a 'low carbon economy' and renewable energy while failing to communicate that broader financed-emissions context. The bus-shelter poster using seaweed-packaging imagery was assessed in the same ruling but was not found to breach the environmental-claims rules.
 
-### reg-031: UK Competition and Markets Authority: Fines of up to 10% of annual turnover for greenwashing advertising from April 2025
+### reg-031: UK Competition and Markets Authority: Direct fines of up to 10% of annual turnover for breaches of consumer law from April 2025
 
 - Category: regulation
 - Impact score: 9
 - Year: 2025
 - Source type: government
 - File: data/regulation/reg-031.md
-- Sources: https://www.gov.uk/government/organisations/competition-and-markets-authority
+- Sources: https://www.gov.uk/government/publications/direct-consumer-enforcement-guidance-cma200 ; https://www.gov.uk/government/news/cma-to-boost-consumer-and-business-confidence-as-new-consumer-protection-regime-comes-into-force ; https://www.legislation.gov.uk/ukpga/2024/13
 - Summary: With the entry into force of the Digital Markets, Competition and Consumers Act, the UK competition authority CMA received from April 2025 the power to impose direct fines of up to 10% of global annual turnover on companies making misleading environmental claims in advertising campaigns — including OOH advertising. Previously, the CMA could only bring court proceedings.
 - Finding: The CMA's Green Claims Code prohibits vague statements such as "sustainable", "eco-friendly", or "carbon-neutral" without scientifically verifiable evidence. The new enforcement powers allow direct sanctions without litigation. For large OOH operators and their advertising clients, this means that any greenwashing campaign can now directly lead to billion-pound fines.
 
@@ -1841,7 +1841,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: un_report
 - File: data/regulation/reg-034.md
-- Sources: https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf
+- Sources: https://digitallibrary.un.org/record/4086999/files/A_HRC_59_42-EN.pdf ; https://digitallibrary.un.org/record/4086999
 - Summary: UN Special Rapporteur on human rights and climate change Elisa Morgera called in report A/HRC/59/42 of 15 May 2025 for far-reaching action against fossil-fuel disinformation. The recommendations include banning fossil-fuel advertising, promotion and sponsorship, and criminalising misinformation and greenwashing by the fossil-fuel industry.
 - Finding: Morgera recommends that states ban fossil-fuel advertising, promotion and sponsorship, including cross-border advertising. She also recommends that media and advertising firms can be criminalised when they amplify disinformation or misinformation by fossil-fuel companies. The report is not OOH-specific, but outdoor advertising is part of the fossil-fuel advertising and promotion system it targets.
 
@@ -1918,7 +1918,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/privacy/priv-007.md
-- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
 - Summary: Article 50 of the EU AI Act requires deployers of emotion recognition systems or biometric categorisation systems to inform the natural persons exposed to those systems about their operation. The information must be clear, distinguishable and accessible no later than the first exposure. Personal data must also continue to be processed under the GDPR and related EU data-protection rules.
 - Finding: Article 50 is central for DOOH audience measurement because many systems do not operate with individual consent; they capture people in public space as they pass by. Once a system recognises emotions or categorises persons based on biometric data, an internal claim of anonymisation is not enough: exposed persons must be informed about the operation of the system. This duty applies even if the operator later analyses results only in aggregate form.
 
@@ -1929,7 +1929,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: government
 - File: data/privacy/priv-008.md
-- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5
+- Sources: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5 ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
 - Summary: Article 5 of the EU AI Act prohibits certain AI practices, including biometric categorisation where it is used to infer sensitive attributes. For DOOH audience measurement, this means that systems must not derive protected sensitive categories from faces or other biometric data.
 - Finding: The boundary is not every anonymous count, but the kind of attribute inferred. Age or gender estimation is already regulatory-relevant and subject to transparency duties; inferring sensitive characteristics such as ethnic origin, political opinion, religious belief, sexual orientation or comparable protected categories falls into the prohibited zone. DOOH systems marketed with 'gender', 'ethnicity', 'emotion' or similar classifications therefore need to prove technically and legally that no sensitive characteristics are inferred.
 
@@ -1951,7 +1951,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2023
 - Source type: ngo
 - File: data/equity/equity-005.md
-- Sources: https://adfreecities.org.uk/research-mapping-social-inequalities-billboard-locations/
+- Sources: https://adfreecities.org.uk/wp-content/uploads/2024/03/Unavoidable-Impact-Advertising-Inequality-Full-Report-Adfree-Cities-4th-March-2024-WEB.pdf
 - Summary: A mapping study by Adfree Cities proves that billboards are systematically placed more frequently in poorer urban neighborhoods, while wealthier areas remain largely ad-free.
 - Finding: Spatial analysis shows a correlation between the deprivation index of a neighborhood and the density of outdoor advertising installations. Residents in socially disadvantaged areas are exposed to a significantly higher 'visual load' from advertising, especially for harmful products such as fast food, gambling, and alcohol. This reinforces existing health and social inequalities, as the affected population groups can hardly avoid the commercial pressure in their immediate living environment.
 
@@ -2011,7 +2011,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: peer-reviewed
 - File: data/health/health-018.md
-- Sources: https://pubmed.ncbi.nlm.nih.gov/39778813/ ; https://research-repository.uwa.edu.au/en/publications/childrens-views-on-outdoor-advertising-of-unhealthy-food-and-beve/ ; https://ro.ecu.edu.au/ecuworks2022-2026/5643/
+- Sources: https://pubmed.ncbi.nlm.nih.gov/39778813/ ; https://research-repository.uwa.edu.au/en/publications/childrens-views-on-outdoor-advertising-of-unhealthy-food-and-beve/ ; https://www.semanticscholar.org/paper/Children%27s-views-on-outdoor-advertising-of-food-and-Francis-Ross/09320a76aa0b3def292f95377f5c6f7a7085b1b8
 - Summary: A 2025 Appetite study examined children's views on outdoor advertising for unhealthy food and beverages near schools. Participants were aware of such advertising and many reported that it affected food preferences and diet.
 - Finding: This is qualitative and perception-based evidence, not an EMA causal study. The robust finding is that children notice unhealthy outdoor food and beverage advertising around schools, regard it as ethically problematic, and support restrictions such as limiting ads near school precincts or on public transport.
 
@@ -2033,7 +2033,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2025
 - Source type: government
 - File: data/health/health-020.md
-- Sources: https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html
+- Sources: https://www.asa.org.uk/news/new-rules-and-guidance-for-less-healthy-food-and-drink-advertising.html ; https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope ; https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health
 - Summary: In December 2025, ASA and CAP published the final rules and guidance implementing the UK restrictions for less healthy food and drink (LHF). Since 5 January 2026, identifiable LHF products must not appear on TV between 5:30am and 9pm, in Ofcom-regulated on-demand services during the same window, or in paid online advertising at any time. Outdoor advertising is not included in this list of regulated channels.
 - Finding: Enforcement operates through the UK Advertising Codes with ASA, CAP and Ofcom involvement. The key word is 'identifiable' less healthy products: the rules apply to concrete products, not every form of brand communication. The regulated media channels are narrow: TV, ODPS/IPTV and paid online. OOH/DOOH, billboards and transit advertising remain outside the national rule even though the same product categories can still be advertised there.
 
@@ -2077,7 +2077,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: peer-reviewed
 - File: data/regulation/reg-036.md
-- Sources: https://doaj.org/article/058aa07b68584d2eaa80f99978f9eda2 ; https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/ ; https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121 ; https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html
+- Sources: https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract ; https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/ ; https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121 ; https://www.greenpeace.org/usa/wp-content/uploads/legacy/Global/usa/report/2009/4/pvc-the-poison-plastic.html
 - Summary: Green-roofed bus shelters are often marketed as an ecological contribution to urban greening. The better-supported claim is not that green roofs are useless, but that the direct CO₂ uptake of a few square metres of sedum is small, while advertising displays consume electricity and classic poster systems can generate recurring material waste.
 - Finding: Seyedabadi et al. (2021) show that green-roof plants can bind CO₂, but direct uptake per square metre depends strongly on plant type, climate, and maintenance. The study reports 0.14 kg CO₂/m²/year for Sedum acre. On a small shelter roof of roughly 3.6–5.4 m², that is a very small direct CO₂ uptake. Adfree Cities reports much larger energy orders of magnitude for digital outdoor advertising screens: 11,501 kWh/year for a double-sided six-sheet screen and 41,627 kWh/year for a large DOOH screen. Classic poster systems can also create recurring material impacts through campaign replacement.
 
@@ -2141,7 +2141,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2009
 - Source type: peer-reviewed
 - File: data/culture/culture-006.md
-- Sources: https://cir.nii.ac.jp/crid/1360302870439621632 ; https://docslib.org/doc/4036227/commodified-language-in-chinatown-a-contextualized-approach-to-linguistic-landscape1
+- Sources: https://cir.nii.ac.jp/crid/1360302870439621632 ; https://www.semanticscholar.org/paper/Commodified-language-in-Chinatown%3A-A-contextualized-Leeman-Modan/b6601d79885bcb5d6eb26d560428e6b4608b101e
 
 ### culture-007: Outdoor-Werbung in Altstadtbereichen ist als visuelle Verschmutzung messbar und kann historische Ortswahrnehmung überlagern
 
@@ -2159,7 +2159,7 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2021
 - Source type: peer-reviewed
 - File: data/urban/urban-010.md
-- Sources: https://doaj.org/article/e394c227c51e44a684494c4f484030cc
+- Sources: https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87
 
 ### culture-008: Kommerzielle Zeichenlandschaften spiegeln und formen Gentrifizierung: Prenzlauer-Berg-Studie zeigt öffentlichen Raum als umkämpftes Kulturfeld
 
@@ -2301,9 +2301,9 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Category: politics
 - Impact score: 10
 - Year: 2023
-- Source type: grey-literature
+- Source type: government
 - File: data/politics/pol-024.md
-- Sources: https://blog.volkovlaw.com/2023/10/clear-channel-settles-sec-fcpa-case-against-former-chinese-subsidiary-for-26-1-million/ ; https://www.investing.com/news/stock-market-news/sec-says-clear-channel-outdoor-holdings-settles-charges-of-bribing-chinese-officials-3185725
+- Sources: https://fcpa.stanford.edu/fcpac-reports/2023-fcpa-q3-report.pdf ; https://static.cahill.com/docs/CGR%20Memo%20-%20Clear%20Channel%20and%20Albemarle%20FCPA%20Settlements%20%E2%80%93%20Key%20Takeaways%20for%20Compliance%20Officers.pdf
 
 ### pol-025: TfL-Junk-Food-Werbeverbot: Lebensmittel- und Werbeindustrie übertrieb Kosten und lieferte wenig Evidenz für eigene Gegenclaims
 
@@ -2330,4 +2330,4 @@ Claims with unresolved source questions are marked `verified: false` in their fr
 - Year: 2024
 - Source type: investigative_journalism
 - File: data/safety/safety-010.md
-- Sources: https://www.newindianexpress.com/nation/2024/Jun/06/ghatkopar-hoarding-that-claimed-17-lives-was-installed-on-weak-foundation-mumbai-institute-report ; https://www.mid-day.com/mumbai/mumbai-news/article/ghatkopar-hoarding-collapse-how-grp-bmc-helped-put-up-illegal-billboard-23364090 ; https://www.hindustantimes.com/cities/mumbai-news/panel-blames-ips-officer-officials-for-ghatkopar-hoarding-collapse-101774380422870.html
+- Sources: https://www.newindianexpress.com/nation/2024/Jun/06/ghatkopar-hoarding-that-claimed-17-lives-was-installed-on-weak-foundation-mumbai-institute-report ; https://www.hindustantimes.com/cities/mumbai-news/vjti-report-ghatkopar-billboard-was-installed-on-weak-foundation-101717614448557.html ; https://www.hindustantimes.com/cities/mumbai-news/panel-blames-ips-officer-officials-for-ghatkopar-hoarding-collapse-101774380422870.html

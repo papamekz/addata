@@ -1,6 +1,6 @@
 ---
 id: culture-003
-title: "Globale Werbeplattformen beschleunigen kulturelle Homogenisierung und bedrohen lokale Traditionen"
+title: "Globale Social-Media-Plattformen können kulturelle Homogenisierung beschleunigen"
 category: culture
 subcategory: homogenization
 impact_score: 7
@@ -10,10 +10,11 @@ impact_type:
 source:
   title: "Cultural Homogenization vs. Cultural Diversity: Social Media's Double-Edged Sword in the Age of Globalization"
   authors:
-    - "Multiple authors"
-  institution: "ResearchGate / Peer-reviewed"
+    - "Balogun, Shyngle K."
+    - "Aruoture, Ezekiel"
+  institution: "African Journal of Social and Behavioural Sciences"
   year: 2024
-  url: "https://www.researchgate.net/publication/382994264_CULTURAL_HOMOGENIZATION_VS_CULTURAL_DIVERSITY_SOCIAL_MEDIA%27S_DOUBLE-EDGED_SWORD_IN_THE_AGE_OF_GLOBALIZATION"
+  url: "https://journals.aphriapub.com/index.php/AJSBS/article/view/2722"
   type: peer-reviewed
   open_access: true
   independent: true
@@ -30,12 +31,12 @@ languages:
 
 ## Zusammenfassung
 
-Aktuelle (2024) Analyse, wie globale Werbeplattformen und Medien — einschließlich Außenwerbung — zur kulturellen Homogenisierung beitragen und lokale Traditionen und Diversität bedrohen.
+Aktuelle Analyse, wie Social-Media-Plattformen globale, häufig westlich geprägte Kulturtrends verbreiten und dadurch lokale Traditionen, Sprachen und Identitäten unter Druck setzen können. Die Quelle behandelt Social Media, nicht spezifisch Außenwerbung.
 
 ## Kernbefund
 
-Globale Werbe- und Medienplattformen tragen messbar zur kulturellen Homogenisierung bei. Lokale Traditionen und kulturelle Vielfalt werden durch die Dominanz globaler Markenbotschaften im öffentlichen Raum verdrängt. Dies ist ein aktuell wachsendes Problem.
+Die Quelle beschreibt Social Media als ambivalent: Es kann kulturelle Homogenisierung durch globale Trends und Konsumverhalten fördern, zugleich aber kulturelle Vielfalt sichtbar machen und lokale Kulturen dokumentieren. Der robuste Befund ist ein Plattform- und Globalisierungsrisiko, kein OOH-spezifischer Wirkungsnachweis.
 
 ## Relevanz für Außenwerbung
 
-Außenwerbung ist physisch im öffentlichen Raum verankert und damit besonders persistenter Teil des kulturellen Umfelds. Digitale DOOH-Screens beschleunigen die Verbreitung globaler Markenbotschaften in lokale Räume.
+Für OOH/DOOH kann die Quelle nur als Kontext dienen: digitale Werbescreens können globale Markenästhetik in lokale Räume tragen, aber der direkte Nachweis muss aus OOH- oder Stadtbildquellen kommen. Der Claim sollte daher nicht als alleiniger Beleg für Außenwerbung verwendet werden.

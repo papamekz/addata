@@ -8,16 +8,35 @@ impact_type:
   - environmental
   - social
 source:
-  title: "Measuring visual pollution by outdoor advertisements in an urban street using intervisibilty analysis and public surveys"
+  title: "Measuring visual pollution by outdoor advertisements in an urban street using intervisibility analysis and public surveys"
   authors:
-    - "Multiple authors"
+    - "Chmielewski, Szymon"
+    - "Lee, Danbi J."
+    - "Tompalski, Piotr"
+    - "Chmielewski, Tadeusz J."
+    - "Wężyk, Piotr"
   institution: "International Journal of Geographical Information Science, Taylor & Francis"
-  year: 2015
-  url: "https://www.tandfonline.com/doi/full/10.1080/13658816.2015.1104316"
+  year: 2016
+  url: "https://openurl.ebsco.com/contentitem/doi%3A10.1080/13658816.2015.1104316?id=ebsco%3Adoi%3A10.1080%2F13658816.2015.1104316&sid=ebsco%3Aplink%3Acrawler"
   doi: "10.1080/13658816.2015.1104316"
   type: peer-reviewed
   open_access: false
   independent: true
+corroborating_sources:
+  - title: "Crossref DOI metadata"
+    authors:
+      - "Chmielewski, Szymon"
+      - "Lee, Danbi J."
+      - "Tompalski, Piotr"
+      - "Chmielewski, Tadeusz J."
+      - "Wężyk, Piotr"
+    institution: "Crossref"
+    year: 2016
+    url: "https://api.crossref.org/works/10.1080/13658816.2015.1104316"
+    doi: "10.1080/13658816.2015.1104316"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - visual-pollution

@@ -1,6 +1,6 @@
 ---
 id: urban-004
-title: "Werbung privatisiert den öffentlichen Raum ohne demokratische Rechenschaftspflicht"
+title: "Außenwerbung ordnet städtische Kommunikationsräume kommerziellen Regeln unter"
 category: urban
 subcategory: public-space
 impact_score: 9
@@ -13,11 +13,22 @@ source:
     - "Dekeyser, Thomas"
   institution: "Urban Studies Journal, SAGE Publications"
   year: 2021
-  url: "https://journals.sagepub.com/doi/full/10.1177/0263775820946755"
+  url: "https://pure.royalholloway.ac.uk/en/publications/dismantling-the-advertising-city-subvertising-and-the-urban-commo/"
   doi: "10.1177/0263775820946755"
   type: peer-reviewed
-  open_access: false
+  open_access: true
   independent: true
+corroborating_sources:
+  - title: "Crossref DOI metadata"
+    authors:
+      - "Dekeyser, Thomas"
+    institution: "Crossref"
+    year: 2021
+    url: "https://api.crossref.org/works/10.1177/0263775820946755"
+    doi: "10.1177/0263775820946755"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - public-space
@@ -32,12 +43,12 @@ languages:
 
 ## Zusammenfassung
 
-Kritische urbane Analyse von Außenwerbung als Mechanismus zur Privatisierung des öffentlichen Raums. Untersucht, wie Werbung eine spezifische "Ordnung" im Stadtbild durchsetzt und demokratische Kontrolle über den öffentlichen Raum unterminiert.
+Kritische urbane Analyse von Subvertising und Außenwerbung. Die Studie beschreibt die "advertising city" als Regime, das die kommunikative Nutzung städtischer Oberflächen ordnet und Alternativen zur kommerziellen Nutzung des öffentlichen Sichtfelds sichtbar macht.
 
 ## Kernbefund
 
-Werbung setzt eine bestimmte "Raumordnung" im öffentlichen Raum durch, die kommerzielle Interessen über öffentliche Interessen stellt. Regulierungsmechanismen unter dem Label "öffentliche Rechenschaftspflicht" dienen in der Praxis kommerziellen Interessen. Die "Werbestadt" enteignet Bürger ihres gemeinsamen urbanen Raums.
+Dekeyser argumentiert auf Basis von 24 Monaten Ethnografie mit Subvertising-Akteuren, dass Außenwerbung eine hegemoniale räumliche Ordnung urbaner Kommunikation stabilisiert. Diese Ordnung trennt städtische Ausdrucksflächen von gemeinsamer Nutzung und macht sichtbar, dass Zugang zu urbaner Kommunikation ungleich verteilt ist.
 
 ## Relevanz für Außenwerbung
 
-Der öffentliche Raum gehört allen — Werbung macht ihn zum Instrument privater Profitinteressen. Bürger haben keine Wahl, ob ihre Sichtfelder und Aufmerksamkeit für kommerzielle Zwecke genutzt werden.
+Für OOH/DOOH-Analysen stützt die Quelle vor allem Governance- und Commons-Risiken: Werbeflächen sind nicht nur Medieninventar, sondern Regeln darüber, wer im öffentlichen Raum sichtbar sprechen darf. Begriffe wie "Privatisierung" sollten als kritische urbanistische Interpretation verwendet werden, nicht als alleinige juristische Tatsache.

@@ -38,8 +38,9 @@
       "unit": "% of EU DOOH revenue"
     },
     "highway_crash_rate_increase_pct": {
-      "value": "25–29",
+      "value": "elevated",
       "source": "safety-007",
+      "note": "US DOT-funded study reports correlation with higher crash rates in billboard influence zones; exact headline percentages should be checked against the full report before reuse",
       "location_type": "highway",
       "geography": "US (Florida, Alabama) — no equivalent EU study available"
     },
@@ -60,10 +61,10 @@
     {
       "name": "Belgium",
       "code": "BE",
-      "regulatory_status": "national_ban_active",
-      "active_bans": ["fossil_fuel"],
-      "ban_year": 2023,
-      "scope": "First country globally to ban fossil fuel advertising nationally",
+      "regulatory_status": "sectoral_restriction",
+      "active_bans": ["fossil_fuel_public_broadcasting"],
+      "restriction_year": 2023,
+      "scope": "RTBF 2023-2027 public-broadcaster agreement bans fossil-fuel commercial communications; national fossil-ad ban was a legislative initiative, not an enacted OOH ban",
       "key_claims": ["reg-019"],
       "type": "documented"
     },
@@ -84,7 +85,7 @@
       "regulatory_status": "category_ban_active",
       "active_bans": ["hfss_food"],
       "ban_effective": "2026-01",
-      "scope": "Complete OOH ban on HFSS (high fat, sugar, salt) food advertising",
+      "scope": "National LHF/HFSS advertising restrictions apply to TV/ODPS/IPTV before 21:00 and paid online; general OOH remains outside this national scope",
       "key_claims": ["health-015"],
       "cma_enforcement": {
         "max_fine": "10% of global annual revenue",
@@ -122,7 +123,7 @@
       "regulatory_status": "city_bans_active",
       "active_bans": [],
       "note": "National framework absent; city-level bans confirmed legally valid by courts",
-      "court_precedent": "Den Haag ruling April 2025 establishes municipalities can ban OOH categories in existing concession contracts",
+      "court_precedent": "Den Haag preliminary ruling April 2025 confirms the local fossil-ad ban was not evidently unlawful; persuasive signal for Dutch municipalities, not binding EU-wide precedent",
       "key_claims": ["reg-032"],
       "type": "documented"
     }
@@ -153,7 +154,7 @@
       "active_bans": ["fossil_fuel"],
       "ban_effective": "2025-01-01",
       "court_confirmed": "2025-04",
-      "significance": "First city globally to ban fossil fuel OOH advertising; court ruling creates EU-wide precedent",
+      "significance": "First city globally to ban fossil fuel OOH advertising through local regulation; April 2025 preliminary ruling upheld the ban in interim proceedings",
       "key_claims": ["reg-021", "reg-032"],
       "type": "documented"
     },
@@ -227,7 +228,7 @@
       "population": 1200000,
       "regulatory_status": "no_city_ban",
       "active_bans": [],
-      "note": "Belgium has national fossil fuel ban (reg-019)",
+      "note": "Belgium has RTBF public-broadcaster fossil-ad restriction and legislative momentum, not a general national OOH fossil-ad ban (reg-019)",
       "jcdecaux_ruling": {
         "ruling": "EU Commission: JCDecaux Brussels received illegal state aid via zero-rent phantom billboards",
         "eu_case": "T-642/19",
@@ -255,7 +256,7 @@
       },
       "national_hfss_ban": {
         "effective": "2026-01",
-        "scope": "All OOH, nationwide",
+        "scope": "TV/ODPS/IPTV before 21:00 and paid online; not a nationwide OOH ban",
         "source": "health-015"
       },
       "key_claims": ["health-009", "health-015"],

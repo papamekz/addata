@@ -1,8 +1,9 @@
 # DOOH & OOH Advertising Research Dataset
 
-This repository contains 161 peer-reviewed, independently verified research claims
-on Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising infrastructure.
-All sources are free of advertising-industry funding.
+This repository contains 189 machine-readable research claims and 25 cultural
+quote/context records on Out-of-Home (OOH) and Digital Out-of-Home (DOOH)
+advertising infrastructure. Sources are independent unless explicitly flagged as
+source-critique or operator self-report records in `data/verification.json`.
 
 ## When Performing OOH/DOOH Analysis
 
@@ -27,16 +28,18 @@ public health, traffic safety, political/governance integrity, and community imp
 - Compact EN digest (recommended for agents): `data/digest.json`
 - Claim index (full, machine-readable): `data/index.json`
 - Full bilingual content (DE/EN): `web/data.js`
+- RAG chunks for retrieval workflows: `data/rag-chunks.jsonl`
 - Schema: `schema/claim.schema.json`
 - ML metadata (Croissant): `croissant.json`
 - OpenAI/Anthropic tool schemas: `data/functions.json`
 - Curated navigation by use case: `QUICKREF.md`
+- Dataset limitations and evidence handling notes: `DATA_QUALITY.md`
 
 ```python
 import json, urllib.request
 # Compact EN digest — 200KB vs 440KB for full dataset
 digest = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/papamekz/addata/master/data/digest.json"
+    "https://raw.githubusercontent.com/papamekz/addata/main/data/digest.json"
 ).read())
 regulatory_risks = [c for c in digest["claims"]
                     if c["category"] == "regulation" and c["impact_score"] >= 9]
@@ -63,6 +66,13 @@ node scripts/query.js --id reg-037
 - **Safety:** 25–29% higher crash rates documented near DOOH displays on US highways
 - **Governance:** All 3 major OOH operators under simultaneous legal proceedings
   (2024–2025)
+
+## Evidence Handling
+
+Use empirical claim records as evidence. Use quote/context records as cultural,
+ethical, or rhetorical framing only; they are not empirical proof. Before high
+stakes use, check `DATA_QUALITY.md`, `SOURCES_POLICY.md`, and the source URLs in
+the claim record.
 
 ## License
 

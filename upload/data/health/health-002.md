@@ -1,22 +1,25 @@
 ---
 id: health-002
-title: "Außenwerbung für Lebensmittel korreliert direkt mit Kaufverhalten bei Jugendlichen"
+title: "Outdoor-Lebensmittelwerbung ist bei Jugendlichen nur schwach mit Kaufverhalten korreliert"
 category: health
 subcategory: food-marketing
-impact_score: 8
+impact_score: 7
 impact_type:
   - health
   - psychological
 source:
   title: "Does outdoor advertising correlate with retail food purchases made by adolescents? A cross-sectional study in Canada"
   authors:
-    - "Multiple authors"
+    - "Wray, Alexander"
+    - "Martin, Gina"
+    - "Doherty, Sean"
+    - "Gilliland, Jason"
   institution: "Health Promotion International, Oxford Academic"
-  year: 2024
-  url: "https://academic.oup.com/heapro/article/40/2/daaf016/8084741"
+  year: 2025
+  url: "https://api.crossref.org/works/10.1093/heapro/daaf016"
   doi: "10.1093/heapro/daaf016"
   type: peer-reviewed
-  open_access: false
+  open_access: true
   independent: true
 verified: true
 tags:
@@ -32,12 +35,12 @@ languages:
 
 ## Zusammenfassung
 
-Kanadische Querschnittsstudie, die erstmals eine direkte Korrelation zwischen der Exposition gegenüber Außenwerbung für Lebensmittel und dem tatsächlichen Kaufverhalten von Jugendlichen herstellt. Peer-reviewed, veröffentlicht in Oxford Health Promotion International.
+Kanadische Querschnittsstudie zu Outdoor-Lebensmittelwerbung und selbst berichteten Lebensmitteleinkäufen von 545 Jugendlichen. Die Quelle findet nur schwache bzw. marginale Zusammenhänge; Konsumeinstellungen, Ethnizität und Geschlecht erklären Kaufverhalten stärker.
 
 ## Kernbefund
 
-Die Studie belegt eine statistisch signifikante direkte Korrelation zwischen der Häufigkeit der Exposition gegenüber Außenwerbung für Lebensmittel und dem Kaufverhalten von Jugendlichen. Mehr Werbung = mehr Käufe der beworbenen (überwiegend ungesunden) Produkte.
+Die Verfügbarkeit von Outdoor-Lebensmittelwerbung im Wohn- und Schulumfeld ist nur schwach mit Käufen bei Fast-Food-, Restaurant-, Lebensmittel- und Convenience-Angeboten korreliert. Die Autoren betonen, dass Konsumeinstellungen und soziodemografische Faktoren größere Effektstärken aufweisen.
 
 ## Relevanz für Außenwerbung
 
-Diese Studie liefert den direktesten Kausalnachweis: Außenwerbung für Lebensmittel verändert das Kaufverhalten von Jugendlichen messbar. Im Jahr 2024 veröffentlicht — dies ist aktuelle, belastbare Evidenz.
+Die Studie liefert aktuelle Evidenz für einen möglichen, aber begrenzten Zusammenhang zwischen OOH-Lebensmittelwerbung und Jugendkäufen. Sie ist kein Kausalnachweis und spricht eher dafür, OOH-Regulierung mit Bildungs-, Schulumfeld- und Konsumkompetenzmaßnahmen zu kombinieren.

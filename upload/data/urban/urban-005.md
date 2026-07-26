@@ -11,14 +11,46 @@ impact_type:
 source:
   title: "A Systematic Literature Review and Analysis of Visual Pollution"
   authors:
-    - "Multiple authors"
-  institution: "Land (MDPI), peer-reviewed open-access journal"
+    - "Gao, Hangyu"
+    - "Bakar, Shamsul Abu"
+    - "Maulan, Suhardi"
+    - "Yusof, Mohd Johari Mohd"
+    - "Mundher, Riyadh"
+    - "Guo, Yu"
+    - "Chen, Benxue"
+  institution: "IDEAS/RePEc"
   year: 2024
-  url: "https://www.mdpi.com/2073-445X/13/7/994"
+  url: "https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html"
   doi: "10.3390/land13070994"
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "A Systematic Literature Review and Analysis of Visual Pollution"
+    authors:
+      - "Gao, Hangyu"
+      - "Bakar, Shamsul Abu"
+      - "Maulan, Suhardi"
+      - "Yusof, Mohd Johari Mohd"
+      - "Mundher, Riyadh"
+      - "Guo, Yu"
+      - "Chen, Benxue"
+    institution: "IDEAS/RePEc"
+    year: 2024
+    url: "https://ideas.repec.org/a/gam/jlands/v13y2024i7p994-d1429349.html"
+    doi: "10.3390/land13070994"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Crossref DOI metadata"
+    authors:
+      - "Crossref"
+    institution: "Crossref"
+    year: 2024
+    url: "https://api.crossref.org/works/10.3390/land13070994"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - visual-pollution

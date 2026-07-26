@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claim Intake",
+  "description": "Minimal structured intake format for AI agents proposing new OOH/DOOH evidence claims.",
+  "type": "object",
+  "required": [
+    "title",
+    "category",
+    "impact_score",
+    "impact_type",
+    "source",
+    "tags",
+    "duplicate_check"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 10
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "psychology",
+        "environment",
+        "urban",
+        "economy",
+        "health",
+        "culture",
+        "equity",
+        "regulation",
+        "resources",
+        "politics",
+        "safety",
+        "privacy",
+        "alternatives"
+      ]
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "impact_score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "impact_type": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "psychological",
+          "physical",
+          "environmental",
+          "social",
+          "economic",
+          "cultural",
+          "health",
+          "cognitive",
+          "safety",
+          "privacy",
+          "regulation",
+          "environment",
+          "economy",
+          "ecological",
+          "surveillance",
+          "equity",
+          "political",
+          "corruption",
+          "children",
+          "energy",
+          "global",
+          "greenwashing",
+          "corporate-communication",
+          "legal",
+          "misleading-metrics",
+          "urban"
+        ]
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["title", "institution", "year", "url", "type", "independent"],
+      "properties": {
+        "title": { "type": "string" },
+        "institution": { "type": "string" },
+        "year": { "type": "integer", "minimum": 1900, "maximum": 2030 },
+        "url": { "type": "string", "format": "uri" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "peer-reviewed",
+            "who-report",
+            "un_report",
+            "government",
+            "court_ruling",
+            "ngo",
+            "investigative_journalism",
+            "industry_report",
+            "commercial-research",
+            "grey-literature",
+            "industry",
+            "book"
+          ]
+        },
+        "open_access": { "type": "boolean" },
+        "independent": { "type": "boolean" }
+      }
+    },
+    "corroborating_sources": {
+      "type": "array",
+      "items": { "$ref": "#/properties/source" }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "type": "string" }
+    },
+    "duplicate_check": {
+      "type": "object",
+      "required": ["queries_run", "result"],
+      "properties": {
+        "queries_run": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "result": {
+          "type": "string",
+          "enum": ["no_duplicate_found", "possible_duplicate", "update_existing_claim"]
+        },
+        "nearest_claim_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "summary_de": { "type": "string" },
+    "summary_en": { "type": "string" }
+  }
+}

@@ -13,6 +13,14 @@ source:
   url: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003915"
   type: peer-reviewed
   independent: true
+corroborating_sources:
+  - title: "Junk food advertising restrictions prevent almost 100,000 obesity cases and is expected to save the NHS £200m"
+    institution: "London School of Hygiene & Tropical Medicine (LSHTM)"
+    year: 2022
+    url: "https://sphr.nihr.ac.uk/news-and-events/impact/impact-case-study-junk-food-advertising-tfl/"
+    type: government
+    open_access: true
+    independent: true
 verified: true
 tags: [london, tfl, obesity, junk-food, public-health, impact-study]
 ---

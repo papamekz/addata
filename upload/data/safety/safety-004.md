@@ -1,26 +1,49 @@
 ---
 id: safety-004
-title: "Signal-Maskierung: Beeinträchtigung der Sichtbarkeit von Notfall- und Verkehrssignalen durch DOOH"
+title: "Billboards können Fahrer von Verkehrsschildern ablenken und die Reaktionszeit erhöhen"
 category: safety
 impact_score: 9
 impact_type:
   - physical
 source:
-  title: "Visual clutter and the masking of critical traffic information"
-  institution: "Traffic Safety Research Journal"
-  year: 2021
-  url: "https://www.trafficsafetyresearch.com"
-  type: peer-reviewed
+  title: "Digital Advertising Billboards and Driver Distraction"
+  institution: "National Center for Transportation Systems Productivity and Management / USDOT"
+  year: 2015
+  url: "https://rosap.ntl.bts.gov/view/dot/36939/dot_36939_DS1.pdf"
+  type: government
+  open_access: true
   independent: true
+corroborating_sources:
+  - title: "NCHRP Report 600: Human Factors Guidelines for Road Systems"
+    institution: "Transportation Research Board"
+    year: 2007
+    url: "https://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_600second.pdf"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Visual clutter in road environments: what it does, and what to do about it"
+    institution: "Australasian Road Safety Research, Policing and Education Conference / TRID"
+    year: 2008
+    url: "https://trid.trb.org/View/904585"
+    type: conference
+    open_access: true
+    independent: true
+  - title: "Impact of roadside advertisements near traffic signs on driving safety"
+    institution: "SCENIC"
+    year: 2024
+    url: "https://www.scenic.org/wp-content/uploads/2024/03/Impact-of-roadside-advertisements-near-traffic-signs-on-driving-safety-.pdf"
+    type: report
+    open_access: true
+    independent: true
 verified: true
-tags: [safety, signal-masking, traffic-safety, distraction, emergency-vehicles]
+tags: [safety, traffic-safety, distraction, road-signs, visual-clutter]
 ---
 
 ## Zusammenfassung
-Die extreme Leuchtdichte digitaler Werbetafeln kann die Wahrnehmung lebenswichtiger Verkehrssignale und Rettungsfahrzeuge behindern.
+Starke Lichtquellen und visuelles Clutter können die Wahrnehmung von Verkehrsschildern und anderen wichtigen Straßeninformationen erschweren.
 
 ## Kernbefund
-In der optischen Wahrnehmungspsychologie ist bekannt, dass stärkere Lichtreize schwächere Reize maskieren können. Hochleistungs-LED-Screens, die in Sichtlinie zu Ampelanlagen oder Verkehrsschildern platziert sind, können deren Signalwirkung insbesondere bei Nacht oder schlechter Witterung (Regen, Nebel) drastisch reduzieren. Zudem kann die enorme Helligkeit und Farbdynamik von DOOH-Anlagen dazu führen, dass die blinkenden Warnlichter von herannahenden Rettungsfahrzeugen (Blaulicht) im visuellen Rauschen der Umgebung untergehen oder zu spät wahrgenommen werden, was die Reaktionszeit von Verkehrsteilnehmern gefährlich verlängert.
+In der optischen Wahrnehmungspsychologie ist bekannt, dass stärkere Lichtreize schwächere Reize maskieren können. Forschungsberichte zu roadside advertising zeigen, dass visuelle Unruhe, billboard traffic und digitale Werbeflächen die Aufmerksamkeit von Fahrern abziehen, die Erkennung von Verkehrsschildern erschweren und Reaktionszeiten verlängern können. Der belastbare Teil des Claims ist deshalb nicht eine generelle "Signalmaskierung", sondern ein erhöhtes Risiko für schlechtere Erkennbarkeit kritischer Straßeninformation.
 
 ## Relevanz für Außenwerbung
-Außenwerbung ist ein Sicherheitsrisiko, wenn sie mit der offiziellen Sicherheitsinfrastruktur um die visuelle Dominanz konkurriert. Die Priorisierung von Werbebotschaften gefährdet im Zweifelsfall Menschenleben.
+Außenwerbung ist ein Sicherheitsrisiko, wenn sie mit der offiziellen Sicherheitsinfrastruktur um die visuelle Aufmerksamkeit konkurriert.

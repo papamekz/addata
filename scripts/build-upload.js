@@ -32,17 +32,32 @@ function copyDir(srcDir, destDir) {
 const rootFiles = [
   'README.md',
   'AGENTS.md',
+  'GEMINI.md',
+  'COPILOT.md',
+  'CURSOR.md',
+  'AGENT_GUIDE.md',
+  'AGENT_CLAIM_WORKFLOW.md',
+  'DATA_QUALITY.md',
+  'DATA_CARD.md',
+  'agent-manifest.json',
+  'CHANGELOG.md',
+  '.zenodo.json',
+  'robots.txt',
+  'sitemap.xml',
+  'llms.txt',
   'SKILL.md',
   'SOURCES_POLICY.md',
   'QUICKREF.md',
+  'CONTRIBUTING.md',
   'CITATION.cff',
   'datapackage.json',
   'croissant.json',
+  'ro-crate-metadata.json',
   'LICENSE',
 ];
 
 // Directories to include
-const dirs = ['data', 'schema', 'web'];
+const dirs = ['data', 'schema', 'web', 'templates', 'examples', '.github', '.well-known'];
 
 // Files/dirs to exclude from web/
 const webExclude = ['data.js']; // too large, regenerate on target
@@ -99,7 +114,20 @@ for (const dir of dirs) {
 }
 
 // Add public scripts so target can rebuild data.js and search claims
-const publicScripts = ['build-data.js', 'sync-counts.js', 'query.js'];
+const publicScripts = [
+  'build-data.js',
+  'sync-counts.js',
+  'query.js',
+  'audit-data.js',
+  'audit-urls.js',
+  'impact-calculator.js',
+  'export-agent-context.js',
+  'export-rag-jsonl.js',
+  'build-agent-artifacts.js',
+  'generate-embeddings-openai.js',
+  'scaffold-claim.js',
+  'check-public-release.js',
+];
 for (const s of publicScripts) {
   const scriptsSrc = path.join(ROOT, 'scripts', s);
   if (fs.existsSync(scriptsSrc)) {
