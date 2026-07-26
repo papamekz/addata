@@ -17,6 +17,14 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "Influence of Social Media Use on Body Image and Well-Being Among Adolescents and Young Adults: A Systematic Review"
+    institution: "PubMed"
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/37256748/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - adolescents

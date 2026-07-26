@@ -21,6 +21,21 @@ source:
   type: peer-reviewed
   open_access: true
   independent: true
+corroborating_sources:
+  - title: "A scoping review of outdoor food marketing: exposure, power and impacts on eating behaviour and health"
+    institution: "PubMed Central / peer-reviewed"
+    year: 2022
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9330687/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
+  - title: "Would Reducing Children's Exposure to Food Advertising Prevent Obesity? A Systematic Review of Economic Evidence"
+    institution: "PubMed Central / peer-reviewed"
+    year: 2025
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12182458/"
+    type: peer-reviewed
+    open_access: true
+    independent: true
 verified: true
 tags:
   - food-marketing

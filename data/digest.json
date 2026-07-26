@@ -94,9 +94,10 @@
       "institution": "PubMed Central / National Institutes of Health",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792687/",
+        "https://pubmed.ncbi.nlm.nih.gov/19227390/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -121,9 +122,10 @@
       "institution": "PubMed Central",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103119/",
+        "https://pubmed.ncbi.nlm.nih.gov/37256748/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -421,9 +423,11 @@
       "institution": "Scientific Reports, Nature Publishing Group",
       "source_url": "https://www.nature.com/articles/s41598-024-56403-9",
       "source_urls": [
-        "https://www.nature.com/articles/s41598-024-56403-9"
+        "https://www.nature.com/articles/s41598-024-56403-9",
+        "https://pubmed.ncbi.nlm.nih.gov/31610855/",
+        "https://pubmed.ncbi.nlm.nih.gov/14709704/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -640,9 +644,11 @@
       "institution": "Health Promotion International, Oxford Academic",
       "source_url": "https://api.crossref.org/works/10.1093/heapro/daaf016",
       "source_urls": [
-        "https://api.crossref.org/works/10.1093/heapro/daaf016"
+        "https://api.crossref.org/works/10.1093/heapro/daaf016",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9330687/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12182458/"
       ],
-      "source_count": 1,
+      "source_count": 3,
       "verification_status": null,
       "verification_note": null,
       "tags": [],
@@ -921,9 +927,10 @@
       "institution": "Fraunhofer-Institut für System- und Innovationsforschung (ISI), Karlsruhe",
       "source_url": "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html",
       "source_urls": [
-        "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html"
+        "https://www.isi.fraunhofer.de/de/presse/2024/presseinfo-03-social-media-influencer-marketing-jugendliche-kritischer-konsum-schutz-noetig.html",
+        "https://www.tagesspiegel.de/gesellschaft/unwiderstehlicher-kaufdrang-influencer-verleiten-jugendliche-erfolgreich-zum-kauf-11101498.html"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1041,9 +1048,10 @@
       "institution": "World Without Fossil Ads / Adfree Cities",
       "source_url": "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/",
       "source_urls": [
-        "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/"
+        "https://www.worldwithoutfossilads.org/listing/hamburg-popular-initiative-wins-in-court-referendum-to-ban-outdoor-ads-moves-to-next-phase/",
+        "https://adfreecities.org.uk/2025/05/hamburg-initiative-to-remove-outdoor-advertising-screens-growing-european-movement/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1192,9 +1200,10 @@
       "institution": "SpringerLink / Peer-reviewed",
       "source_url": "https://link.springer.com/article/10.1007/BF02386023",
       "source_urls": [
-        "https://link.springer.com/article/10.1007/BF02386023"
+        "https://link.springer.com/article/10.1007/BF02386023",
+        "https://werberat.de/english-keyfacts/"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1329,9 +1338,10 @@
       "institution": "It's Nice That / citing European Commission ECOBOARD figures",
       "source_url": "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
       "source_urls": [
-        "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121"
+        "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
+        "https://cordis.europa.eu/article/id/92567-reducing-billboard-advertising-waste"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -1389,9 +1399,10 @@
       "institution": "PubMed Central / US EPA",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886190/",
+        "https://www.epa.gov/sites/default/files/2015-01/documents/printing.pdf"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "verification_status": null,
       "verification_note": null,
       "tags": [
@@ -2963,7 +2974,7 @@
       "source_url": "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
       "source_urls": [
         "https://www.otto-brenner-stiftung.de/reklame-fuer-klimakiller/",
-        "https://www.uni-leipzig.de/newsdetail/artikel/studie-klimaschaedliche-fernsehwerbung-verletzt-medienstaatsvertrag-2024-05-06"
+        "https://www.deutschlandfunk.de/viele-spots-werben-fuer-klimaschaedliche-produkte-studie-sieht-verstoss-gegen-medienstaatsvertrag-102.html"
       ],
       "source_count": 2,
       "verification_status": null,
