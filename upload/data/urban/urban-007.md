@@ -23,6 +23,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [property-values, billboard-blight, real-estate, gentrification, visual-pollution]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

@@ -14,7 +14,7 @@ source:
     - "Chmielewski, Szymon"
   institution: "ISPRS International Journal of Geo-Information / MDPI"
   year: 2021
-  url: "https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87"
+  url: "https://api.crossref.org/works/10.3390/ijgi10100656"
   doi: "10.3390/ijgi10100656"
   type: peer-reviewed
   open_access: true

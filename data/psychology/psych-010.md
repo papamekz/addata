@@ -39,7 +39,7 @@ verified: true
 tags:
   - body-image
   - advertising
-  - meta-analysis
+  - systematic-review
   - adolescents
   - psychological-harm
   - causal-evidence

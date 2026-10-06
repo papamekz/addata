@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [orienting-response, attention-theft, dooh, digital-screens, cognitive-load]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

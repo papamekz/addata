@@ -14,14 +14,14 @@ source:
   institution: "National Bureau of Economic Research (NBER)"
   year: 2017
   url: "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf"
-  type: government
+  type: grey-literature
   open_access: true
   independent: true
 corroborating_sources:
   - title: "Advertising as a Major Source of Human Dissatisfaction"
     institution: "CEPR / University of Warwick"
     year: 2019
-    url: "https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million"
+    url: "https://warwick.ac.uk/fac/soc/economics/research/centres/cage/manage/publications/98_michel.pdf"
     type: grey-literature
     open_access: true
     independent: true

@@ -16,18 +16,18 @@ source:
     - "Allebeck P"
     - "Kraus L"
     - "Rehm J"
-  institution: "BMJ Public Health / Crossref"
+  institution: "BMJ Public Health / PubMed Central"
   year: 2026
-  url: "https://api.crossref.org/works/10.1136/bmjph-2025-004245"
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084893/"
   doi: "10.1136/bmjph-2025-004245"
   type: peer-reviewed
   open_access: true
   independent: true
 corroborating_sources:
   - title: "Full alcohol marketing ban and adolescent drinking patterns: a repeated cross-sectional analysis comparing Lithuania with other EU countries"
-    institution: "PubMed Central"
+    institution: "Crossref (DOI-Metadatensatz)"
     year: 2026
-    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084893/"
+    url: "https://api.crossref.org/works/10.1136/bmjph-2025-004245"
     doi: "10.1136/bmjph-2025-004245"
     type: peer-reviewed
     open_access: true

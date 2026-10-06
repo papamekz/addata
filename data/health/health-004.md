@@ -12,7 +12,7 @@ source:
   authors: []
   institution: "World Health Organization (WHO)"
   year: 2023
-  url: "https://www.who.int/tools/elena/interventions/food-marketing-children"
+  url: "https://www.who.int/publications/i/item/9789240075412"
   type: who-report
   open_access: true
   independent: true
@@ -20,7 +20,7 @@ corroborating_sources:
   - title: "Policies to protect children from the harmful impact of food marketing: WHO guideline"
     institution: "World Health Organization"
     year: 2023
-    url: "https://www.who.int/publications/i/item/9789240075412"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK594727/"
     type: who-report
     independent: true
   - title: "WHO recommends stronger policies to protect children from the harmful impact of food marketing"

@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [germany, nrw, schools, youth-protection, commercial-ban, education]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

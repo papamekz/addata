@@ -284,7 +284,7 @@
       "category": "economy",
       "impact_score": 7,
       "year": 2017,
-      "source_type": "government",
+      "source_type": "grey-literature",
       "institution": "National Bureau of Economic Research (NBER)",
       "open_access": true,
       "file": "data/economy/econ-003.md"
@@ -346,7 +346,7 @@
     },
     {
       "id": "health-005",
-        "title": "Ein Review schätzt: Schädliches Marketing trägt in den USA zu weit über 1 Million vorzeitigen Todesfällen pro Jahr bei",
+      "title": "Ein Review schätzt: Schädliches Marketing trägt in den USA zu weit über 1 Million vorzeitigen Todesfällen pro Jahr bei",
       "category": "health",
       "impact_score": 10,
       "year": 2025,
@@ -489,7 +489,7 @@
     },
     {
       "id": "reg-003",
-        "title": "São Paulo: Lei Cidade Limpa (2006) entfernte den Großteil der Außenwerbung aus dem öffentlichen Raum",
+      "title": "São Paulo: Lei Cidade Limpa (2006) entfernte den Großteil der Außenwerbung aus dem öffentlichen Raum",
       "category": "regulation",
       "impact_score": 9,
       "year": 2012,
@@ -753,7 +753,7 @@
     },
     {
       "id": "priv-001",
-        "title": "DOOH-Screens können biometrische und Bewegungsdaten zur Zielgruppenanalyse erfassen",
+      "title": "DOOH-Screens können biometrische und Bewegungsdaten zur Zielgruppenanalyse erfassen",
       "category": "privacy",
       "impact_score": 9,
       "year": 2022,
@@ -995,12 +995,12 @@
     },
     {
       "id": "priv-002",
-        "title": "Der 'Path-to-Purchase'-Abgleich: DOOH kann Mobile-IDs und Standortdaten verknüpfen",
+      "title": "Der 'Path-to-Purchase'-Abgleich: DOOH kann Mobile-IDs und Standortdaten verknüpfen",
       "category": "privacy",
       "impact_score": 9,
       "year": 2022,
-        "source_type": "ngo",
-        "institution": "Big Brother Watch",
+      "source_type": "ngo",
+      "institution": "Big Brother Watch",
       "open_access": true,
       "file": "data/privacy/priv-002.md"
     },
@@ -1072,12 +1072,12 @@
     },
     {
       "id": "safety-004",
-        "title": "Billboards können Fahrer von Verkehrsschildern ablenken und die Reaktionszeit erhöhen",
+      "title": "Billboards können Fahrer von Verkehrsschildern ablenken und die Reaktionszeit erhöhen",
       "category": "safety",
       "impact_score": 9,
       "year": 2021,
-        "source_type": "government",
-        "institution": "National Center for Transportation Systems Productivity and Management / USDOT",
+      "source_type": "government",
+      "institution": "National Center for Transportation Systems Productivity and Management / USDOT",
       "open_access": true,
       "file": "data/safety/safety-004.md"
     },
@@ -1409,8 +1409,9 @@
       "category": "environment",
       "impact_score": 9,
       "year": 2022,
-      "source_type": "industry",
-      "file": "data/environment/env-016.md"
+      "source_type": "government",
+      "file": "data/environment/env-016.md",
+      "institution": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)"
     },
     {
       "id": "safety-006",

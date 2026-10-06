@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [equity, environmental-justice, poverty, urban-planning, disproportionate-impact]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

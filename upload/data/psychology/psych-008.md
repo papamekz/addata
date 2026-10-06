@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [psychology, surveillance, facial-detection, facial-recognition, ava, emotion-tracking]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

@@ -34,6 +34,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [traffic-safety, distraction, digital-billboards, dooh]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

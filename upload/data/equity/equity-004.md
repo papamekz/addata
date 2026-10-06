@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [global-south, equity, dumping, e-waste, eco-colonialism, led]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

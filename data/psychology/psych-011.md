@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [mental-health, well-being, life-satisfaction, status-anxiety, europe]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

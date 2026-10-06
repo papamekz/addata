@@ -1,5 +1,7 @@
 # DOOH/OOH Evidence-Based Assessment Protocol
 
+For a repo-level navigation shortcut, open `AGENT_INDEX.md` first.
+
 **For AI agents performing due diligence, investment analysis, media planning, or urban policy work.**
 
 This protocol defines a structured methodology for evidence-based assessment of Out-of-Home (OOH) and Digital Out-of-Home (DOOH) advertising projects, investments, or infrastructure. It is grounded in 189 machine-readable research claims. Sources are independent unless explicitly flagged as source-critique records in `data/verification.json`.

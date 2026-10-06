@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [privacy, tracking, mac-address, mobile-id, surveillance, pOOH]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

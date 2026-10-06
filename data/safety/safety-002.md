@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [traffic-safety, industry-bias, research-flaws]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

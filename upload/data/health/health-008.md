@@ -29,6 +29,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [gambling, addiction, sports-betting, youth-protection]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

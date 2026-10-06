@@ -26,6 +26,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [health, blue-light, melatonin, sleep, circadian-rhythm, led]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

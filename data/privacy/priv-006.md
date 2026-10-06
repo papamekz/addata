@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [surveillance, biometrics, facial-detection, privacy-violation, uk]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

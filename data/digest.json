@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-07-26",
+  "generated": "2026-10-06",
   "total": 189,
   "note": "Compact EN index for AI agent ingestion. Full claim text: read data/{file}. Search: node scripts/query.js --help",
   "categories": {
@@ -567,12 +567,12 @@
       "category": "economy",
       "impact_score": 7,
       "year": 2017,
-      "source_type": "government",
+      "source_type": "grey-literature",
       "institution": "National Bureau of Economic Research (NBER)",
       "source_url": "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
       "source_urls": [
         "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
-        "https://cepr.org/voxeu/columns/advertising-major-source-human-dissatisfaction-cross-national-evidence-one-million",
+        "https://warwick.ac.uk/fac/soc/economics/research/centres/cage/manage/publications/98_michel.pdf",
         "https://www.vwl.uni-mannheim.de/media/Lehrstuehle/vwl/Sovinsky/Advertising_Michel_et_al_2018_Easterlin_Volume.pdf"
       ],
       "source_count": 3,
@@ -663,7 +663,14 @@
       "source_count": 3,
       "verification_status": null,
       "verification_note": null,
-      "tags": [],
+      "tags": [
+        "food-marketing",
+        "outdoor-advertising",
+        "adolescents",
+        "purchasing-behavior",
+        "canada",
+        "cross-sectional"
+      ],
       "summary": "Canadian cross-sectional study of outdoor food advertising and self-reported food purchases by 545 adolescents. The source finds only weak or marginal associations; consumption attitudes, ethnicity, and gender explain purchasing behaviour more strongly.",
       "finding": "The availability of outdoor food advertising around home and school environments is only weakly correlated with purchases at fast-food, restaurant, grocery, and convenience outlets. The authors stress that consumption attitudes and sociodemographic factors show larger effect sizes.",
       "file": "data/health/health-002.md"
@@ -705,10 +712,10 @@
       "year": 2023,
       "source_type": "who-report",
       "institution": "World Health Organization (WHO)",
-      "source_url": "https://www.who.int/tools/elena/interventions/food-marketing-children",
+      "source_url": "https://www.who.int/publications/i/item/9789240075412",
       "source_urls": [
-        "https://www.who.int/tools/elena/interventions/food-marketing-children",
         "https://www.who.int/publications/i/item/9789240075412",
+        "https://www.ncbi.nlm.nih.gov/books/NBK594727/",
         "https://www.who.int/news/item/03-07-2023-who-recommends-stronger-policies-to-protect-children-from-the-harmful-impact-of-food-marketing",
         "https://www.who.int/news/item/07-07-2023-who-and-unicef-release-toolkit-to-help-countries-protect-children-from-harmful-food-marketing"
       ],
@@ -739,7 +746,7 @@
       "source_urls": [
         "https://link.springer.com/article/10.1007/s11121-024-01763-x",
         "https://pubmed.ncbi.nlm.nih.gov/39789304/",
-        "https://ouci.dntb.gov.ua/en/works/9QnW1Reo/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11811470/"
       ],
       "source_count": 3,
       "verification_status": "verified",
@@ -1247,7 +1254,15 @@
       "source_count": 3,
       "verification_status": null,
       "verification_note": null,
-      "tags": [],
+      "tags": [
+        "bnatschg",
+        "germany",
+        "light-pollution",
+        "law",
+        "insects",
+        "\"2027\"",
+        "deutsch"
+      ],
       "summary": "In 2021, §41a was inserted into the Bundesnaturschutzgesetz (BNatSchG — Federal Nature Conservation Act), providing for protection against light emissions. The provision is not yet in force — it requires an implementing ordinance (Durchführungsverordnung) announced for 2027 as part of the national biodiversity strategy.",
       "finding": "The German legislature has officially recognised light pollution as a nature conservation problem and incorporated it into the Federal Nature Conservation Act. Illuminated advertising panels and digital DOOH screens in Germany are in urban areas almost twice as numerous as street lamps, and contribute substantially to light pollution.",
       "file": "data/regulation/reg-007.md"
@@ -1383,7 +1398,7 @@
         "https://www.greenpeace.org/usa/?p=13701",
         "https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=51",
         "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/vinyl-chloride",
-        "https://www.epa.gov/dioxin/common-sources-exposure-dioxin"
+        "https://www.epa.gov/trinationalanalysis/dioxins"
       ],
       "source_count": 5,
       "verification_status": null,
@@ -1700,9 +1715,9 @@
       "year": 2021,
       "source_type": "ngo",
       "institution": "Correctiv / Lobbyregister des Bundestages",
-      "source_url": "https://correctiv.org",
+      "source_url": "https://www.lobbyregister.bundestag.de/suche/R005503",
       "source_urls": [
-        "https://correctiv.org"
+        "https://www.lobbyregister.bundestag.de/suche/R005503"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -1830,9 +1845,9 @@
       "year": 2021,
       "source_type": "ngo",
       "institution": "Badvertising / New Weather Institute",
-      "source_url": "https://www.badverts.org",
+      "source_url": "https://www.badverts.org/latest/new-report-advertising-climate-chaos-measuring-the-co2-emissions-associated-with-adverts-for-cars-amp-airlines",
       "source_urls": [
-        "https://www.badverts.org"
+        "https://www.badverts.org/latest/new-report-advertising-climate-chaos-measuring-the-co2-emissions-associated-with-adverts-for-cars-amp-airlines"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -1914,9 +1929,9 @@
       "year": 2025,
       "source_type": "ngo",
       "institution": "Adfree Cities",
-      "source_url": "https://adfreecities.org.uk",
+      "source_url": "https://adfreecities.org.uk/wp-content/uploads/2024/11/Limiting-harmful-ads-briefing-Adfree-Cities-Nov-2024-UPDATE-online-version.0.pdf",
       "source_urls": [
-        "https://adfreecities.org.uk"
+        "https://adfreecities.org.uk/wp-content/uploads/2024/11/Limiting-harmful-ads-briefing-Adfree-Cities-Nov-2024-UPDATE-online-version.0.pdf"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -1954,9 +1969,9 @@
       "year": 2023,
       "source_type": "ngo",
       "institution": "Adfree Cities / Local Government Analysis",
-      "source_url": "https://adfreecities.org.uk",
+      "source_url": "https://adfreecities.org.uk/wp-content/uploads/2024/11/Limiting-harmful-ads-briefing-Adfree-Cities-Nov-2024-UPDATE-online-version.0.pdf",
       "source_urls": [
-        "https://adfreecities.org.uk"
+        "https://adfreecities.org.uk/wp-content/uploads/2024/11/Limiting-harmful-ads-briefing-Adfree-Cities-Nov-2024-UPDATE-online-version.0.pdf"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -2341,9 +2356,9 @@
       "year": 2022,
       "source_type": "ngo",
       "institution": "Corporate Europe Observatory / Municipal Finance Studies",
-      "source_url": "https://corporateeurope.org",
+      "source_url": "https://corporateeurope.org/en/economy-finance/2018/10/eu-obstacle-course-municipalism",
       "source_urls": [
-        "https://corporateeurope.org"
+        "https://corporateeurope.org/en/economy-finance/2018/10/eu-obstacle-course-municipalism"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -2384,9 +2399,9 @@
       "year": 2022,
       "source_type": "ngo",
       "institution": "Urban Sociology Review / Culture Action Europe",
-      "source_url": "https://cultureactioneurope.org",
+      "source_url": "https://cultureactioneurope.org/wp-content/uploads/2017/05/CAE_Polis-and-the-people.pdf",
       "source_urls": [
-        "https://cultureactioneurope.org"
+        "https://cultureactioneurope.org/wp-content/uploads/2017/05/CAE_Polis-and-the-people.pdf"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -3253,13 +3268,13 @@
       "category": "environment",
       "impact_score": 9,
       "year": 2022,
-      "source_type": "industry",
-      "institution": "invidis",
-      "source_url": "https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/",
+      "source_type": "government",
+      "institution": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+      "source_url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=8",
       "source_urls": [
-        "https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/",
-        "https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2022/08/20220824-habeck-treiben-energieeinsparung-weiter-voran-bundeskabinett-billigt-energieeinspar-verordnungen.html",
-        "https://www.bmwk.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=1"
+        "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/E/ensikumav.pdf?__blob=publicationFile&v=8",
+        "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2022/09/20220928-kabinett-beschliesst-anpassungen-bei-energieeinspar-verordnung.html",
+        "https://invidis.de/2022/09/energieeinsparverordnung-kampagne-zeigt-dooh-effizienz/"
       ],
       "source_count": 3,
       "verification_status": "corrected",
@@ -3741,11 +3756,11 @@
       "impact_score": 10,
       "year": 2026,
       "source_type": "peer-reviewed",
-      "institution": "BMJ Public Health / Crossref",
-      "source_url": "https://api.crossref.org/works/10.1136/bmjph-2025-004245",
+      "institution": "BMJ Public Health / PubMed Central",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084893/",
       "source_urls": [
-        "https://api.crossref.org/works/10.1136/bmjph-2025-004245",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084893/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084893/",
+        "https://api.crossref.org/works/10.1136/bmjph-2025-004245"
       ],
       "source_count": 2,
       "verification_status": "corrected",
@@ -3771,9 +3786,9 @@
       "year": 2024,
       "source_type": "investigative_journalism",
       "institution": "Concurrences / CNMC",
-      "source_url": "https://www.concurrences.com/fr/bulletin/news-issues/february-2024/the-spanish-competition-authority-initiates-an-in-depth-investigation-into-the",
+      "source_url": "https://www.cnmc.es/expedientes/c142623",
       "source_urls": [
-        "https://www.concurrences.com/fr/bulletin/news-issues/february-2024/the-spanish-competition-authority-initiates-an-in-depth-investigation-into-the",
+        "https://www.cnmc.es/expedientes/c142623",
         "https://www.jcdecaux.com/news-media/press-releases/jcdecaux-has-decided-not-pursue-acquisition-clear-channels-business-spain",
         "https://www.marketingdirecto.com/marketing-general/jcdecaux-renuncia-adquisicion-clear-channel-espana"
       ],
@@ -3842,7 +3857,7 @@
       "tags": [
         "body-image",
         "advertising",
-        "meta-analysis",
+        "systematic-review",
         "adolescents",
         "psychological-harm",
         "causal-evidence",
@@ -4082,7 +4097,7 @@
     },
     {
       "id": "eco-009",
-      "title": "OOH/DOOH-Umsatzexposition gegenüber regulierten Kategorien ist plausibel, aber öffentlich nicht auditierbar",
+      "title": "OOH/DOOH revenue exposure to regulated categories is plausible but not publicly auditable",
       "category": "economy",
       "impact_score": 7,
       "year": 2025,
@@ -4109,8 +4124,8 @@
         "ooh",
         "regulatory-exposure"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The earlier 40–50% estimate for fossil-fuel, HFSS and gambling categories cannot be publicly audited, because operators do not publish consistent booking volumes by these risk categories. What is demonstrable, however, is a structural risk: large OOH operators themselves point to regulatory risks, local advertising restrictions, the social acceptability of advertising and risks to digital deployments.",
+      "finding": "JCDecaux identifies \"societal acceptability of advertising displays\" and possible growth in regulatory frameworks for OOH/DOOH as a risk. Clear Channel writes in its 10-K that new restrictions on digital billboards can have material negative effects on existing digital inventory and expansion plans. At the same time, market sources show that DOOH accounts for a growing share of OOH revenue in Europe. This increases sensitivity to categories that are increasingly addressed by regulation: fossil products, high-emitting mobility, gambling and unhealthy food advertising.",
       "file": "data/economy/eco-009.md"
     },
     {
@@ -4147,7 +4162,7 @@
     },
     {
       "id": "eco-010",
-      "title": "Digitale OOH-Investitionen stehen unter Genehmigungs-, Regulierungs- und Konzessionsrisiko",
+      "title": "Digital OOH investments are subject to permitting, regulatory and concession risk",
       "category": "economy",
       "impact_score": 8,
       "year": 2024,
@@ -4171,13 +4186,13 @@
         "regulatory-risk",
         "depreciation"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Digital OOH investments are not merely technical CapEx projects. They depend on permits, local rules, concession contracts, energy and operating costs, as well as the social acceptability of digital advertising surfaces.",
+      "finding": "Clear Channel describes in its 10-K that new restrictions on digital billboards can materially impair existing digital inventory and digital expansion plans. Converting printed billboards to digital installations can require new permits, hearings, bylaw changes or environmental reviews. JCDecaux names increasing regulatory frameworks and the social acceptability of OOH/DOOH as a risk; Ströer describes long-term contracts with municipalities and infrastructure partners as the basis of its OOH business.",
       "file": "data/economy/eco-010.md"
     },
     {
       "id": "pol-017",
-      "title": "JCDecaux, Clear Channel und Ströer: Parallele Kartell-, Regulierungs- und Governance-Risikosignale bei großen OOH-Betreibern",
+      "title": "JCDecaux, Clear Channel, Ströer: parallel antitrust, regulatory and governance risk signals at OOH operators",
       "category": "politics",
       "impact_score": 7,
       "year": 2025,
@@ -4186,7 +4201,7 @@
       "source_url": "https://www.jcdecaux.com/news-media/press-releases/publication-2024-universal-registration-document",
       "source_urls": [
         "https://www.jcdecaux.com/news-media/press-releases/publication-2024-universal-registration-document",
-        "https://www.concurrences.com/fr/bulletin/news-issues/february-2024/the-spanish-competition-authority-initiates-an-in-depth-investigation-into-the",
+        "https://www.cnmc.es/prensa/segunda-fase-jcdecaux-clear-channel-20240301",
         "https://investor.clearchannel.com/financials/sec-filings/content/0001334978-24-000006/cco-20231231.htm",
         "https://muddywatersresearch.com/research/sax/mw-is-short-stroeer/"
       ],
@@ -4204,8 +4219,8 @@
         "investment-risk",
         "governance"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The earlier formulation of a unified \"Legal Risk Tracker\" could not be substantiated publicly. What can be substantiated instead is a pattern of parallel risk indicators: large OOH operators are simultaneously under antitrust, regulatory, governance and acceptability pressure, even if these risks stem from different proceedings, markets and periods.",
+      "finding": "The CNMC review of the planned takeover of Clear Channel Spain by JCDecaux documents antitrust attention to market concentration. Clear Channel itself describes material regulatory risks for digital billboards and permits. JCDecaux names social acceptability and growing regulatory frameworks as an OOH/DOOH risk. For Ströer, public governance and accounting critiques exist, such as the Muddy Waters short thesis; such sources are interest-driven and must be read as market-actor analysis, not as a judicial finding.",
       "file": "data/politics/pol-017.md"
     },
     {
@@ -4425,9 +4440,9 @@
       "year": 2021,
       "source_type": "peer-reviewed",
       "institution": "Environmental Challenges / DOAJ",
-      "source_url": "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
+      "source_url": "https://doi.org/10.1016/j.envc.2021.100119",
       "source_urls": [
-        "https://ui.adsabs.harvard.edu/abs/2021EnvCh...400119S/abstract",
+        "https://doi.org/10.1016/j.envc.2021.100119",
         "https://adfreecities.org.uk/2022/12/the-electricity-costs-of-digital-out-of-home-advertising-screens/",
         "https://www.itsnicethat.com/news/empire-of-signs-point-of-reference-graphic-design-101121",
         "https://pubmed.ncbi.nlm.nih.gov/39765168/"
@@ -4584,7 +4599,7 @@
     },
     {
       "id": "culture-005",
-      "title": "Kommerzielle Beschilderung kann historische Straßenbilder kulturell entwerten; nutzerbasierte Signage-Kontrollen verbessern die Wahrnehmung",
+      "title": "Commercial signage can culturally devalue historic streetscapes; user-based controls improve perception",
       "category": "culture",
       "impact_score": 8,
       "year": 2007,
@@ -4606,13 +4621,13 @@
         "urban-design",
         "environmental-quality"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The dissertation examines commercial signage in historic city centres and asks how advertising and signage controls influence the perception of environmental quality. The focus is not on general advertising effects, but on historic streetscapes as a cultural asset.",
+      "finding": "Commercial signs can visually obscure or fragment historic facades, proportions and street-space qualities. Portella's empirical work shows that signage rules are not merely aesthetic detail questions: they influence whether users perceive historic street spaces as coherent, high-quality and culturally legible.",
       "file": "data/culture/culture-005.md"
     },
     {
       "id": "culture-006",
-      "title": "Kommerzielle Signage kann Minderheitenkultur zur Kulisse machen: Chinatown-Studie zeigt Kommodifizierung von Sprache im Stadtraum",
+      "title": "Commercial signage can turn minority culture into a backdrop: language commodification in a Chinatown study",
       "category": "culture",
       "impact_score": 8,
       "year": 2009,
@@ -4635,13 +4650,13 @@
         "signage",
         "public-space"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Leeman and Modan analyse Washington D.C.'s gentrified Chinatown as a linguistic landscape. They show that newer commercial chains frequently use Chinese characters as a design feature, even though target audiences and operators are not necessarily Chinese-speaking or locally rooted.",
+      "finding": "Language in public space is not neutral. Commercial signage can make minority culture visible but at the same time use it as a marketable atmosphere. In Chinatown, Chinese is partly turned into an aesthetic backdrop for consumption and place marketing, while the actual Chinese population and local businesses are displaced.",
       "file": "data/culture/culture-006.md"
     },
     {
       "id": "culture-007",
-      "title": "Outdoor-Werbung in Altstadtbereichen ist als visuelle Verschmutzung messbar und kann historische Ortswahrnehmung überlagern",
+      "title": "Outdoor advertising in old towns is measurable as visual pollution that can overlay historic sense of place",
       "category": "culture",
       "impact_score": 7,
       "year": 2024,
@@ -4662,21 +4677,21 @@
         "historic-center",
         "nature"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The Scientific Reports study examines visual pollution from outdoor advertising in a European old-town/inner-city area. It combines more objective assessment approaches and user perception to make advertising density and visual burden in the street space comparable.",
+      "finding": "Outdoor advertising is a central factor of visual pollution in the historic urban space studied. The robust point is not that every single advertisement destroys cultural heritage, but that advertising installations in old-town areas can measurably contribute to overlaying historic perception of place.",
       "file": "data/culture/culture-007.md"
     },
     {
       "id": "urban-010",
-      "title": "Billboard-Wirkung auf Stadtraum-Offenheit kann mit 3D-Isovist- und Voxelmethoden quantifiziert werden",
+      "title": "Billboard impact on urban space openness can be quantified with 3D isovist and voxel methods",
       "category": "urban",
       "impact_score": 7,
       "year": 2021,
       "source_type": "peer-reviewed",
       "institution": "ISPRS International Journal of Geo-Information / MDPI",
-      "source_url": "https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87",
+      "source_url": "https://api.crossref.org/works/10.3390/ijgi10100656",
       "source_urls": [
-        "https://www.semanticscholar.org/paper/Towards-Managing-Visual-Pollution%3A-A-3D-Isovist-and-Chmielewski/0c1d0f0bb0b404e5f5f5d4d0a4b3f0f9d0ab9d87"
+        "https://api.crossref.org/works/10.3390/ijgi10100656"
       ],
       "source_count": 1,
       "verification_status": null,
@@ -4690,13 +4705,13 @@
         "planning",
         "regulation"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The study develops a 3D isovist and voxel method to measure the visual influence of billboard infrastructure on landscape and urban space openness. It shifts assessment from a mere matter of taste to spatially quantifiable planning.",
+      "finding": "Billboards influence not only attention and aesthetics, but also the perceived visual volume of a place. The method shows that OOH infrastructure can be modelled as a measurable intervention in visibility, openness and visual landscape quality.",
       "file": "data/urban/urban-010.md"
     },
     {
       "id": "culture-008",
-      "title": "Kommerzielle Zeichenlandschaften spiegeln und formen Gentrifizierung: Prenzlauer-Berg-Studie zeigt öffentlichen Raum als umkämpftes Kulturfeld",
+      "title": "Commercial signs reflect and shape gentrification: Prenzlauer Berg study shows contested public space",
       "category": "culture",
       "impact_score": 8,
       "year": 2012,
@@ -4719,13 +4734,13 @@
         "public-space",
         "protest"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The study examines the sign landscape of Prenzlauer Berg after reunification: new shop and restaurant signs, upscale consumer offerings, graffiti and protest slogans appear together in the visible urban space.",
+      "finding": "Papen shows that commercial signage not only depicts change but also helps shape social and cultural transformation. The visible dominance of \"posh shops\" and trendy bars is connected with gentrification; at the same time, public space remains contested through graffiti, slogans and protest signs.",
       "file": "data/culture/culture-008.md"
     },
     {
       "id": "culture-009",
-      "title": "Straßenwerbung gefährdet lokale Identität, wenn sie nicht streng an kulturelle Ortsmerkmale gebunden wird",
+      "title": "Street advertising endangers local identity when not strictly tied to cultural features of place",
       "category": "culture",
       "impact_score": 7,
       "year": 2023,
@@ -4748,13 +4763,13 @@
         "cultural-preferences",
         "signage-restrictions"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The case study compares street advertising in Kyoto, Osaka and Tokyo and shows that outdoor advertising touches different cultural and aesthetic preferences depending on the local context. This is precisely what makes visible that standardized global brand formats can weaken local identity if they are not strictly tied to place features, townscape rules and cultural sensitivity.",
+      "finding": "The authors analysed 180 advertising objects per city and found differing cultural patterns. Kyoto in particular shows that advertising restrictions and restrained design are necessary to protect historic urban aesthetics and local identity from visual homogenization. Brand adaptation thus appears not as a positive end in itself, but as a minimum requirement for damage limitation.",
       "file": "data/culture/culture-009.md"
     },
     {
       "id": "urban-011",
-      "title": "Außenwerbung wird durch räumliche, zeitliche und interaktive Formate Teil der Stadtbeziehung selbst",
+      "title": "Outdoor advertising becomes part of the urban relationship through spatial, temporal and interactive formats",
       "category": "urban",
       "impact_score": 7,
       "year": 2014,
@@ -4776,13 +4791,13 @@
         "place-marketing",
         "urban-experience"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The study describes outdoor advertising not merely as a two-dimensional poster, but as a development towards spatial, temporal, multimodal and interactive formats. Product marketing uses buildings, movement, mapping, mobile media and location-based interaction as components of the communication strategy.",
+      "finding": "Koeck and Warnaby argue that this development changes the relationship between advertising, the city and people. Outdoor advertising thereby becomes more strongly an urban experience: it can appear as spectacle, portal or fluid spatial format and thus not only advertise products but also help organize the perception of place.",
       "file": "data/urban/urban-011.md"
     },
     {
       "id": "urban-012",
-      "title": "Digitale Außenwerbung ist ein materielles Stadtobjekt aus Hardware, Software und Code, nicht nur ein Medienkanal",
+      "title": "Digital OOH is a material urban object of hardware, software and code, not merely a media channel",
       "category": "urban",
       "impact_score": 8,
       "year": 2018,
@@ -4806,13 +4821,13 @@
         "urban-space",
         "affective-affordance"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Dekeyser examines outdoor advertising as concrete technical infrastructure. The focus is on materiality: hardware, software and code change how advertising objects interact with bodies and urban spaces.",
+      "finding": "The study names, among other things, image recognition, anti-hacking functions and thermal management as central technical conditions of modern outdoor advertising. These technologies make advertising objects more adaptive to urban environments and increase their ability to influence bodies, attention and spatial relationships.",
       "file": "data/urban/urban-012.md"
     },
     {
       "id": "health-022",
-      "title": "Outdoor-Tabakwerbung konzentrierte sich in Boston nahe Schulen und in sozial benachteiligten Nachbarschaften",
+      "title": "Outdoor tobacco advertising concentrated in Boston near schools and in socially disadvantaged neighbourhoods",
       "category": "health",
       "impact_score": 8,
       "year": 1998,
@@ -4837,13 +4852,13 @@
         "racial-equity",
         "public-health"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The study mapped stationary outdoor advertising for cigarettes in six Boston neighbourhoods and examined its proximity to public schools. This examined a concrete exposure environment for children and adolescents.",
+      "finding": "Adolescents were heavily exposed to stationary tobacco outdoor advertising, especially near schools. Exposure was more intense in neighbourhoods with more children, a higher proportion of Black and Hispanic/Latino residents and lower socio-economic status. The authors conclude that protection from exposure is practically achievable only through removal from the community.",
       "file": "data/health/health-022.md"
     },
     {
       "id": "equity-006",
-      "title": "NYC-Studie: Street-Level-Werbung für Konsumprodukte ist in retail-dichten Straßen allgegenwärtig und variiert nach Nachbarschaftsdemografie",
+      "title": "NYC study: street-level advertising for consumable products is ubiquitous and varies by area demographics",
       "category": "equity",
       "impact_score": 8,
       "year": 2019,
@@ -4868,13 +4883,13 @@
         "nyc",
         "street-level"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The BMC Public Health study photographed stationary street-level advertising for consumable products along 953 retail-dense street segments in New York. Beverages, food, tobacco/ENDS and alcohol were among the products recorded.",
+      "finding": "The researchers documented 16,305 advertisements with 50,673 product images. Almost half of the product images fell into clearly unhealthy categories such as sugary drinks, confectionery, tobacco/ENDS and alcohol. Density varied by neighbourhood characteristics: in areas with a higher proportion of Black residents, product-image prevalence was higher; tobacco/ENDS images were significantly more frequent in high-poverty areas than in low-poverty areas.",
       "file": "data/equity/equity-006.md"
     },
     {
       "id": "pol-019",
-      "title": "Brüssel/Molenbeek: JCDecaux-Werbetafel lief laut Recherche 18 Jahre ohne Genehmigung weiter",
+      "title": "Brussels/Molenbeek: JCDecaux billboard reportedly ran for 18 years without a permit",
       "category": "politics",
       "impact_score": 8,
       "year": 2021,
@@ -4898,13 +4913,13 @@
         "urban-planning",
         "belgium"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "BRUZZ reported in 2021 that a JCDecaux billboard at the Ninoofsepoort in Molenbeek had no longer held a valid permit since 2003. According to the report, a later permit application from 2017 was rejected; nevertheless the surface continued to be marketed until the reporting triggered political pressure.",
+      "finding": "The case shows a structural enforcement problem: a highly visible billboard could be used commercially for years even though the permit had expired. The Bulletin additionally reported that the landowner received substantial rental income annually and the municipality collected taxes on the advertising surface.",
       "file": "data/politics/pol-019.md"
     },
     {
       "id": "reg-041",
-      "title": "Brüsseler Regierung strich 26 JCDecaux-Digitalscreens nach kommunalen Beschwerden wegen Verkehrssicherheit",
+      "title": "Brussels government cut 26 JCDecaux digital screens after municipal complaints over traffic safety",
       "category": "regulation",
       "impact_score": 8,
       "year": 2020,
@@ -4929,13 +4944,13 @@
         "villo",
         "belgium"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Several Brussels municipalities opposed the digitization of classic JCDecaux billboards as part of a Villo e-bike deal. BRUZZ reported in 2020 that the Brussels government cut 26 digital billboards after complaints from municipalities because they were assessed as a danger to traffic safety.",
+      "finding": "The dispute shows how DOOH expansion enters urban space via infrastructure deals: JCDecaux was to electrify part of the Villo bike fleet and in return was allowed to digitize analog advertising surfaces. Municipalities such as Ixelles, Saint-Gilles and Schaerbeek resisted because of traffic safety, energy consumption and burden on public space. In Saint-Gilles individual screens were temporarily covered with foil.",
       "file": "data/regulation/reg-041.md"
     },
     {
       "id": "reg-042",
-      "title": "Valencianische Antifraud-Agentur untersuchte Orihuela wegen mehr als 50 mutmaßlich illegaler Werbeanlagen",
+      "title": "Valencian anti-fraud agency investigated Orihuela over 50 allegedly illegal advertising installations",
       "category": "regulation",
       "impact_score": 8,
       "year": 2024,
@@ -4960,13 +4975,13 @@
         "n-332",
         "enforcement"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Spanish media reported in 2024, citing the Agencia Valenciana Antifraude (AVAF), that Orihuela was being investigated over the allegedly illegal installation of more than 50 advertising elements, including billboards and totems. The installations were concentrated in particular along the N-332 and adjacent roads.",
+      "finding": "According to the reports, the investigation found only three applications for a license or permit, although significantly more advertising installations were in fact present. The anti-fraud agency recommended the Ayuntamiento to initiate proceedings to restore urban planning legality and to prioritize the N-332 area because of its high density.",
       "file": "data/regulation/reg-042.md"
     },
     {
       "id": "safety-009",
-      "title": "Tschechien: Tausende illegale Straßen-Billboards bleiben trotz Sicherheitsverboten ein Vollzugsproblem",
+      "title": "Czechia: thousands of illegal roadside billboards remain an enforcement problem despite safety bans",
       "category": "safety",
       "impact_score": 8,
       "year": 2023,
@@ -4990,13 +5005,13 @@
         "electricity-theft",
         "roadside-advertising"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "Since 2017, Czechia has banned billboards in the protection zones of motorways and first-class roads. Nevertheless, Radio Prague International reported that operators of illegal billboards played a \"cat-and-mouse game\" with authorities for years by relocating sites, concealing owners or not responding to requests.",
+      "finding": "According to Radio Prague, almost 5,000 illegal billboards were removed since the rule came into force, while new installations or relocated installations continued to cause problems. In 2025, Czech media additionally reported a case on the Prague Ring Road in which an illegal billboard was dismantled under police supervision and a presumably illegal power supply was discovered.",
       "file": "data/safety/safety-009.md"
     },
     {
       "id": "reg-043",
-      "title": "Lufthansa-Poster mit Klima-Slogan wurde von der ASA als irreführende Umweltwerbung untersagt",
+      "title": "Lufthansa poster with climate slogan banned by the ASA as misleading environmental advertising",
       "category": "regulation",
       "impact_score": 8,
       "year": 2023,
@@ -5021,13 +5036,13 @@
         "germany",
         "uk"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "In 2023, the British Advertising Standards Authority banned a Lufthansa poster with the claim \"Connecting the world. Protecting its future. #MakeChangeFly\". The ASA examined on its own initiative whether the poster created a misleading impression about the environmental impact of flying.",
+      "finding": "The ASA decided that consumers could understand the claim as an environmental promise that Lufthansa had already taken substantial measures to render the net environmental impact of the business harmless. The authority found that aviation causes high CO₂ and non-CO₂ emissions and that many of the initiatives named by Lufthansa were only intended to take effect years or decades later. The poster breached rules on misleading advertising and environmental claims.",
       "file": "data/regulation/reg-043.md"
     },
     {
       "id": "pol-020",
-      "title": "Prag: JCDecaux wurde rechtskräftig wegen Beeinflussung eines Werbeflächen-Auftrags im Metrobereich verurteilt",
+      "title": "Prague: JCDecaux was finally convicted of influencing an advertising-surface contract in the metro area",
       "category": "politics",
       "impact_score": 9,
       "year": 2021,
@@ -5051,13 +5066,13 @@
         "czechia",
         "conviction"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "The Prague City Court confirmed in 2021 fines against JCDecaux, the then technical director Tomáš Tenzer and the former deputy mayor of Prague 1, Michal Valenta. The case concerned the influencing of a contract for the leasing of advertising surfaces in the Staroměstská metro area.",
+      "finding": "According to ČT24/ČTK, JCDecaux, like the two individuals involved, had to pay 50,000 CZK each. The case revolved around internal information about a planned competing bid that gave JCDecaux an advantage in the later award. The court regarded the legal classification of the first-instance judgment as correct.",
       "file": "data/politics/pol-020.md"
     },
     {
       "id": "pol-021",
-      "title": "Tirana: BIRN-Recherche beschreibt City-Light-Monopol kurz vor Wahlkampf als politisches Klientelismusrisiko",
+      "title": "Tirana: BIRN investigation describes City-Light monopoly before election as a political clientelism risk",
       "category": "politics",
       "impact_score": 9,
       "year": 2025,
@@ -5081,13 +5096,13 @@
         "election-campaign",
         "transparency"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "BIRN reported in 2025 that the city of Tirana, before the 2023 municipal election, awarded hundreds of City-Light and LED advertising permits to BNI. According to the investigation, the permits were granted through many individual decisions without a tender procedure and some ran for seven to ten years.",
+      "finding": "The investigation describes the series of permits as a de facto monopoly or an undisclosed concession over visual urban space. At the same time, according to BIRN, BNI was active in political advertising for the governing Socialist Party. Election observers and opposition representatives assessed the structure as a political clientelism risk and as a possible limitation of fair visibility in the campaign.",
       "file": "data/politics/pol-021.md"
     },
     {
       "id": "pol-022",
-      "title": "Posterscope/Aegis-USA: Ex-Präsident wegen $19,75-Mio.-Accounting-Fraud im Outdoor-Advertising-Geschäft verurteilt",
+      "title": "Posterscope/Aegis USA: ex-president convicted over $19.75 million accounting fraud in outdoor advertising",
       "category": "politics",
       "impact_score": 8,
       "year": 2013,
@@ -5112,13 +5127,13 @@
         "corporate-governance",
         "false-revenue"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "In 2013 the U.S. Department of Justice reported the conviction of Todd Hansen, the former president of the U.S. division of an international outdoor advertising company. Spanish industry reporting identified the case as Posterscope USA, a specialist for outdoor advertising within the Aegis group.",
+      "finding": "According to the DOJ, Hansen participated in a five-year accounting fraud scheme that overstated net earnings by around 19.75 million USD. The aim was to create the impression that the company was meeting performance targets, thereby enabling higher salary increases and bonuses. Hansen pleaded guilty and was sentenced to four months in prison, probation, restitution and forfeiture.",
       "file": "data/politics/pol-022.md"
     },
     {
       "id": "pol-023",
-      "title": "Billboard-Lizenzverwalter All Vision zahlte $2,85 Mio. zur Beilegung von Betrugsvorwürfen gegenüber dem US Postal Service",
+      "title": "Billboard license administrator All Vision paid $2.85 million to settle US Postal Service fraud allegations",
       "category": "politics",
       "impact_score": 8,
       "year": 2019,
@@ -5141,13 +5156,13 @@
         "doj",
         "outdoor-advertising"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "In 2019 the U.S. Department of Justice announced that All Vision LLC, an administrator of billboard and outdoor advertising licenses, paid 2.85 million USD to settle fraud allegations against the U.S. Postal Service. In addition, the company had already repaid around 5.2 million USD in arrears.",
+      "finding": "The U.S. Postal Service leases land for billboard advertising. All Vision was to collect payments from license agreements and, after deducting its own fees, pass them on to USPS. According to DOJ allegations, All Vision misrepresented the amounts actually collected in reports and failed to properly pass on millions in percentage rents and lump-sum payments. The settlement was civil; All Vision did not admit liability.",
       "file": "data/politics/pol-023.md"
     },
     {
       "id": "pol-024",
-      "title": "Clear Channel Outdoor zahlte über $26 Mio. zur Beilegung von SEC-Vorwürfen wegen Bestechung für OOH-Verträge in China",
+      "title": "Clear Channel Outdoor paid over $26 million to settle SEC allegations of bribery for OOH contracts in China",
       "category": "politics",
       "impact_score": 10,
       "year": 2023,
@@ -5172,13 +5187,13 @@
         "outdoor-displays",
         "sec"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "In 2023 the U.S. Securities and Exchange Commission brought FCPA allegations against Clear Channel Outdoor Holdings Inc. in a settled administrative proceeding; the NYU-SEED database documents the case as \"In the Matter of Clear Channel Outdoor Holdings, Inc.\" with the violation type Foreign Corrupt Practices Act and a resolution on 28 September 2023. According to the SEC press release, Clear Channel Outdoor paid more than 26 million USD to settle the allegations.",
+      "finding": "According to SEC findings, Clear Media bribed Chinese government officials from at least 2012 to 2017 in order to obtain contracts needed for the sale of advertising on public bus shelters and other outdoor advertising surfaces. The SEC also found that sham intermediaries, false invoices and off-book \"Customer Development\" consultants were used. Clear Channel allegedly failed to ensure sufficient internal controls at Clear Media despite internal warning signs. The company agreed to the SEC order without admitting or denying the findings.",
       "file": "data/politics/pol-024.md"
     },
     {
       "id": "pol-025",
-      "title": "TfL-Junk-Food-Werbeverbot: Lebensmittel- und Werbeindustrie übertrieb Kosten und lieferte wenig Evidenz für eigene Gegenclaims",
+      "title": "TfL junk-food ad ban: food and advertising industry overstated costs, gave little counter-evidence",
       "category": "politics",
       "impact_score": 8,
       "year": 2021,
@@ -5203,13 +5218,13 @@
         "children",
         "london"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "A PLOS Medicine study used FOI documents to examine how commercial actors responded to the ban on HFSS advertising across the Transport for London network. The TfL surfaces are among the most valuable out-of-home advertising inventories in the world.",
+      "finding": "The majority of the food and advertising industry actors consulted rejected the restriction and promoted voluntary approaches. The study found typical corporate political activity patterns: the benefits of the regulation were downplayed, costs and negative consequences were overstated, and the evidence base of the policy was attacked. At the same time, the opponents provided little evidence for their own counter-claims. Some advertising actors also raised the prospect of possible legal action.",
       "file": "data/politics/pol-025.md"
     },
     {
       "id": "priv-009",
-      "title": "Cadillac Fairview: 'Anonymous Video Analytics' in digitalen Kiosken sammelte laut Datenschutzbehörden 5 Mio. Gesichtsbilder ohne gültige Einwilligung",
+      "title": "Cadillac Fairview: watchdog says 'Anonymous Video Analytics' kiosks collected 5 million images without consent",
       "category": "privacy",
       "impact_score": 10,
       "year": 2020,
@@ -5234,13 +5249,13 @@
         "canada",
         "consent"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "In 2020, Canadian privacy authorities found that Cadillac Fairview used cameras in digital information kiosks in twelve shopping centres and thereby captured around 5 million images of shoppers without valid consent. The company described the technology as \"Anonymous Video Analytics\" and stated that it only intended to analyse age and gender.",
+      "finding": "The privacy authorities contradicted the exculpatory narrative that no personal data was processed because images were only briefly analysed and deleted. The investigation found that biometric information was processed and a service provider had stored around 5 million numerical facial representations on a decommissioned server. The authorities demanded either explicit, meaningful opt-in consent or the abandonment of this AVA technology.",
       "file": "data/privacy/priv-009.md"
     },
     {
       "id": "safety-010",
-      "title": "Mumbai/Ghatkopar: Einsturz einer illegalen Großwerbetafel tötete 17 Menschen; Ermittlungen fanden schwache Fundamente und Genehmigungsversagen",
+      "title": "Mumbai/Ghatkopar: illegal billboard collapse killed 17; probes found weak foundations, permit failures",
       "category": "safety",
       "impact_score": 10,
       "year": 2024,
@@ -5266,8 +5281,8 @@
         "permits",
         "india"
       ],
-      "summary": null,
-      "finding": null,
+      "summary": "On 13 May 2024, a very large billboard collapsed onto a petrol station in Ghatkopar, Mumbai. 17 people died and more than 70 were injured. The case became one of the most severe known physical safety incidents associated with outdoor advertising.",
+      "finding": "According to reports citing technical investigations, the installation was erected on an inadequate and weak foundation; missing or deficient soil tests and structural deficits played a central role. Further reports on the police chargesheet and a later government committee described permitting and control failures as well as alleged collusion between private parties and authorities. Parts of the proceedings were still pending under criminal or administrative law at the time of reporting.",
       "file": "data/safety/safety-010.md"
     }
   ]

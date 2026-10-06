@@ -43,6 +43,25 @@ Avoid:
 
 If a source is accurate but the URL is unstable, replace the URL with a stable landing page or official archive copy while keeping the DOI/title metadata.
 
+**Exception — publisher sites that block automated access.** Several large academic
+publishers (Taylor & Francis, SAGE, Wiley, OUP, Elsevier, Springer, MDPI, ScienceDirect
+and others) currently return HTTP 403 to non-browser clients and to the audit runner
+(`node scripts/audit-urls.js`). For peer-reviewed records behind such a wall, the
+**Crossref DOI metadata record** (`https://api.crossref.org/works/<doi>`) is accepted
+as the primary `url`, because:
+
+- it resolves for both humans and agents from any network, while the publisher landing
+  page does not,
+- it returns the canonical title, authors, journal and year, so the citation remains
+  independently checkable,
+- the `doi:` field is kept alongside it, so a human can always reach the landing page
+  from a normal browser.
+
+Prefer a reachable open-access copy (PubMed Central, DOAJ, repository PDF) whenever one
+exists; use the Crossref record only when no reachable full-text or landing page exists.
+Do not use this exception for grey literature, NGO reports or news — those must resolve
+directly.
+
 ## Rejected Sources
 
 The following are **explicitly excluded**:

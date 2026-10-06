@@ -165,16 +165,16 @@ The regulatory environment shifted significantly in 2023–2026. Key development
 | [health-016](data/health/health-016.md) | **BMJ Public Health Lithuania study**: full alcohol marketing ban associated with less risky adolescent drinking | 10/10 | 2026 |
 | [priv-005](data/privacy/priv-005.md) | **EU AI Act Art. 5**: biometric DOOH measurement sits near high-risk/prohibited-practice boundaries | 8/10 | 2024 |
 | [reg-025](data/regulation/reg-025.md) | **Amsterdam**: first capital city to ban OOH ads for fossil fuels AND meat — in force May 2026 | 10/10 | 2026 |
-| [psych-010](data/psychology/psych-010.md) | **95-study meta-analysis**: advertising causally produces body image harm (Frontiers 2025) | 10/10 | 2025 |
+| [psych-010](data/psychology/psych-010.md) | **Frontiers 2025 systematic review** of 95 studies: advertising is associated with body-image and self-perception harm (not a meta-analysis; no OOH-specific causal evidence) | 8/10 | 2025 |
 | [health-014](data/health/health-014.md) | **WHO guideline**: mandatory statutory OOH restrictions for child food marketing | 10/10 | 2023 |
 | [reg-031](data/regulation/reg-031.md) | **UK CMA**: fines up to 10% global turnover for greenwashing in OOH from April 2025 | 9/10 | 2025 |
-| [reg-033](data/regulation/reg-033.md) | **CNMC blocks** JCDecaux acquisition of Clear Channel Spain — monopoly concern | 9/10 | 2024 |
-| [pol-016](data/politics/pol-016.md) | Ströer exceeds **€2B revenue**, controls ~80% of German DOOH market | 9/10 | 2024 |
+| [reg-033](data/regulation/reg-033.md) | **CNMC blocks** JCDecaux acquisition of Clear Channel Spain — monopoly concern | 8/10 | 2024 |
+| [pol-016](data/politics/pol-016.md) | Ströer exceeds **€2B revenue** (FY2024); invidis *estimates* ~80% of German DOOH revenue — trade estimate, not an audited figure | 8/10 | 2025 |
 | [reg-027](data/regulation/reg-027.md) | **Edinburgh**: bans OOH for fossil fuels AND arms — unique EU combination | 9/10 | 2024 |
 | [reg-037](data/regulation/reg-037.md) | **BGH 2024**: "klimaneutral" via Verra offsets = misleading — >90% phantom credits (Guardian 2023) | 9/10 | 2024 |
-| [reg-038](data/regulation/reg-038.md) | **KPMG/Outsmart** "lowest CO₂ per impression" — industry-funded, conceals 24/7 absolute energy use | 8/10 | 2024 |
+| [reg-038](data/regulation/reg-038.md) | **KPMG/Outsmart** "lowest CO₂ per impression" — industry-funded, conceals 24/7 absolute energy use | 7/10 | 2024 |
 | [reg-039](data/regulation/reg-039.md) | **"Free" urban furniture**: LA contract delivered ~51% of promised shelters, ~52% of promised revenue | 8/10 | 2021 |
-| [reg-040](data/regulation/reg-040.md) | **"~80% Ökostrom"** via Herkunftsnachweise: UBA confirms no physical connection to renewables | 8/10 | 2023 |
+| [reg-040](data/regulation/reg-040.md) | **"~80% Ökostrom"** via Herkunftsnachweise: UBA confirms no physical connection to renewables | 7/10 | 2023 |
 
 ---
 

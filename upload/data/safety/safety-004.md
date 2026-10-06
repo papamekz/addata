@@ -37,6 +37,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [safety, traffic-safety, distraction, road-signs, visual-clutter]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

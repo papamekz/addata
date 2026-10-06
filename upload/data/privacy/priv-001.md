@@ -43,6 +43,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [privacy, facial-recognition, surveillance, tracking, dooh]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

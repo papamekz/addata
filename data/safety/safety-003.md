@@ -24,6 +24,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [sweden, ban, traffic-safety, distraction, government-action]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

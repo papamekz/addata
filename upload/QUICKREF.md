@@ -3,6 +3,8 @@
 Curated navigation for AI agents and analysts. For final answers, retrieve the
 full claim Markdown and cite the original source URLs listed in that claim.
 
+If you want the shortest repo-wide starting point, read `AGENT_INDEX.md` first.
+
 Fast paths:
 
 ```sh

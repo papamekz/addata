@@ -23,6 +23,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [london, tfl, obesity, junk-food, public-health, impact-study]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

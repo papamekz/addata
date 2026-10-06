@@ -10,7 +10,9 @@ should not be used as the only source for commercial forecasting.
 - Empirical claims: 189
 - Cultural quote context records: 25
 - Retrieval chunks: 214
-- Languages: German source summaries plus English agent-facing digest
+- Languages: bilingual — every claim has a German source summary and an English
+  translation (`data/translations_en.json`, `data/titles_en.json`); quote records are
+  English-language source material
 - Validation status: `scripts/audit-data.js` reports no structural errors
 - Public package status: `upload/scripts/check-public-release.js` passes
 
@@ -35,7 +37,7 @@ should not be used as the only source for commercial forecasting.
   the negative-to-positive ratio — therefore describe this collection, not the state
   of the literature. The full statement is in `DATA_CARD.md`
   ("Selection Criteria and Known Bias"); the citation rules are in `SOURCES_POLICY.md`.
-- Many claims still have only one source URL. This is not a structural error, but
+- 28 claims still have only one source URL. This is not a structural error, but
   high-impact claims should receive corroborating official or academic links
   first.
 - Some claims are jurisdiction-specific. Agents should not generalize a local

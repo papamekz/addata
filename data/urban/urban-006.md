@@ -15,6 +15,10 @@ source:
   independent: true
 verified: true
 tags: [city-light-boards, double-sided, obstruction, pedestrian-flow, public-space]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

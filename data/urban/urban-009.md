@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [urban, light-pollution, light-trespass, privacy, quality-of-life]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

@@ -34,6 +34,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [inequality, environmental-justice, demographic-targeting]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

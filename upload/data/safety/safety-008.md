@@ -30,6 +30,10 @@ corroborating_sources:
     independent: true
 verified: true
 tags: [eu, traffic-safety, driver-distraction, roadside-advertising, accident-risk]
+languages:
+  - de
+  - en
+
 ---
 
 ## Zusammenfassung

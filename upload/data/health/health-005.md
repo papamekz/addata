@@ -29,7 +29,7 @@ corroborating_sources:
   - title: "Harmful Marketing: An Overlooked Social Determinant of Health"
     institution: "OUCI / Open Ukrainian Citation Index"
     year: 2025
-    url: "https://ouci.dntb.gov.ua/en/works/9QnW1Reo/"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11811470/"
     type: peer-reviewed
     independent: true
 verified: true
